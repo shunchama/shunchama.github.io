@@ -1,0 +1,19 @@
+---
+---
+@import "{{ site.theme }}";
+
+// すべての背景を「真っ黒」に、文字を「真っ白」に上書き
+:root {
+  --canvas-default: #000000 !important;
+  --canvas-code: #0b0b0b !important;
+  --body-background-color: #000000 !important;
+}
+
+body, .main-content, .side-bar {
+  background-color: #000000 !important;
+}
+
+// リンクをハイコントラストな緑に
+a {
+  color: #00ff00 !important;
+}
