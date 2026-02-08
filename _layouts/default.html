@@ -1,0 +1,99 @@
+---
+---
+
+<!doctype html>
+<html lang="{{ site.lang | default: 'ja-JP' }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    {% include head.html %}
+
+    <script
+      type="text/javascript"
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+    ></script>
+
+    <style>
+      /* 1. 背景を完全な黒 (#000000) に固定 */
+      html,
+      body,
+      .side-bar,
+      .main-content,
+      .site-header,
+      .site-nav,
+      .nav-list-item,
+      .main-header {
+        background-color: #000000 !important;
+        background-image: none !important;
+      }
+
+      :root {
+        --canvas-default: #000000 !important;
+        --body-background-color: #000000 !important;
+      }
+
+      /* 2. 文字を白 (#FFFFFF) に固定 */
+      body,
+      .main-content,
+      .nav-list-link,
+      .site-title,
+      .search-input,
+      .table-of-contents {
+        color: #ffffff !important;
+      }
+
+      /* 3. リンクをライトブルー (#00d4ff) に固定 */
+      a,
+      .nav-list-link {
+        color: #00d4ff !important;
+      }
+
+      /* 4. 数式も白く表示 */
+      .MathJax_Display,
+      .MathJax {
+        color: #ffffff !important;
+      }
+
+      /* 5. 検索窓やサイドバーの微調整 */
+      .search-input {
+        background-color: #111 !important;
+        border: 1px solid #333 !important;
+      }
+      .nav-list-link:hover {
+        background-color: #222 !important;
+      }
+      .side-bar {
+        border-right: 1px solid #333 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrap">
+      <div class="side-bar">{% include components/site_nav.html %}</div>
+      <div class="main-content-wrap">
+        {% include components/header.html %}
+        <div id="main-content" class="main-content" role="main">
+          {% if site.external_links %} {% include components/external_links.html
+          %} {% endif %} {{ content }} {% if page.has_children == true and
+          page.has_toc != false %}
+          <hr />
+          <h2 class="text-delta">Table of contents</h2>
+          <ul>
+            {% for child in site.html_pages %} {% if child.parent == page.title
+            and child.title != page.title %}
+            <li>
+              <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+            </li>
+            {% endif %} {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    {% if site.search_enabled != false %} {% include
+    components/search_script.html %} {% endif %}
+  </body>
+</html>
