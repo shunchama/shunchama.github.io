@@ -1,0 +1,18 @@
+---
+---
+/* 背景を漆黒に、文字を白、リンクをライトブルーに強制上書き */
+body, .main-content, .side-bar, .site-header, .site-nav, .nav-list-item {
+    background-color: #000000 !important;
+}
+
+:root {
+    --canvas-default: #000000 !important;
+    --body-background-color: #000000 !important;
+}
+
+* { color: #ffffff !important; }
+a { color: #add8e6 !important; } /* lightblue */
+.nav-list-link { color: #add8e6 !important; }
+
+/* 検索窓やボタンも黒基調に */
+.search-input { background-color: #111 !important; color: #fff !important; }
