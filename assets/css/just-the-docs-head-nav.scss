@@ -1,7 +1,7 @@
 ---
 ---
-/* 背景を漆黒に、文字を白、リンクをライトブルーに強制上書き */
-body, .main-content, .side-bar, .site-header, .site-nav, .nav-list-item {
+/* 背景を漆黒 (#000000) に強制固定 */
+body, .main-content, .side-bar, .site-header, .nav-list-item {
     background-color: #000000 !important;
 }
 
@@ -10,9 +10,10 @@ body, .main-content, .side-bar, .site-header, .site-nav, .nav-list-item {
     --body-background-color: #000000 !important;
 }
 
+/* 文字は白、リンクはライトブルー */
 * { color: #ffffff !important; }
-a { color: #add8e6 !important; } /* lightblue */
-.nav-list-link { color: #add8e6 !important; }
+a { color: #00d4ff !important; }
+.nav-list-link { color: #00d4ff !important; }
 
-/* 検索窓やボタンも黒基調に */
+/* 検索窓も黒く */
 .search-input { background-color: #111 !important; color: #fff !important; }
