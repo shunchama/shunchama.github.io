@@ -12,6 +12,10 @@ nav_order: 1
     background-color: #000000 !important;
   }
   * { color: #ffffff !important; }
+  a { 
+    color: #00d4ff !important; 
+    text-decoration: underline; 
+  }
 </style>
 
 ## カテゴリ一覧
