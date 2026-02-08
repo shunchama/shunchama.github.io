@@ -1,19 +1,13 @@
 ---
 ---
-@import "{{ site.theme }}";
+@import "just-the-docs";
 
-// すべての背景を「真っ黒」に、文字を「真っ白」に上書き
-:root {
-  --canvas-default: #000000 !important;
-  --canvas-code: #0b0b0b !important;
-  --body-background-color: #000000 !important;
+/* 全体の背景を強制的に真っ黒に */
+html, body, .main-content, .side-bar, .site-header {
+    background-color: #000000 !important;
+    background-image: none !important;
 }
 
-body, .main-content, .side-bar {
-  background-color: #000000 !important;
-}
-
-// リンクをハイコントラストな緑に
-a {
-  color: #00ff00 !important;
-}
+/* テキストを白、リンクをハイコントラストな緑に */
+body { color: #FFFFFF !important; }
+a { color: #00FF00 !important; }
