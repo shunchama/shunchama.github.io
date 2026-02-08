@@ -3,12 +3,30 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    {% include head.html %}
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
     <style>
-      /* 全ページ共通：背景は漆黒、文字は白、リンクはライトブルー */
-      html, body, .main-content, .side-bar, .site-header, .site-footer, .nav-list-item {
+      /* 完全に真っ黒な背景と白文字の世界 */
+      body {
         background-color: #000000 !important;
+        color: #ffffff !important;
+        font-family: sans-serif;
+        margin: 40px auto;
+        max-width: 800px;
+        line-height: 1.6;
+        padding: 0 20px;
       }
+      /* リンクは指定のライトブルー */
+      a { 
+        color: #00d4ff !important; 
+        text-decoration: underline; 
+      }
+      /* 投資情報ページなどで使うテーブルも黒基調に */
+      table { border-collapse: collapse; width: 100%; }
+      th, td { border: 1px solid #333; padding: 10px; text-align: left; }
     </style>
   </head>
+  <body>
+    {{ content }}
+  </body>
 </html>
