@@ -1,20 +1,21 @@
+---
+---
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "ja-JP" }}">
   {% include head.html %}
   <body>
     <style>
+      /* 背景を完全な黒に、文字を白、リンクをライトブルーに */
       :root, body, .main-content, .side-bar, .site-header {
         background-color: #000000 !important;
       }
       * { color: #ffffff !important; }
-      a { color: #00d4ff !important; }
-      .nav-list-link { color: #00d4ff !important; }
-      /* サイドバーの背景も黒に固定 */
-      .side-bar { background-color: #000000 !important; }
+      a { color: #add8e6 !important; } /* lightblue */
+      .nav-list-link { color: #add8e6 !important; }
+      .side-bar { background-color: #000000 !important; border-right: 1px solid #333 !important; }
     </style>
 
     {{ content }}
     
-    {% include footer.html %}
-  </body>
+    </body>
 </html>
