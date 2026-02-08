@@ -1,11 +1,10 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "ja-JP" }}">
+<html lang="{{ site.lang | default: 'ja-JP' }}">
   {% include head.html %}
   <body>
     <style>
-      /* 背景を完全な黒に、文字を白、リンクをライトブルーに */
       :root, body, .main-content, .side-bar, .site-header {
         background-color: #000000 !important;
       }
@@ -13,9 +12,21 @@
       a { color: #add8e6 !important; } /* lightblue */
       .nav-list-link { color: #add8e6 !important; }
       .side-bar { background-color: #000000 !important; border-right: 1px solid #333 !important; }
+      /* サイドバー内のテキストも白く */
+      .nav-list-item, .site-title { color: #ffffff !important; }
     </style>
 
-    {{ content }}
-    
-    </body>
+    <div class="page-wrap">
+      <div class="side-bar">
+        {% include components/site_nav.html %}
+      </div>
+      <div class="main-content-wrap">
+        {% include components/header.html %}
+        <div id="main-content" class="main-content" role="main">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+  </body>
 </html>
