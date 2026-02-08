@@ -1,3 +1,7 @@
-theme: jekyll-theme-midnight
-title: ポータルサイト
+remote_theme: just-the-docs/just-the-docs
+
+title: shunchama's Portal Site
 description: 趣味の話を中心に投稿しています
+
+# ハイコントラスト（ダークモード）設定
+color_scheme: dark

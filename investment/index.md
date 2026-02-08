@@ -1,5 +1,10 @@
-# 投資情報TOP
+---
+layout: default
+title: Home
+nav_order: 1
+---
 
+# 投資情報TOP
 
 ## カテゴリ
 
