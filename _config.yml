@@ -1,9 +1,16 @@
 remote_theme: just-the-docs/just-the-docs
-sass:
-  style: :compressed
 
+# 基本情報
 title: shunchama's Portal Site
 description: 趣味の話を中心に投稿しています
 
-# ハイコントラスト（ダークモード）設定
+# 外部からの読み込みを安定させる
+plugins:
+  - jekyll-remote-theme
+
+# 配色設定（darkを指定しつつ、後ほどCSSで#000000に追い込みます）
 color_scheme: dark
+
+# リンク設定
+aux_links:
+  "GitHub": "https://github.com/shunchama"
