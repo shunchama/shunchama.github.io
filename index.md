@@ -1,7 +1,5 @@
 # ポータルサイトの構成をMarkdownで記述
 
-portal_content = """# 🚀 shunchama's Portal Site
-
 ## 📌 カテゴリ一覧
 
 - [アルゴリズム](#)
@@ -17,8 +15,3 @@ portal_content = """# 🚀 shunchama's Portal Site
 
 © 2026 shunchama. Built with GitHub Pages.
 """
-
-with open("index.md", "w", encoding="utf-8") as f:
-f.write(portal_content)
-
-print("✅ index.md が生成されました！左のフォルダからダウンロードしてください。")
