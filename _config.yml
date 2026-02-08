@@ -1,4 +1,9 @@
+# サイトのURL設定（自分のユーザー名に合わせてください）
+url: "https://shunchama.github.io"
+baseurl: "" # ここを空にすることで、ルートからの絶対パスが有効になります
+
 remote_theme: just-the-docs/just-the-docs
+
 
 # 基本情報
 title: shunchama's Portal Site

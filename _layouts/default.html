@@ -1,0 +1,27 @@
+---
+---
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    {% include head.html %}
+    <style>
+      /* 全ページ共通：背景は漆黒、文字は白、リンクはライトブルー */
+      html, body, .main-content, .side-bar, .site-header, .site-footer, .nav-list-item {
+        background-color: #000000 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrap">
+      <div class="side-bar">
+        {% include components/site_nav.html %}
+      </div>
+      <div class="main-content-wrap">
+        {% include components/header.html %}
+        <div id="main-content" class="main-content" role="main">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
