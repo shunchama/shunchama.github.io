@@ -1,11 +1,23 @@
 ---
 layout: default
-title: 数式
-nav_order: 3
-has_children: true # 今後この下に記事を増やすならこれが必要
+title: 統計学・金融数理リファレンス
 ---
 
-# 統計学・金融数理リファレンス：基礎から応用まで
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], processEscapes: true }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<style>
+  /* 数式を白く光らせる */
+  .MathJax_Display, .MathJax { color: #ffffff !important; }
+</style>
+
+# 統計学・金融数理リファレンス
 
 本ドキュメントは、データの性質を理解するための統計基礎から、市場の重力を計算する金融工学の数式までを体系的にまとめたものである。
 
@@ -93,7 +105,7 @@ $$x_{t+1} = x_t + \theta (\mu - x_t) \Delta t + \sigma \sqrt{\Delta t} \epsilon$
 
 ---
 
-### 📝 数理分析の運用チェックリスト
+### 数理分析の運用チェックリスト
 
 | ステップ        | 指標                 | 目的                                         |
 | :-------------- | :------------------- | :------------------------------------------- |
