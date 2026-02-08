@@ -1,19 +1,39 @@
 ---
 ---
+
 /* 背景を漆黒 (#000000) に強制固定 */
-body, .main-content, .side-bar, .site-header, .nav-list-item {
-    background-color: #000000 !important;
+body,
+.main-content,
+.side-bar,
+.site-header,
+.nav-list-item {
+  background-color: #000000 !important;
 }
 
 :root {
-    --canvas-default: #000000 !important;
-    --body-background-color: #000000 !important;
+  --canvas-default: #000000 !important;
+  --body-background-color: #000000 !important;
 }
 
 /* 文字は白、リンクはライトブルー */
-* { color: #ffffff !important; }
-a { color: #00d4ff !important; }
-.nav-list-link { color: #00d4ff !important; }
+* {
+  color: #ffffff !important;
+}
+a {
+  color: #00d4ff !important;
+}
+.nav-list-link {
+  color: #00d4ff !important;
+}
 
 /* 検索窓も黒く */
-.search-input { background-color: #111 !important; color: #fff !important; }
+.search-input {
+  background-color: #111 !important;
+  color: #fff !important;
+}
+
+/* 数式を真っ白にする */
+.MathJax_Display,
+.MathJax {
+  color: #ffffff !important;
+}
