@@ -11,7 +11,6 @@ nav_order: 1
   .site-header, .site-footer, .nav-list-item {
     background-color: #000000 !important;
   }
-  * { color: #ffffff !important; }
 </style>
 
 ## カテゴリ一覧
