@@ -1,5 +1,3 @@
-# ポータルサイトの構成をMarkdownで記述
-
 ## 📌 カテゴリ一覧
 
 - [アルゴリズム](#)
@@ -14,4 +12,3 @@
 ---
 
 © 2026 shunchama. Built with GitHub Pages.
-"""
