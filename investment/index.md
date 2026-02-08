@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Home
-nav_order: 1
+title: 投資情報TOP
+nav_order: 2
+has_children: true  # 今後この下に記事を増やすならこれが必要
 ---
 
 # 投資情報TOP
