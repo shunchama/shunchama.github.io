@@ -4,6 +4,14 @@ title: 投資情報TOP
 nav_order: 2
 has_children: true  # 今後この下に記事を増やすならこれが必要
 ---
+<style>
+  html, body, .main-content, .side-bar {
+    background-color: #000000 !important;
+  }
+  .site-header, .site-footer, .nav-list-item {
+    background-color: #000000 !important;
+  }
+</style>
 
 # 投資情報TOP
 
