@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    <style>
+      :root, body, .main-content, .side-bar, .site-header {
+        background-color: #000000 !important;
+      }
+      * { color: #ffffff !important; }
+      a { color: #00d4ff !important; }
+      .nav-list-link { color: #00d4ff !important; }
+      /* サイドバーの背景も黒に固定 */
+      .side-bar { background-color: #000000 !important; }
+    </style>
+
+    {{ content }}
+    
+    {% include footer.html %}
+  </body>
+</html>
