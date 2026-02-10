@@ -1,6 +1,6 @@
 ---
 layout: default
-title: レポート
+title: 市場の振り返り
 parent: 投資情報TOP
 nav_order: 1
 has_children: true
