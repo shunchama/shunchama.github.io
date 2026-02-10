@@ -115,12 +115,8 @@ $$x_{t+1} = x_t + \theta (\mu - x_t) \Delta t + \sigma \sqrt{\Delta t} \epsilon$
 | **4. 確率確認** | **Monte Carlo**      | 6ヶ月後に目標価格に達している確率は何％か？  |
 
 ---
-
 ## 最新の記事・更新
-
--
 - 2026-02-08: サイトを開設しました。
-
 ---
 
 © 2026 shunchama. Built with GitHub Pages.
