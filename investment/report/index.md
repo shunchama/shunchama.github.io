@@ -1,8 +1,9 @@
 ---
 layout: default
-title: 投資情報TOP > レポート
-nav_order: 2
-has_children: true  # 今後この下に記事を増やすならこれが必要
+title: レポート
+parent: 投資情報TOP
+nav_order: 1
+has_children: true
 ---
 
 
