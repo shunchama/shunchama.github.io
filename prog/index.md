@@ -1,0 +1,24 @@
+---
+layout: default
+title: プログラミング
+nav_order: 4
+has_children: true  # 今後この下に記事を増やすならこれが必要
+---
+
+
+# プログラミング
+
+## カテゴリ
+- [アルゴリズム(準備中)](#)
+
+```python
+def hello():
+    return "Hello World"
+```
+
+---
+## 最新の記事・更新
+- 2026-02-08: サイトを開設しました。
+---
+
+© 2026 shunchama. Built with GitHub Pages.
