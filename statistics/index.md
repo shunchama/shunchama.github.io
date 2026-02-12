@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 統計学・金融数理リファレンス
+title: 統計
+nav_order: 5
 ---
 
 <script type="text/x-mathjax-config">
