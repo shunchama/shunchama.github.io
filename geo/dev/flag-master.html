@@ -235,166 +235,165 @@
     </div>
 
     <script>
-      let allCountries = [];
-      let quizList = [];
-      let currentQuizIndex = 0;
-      let isShowingAnswer = false;
-      let currentRegion = "All";
+            let allCountries = [];
+            let quizList = [];
+            let currentQuizIndex = 0;
+            let isShowingAnswer = false;
+            let currentRegion = "All";
 
-      const regions = [
-        { id: "All", name: "すべて" },
-        { id: "Asia", name: "アジア" },
-        { id: "Africa", name: "アフリカ" },
-        { id: "Europe", name: "欧州" },
-        { id: "North America", name: "北米" },
-        { id: "South America", name: "南米" },
-        { id: "Oceania", name: "オセアニア" },
-      ];
-
+            const regions = [
+              { id: "All", name: "すべて" },
+              { id: "Asia", name: "アジア" },
+              { id: "Africa", name: "アフリカ" },
+              { id: "Europe", name: "欧州" },
+              { id: "North America", name: "北米" },
+              { id: "South America", name: "南米" },
+              { id: "Oceania", name: "オセアニア" },
+            ];
       async function loadData() {
-        try {
-          const res = await fetch(
-            "https://restcountries.com/v3.1/all?fields=name,translations,flags,region,subregion,maps",
-          );
-          const data = await res.json();
-          allCountries = data
-            .map((c) => {
-              let r = c.region;
-              if (c.subregion === "South America") r = "South America";
-              if (
-                c.subregion === "North America" ||
-                c.subregion === "Central America" ||
-                c.subregion === "Caribbean"
-              )
-                r = "North America";
-              return {
-                nameJp: c.translations.jpn
-                  ? c.translations.jpn.common
-                  : c.name.common,
-                nameEn: c.name.common,
-                flag: c.flags.png,
-                region: r,
-                mapUrl: c.maps.googleMaps,
-              };
-            })
-            .sort((a, b) => a.nameJp.localeCompare(b.nameJp, "ja"));
+          try {
+              // 必要なフィールドをすべて取得
+              const res = await fetch('https://restcountries.com/v3.1/all?fields=name,translations,flags,region,subregion,maps,independent,unMember,cca2');
+              const data = await res.json();
 
-          initUI();
-          document.getElementById("loading").style.display = "none";
-          showPage("quiz-page", document.querySelector(".nav-btn"));
-        } catch (e) {
-          document.getElementById("loading").textContent =
-            "データの取得に失敗しました。";
-        }
+              // 【修正ポイント】独立国、または国連加盟国、または台湾(TW)を抽出
+              const filteredData = data.filter(c =>
+                  c.independent === true ||
+                  c.unMember === true ||
+                  c.cca2 === 'TW'
+              );
+
+              allCountries = filteredData.map(c => {
+                  let r = c.region;
+                  // 地域判定（北米・南米の仕分け）
+                  if (c.subregion === 'South America') r = 'South America';
+                  if (c.subregion === 'North America' || c.subregion === 'Central America' || c.subregion === 'Caribbean') r = 'North America';
+
+                  return {
+                      nameJp: c.translations.jpn ? c.translations.jpn.common : c.name.common,
+                      nameEn: c.name.common,
+                      flag: c.flags.png,
+                      region: r,
+                      mapUrl: c.maps.googleMaps
+                  };
+              }).sort((a, b) => a.nameJp.localeCompare(b.nameJp, 'ja'));
+
+              initUI();
+              document.getElementById('loading').style.display = 'none';
+              showPage('quiz-page', document.querySelector('.nav-btn'));
+          } catch (e) {
+              document.getElementById('loading').textContent = "データの取得に失敗しました。";
+          }
       }
+            }
 
-      function initUI() {
-        const quizRegContainer = document.getElementById("quiz-regions");
-        const listRegContainer = document.getElementById("list-regions");
+            function initUI() {
+              const quizRegContainer = document.getElementById("quiz-regions");
+              const listRegContainer = document.getElementById("list-regions");
 
-        regions.forEach((reg) => {
-          const b1 = document.createElement("button");
-          b1.className = "region-btn" + (reg.id === "All" ? " active" : "");
-          b1.textContent = reg.name;
-          b1.onclick = () => {
-            currentRegion = reg.id;
-            document
-              .querySelectorAll("#quiz-regions .region-btn")
-              .forEach((b) => b.classList.remove("active"));
-            b1.classList.add("active");
-            startQuiz(reg.id);
-          };
-          quizRegContainer.appendChild(b1);
+              regions.forEach((reg) => {
+                const b1 = document.createElement("button");
+                b1.className = "region-btn" + (reg.id === "All" ? " active" : "");
+                b1.textContent = reg.name;
+                b1.onclick = () => {
+                  currentRegion = reg.id;
+                  document
+                    .querySelectorAll("#quiz-regions .region-btn")
+                    .forEach((b) => b.classList.remove("active"));
+                  b1.classList.add("active");
+                  startQuiz(reg.id);
+                };
+                quizRegContainer.appendChild(b1);
 
-          const b2 = document.createElement("button");
-          b2.className = "region-btn" + (reg.id === "All" ? " active" : "");
-          b2.textContent = reg.name;
-          b2.onclick = () => {
-            document
-              .querySelectorAll("#list-regions .region-btn")
-              .forEach((b) => b.classList.remove("active"));
-            b2.classList.add("active");
-            renderList(reg.id);
-          };
-          listRegContainer.appendChild(b2);
-        });
-        startQuiz("All");
-        renderList("All");
-      }
+                const b2 = document.createElement("button");
+                b2.className = "region-btn" + (reg.id === "All" ? " active" : "");
+                b2.textContent = reg.name;
+                b2.onclick = () => {
+                  document
+                    .querySelectorAll("#list-regions .region-btn")
+                    .forEach((b) => b.classList.remove("active"));
+                  b2.classList.add("active");
+                  renderList(reg.id);
+                };
+                listRegContainer.appendChild(b2);
+              });
+              startQuiz("All");
+              renderList("All");
+            }
 
-      function showPage(pageId, btn) {
-        document
-          .querySelectorAll(".page")
-          .forEach((p) => p.classList.remove("active"));
-        document.getElementById(pageId).classList.add("active");
-        document
-          .querySelectorAll(".nav-btn")
-          .forEach((b) => b.classList.remove("active"));
-        btn.classList.add("active");
-      }
+            function showPage(pageId, btn) {
+              document
+                .querySelectorAll(".page")
+                .forEach((p) => p.classList.remove("active"));
+              document.getElementById(pageId).classList.add("active");
+              document
+                .querySelectorAll(".nav-btn")
+                .forEach((b) => b.classList.remove("active"));
+              btn.classList.add("active");
+            }
 
-      function startQuiz(region) {
-        quizList =
-          region === "All"
-            ? [...allCountries]
-            : allCountries.filter((c) => c.region === region);
-        quizList.sort(() => Math.random() - 0.5);
-        currentQuizIndex = 0;
-        showQuestion();
-      }
+            function startQuiz(region) {
+              quizList =
+                region === "All"
+                  ? [...allCountries]
+                  : allCountries.filter((c) => c.region === region);
+              quizList.sort(() => Math.random() - 0.5);
+              currentQuizIndex = 0;
+              showQuestion();
+            }
 
-      // リセットボタン用関数
-      function resetCurrentQuiz() {
-        startQuiz(currentRegion);
-      }
+            // リセットボタン用関数
+            function resetCurrentQuiz() {
+              startQuiz(currentRegion);
+            }
 
-      function showQuestion() {
-        isShowingAnswer = false;
-        const c = quizList[currentQuizIndex];
-        document.getElementById("flag-img").src = c.flag;
-        document.getElementById("name-jp").textContent = "";
-        document.getElementById("name-en").textContent = "";
-        document.getElementById("map-link").style.display = "none";
-        document.getElementById("action-btn").textContent = "答えを見る";
-        document.getElementById("progress").textContent =
-          `問題: ${currentQuizIndex + 1} / ${quizList.length}`;
-      }
+            function showQuestion() {
+              isShowingAnswer = false;
+              const c = quizList[currentQuizIndex];
+              document.getElementById("flag-img").src = c.flag;
+              document.getElementById("name-jp").textContent = "";
+              document.getElementById("name-en").textContent = "";
+              document.getElementById("map-link").style.display = "none";
+              document.getElementById("action-btn").textContent = "答えを見る";
+              document.getElementById("progress").textContent =
+                `問題: ${currentQuizIndex + 1} / ${quizList.length}`;
+            }
 
-      document.getElementById("action-btn").onclick = () => {
-        if (!isShowingAnswer) {
-          const c = quizList[currentQuizIndex];
-          document.getElementById("name-jp").textContent = c.nameJp;
-          document.getElementById("name-en").textContent = c.nameEn;
-          document.getElementById("map-link").href = c.mapUrl;
-          document.getElementById("map-link").style.display = "inline-block";
-          document.getElementById("action-btn").textContent = "次へ";
-          isShowingAnswer = true;
-        } else {
-          currentQuizIndex = (currentQuizIndex + 1) % quizList.length;
-          showQuestion();
-        }
-      };
+            document.getElementById("action-btn").onclick = () => {
+              if (!isShowingAnswer) {
+                const c = quizList[currentQuizIndex];
+                document.getElementById("name-jp").textContent = c.nameJp;
+                document.getElementById("name-en").textContent = c.nameEn;
+                document.getElementById("map-link").href = c.mapUrl;
+                document.getElementById("map-link").style.display = "inline-block";
+                document.getElementById("action-btn").textContent = "次へ";
+                isShowingAnswer = true;
+              } else {
+                currentQuizIndex = (currentQuizIndex + 1) % quizList.length;
+                showQuestion();
+              }
+            };
 
-      function renderList(region) {
-        const container = document.getElementById("flag-list-container");
-        container.innerHTML = "";
-        const list =
-          region === "All"
-            ? allCountries
-            : allCountries.filter((c) => c.region === region);
-        list.forEach((c) => {
-          const div = document.createElement("div");
-          div.className = "flag-item";
-          div.innerHTML = `
-                <img src="${c.flag}" alt="${c.nameJp}" loading="lazy">
-                <div style="font-size: 13px; font-weight: bold;">${c.nameJp}</div>
-                <a href="${c.mapUrl}" target="_blank" style="font-size: 11px; color: var(--accent); text-decoration: none;">📍 Maps</a>
-            `;
-          container.appendChild(div);
-        });
-      }
+            function renderList(region) {
+              const container = document.getElementById("flag-list-container");
+              container.innerHTML = "";
+              const list =
+                region === "All"
+                  ? allCountries
+                  : allCountries.filter((c) => c.region === region);
+              list.forEach((c) => {
+                const div = document.createElement("div");
+                div.className = "flag-item";
+                div.innerHTML = `
+                      <img src="${c.flag}" alt="${c.nameJp}" loading="lazy">
+                      <div style="font-size: 13px; font-weight: bold;">${c.nameJp}</div>
+                      <a href="${c.mapUrl}" target="_blank" style="font-size: 11px; color: var(--accent); text-decoration: none;">📍 Maps</a>
+                  `;
+                container.appendChild(div);
+              });
+            }
 
-      loadData();
+            loadData();
     </script>
   </body>
 </html>
