@@ -11,7 +11,6 @@ has_children: true
 ## 記事
 - [金融工学](./financial/index.md)
 
-
 ---
 ## 最新の記事・更新
 - 2026-02-08: サイトを開設しました。
