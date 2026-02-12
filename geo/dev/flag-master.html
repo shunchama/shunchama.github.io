@@ -1,215 +1,400 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>国旗マスター Pro</title>
     <style>
-        :root { --primary: #3498db; --secondary: #2ecc71; --accent: #e67e22; --danger: #e74c3c; --bg: #f0f2f5; }
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; text-align: center; background: var(--bg); margin: 0; padding: 0; }
-        
-        /* ナビゲーション */
-        nav { background: #fff; padding: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; justify-content: center; gap: 20px; position: sticky; top: 0; z-index: 100; }
-        .nav-btn { padding: 10px 20px; cursor: pointer; border: none; background: none; font-size: 16px; font-weight: bold; color: #7f8c8d; border-bottom: 3px solid transparent; }
-        .nav-btn.active { color: var(--primary); border-bottom: 3px solid var(--primary); }
+      :root {
+        --primary: #3498db;
+        --secondary: #2ecc71;
+        --accent: #e67e22;
+        --danger: #e74c3c;
+        --bg: #f0f2f5;
+      }
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        text-align: center;
+        background: var(--bg);
+        margin: 0;
+        padding: 0;
+      }
 
-        .container { max-width: 800px; margin: 20px auto; padding: 15px; }
-        .page { display: none; }
-        .page.active { display: block; }
+      /* ナビゲーション */
+      nav {
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .nav-btn {
+        padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+        background: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: #7f8c8d;
+        border-bottom: 3px solid transparent;
+      }
+      .nav-btn.active {
+        color: var(--primary);
+        border-bottom: 3px solid var(--primary);
+      }
 
-        /* クイズ・操作パネル */
-        .panel { background: white; max-width: 450px; margin: 0 auto 20px; padding: 20px; border-radius: 20px; box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
-        .region-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 15px; }
-        .region-btn { padding: 8px; font-size: 12px; cursor: pointer; border: 1px solid #ddd; border-radius: 8px; background: white; transition: 0.2s; }
-        .region-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
-        
-        /* リセットボタン */
-        .reset-btn { width: 100%; margin-top: 10px; padding: 8px; font-size: 13px; cursor: pointer; background: #95a5a6; color: white; border: none; border-radius: 5px; font-weight: bold; }
-        .reset-btn:hover { background: #7f8c8d; }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 15px;
+      }
+      .page {
+        display: none;
+      }
+      .page.active {
+        display: block;
+      }
 
-        .flag-box { height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 15px; border: 1px solid #f0f0f0; border-radius: 10px; }
-        #flag-img { max-height: 90%; max-width: 90%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        
-        #answer-area { min-height: 110px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
-        #action-btn { width: 100%; padding: 15px; font-size: 18px; cursor: pointer; background: var(--secondary); color: white; border: none; border-radius: 10px; box-shadow: 0 4px 0 #27ae60; }
-        #action-btn:active { transform: translateY(2px); box-shadow: none; }
+      /* クイズ・操作パネル */
+      .panel {
+        background: white;
+        max-width: 450px;
+        margin: 0 auto 20px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+      }
+      .region-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-bottom: 15px;
+      }
+      .region-btn {
+        padding: 8px;
+        font-size: 12px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: white;
+        transition: 0.2s;
+      }
+      .region-btn.active {
+        background: var(--primary);
+        color: white;
+        border-color: var(--primary);
+      }
 
-        /* 一覧表示 */
-        .list-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; }
-        .flag-item { background: white; padding: 10px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .flag-item img { width: 100%; height: 80px; object-fit: contain; border: 1px solid #eee; margin-bottom: 8px; }
+      /* リセットボタン */
+      .reset-btn {
+        width: 100%;
+        margin-top: 10px;
+        padding: 8px;
+        font-size: 13px;
+        cursor: pointer;
+        background: #95a5a6;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .reset-btn:hover {
+        background: #7f8c8d;
+      }
 
-        #loading { margin-top: 100px; font-size: 20px; color: var(--primary); font-weight: bold; }
+      .flag-box {
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        border: 1px solid #f0f0f0;
+        border-radius: 10px;
+      }
+      #flag-img {
+        max-height: 90%;
+        max-width: 90%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      #answer-area {
+        min-height: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #action-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        cursor: pointer;
+        background: var(--secondary);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 0 #27ae60;
+      }
+      #action-btn:active {
+        transform: translateY(2px);
+        box-shadow: none;
+      }
+
+      /* 一覧表示 */
+      .list-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 15px;
+      }
+      .flag-item {
+        background: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+      .flag-item img {
+        width: 100%;
+        height: 80px;
+        object-fit: contain;
+        border: 1px solid #eee;
+        margin-bottom: 8px;
+      }
+
+      #loading {
+        margin-top: 100px;
+        font-size: 20px;
+        color: var(--primary);
+        font-weight: bold;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <nav>
+      <button class="nav-btn active" onclick="showPage('quiz-page', this)">
+        国旗クイズ
+      </button>
+      <button class="nav-btn" onclick="showPage('list-page', this)">
+        国旗一覧
+      </button>
+    </nav>
 
-<nav>
-    <button class="nav-btn active" onclick="showPage('quiz-page', this)">🎮 クイズ</button>
-    <button class="nav-btn" onclick="showPage('list-page', this)">📜 国旗一覧</button>
-</nav>
+    <div class="container">
+      <div id="loading">データを読み込み中...</div>
 
-<div class="container">
-    <div id="loading">地球のデータを読み込み中...</div>
-
-    <div id="quiz-page" class="page">
+      <div id="quiz-page" class="page">
         <div class="panel">
-            <div class="region-grid" id="quiz-regions"></div>
-            <button class="reset-btn" onclick="resetCurrentQuiz()">🔄 この条件でリセット</button>
+          <div class="region-grid" id="quiz-regions"></div>
+          <button class="reset-btn" onclick="resetCurrentQuiz()">
+            リセット
+          </button>
         </div>
-        
-        <div class="panel">
-            <div id="progress" style="margin-bottom:10px; font-weight:bold; color:#555;">0 / 0</div>
-            <div class="flag-box"><img id="flag-img" src="" alt="国旗"></div>
-            <div id="answer-area">
-                <p id="name-jp" style="font-size:24px; font-weight:bold; margin:0;"></p>
-                <p id="name-en" style="color:#95a5a6; margin:5px 0;"></p>
-                <a id="map-link" href="#" target="_blank" style="display:none; color:var(--accent); text-decoration:none; font-size:14px; font-weight:bold; margin-bottom:10px;">📍 場所を確認</a>
-            </div>
-            <button id="action-btn">答えを見る</button>
-        </div>
-    </div>
 
-    <div id="list-page" class="page">
-        <div class="panel" style="max-width: 600px;">
-            <div class="region-grid" id="list-regions"></div>
+        <div class="panel">
+          <div
+            id="progress"
+            style="margin-bottom: 10px; font-weight: bold; color: #555"
+          >
+            0 / 0
+          </div>
+          <div class="flag-box"><img id="flag-img" src="" alt="国旗" /></div>
+          <div id="answer-area">
+            <p
+              id="name-jp"
+              style="font-size: 24px; font-weight: bold; margin: 0"
+            ></p>
+            <p id="name-en" style="color: #95a5a6; margin: 5px 0"></p>
+            <a
+              id="map-link"
+              href="#"
+              target="_blank"
+              style="
+                display: none;
+                color: var(--accent);
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 10px;
+              "
+              >📍 場所を確認</a
+            >
+          </div>
+          <button id="action-btn">答えを見る</button>
+        </div>
+      </div>
+
+      <div id="list-page" class="page">
+        <div class="panel" style="max-width: 600px">
+          <div class="region-grid" id="list-regions"></div>
         </div>
         <div class="list-grid" id="flag-list-container"></div>
+      </div>
     </div>
-</div>
 
-<script>
-    let allCountries = [];
-    let quizList = [];
-    let currentQuizIndex = 0;
-    let isShowingAnswer = false;
-    let currentRegion = 'All';
+    <script>
+      let allCountries = [];
+      let quizList = [];
+      let currentQuizIndex = 0;
+      let isShowingAnswer = false;
+      let currentRegion = "All";
 
-    const regions = [
-        {id: 'All', name: '全部'}, {id: 'Asia', name: 'アジア'}, {id: 'Africa', name: 'アフリカ'},
-        {id: 'Europe', name: '欧州'}, {id: 'North America', name: '北米'}, 
-        {id: 'South America', name: '南米'}, {id: 'Oceania', name: 'オセアニア'}
-    ];
+      const regions = [
+        { id: "All", name: "すべて" },
+        { id: "Asia", name: "アジア" },
+        { id: "Africa", name: "アフリカ" },
+        { id: "Europe", name: "欧州" },
+        { id: "North America", name: "北米" },
+        { id: "South America", name: "南米" },
+        { id: "Oceania", name: "オセアニア" },
+      ];
 
-    async function loadData() {
+      async function loadData() {
         try {
-            const res = await fetch('https://restcountries.com/v3.1/all?fields=name,translations,flags,region,subregion,maps');
-            const data = await res.json();
-            allCountries = data.map(c => {
-                let r = c.region;
-                if (c.subregion === 'South America') r = 'South America';
-                if (c.subregion === 'North America' || c.subregion === 'Central America' || c.subregion === 'Caribbean') r = 'North America';
-                return {
-                    nameJp: c.translations.jpn ? c.translations.jpn.common : c.name.common,
-                    nameEn: c.name.common,
-                    flag: c.flags.png,
-                    region: r,
-                    mapUrl: c.maps.googleMaps
-                };
-            }).sort((a, b) => a.nameJp.localeCompare(b.nameJp, 'ja'));
+          const res = await fetch(
+            "https://restcountries.com/v3.1/all?fields=name,translations,flags,region,subregion,maps",
+          );
+          const data = await res.json();
+          allCountries = data
+            .map((c) => {
+              let r = c.region;
+              if (c.subregion === "South America") r = "South America";
+              if (
+                c.subregion === "North America" ||
+                c.subregion === "Central America" ||
+                c.subregion === "Caribbean"
+              )
+                r = "North America";
+              return {
+                nameJp: c.translations.jpn
+                  ? c.translations.jpn.common
+                  : c.name.common,
+                nameEn: c.name.common,
+                flag: c.flags.png,
+                region: r,
+                mapUrl: c.maps.googleMaps,
+              };
+            })
+            .sort((a, b) => a.nameJp.localeCompare(b.nameJp, "ja"));
 
-            initUI();
-            document.getElementById('loading').style.display = 'none';
-            showPage('quiz-page', document.querySelector('.nav-btn'));
+          initUI();
+          document.getElementById("loading").style.display = "none";
+          showPage("quiz-page", document.querySelector(".nav-btn"));
         } catch (e) {
-            document.getElementById('loading').textContent = "データの取得に失敗しました。";
+          document.getElementById("loading").textContent =
+            "データの取得に失敗しました。";
         }
-    }
+      }
 
-    function initUI() {
-        const quizRegContainer = document.getElementById('quiz-regions');
-        const listRegContainer = document.getElementById('list-regions');
-        
-        regions.forEach(reg => {
-            const b1 = document.createElement('button');
-            b1.className = 'region-btn' + (reg.id==='All'?' active':'');
-            b1.textContent = reg.name;
-            b1.onclick = () => {
-                currentRegion = reg.id;
-                document.querySelectorAll('#quiz-regions .region-btn').forEach(b=>b.classList.remove('active'));
-                b1.classList.add('active');
-                startQuiz(reg.id);
-            };
-            quizRegContainer.appendChild(b1);
+      function initUI() {
+        const quizRegContainer = document.getElementById("quiz-regions");
+        const listRegContainer = document.getElementById("list-regions");
 
-            const b2 = document.createElement('button');
-            b2.className = 'region-btn' + (reg.id==='All'?' active':'');
-            b2.textContent = reg.name;
-            b2.onclick = () => {
-                document.querySelectorAll('#list-regions .region-btn').forEach(b=>b.classList.remove('active'));
-                b2.classList.add('active');
-                renderList(reg.id);
-            };
-            listRegContainer.appendChild(b2);
+        regions.forEach((reg) => {
+          const b1 = document.createElement("button");
+          b1.className = "region-btn" + (reg.id === "All" ? " active" : "");
+          b1.textContent = reg.name;
+          b1.onclick = () => {
+            currentRegion = reg.id;
+            document
+              .querySelectorAll("#quiz-regions .region-btn")
+              .forEach((b) => b.classList.remove("active"));
+            b1.classList.add("active");
+            startQuiz(reg.id);
+          };
+          quizRegContainer.appendChild(b1);
+
+          const b2 = document.createElement("button");
+          b2.className = "region-btn" + (reg.id === "All" ? " active" : "");
+          b2.textContent = reg.name;
+          b2.onclick = () => {
+            document
+              .querySelectorAll("#list-regions .region-btn")
+              .forEach((b) => b.classList.remove("active"));
+            b2.classList.add("active");
+            renderList(reg.id);
+          };
+          listRegContainer.appendChild(b2);
         });
-        startQuiz('All');
-        renderList('All');
-    }
+        startQuiz("All");
+        renderList("All");
+      }
 
-    function showPage(pageId, btn) {
-        document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-        document.getElementById(pageId).classList.add('active');
-        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-    }
+      function showPage(pageId, btn) {
+        document
+          .querySelectorAll(".page")
+          .forEach((p) => p.classList.remove("active"));
+        document.getElementById(pageId).classList.add("active");
+        document
+          .querySelectorAll(".nav-btn")
+          .forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+      }
 
-    function startQuiz(region) {
-        quizList = (region === 'All') ? [...allCountries] : allCountries.filter(c => c.region === region);
+      function startQuiz(region) {
+        quizList =
+          region === "All"
+            ? [...allCountries]
+            : allCountries.filter((c) => c.region === region);
         quizList.sort(() => Math.random() - 0.5);
         currentQuizIndex = 0;
         showQuestion();
-    }
+      }
 
-    // リセットボタン用関数
-    function resetCurrentQuiz() {
-        if(confirm("現在の進捗をリセットして最初から始めますか？")) {
-            startQuiz(currentRegion);
-        }
-    }
+      // リセットボタン用関数
+      function resetCurrentQuiz() {
+        startQuiz(currentRegion);
+      }
 
-    function showQuestion() {
+      function showQuestion() {
         isShowingAnswer = false;
         const c = quizList[currentQuizIndex];
-        document.getElementById('flag-img').src = c.flag;
-        document.getElementById('name-jp').textContent = "";
-        document.getElementById('name-en').textContent = "";
-        document.getElementById('map-link').style.display = "none";
-        document.getElementById('action-btn').textContent = "答えを見る";
-        document.getElementById('progress').textContent = `問題: ${currentQuizIndex + 1} / ${quizList.length}`;
-    }
+        document.getElementById("flag-img").src = c.flag;
+        document.getElementById("name-jp").textContent = "";
+        document.getElementById("name-en").textContent = "";
+        document.getElementById("map-link").style.display = "none";
+        document.getElementById("action-btn").textContent = "答えを見る";
+        document.getElementById("progress").textContent =
+          `問題: ${currentQuizIndex + 1} / ${quizList.length}`;
+      }
 
-    document.getElementById('action-btn').onclick = () => {
+      document.getElementById("action-btn").onclick = () => {
         if (!isShowingAnswer) {
-            const c = quizList[currentQuizIndex];
-            document.getElementById('name-jp').textContent = c.nameJp;
-            document.getElementById('name-en').textContent = c.nameEn;
-            document.getElementById('map-link').href = c.mapUrl;
-            document.getElementById('map-link').style.display = "inline-block";
-            document.getElementById('action-btn').textContent = "次へ";
-            isShowingAnswer = true;
+          const c = quizList[currentQuizIndex];
+          document.getElementById("name-jp").textContent = c.nameJp;
+          document.getElementById("name-en").textContent = c.nameEn;
+          document.getElementById("map-link").href = c.mapUrl;
+          document.getElementById("map-link").style.display = "inline-block";
+          document.getElementById("action-btn").textContent = "次へ";
+          isShowingAnswer = true;
         } else {
-            currentQuizIndex = (currentQuizIndex + 1) % quizList.length;
-            showQuestion();
+          currentQuizIndex = (currentQuizIndex + 1) % quizList.length;
+          showQuestion();
         }
-    };
+      };
 
-    function renderList(region) {
-        const container = document.getElementById('flag-list-container');
+      function renderList(region) {
+        const container = document.getElementById("flag-list-container");
         container.innerHTML = "";
-        const list = (region === 'All') ? allCountries : allCountries.filter(c => c.region === region);
-        list.forEach(c => {
-            const div = document.createElement('div');
-            div.className = 'flag-item';
-            div.innerHTML = `
+        const list =
+          region === "All"
+            ? allCountries
+            : allCountries.filter((c) => c.region === region);
+        list.forEach((c) => {
+          const div = document.createElement("div");
+          div.className = "flag-item";
+          div.innerHTML = `
                 <img src="${c.flag}" alt="${c.nameJp}" loading="lazy">
                 <div style="font-size: 13px; font-weight: bold;">${c.nameJp}</div>
                 <a href="${c.mapUrl}" target="_blank" style="font-size: 11px; color: var(--accent); text-decoration: none;">📍 Maps</a>
             `;
-            container.appendChild(div);
+          container.appendChild(div);
         });
-    }
+      }
 
-    loadData();
-</script>
-</body>
+      loadData();
+    </script>
+  </body>
 </html>
