@@ -3,83 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>世界まるごと国旗クイズ</title>
+    <title>世界国旗フラッシュカード</title>
     <style>
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; text-align: center; background: #eef2f3; margin: 0; padding: 20px; }
-        #game-container { background: white; max-width: 400px; margin: 20px auto; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
-        .flag-box { height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 1px solid #eee; background: #fafafa; }
-        #flag-img { max-height: 100%; max-width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        #country-name { font-size: 24px; font-weight: bold; color: #2c3e50; min-height: 40px; margin-bottom: 30px; }
-        button { width: 100%; padding: 15px; font-size: 18px; cursor: pointer; background: #3498db; color: white; border: none; border-radius: 8px; transition: 0.2s; }
-        button:hover { background: #2980b9; }
-        #loading { font-size: 14px; color: #888; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; text-align: center; background: #f4f7f6; margin: 0; padding: 20px; }
+        #game-container { background: white; max-width: 450px; margin: 0 auto; padding: 25px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        
+        /* メニュー・統計 */
+        .controls { margin-bottom: 20px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+        select { padding: 8px; border-radius: 5px; border: 1px solid #ccc; }
+        #progress { font-size: 14px; color: #666; margin-bottom: 10px; font-weight: bold; }
+        
+        /* 表示エリア */
+        .flag-box { height: 200px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; background: #fafafa; border: 1px solid #eee; overflow: hidden; }
+        #flag-img { max-height: 90%; max-width: 90%; border: 1px solid #ddd; }
+        
+        #answer-area { min-height: 80px; margin-bottom: 20px; }
+        #name-jp { font-size: 26px; font-weight: bold; color: #2c3e50; margin: 0; }
+        #name-en { font-size: 18px; color: #7f8c8d; margin: 5px 0 0 0; }
+        
+        button { width: 100%; padding: 15px; font-size: 18px; cursor: pointer; background: #27ae60; color: white; border: none; border-radius: 8px; transition: 0.2s; }
+        button:hover { background: #2ecc71; }
+        #loading { color: #888; margin-top: 50px; }
     </style>
 </head>
 <body>
 
 <div id="game-container">
-    <div id="loading">データを読み込み中...</div>
+    <div class="controls">
+        <select id="region-select">
+            <option value="All">すべての地域</option>
+            <option value="Africa">アフリカ</option>
+            <option value="Americas">南北アメリカ</option>
+            <option value="Asia">アジア</option>
+            <option value="Europe">ヨーロッパ</option>
+            <option value="Oceania">オセアニア</option>
+        </select>
+        <button id="reset-btn" style="width: auto; padding: 8px 15px; font-size: 14px; background: #95a5a6;">リセット</button>
+    </div>
+
+    <div id="progress">準備中...</div>
+
     <div id="content" style="display:none;">
         <div class="flag-box">
             <img id="flag-img" src="" alt="国旗">
         </div>
-        <div id="country-name"></div>
+        <div id="answer-area">
+            <p id="name-jp"></p>
+            <p id="name-en"></p>
+        </div>
         <button id="action-btn">答えを見る</button>
     </div>
+    
+    <div id="loading">データを読み込み中...</div>
 </div>
 
 <script>
-    let countries = [];
+    let allCountries = []; // 全データ保持用
+    let currentList = [];    // 絞り込み後のリスト
     let currentIndex = 0;
     let showingAnswer = false;
 
-    // APIからデータを取得
-    async function fetchCountries() {
+    const regionSelect = document.getElementById('region-select');
+    const resetBtn = document.getElementById('reset-btn');
+    const flagImg = document.getElementById('flag-img');
+    const nameJp = document.getElementById('name-jp');
+    const nameEn = document.getElementById('name-en');
+    const progress = document.getElementById('progress');
+    const actionBtn = document.getElementById('action-btn');
+    const content = document.getElementById('content');
+    const loading = document.getElementById('loading');
+
+    // 1. データ取得
+    async function init() {
         try {
-            // 日本語名と旗のURLを取得
-            const response = await fetch('https://restcountries.com/v3.1/all?fields=name,flags,translations');
+            const response = await fetch('https://restcountries.com/v3.1/all?fields=name,flags,translations,region');
             const data = await response.json();
             
-            // データを使いやすい形式に整形（日本語名がある場合はそれを使う）
-            countries = data.map(item => ({
-                name: item.translations.jpn ? item.translations.jpn.common : item.name.common,
-                flag: item.flags.png
+            allCountries = data.map(item => ({
+                nameJp: item.translations.jpn ? item.translations.jpn.common : item.name.common,
+                nameEn: item.name.common,
+                flag: item.flags.png,
+                region: item.region
             }));
 
-            // ランダムに並び替え
-            countries.sort(() => Math.random() - 0.5);
-
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('content').style.display = 'block';
-            showNextFlag();
-        } catch (error) {
-            document.getElementById('loading').textContent = "データの取得に失敗しました。";
+            loading.style.display = 'none';
+            content.style.display = 'block';
+            startNewGame();
+        } catch (e) {
+            loading.textContent = "読み込みエラーが発生しました。";
         }
     }
 
-    const flagImg = document.getElementById('flag-img');
-    const nameElement = document.getElementById('country-name');
-    const btn = document.getElementById('action-btn');
+    // 2. ゲーム開始（絞り込みとシャッフル）
+    function startNewGame() {
+        const selectedRegion = regionSelect.value;
+        
+        // フィルタリング
+        if (selectedRegion === "All") {
+            currentList = [...allCountries];
+        } else {
+            currentList = allCountries.filter(c => c.region === selectedRegion);
+        }
 
-    function showNextFlag() {
-        flagImg.src = countries[currentIndex].flag;
-        nameElement.textContent = "";
-        btn.textContent = "答えを見る";
-        showingAnswer = false;
+        // シャッフル
+        currentList.sort(() => Math.random() - 0.5);
+        
+        currentIndex = 0;
+        showQuestion();
     }
 
-    btn.onclick = () => {
+    // 3. 問題表示
+    function showQuestion() {
+        showingAnswer = false;
+        flagImg.src = currentList[currentIndex].flag;
+        nameJp.textContent = "";
+        nameEn.textContent = "";
+        actionBtn.textContent = "答えを見る";
+        updateProgress();
+    }
+
+    // 4. 進捗表示
+    function updateProgress() {
+        progress.textContent = `問題: ${currentIndex + 1} / ${currentList.length}`;
+    }
+
+    // ボタン操作
+    actionBtn.onclick = () => {
         if (!showingAnswer) {
-            nameElement.textContent = countries[currentIndex].name;
-            btn.textContent = "次へ";
+            // 答え表示
+            nameJp.textContent = currentList[currentIndex].nameJp;
+            nameEn.textContent = currentList[currentIndex].nameEn;
+            actionBtn.textContent = (currentIndex + 1 === currentList.length) ? "最初から始める" : "次へ";
             showingAnswer = true;
         } else {
-            currentIndex = (currentIndex + 1) % countries.length;
-            showNextFlag();
+            // 次へ、または終了
+            if (currentIndex + 1 === currentList.length) {
+                startNewGame();
+            } else {
+                currentIndex++;
+                showQuestion();
+            }
         }
     };
 
-    fetchCountries();
+    // 地域変更・リセット
+    regionSelect.onchange = startNewGame;
+    resetBtn.onclick = startNewGame;
+
+    init();
 </script>
 </body>
 </html>
