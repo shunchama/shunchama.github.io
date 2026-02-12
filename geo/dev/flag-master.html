@@ -298,7 +298,7 @@
 
           initUI();
           document.getElementById("loading").style.display = "none";
-          showPage("quiz-page", document.querySelector(".nav-btn"));
+          showPage("quiz-page", document.querySelector(".nav-btn")[1]);
         } catch (e) {
           document.getElementById("loading").textContent =
             "データの取得に失敗しました。";
