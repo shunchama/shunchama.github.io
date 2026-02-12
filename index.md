@@ -10,6 +10,7 @@ nav_order: 1
 - [投資情報](./investment/)
 - [地理](./geo/)
 - [プログラミング](./prog/)
+- [統計](./statistics/)
 - [ブログ](#)
 
 
