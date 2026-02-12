@@ -252,22 +252,24 @@
       ];
       async function loadData() {
         try {
-          // 必要なフィールドをすべて取得
           const res = await fetch(
             "https://restcountries.com/v3.1/all?fields=name,translations,flags,region,subregion,maps,independent,unMember,cca2",
           );
           const data = await res.json();
 
-          // 【修正ポイント】独立国、または国連加盟国、または台湾(TW)を抽出
+          // フィルタリング条件を拡張
           const filteredData = data.filter(
             (c) =>
-              c.independent === true || c.unMember === true || c.cca2 === "TW",
+              c.independent === true ||
+              c.unMember === true ||
+              c.cca2 === "TW" || // 台湾
+              c.cca2 === "HK" || // 香港
+              c.cca2 === "MO", // マカオ
           );
 
           allCountries = filteredData
             .map((c) => {
               let r = c.region;
-              // 地域判定（北米・南米の仕分け）
               if (c.subregion === "South America") r = "South America";
               if (
                 c.subregion === "North America" ||
