@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>フラッシュ国旗ゲーム</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        background: #f0f0f0;
+      }
+      #game-container {
+        background: white;
+        width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      #flag-image {
+        font-size: 80px;
+        margin: 20px 0;
+      }
+      #country-name {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        height: 35px;
+        margin-bottom: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="flag-image">🇯🇵</div>
+      <div id="country-name"></div>
+      <button id="action-btn">答えを見る</button>
+    </div>
+
+    <script>
+      const data = [
+        { name: "日本", flag: "🇯🇵" },
+        { name: "アメリカ", flag: "🇺🇸" },
+        { name: "フランス", flag: "🇫🇷" },
+        { name: "ブラジル", flag: "🇧🇷" },
+      ];
+
+      let currentIndex = 0;
+      let showingAnswer = false;
+
+      const flagElement = document.getElementById("flag-image");
+      const nameElement = document.getElementById("country-name");
+      const btn = document.getElementById("action-btn");
+
+      btn.onclick = () => {
+        if (!showingAnswer) {
+          // 答えを表示する
+          nameElement.textContent = data[currentIndex].name;
+          btn.textContent = "次へ";
+          showingAnswer = true;
+        } else {
+          // 次の国旗へ
+          currentIndex = (currentIndex + 1) % data.length;
+          flagElement.textContent = data[currentIndex].flag;
+          nameElement.textContent = "";
+          btn.textContent = "答えを見る";
+          showingAnswer = false;
+        }
+      };
+    </script>
+  </body>
+</html>
