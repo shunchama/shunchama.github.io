@@ -1,3 +1,11 @@
+---
+layout: default
+title: PPP vs. GDP
+parent: 地理
+nav_order: 1
+has_children: true  # 今後この下に記事を増やすならこれが必要
+---
+
 ## PPP vs. GDP
 
 ### 1. GDP（国内総生産）

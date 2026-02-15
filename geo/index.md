@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 地理TOP
+title: 地理
 nav_order: 3
 has_children: true  # 今後この下に記事を増やすならこれが必要
 ---
