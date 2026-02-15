@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ファイル操作
-parent: リファレンス
+parent: C言語
 nav_order: 1
 has_children: true
 ---
