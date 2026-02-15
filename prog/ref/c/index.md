@@ -8,7 +8,7 @@ has_children: true
 
 ## カテゴリ
 
-- [file](./file/)
+- [ファイル操作](./file/)
 
 ---
 
