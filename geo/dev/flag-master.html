@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FLAG-MASTER</title>
+    <title>FLAG-MASTER (Review Mode)</title>
     <style>
       :root {
         --primary: #3498db;
         --secondary: #2ecc71;
         --accent: #e67e22;
         --danger: #e74c3c;
+        --review: #f1c40f;
         --bg: #f0f2f5;
       }
       body {
@@ -20,7 +21,7 @@
         padding: 0;
       }
 
-      /* ナビゲーション */
+      /* Navigation */
       nav {
         background: #fff;
         padding: 10px;
@@ -59,7 +60,7 @@
         display: block;
       }
 
-      /* クイズ・操作パネル */
+      /* Panels */
       .panel {
         background: white;
         max-width: 450px;
@@ -88,8 +89,17 @@
         color: white;
         border-color: var(--primary);
       }
+      .region-btn.review-btn-mode {
+        border-color: var(--review);
+        color: var(--review);
+        font-weight: bold;
+      }
+      .region-btn.review-btn-mode.active {
+        background: var(--review);
+        color: white;
+      }
 
-      /* リセットボタン */
+      /* Reset Button */
       .reset-btn {
         width: 100%;
         margin-top: 10px;
@@ -102,10 +112,8 @@
         border-radius: 5px;
         font-weight: bold;
       }
-      .reset-btn:hover {
-        background: #7f8c8d;
-      }
 
+      /* Quiz area */
       .flag-box {
         height: 180px;
         display: flex;
@@ -122,12 +130,31 @@
       }
 
       #answer-area {
-        min-height: 110px;
+        min-height: 140px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
       }
+
+      /* Review Star Button */
+      .review-toggle {
+        background: none;
+        border: 2px solid var(--review);
+        color: var(--review);
+        padding: 6px 12px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-bottom: 10px;
+        transition: 0.3s;
+        display: none; /* Hidden until quiz starts */
+      }
+      .review-toggle.active {
+        background: var(--review);
+        color: white;
+      }
+
       #action-btn {
         width: 100%;
         padding: 15px;
@@ -144,7 +171,7 @@
         box-shadow: none;
       }
 
-      /* 一覧表示 */
+      /* List Grid */
       .list-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -155,6 +182,7 @@
         padding: 10px;
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        position: relative;
       }
       .flag-item img {
         width: 100%;
@@ -163,6 +191,13 @@
         border: 1px solid #eee;
         margin-bottom: 8px;
       }
+      .list-star {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        color: var(--review);
+        font-size: 18px;
+      }
 
       #loading {
         margin-top: 100px;
@@ -170,22 +205,19 @@
         color: var(--primary);
         font-weight: bold;
       }
+      footer {
+        margin-top: 40px;
+        padding: 20px;
+        color: #7f8c8d;
+        font-size: 14px;
+      }
     </style>
   </head>
   <body>
     <nav>
-      <button
-        class="nav-btn"
-        onclick="location.href = 'https://shunchama.github.io/geo/'"
-      >
-        ポータルサイトに戻る
-      </button>
-      <button class="nav-btn active" onclick="showPage('quiz-page', this)">
-        国旗クイズ
-      </button>
-      <button class="nav-btn" onclick="showPage('list-page', this)">
-        国旗一覧
-      </button>
+      <button class="nav-btn" onclick="location.href = 'https://shunchama.github.io/geo/'">ポータルに戻る</button>
+      <button class="nav-btn active" onclick="showPage('quiz-page', this)">国旗クイズ</button>
+      <button class="nav-btn" onclick="showPage('list-page', this)">国旗一覧</button>
     </nav>
 
     <div class="container">
@@ -194,40 +226,20 @@
       <div id="quiz-page" class="page">
         <div class="panel">
           <div class="region-grid" id="quiz-regions"></div>
-          <button class="reset-btn" onclick="resetCurrentQuiz()">
-            リセット
-          </button>
+          <button class="reset-btn" onclick="resetCurrentQuiz()">リセット</button>
         </div>
 
         <div class="panel">
-          <div
-            id="progress"
-            style="margin-bottom: 10px; font-weight: bold; color: #555"
-          >
-            0 / 0
-          </div>
-          <div class="flag-box"><img id="flag-img" src="" alt="国旗" /></div>
+          <div id="progress" style="margin-bottom: 10px; font-weight: bold; color: #555">0 / 0</div>
+          <div class="flag-box"><img id="flag-img" src="" alt="Flag" /></div>
+          
           <div id="answer-area">
-            <p
-              id="name-jp"
-              style="font-size: 24px; font-weight: bold; margin: 0"
-            ></p>
+            <button id="review-btn" class="review-toggle" onclick="toggleReview()">☆ 復習に追加</button>
+            <p id="name-jp" style="font-size: 24px; font-weight: bold; margin: 0"></p>
             <p id="name-en" style="color: #95a5a6; margin: 5px 0"></p>
-            <a
-              id="map-link"
-              href="#"
-              target="_blank"
-              style="
-                display: none;
-                color: var(--accent);
-                text-decoration: none;
-                font-size: 14px;
-                font-weight: bold;
-                margin-bottom: 10px;
-              "
-              >📍 場所を確認</a
-            >
+            <a id="map-link" href="#" target="_blank" style="display: none; color: var(--accent); text-decoration: none; font-size: 14px; font-weight: bold; margin-bottom: 10px;">📍 場所を確認</a>
           </div>
+          
           <button id="action-btn">答えを見る</button>
         </div>
       </div>
@@ -246,6 +258,9 @@
       let currentQuizIndex = 0;
       let isShowingAnswer = false;
       let currentRegion = "All";
+      
+      // Load review list from LocalStorage
+      let reviewedIds = JSON.parse(localStorage.getItem('flagReviewList')) || [];
 
       const regions = [
         { id: "All", name: "すべて" },
@@ -255,53 +270,38 @@
         { id: "North America", name: "北米" },
         { id: "South America", name: "南米" },
         { id: "Oceania", name: "オセアニア" },
+        { id: "Review", name: "⭐ 復習" } // Added Review category
       ];
+
       async function loadData() {
         try {
-          const res = await fetch(
-            "https://restcountries.com/v3.1/all?fields=name,translations,flags,region,subregion,maps,independent,unMember,cca2",
-          );
+          const res = await fetch("https://restcountries.com/v3.1/all?fields=name,translations,flags,region,subregion,maps,independent,unMember,cca2");
           const data = await res.json();
 
-          // フィルタリング条件を拡張
-          const filteredData = data.filter(
-            (c) =>
-              c.independent === true ||
-              c.unMember === true ||
-              c.cca2 === "TW" || // 台湾
-              c.cca2 === "HK" || // 香港
-              c.cca2 === "MO", // マカオ
+          const filteredData = data.filter(c => 
+            c.independent === true || c.unMember === true || ["TW", "HK", "MO"].includes(c.cca2)
           );
 
-          allCountries = filteredData
-            .map((c) => {
-              let r = c.region;
-              if (c.subregion === "South America") r = "South America";
-              if (
-                c.subregion === "North America" ||
-                c.subregion === "Central America" ||
-                c.subregion === "Caribbean"
-              )
-                r = "North America";
+          allCountries = filteredData.map(c => {
+            let r = c.region;
+            if (c.subregion === "South America") r = "South America";
+            if (["North America", "Central America", "Caribbean"].includes(c.subregion)) r = "North America";
 
-              return {
-                nameJp: c.translations.jpn
-                  ? c.translations.jpn.common
-                  : c.name.common,
-                nameEn: c.name.common,
-                flag: c.flags.png,
-                region: r,
-                mapUrl: c.maps.googleMaps,
-              };
-            })
-            .sort((a, b) => a.nameJp.localeCompare(b.nameJp, "ja"));
+            return {
+              id: c.cca2, // Used for localStorage key
+              nameJp: c.translations.jpn ? c.translations.jpn.common : c.name.common,
+              nameEn: c.name.common,
+              flag: c.flags.png,
+              region: r,
+              mapUrl: c.maps.googleMaps,
+            };
+          }).sort((a, b) => a.nameJp.localeCompare(b.nameJp, "ja"));
 
           initUI();
           document.getElementById("loading").style.display = "none";
           showPage("quiz-page", document.querySelectorAll(".nav-btn")[1]);
         } catch (e) {
-          document.getElementById("loading").textContent =
-            "データの取得に失敗しました。";
+          document.getElementById("loading").textContent = "データの取得に失敗しました。";
         }
       }
 
@@ -309,27 +309,29 @@
         const quizRegContainer = document.getElementById("quiz-regions");
         const listRegContainer = document.getElementById("list-regions");
 
-        regions.forEach((reg) => {
+        regions.forEach(reg => {
+          // Buttons for Quiz page
           const b1 = document.createElement("button");
-          b1.className = "region-btn" + (reg.id === "All" ? " active" : "");
+          b1.className = "region-btn";
+          if (reg.id === "Review") b1.classList.add("review-btn-mode");
+          if (reg.id === "All") b1.classList.add("active");
           b1.textContent = reg.name;
           b1.onclick = () => {
             currentRegion = reg.id;
-            document
-              .querySelectorAll("#quiz-regions .region-btn")
-              .forEach((b) => b.classList.remove("active"));
+            document.querySelectorAll("#quiz-regions .region-btn").forEach(b => b.classList.remove("active"));
             b1.classList.add("active");
             startQuiz(reg.id);
           };
           quizRegContainer.appendChild(b1);
 
+          // Buttons for List page
           const b2 = document.createElement("button");
-          b2.className = "region-btn" + (reg.id === "All" ? " active" : "");
+          b2.className = "region-btn";
+          if (reg.id === "Review") b2.classList.add("review-btn-mode");
+          if (reg.id === "All") b2.classList.add("active");
           b2.textContent = reg.name;
           b2.onclick = () => {
-            document
-              .querySelectorAll("#list-regions .region-btn")
-              .forEach((b) => b.classList.remove("active"));
+            document.querySelectorAll("#list-regions .region-btn").forEach(b => b.classList.remove("active"));
             b2.classList.add("active");
             renderList(reg.id);
           };
@@ -340,27 +342,30 @@
       }
 
       function showPage(pageId, btn) {
-        document
-          .querySelectorAll(".page")
-          .forEach((p) => p.classList.remove("active"));
+        document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
         document.getElementById(pageId).classList.add("active");
-        document
-          .querySelectorAll(".nav-btn")
-          .forEach((b) => b.classList.remove("active"));
+        document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
       }
 
       function startQuiz(region) {
-        quizList =
-          region === "All"
-            ? [...allCountries]
-            : allCountries.filter((c) => c.region === region);
+        if (region === "Review") {
+          quizList = allCountries.filter(c => reviewedIds.includes(c.id));
+          if (quizList.length === 0) {
+            alert("復習リストが空です。まずは他の地域で⭐ボタンを押して追加してください！");
+            // Switch back to "All"
+            const allBtn = document.querySelector("#quiz-regions .region-btn");
+            allBtn.click();
+            return;
+          }
+        } else {
+          quizList = region === "All" ? [...allCountries] : allCountries.filter(c => c.region === region);
+        }
         quizList.sort(() => Math.random() - 0.5);
         currentQuizIndex = 0;
         showQuestion();
       }
 
-      // リセットボタン用関数
       function resetCurrentQuiz() {
         startQuiz(currentRegion);
       }
@@ -373,8 +378,38 @@
         document.getElementById("name-en").textContent = "";
         document.getElementById("map-link").style.display = "none";
         document.getElementById("action-btn").textContent = "答えを見る";
-        document.getElementById("progress").textContent =
-          `問題: ${currentQuizIndex + 1} / ${quizList.length}`;
+        document.getElementById("progress").textContent = `問題: ${currentQuizIndex + 1} / ${quizList.length}`;
+        
+        // Setup review star button
+        const revBtn = document.getElementById("review-btn");
+        revBtn.style.display = "inline-block";
+        updateReviewBtnUI();
+      }
+
+      function toggleReview() {
+        const currentCountry = quizList[currentQuizIndex];
+        const index = reviewedIds.indexOf(currentCountry.id);
+        
+        if (index > -1) {
+          reviewedIds.splice(index, 1);
+        } else {
+          reviewedIds.push(currentCountry.id);
+        }
+        
+        localStorage.setItem('flagReviewList', JSON.stringify(reviewedIds));
+        updateReviewBtnUI();
+      }
+
+      function updateReviewBtnUI() {
+        const btn = document.getElementById("review-btn");
+        const currentCountry = quizList[currentQuizIndex];
+        if (reviewedIds.includes(currentCountry.id)) {
+          btn.classList.add("active");
+          btn.textContent = "★ 復習中";
+        } else {
+          btn.classList.remove("active");
+          btn.textContent = "☆ 復習に追加";
+        }
       }
 
       document.getElementById("action-btn").onclick = () => {
@@ -395,18 +430,24 @@
       function renderList(region) {
         const container = document.getElementById("flag-list-container");
         container.innerHTML = "";
-        const list =
-          region === "All"
-            ? allCountries
-            : allCountries.filter((c) => c.region === region);
-        list.forEach((c) => {
+        
+        let list;
+        if (region === "Review") {
+          list = allCountries.filter(c => reviewedIds.includes(c.id));
+        } else {
+          list = region === "All" ? allCountries : allCountries.filter(c => c.region === region);
+        }
+
+        list.forEach(c => {
           const div = document.createElement("div");
           div.className = "flag-item";
+          const isReviewed = reviewedIds.includes(c.id) ? '<span class="list-star">★</span>' : '';
           div.innerHTML = `
-                      <img src="${c.flag}" alt="${c.nameJp}" loading="lazy">
-                      <div style="font-size: 13px; font-weight: bold;">${c.nameJp}</div>
-                      <a href="${c.mapUrl}" target="_blank" style="font-size: 11px; color: var(--accent); text-decoration: none;">📍 Maps</a>
-                  `;
+            ${isReviewed}
+            <img src="${c.flag}" alt="${c.nameJp}" loading="lazy">
+            <div style="font-size: 13px; font-weight: bold;">${c.nameJp}</div>
+            <a href="${c.mapUrl}" target="_blank" style="font-size: 11px; color: var(--accent); text-decoration: none;">📍 Maps</a>
+          `;
           container.appendChild(div);
         });
       }
