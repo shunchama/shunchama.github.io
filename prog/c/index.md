@@ -10,11 +10,6 @@ has_children: true
 
 - [リファレンス](../ref/c/)
 
-```python
-def hello():
-    return "Hello World"
-```
-
 ---
 
 ## 最新の記事・更新
