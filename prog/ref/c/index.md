@@ -1,7 +1,7 @@
 ---
 layout: default
-title: リファレンス
-parent: プログラミング
+title: C言語
+parent: リファレンス
 nav_order: 1
 has_children: true
 ---
