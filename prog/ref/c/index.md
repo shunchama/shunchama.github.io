@@ -7,12 +7,8 @@ has_children: true
 ---
 
 ## カテゴリ
-- [file](./file/)
 
-```python
-def hello():
-    return "Hello World"
-```
+- [file](./file/)
 
 ---
 
