@@ -16,8 +16,7 @@ has_children: true
 test123file
 ```
 
-
-**file-read**
+**file-read.c**
 
 ```c
 #include <stdio.h>
@@ -66,7 +65,7 @@ string: file
 
 ## ファイル書き込み
 
-**file-write**
+**file-write.c**
 
 ```c
 #include <stdio.h>
@@ -95,6 +94,12 @@ int main()
 
     return 0;
 }
+```
+
+**write-test.txt**
+
+```
+test123
 ```
 
 ---
