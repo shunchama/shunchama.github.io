@@ -1,13 +1,14 @@
 ---
 layout: default
-title: リファレンス
+title: C言語
 parent: プログラミング
 nav_order: 1
 has_children: true
 ---
 
 ## カテゴリ
-- [file](./file/)
+
+- [リファレンス](../ref/c/)
 
 ```python
 def hello():

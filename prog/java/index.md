@@ -1,18 +1,14 @@
 ---
 layout: default
-title: リファレンス
+title: Java
 parent: プログラミング
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 
 ## カテゴリ
-- [file](./file/)
 
-```python
-def hello():
-    return "Hello World"
-```
+- [リファレンス](../ref/java/)
 
 ---
 
