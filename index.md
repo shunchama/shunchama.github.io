@@ -26,24 +26,33 @@ nav_order: 1
 
 <ul>
   {% comment %} 
-    1. site.html_pages（HTML/MDファイル）から、除外したいページを弾く
-    2. path で並び替えて reverse（最新順）にする
+    全ファイルをスキャンし、index.mdや管理ファイル、READMEを除外
   {% endcomment %}
-  
-  {% assign all_items = site.html_pages | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.path != 'README.md'" | where_exp: "item", "item.path != '404.html'" %}
-  
-  {% assign sorted_items = all_items | sort: "path" | reverse %}
+  {% assign all_pages = site.html_pages | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.path != 'README.md'" | where_exp: "item", "item.dir != '/assets/'" %}
 
-  {% for item in sorted_items limit:8 %}
+  {% comment %} 
+    ファイルパスでソートし、最新順（reverse）にする
+  {% endcomment %}
+  {% assign sorted_pages = all_pages | sort: "path" | reverse %}
+
+  {% for page in sorted_pages limit:10 %}
     <li>
-      {% comment %} 
-        カテゴリ名（親フォルダ名）を表示して、どこが更新されたか分かりやすくする
-      {% endcomment %}
-      {% assign path_parts = item.path | split: "/" %}
-      <small>[{{ path_parts[0] | upcase }}]</small> 
-      <a href="{{ item.url | relative_url }}">{{ item.title | default: item.name }}</a>
+      {% assign path_parts = page.path | split: "/" %}
+      {% comment %} フォルダ名からカテゴリタグを生成 {% endcomment %}
+      <span style="font-size: 0.8em; color: #888; border: 1px solid #444; padding: 1px 4px; border-radius: 3px; margin-right: 5px;">
+        {{ path_parts[0] | upcase }}
+      </span>
+      <a href="{{ page.url | relative_url }}">
+        {{ page.title | default: page.name }}
+      </a>
+      {% if page.path contains 'report' %}
+        {% comment %} レポートファイルの場合はファイル名から日付を表示 {% endcomment %}
+        <small style="color: #666; margin-left: 10px;">({{ page.name | slice: 0, 8 }})</small>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
+
+---
 
 © 2026 shunchama. Built with GitHub Pages.
