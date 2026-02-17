@@ -16,7 +16,7 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 
 ## 単発
 
-- [PPP vs. GDP](./md/ppp-vs-gdp.md) 2026-02-16
+- [PPP vs. GDP](./md/20260216_ppp-vs-gdp.md) 2026-02-16
 
 ---
 
