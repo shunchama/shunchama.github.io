@@ -9,6 +9,7 @@ nav_order: 1
 ## カテゴリ一覧
 
 - [投資情報](./investment/)
+  - [今日の市場の振り返り](./investment/report/)
 - [プログラミング](./prog/)
 - [中国(閲覧注意)](./cn/)
 - [地理](./geo/)
