@@ -6,7 +6,7 @@ nav_order: 1
 has_children: true
 ---
 
-# レポート
+# 市場の振り返り
 
 ## 米国・東京市場
 
