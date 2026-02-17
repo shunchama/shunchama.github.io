@@ -25,21 +25,25 @@ nav_order: 1
 ---
 
 <ul>
-  {% comment %} 全ページの中から、特定のディレクトリに含まれる md ファイルを取得 {% endcomment %}
-  {% assign all_pages = site.pages | where_exp: "item", "item.path contains 'investment/report/'" | where_exp: "item", "item.name != 'index.md'" %}
+  {% comment %} 
+    1. site.html_pages（HTML/MDファイル）から、除外したいページを弾く
+    2. path で並び替えて reverse（最新順）にする
+  {% endcomment %}
   
-  {% comment %} 並び替えの基準となる日付データがないため、ファイル名で逆順（新しい順）に並び替え {% endcomment %}
-  {% assign sorted_pages = all_pages | sort: "path" | reverse %}
+  {% assign all_items = site.html_pages | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.path != 'README.md'" | where_exp: "item", "item.path != '404.html'" %}
+  
+  {% assign sorted_items = all_items | sort: "path" | reverse %}
 
-{% for page in sorted_pages limit:5 %}
-<li>
-{% comment %} ファイル名から日付らしき部分（20260217）を抽出して整形（任意） {% endcomment %}
-{% assign date_part = page.name | slice: 0, 8 %}
-{{ date_part | slice: 0, 4 }}-{{ date_part | slice: 4, 2 }}-{{ date_part | slice: 6, 2 }}:
-<a href="{{ page.url | relative_url }}">{{ page.title | default: page.name }}</a>
-</li>
-{% endfor %}
-
+  {% for item in sorted_items limit:8 %}
+    <li>
+      {% comment %} 
+        カテゴリ名（親フォルダ名）を表示して、どこが更新されたか分かりやすくする
+      {% endcomment %}
+      {% assign path_parts = item.path | split: "/" %}
+      <small>[{{ path_parts[0] | upcase }}]</small> 
+      <a href="{{ item.url | relative_url }}">{{ item.title | default: item.name }}</a>
+    </li>
+  {% endfor %}
 </ul>
 
 © 2026 shunchama. Built with GitHub Pages.
