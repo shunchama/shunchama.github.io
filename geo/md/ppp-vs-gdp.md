@@ -3,7 +3,7 @@ layout: default
 title: PPP vs. GDP
 parent: 地理
 nav_order: 1
-has_children: true  # 今後この下に記事を増やすならこれが必要
+date: 2026-02-15
 ---
 
 ## PPP vs. GDP

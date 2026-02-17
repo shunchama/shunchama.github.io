@@ -26,41 +26,35 @@ nav_order: 1
 
 <ul>
   {% comment %} 
-    1. 全ページを取得
-    2. 管理用ファイルやHOME自身を除外
+    1. 全ページを取得し、管理用ファイルを除外
+    2. date（日付）が Front Matter に設定されているものだけを抽出
   {% endcomment %}
   {% assign all_pages = site.pages | where_exp: "item", "item.path != 'index.md'" | where_exp: "item", "item.path != 'README.md'" %}
+  {% assign dated_pages = all_pages | where: "date" %}
 
-{% comment %} 3. ファイル名の先頭が「2」（2026年など）で始まるものだけに絞り込む
-※これで「index.md」などの日付なしファイルが自動的に弾かれます
-{% endcomment %}
-{% assign dated_pages = all_pages | where_exp: "item", "item.name slugify | slice: 0 == '2'" %}
+  {% comment %} 
+    3. 設定された日付順（date）で並び替え、reverseで最新を一番上にする
+  {% endcomment %}
+  {% assign sorted_pages = dated_pages | sort: "date" | reverse %}
 
-{% comment %} 4. パスでソートして最新順に表示
-{% endcomment %}
-{% assign sorted_pages = dated_pages | sort: "path" | reverse %}
-
-{% for page in sorted_pages limit:10 %}
-<li>
-{% assign parts = page.path | split: "/" %}
-{% comment %} カテゴリタグ [INVESTMENT] [CN] 等を表示 {% endcomment %}
-<span style="font-size: 0.7em; color: #aaa; border: 1px solid #555; padding: 2px 5px; border-radius: 3px; margin-right: 8px; text-transform: uppercase; font-weight: bold;">
-{{ parts[0] }}
-</span>
+  {% for page in sorted_pages limit:10 %}
+    <li>
+      {% assign parts = page.path | split: "/" %}
+      {% comment %} カテゴリタグ表示 {% endcomment %}
+      <span style="font-size: 0.7em; color: #aaa; border: 1px solid #555; padding: 2px 5px; border-radius: 3px; margin-right: 8px; text-transform: uppercase; font-weight: bold;">
+        {{ parts[0] }}
+      </span>
 
       <a href="{{ page.url | relative_url }}">
         {{ page.title | default: page.name }}
       </a>
 
-      {% comment %} 日付部分をファイル名から抽出して表示 (例: 20260217 -> 2026/02/17) {% endcomment %}
+      {% comment %} 記事の日付を表示 {% endcomment %}
       <small style="color: #666; margin-left: 10px;">
-        {% assign d = page.name | slice: 0, 8 %}
-        {{ d | slice: 0, 4 }}/{{ d | slice: 4, 2 }}/{{ d | slice: 6, 2 }}
+        ({{ page.date | date: "%Y/%m/%d" }})
       </small>
     </li>
-
-{% endfor %}
-
+  {% endfor %}
 </ul>
 
 ---

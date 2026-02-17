@@ -9,7 +9,7 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 
 ## カテゴリ
 
-- [天安門事件](./tiananmen/20260218_tiananmen.md)
+- [天安門事件](./tiananmen/tiananmen.md)
 - [反日教育](#)
 - [CCP](#)
 - [準備中](#)
