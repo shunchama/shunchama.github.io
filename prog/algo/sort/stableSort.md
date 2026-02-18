@@ -64,6 +64,8 @@ int is_stable(int N, Card in_c[], Card out_c[])
 
 {% endraw %}
 
+---
+
 *N*個の要素を含む数列*A*を昇順に並び替えるプログラムは以下のようになる。
 
 {% raw %}

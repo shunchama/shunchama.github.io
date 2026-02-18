@@ -38,6 +38,8 @@ void selectionSort(int A[], int N)
 
 {% endraw %}
 
+---
+
 *N*個の要素を含む数列*A*を昇順に並び替える選択ソートのプログラムは以下のようになる。
 
 {% raw %}

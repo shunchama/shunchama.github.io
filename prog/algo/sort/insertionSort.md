@@ -36,6 +36,8 @@ void InsertionSort(int A[], int N)
 
 {% endraw %}
 
+---
+
 *N*個の要素を含む数列*A*を昇順に並び替えるバブルソートのプログラムは以下のようになる。
 
 {% raw %}

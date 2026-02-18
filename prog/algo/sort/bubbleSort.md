@@ -38,6 +38,8 @@ void bubbleSort(int A[], int N)
 
 {% endraw %}
 
+---
+
 *N*個の要素を含む数列*A*を昇順に並び替える挿入ソートのプログラムは以下のようになる。
 
 {% raw %}
