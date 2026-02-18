@@ -16,23 +16,20 @@ date: 2026-02-18
 {% raw %}
 
 ```c
-void bubbleSort(int A[], int N)
+void InsertionSort(int A[], int N)
 {
-    int flag = 1;
-    while (flag)
+    for (int i = 0; i < N; i++)
     {
-        flag = 0;
-        for (int i = N - 1; i >= 1; i--)
+        int v = A[i];
+        int j = i - 1;
+        while (j >= 0 && A[j] > v)
         {
-            if (A[i - 1] > A[i])
-            {
-                swap_cnt++;
-                int tmp = A[i];
-                A[i] = A[i - 1];
-                A[i - 1] = tmp;
-                flag = 1;
-            }
+            A[j + 1] = A[j];
+            j--;
         }
+        A[j + 1] = v;
+
+        printArray(A, N);
     }
 }
 ```
@@ -46,27 +43,22 @@ void bubbleSort(int A[], int N)
 ```c
 #include <stdio.h>
 
-int swap_cnt = 0;
-
 void printArray(int A[], int N);
 
-void bubbleSort(int A[], int N)
+void InsertionSort(int A[], int N)
 {
-    int flag = 1;
-    while (flag)
+    for (int i = 0; i < N; i++)
     {
-        flag = 0;
-        for (int i = N - 1; i >= 1; i--)
+        int v = A[i];
+        int j = i - 1;
+        while (j >= 0 && A[j] > v)
         {
-            if (A[i - 1] > A[i])
-            {
-                swap_cnt++;
-                int tmp = A[i];
-                A[i] = A[i - 1];
-                A[i - 1] = tmp;
-                flag = 1;
-            }
+            A[j + 1] = A[j];
+            j--;
         }
+        A[j + 1] = v;
+
+        printArray(A, N);
     }
 }
 
@@ -93,9 +85,7 @@ int main()
         scanf("%d", &A[i]);
     }
 
-    bubbleSort(A, N);
-    printArray(A, N);
-    printf("%d\n", swap_cnt);
+    InsertionSort(A, N);
 
     return 0;
 }
