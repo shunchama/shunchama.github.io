@@ -17,6 +17,7 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 
 ### ソート
 
+- [挿入ソート(InsertionSort)](./sort/insertionSort.md)
 - [バブルソート]
 
 ---
