@@ -1,0 +1,68 @@
+<div class="share-buttons" style="margin-top: 10px; display: flex; gap: 8px">
+  {% assign share_url = page.url | absolute_url | url_encode %} {% assign
+  share_title = page.title | default: page.name | url_encode %}
+
+  <a
+    href="https://twitter.com/intent/tweet?url={{ share_url }}&text={{ share_title }}"
+    target="_blank"
+    rel="nofollow noopener"
+    style="
+      background: #000;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.8em;
+      text-decoration: none;
+    "
+  >
+    X
+  </a>
+
+  <a
+    href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}"
+    target="_blank"
+    rel="nofollow noopener"
+    style="
+      background: #1877f2;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.8em;
+      text-decoration: none;
+    "
+  >
+    Facebook
+  </a>
+
+  <a
+    href="https://b.hatena.ne.jp/entry/panel/?url={{ share_url }}"
+    target="_blank"
+    rel="nofollow noopener"
+    style="
+      background: #00a4de;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.8em;
+      text-decoration: none;
+    "
+  >
+    B!
+  </a>
+
+  <a
+    href="https://social-plugins.line.me/lineit/share?url={{ share_url }}"
+    target="_blank"
+    rel="nofollow noopener"
+    style="
+      background: #06c755;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.8em;
+      text-decoration: none;
+    "
+  >
+    LINE
+  </a>
+</div>
