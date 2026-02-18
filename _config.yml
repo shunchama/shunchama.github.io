@@ -4,7 +4,6 @@ baseurl: "" # ここを空にすることで、ルートからの絶対パスが
 
 remote_theme: just-the-docs/just-the-docs
 
-
 # 基本情報
 title: shunchama's Portal Site
 description: 趣味の話を中心に投稿しています
@@ -21,3 +20,6 @@ aux_links:
   "GitHub": "https://github.com/shunchama"
 
 mathjax: true
+
+future: true
+timezone: Asia/Tokyo
