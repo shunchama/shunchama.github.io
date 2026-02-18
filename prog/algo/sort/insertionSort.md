@@ -13,6 +13,8 @@ date: 2026-02-18 12:00:02
 
 **アルゴリズム**
 
+{% raw %}
+
 ```c
 insertionSort(A, N)
     for(int i = 0; i < N; i++){
@@ -26,7 +28,11 @@ insertionSort(A, N)
     }
 ```
 
+{% endraw %}
+
 *N*個の要素を含む数列*A*を昇順に並び替える挿入ソートのプログラムは以下のようになる。
+
+{% raw %}
 
 ```c
 #include <stdio.h>
@@ -78,6 +84,8 @@ int main()
     return 0;
 }
 ```
+
+{% endraw %}
 
 ---
 
