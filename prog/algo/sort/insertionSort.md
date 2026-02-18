@@ -3,7 +3,7 @@ layout: default
 title: 挿入ソート(InsertionSort)
 parent: アルゴリズム
 nav_order: 1
-date: 2026-02-18 12:00:02
+date: 2026-02-18
 ---
 
 # 挿入ソート
