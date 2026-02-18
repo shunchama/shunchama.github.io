@@ -1,18 +1,23 @@
 ---
 layout: default
-title: 中国
-nav_order: 6
+title: アルゴリズム
+parent: プログラミング
+nav_order: 4
 has_children: true # 今後この下に記事を増やすならこれが必要
 ---
 
-# 中国
+# アルゴリズム
 
 ## カテゴリ
 
-- [天安門事件](./tiananmen/tiananmen.md)
-- [反日教育](#)
-- [CCP](#)
-- [準備中](#)
+### 探索
+
+- [全探索](./)
+- [二分探索]
+
+### ソート
+
+- [バブルソート]
 
 ---
 
