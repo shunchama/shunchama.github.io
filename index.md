@@ -26,23 +26,30 @@ nav_order: 1
 
 <ul>
   {% comment %} 
-    複雑なソートは使わず、investment/report フォルダ内のファイルを
-    名前順（20260218...）で表示するだけの最もシンプルな方法です
+    1. 日付が設定されているページを抽出
+    2. 日付順で並び替えて逆順（新しい順）にする
   {% endcomment %}
-  {% assign reports = site.pages | where_exp: "item", "item.path contains 'investment/report/'" | where_exp: "item", "item.path != 'investment/report/index.md'" %}
+  {% assign sorted_pages = site.pages | where_exp: "item", "item.date" | sort: "date" | reverse %}
 
-  {% for page in reports limit:10 %}
-    <li style="margin-bottom: 8px;">
-      <span style="font-size: 0.7em; color: #aaa; border: 1px solid #555; padding: 2px 5px; border-radius: 3px; margin-right: 8px; text-transform: uppercase; font-weight: bold; display: inline-block;">
-        REPORT
-      </span>
-      <a href="{{ page.url | relative_url }}" style="font-weight: bold;">
-        {{ page.title | default: page.name }}
-      </a>
-      <span style="color: #666; margin-left: 10px; font-size: 0.9em;">
-        ({{ page.date | date: "%Y/%m/%d" }})
-      </span>
-    </li>
+  {% for page in sorted_pages limit:10 %}
+    {% comment %} index.md自身は表示しない {% endcomment %}
+    {% if page.path != "index.md" %}
+      <li style="margin-bottom: 8px;">
+        {% assign parts = page.path | split: "/" %}
+        
+        <span style="font-size: 0.7em; color: #aaa; border: 1px solid #555; padding: 2px 5px; border-radius: 3px; margin-right: 8px; text-transform: uppercase; font-weight: bold; display: inline-block; min-width: 60px; text-align: center;">
+          {{ parts[0] | default: "ETC" }}
+        </span>
+
+        <a href="{{ page.url | relative_url }}" style="font-weight: bold;">
+          {{ page.title | default: page.name }}
+        </a>
+
+        <span style="color: #666; margin-left: 10px; font-size: 0.9em;">
+          ({{ page.date | date: "%Y/%m/%d" }})
+        </span>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
