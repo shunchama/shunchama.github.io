@@ -3,7 +3,7 @@ layout: default
 title: 天安門事件
 parent: 中国
 nav_order: 1
-date: 2026-02-18
+date: 2026-02-18 12:00:00
 ---
 
 # 8964天安門事件(Tiananmen Square Massacre)
