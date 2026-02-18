@@ -19,8 +19,8 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 
 - [挿入ソート(InsertionSort)](./sort/insertionSort.md)
 - [バブルソート(BubbleSort)](./sort/bubbleSort.md)
-- [選択ソート(SelectionSort)](./)
-- [安定ソート(StableSort)](./)
+- [選択ソート(SelectionSort)](./sort/selectionSort.md)
+- [安定ソート(StableSort)](./sort/stableSort.md)
 - [シェルソート(ShellSort)](./)
 
 ### データ構造
