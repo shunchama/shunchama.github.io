@@ -20,10 +20,6 @@ nav_order: 1
 
 ## 最新の記事・更新
 
-- 2026-02-08: サイトを開設しました。
-
----
-
 <ul>
   {% comment %} 
     1. 日付が設定されているページを抽出
@@ -32,11 +28,12 @@ nav_order: 1
   {% assign dated_pages = site.pages | where_exp: "item", "item.date" %}
   {% assign sorted_pages = dated_pages | sort: "date" | reverse %}
 
-  {% for page in sorted_pages limit:15 %}
-    {% if page.path != "index.md" and page.path != "README.md" %}
-      <li style="margin-bottom: 8px;">
-        {% assign parts = page.path | split: "/" %}
-        
+{% for page in sorted_pages limit:15 %}
+{% if page.path != "index.md" and page.path != "README.md" %}
+
+<li style="margin-bottom: 8px;">
+{% assign parts = page.path | split: "/" %}
+
         <span style="font-size: 0.7em; color: #aaa; border: 1px solid #555; padding: 2px 5px; border-radius: 3px; margin-right: 8px; text-transform: uppercase; font-weight: bold; display: inline-block; min-width: 60px; text-align: center;">
           {{ parts[0] | default: "ETC" }}
         </span>
@@ -50,8 +47,14 @@ nav_order: 1
         </span>
       </li>
     {% endif %}
-  {% endfor %}
+
+{% endfor %}
+
 </ul>
+
+---
+
+- 2026-02-08: サイトを開設しました。
 
 ---
 
