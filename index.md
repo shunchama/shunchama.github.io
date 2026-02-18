@@ -26,14 +26,18 @@ nav_order: 1
 
 <ul>
   {% comment %} 
-    1. 日付が設定されているページを抽出
-    2. 日付順で並び替えて逆順（新しい順）にする
+    1. 日付があるページだけを取得
   {% endcomment %}
-  {% assign sorted_pages = site.pages | where_exp: "item", "item.date" | sort: "date" | reverse %}
+  {% assign dated_pages = site.pages | where_exp: "item", "item.date" %}
 
-  {% for page in sorted_pages limit:10 %}
-    {% comment %} index.md自身は表示しない {% endcomment %}
-    {% if page.path != "index.md" %}
+  {% comment %} 
+    2. エラーの原因になる sort "date" を使わず、
+    単純に読み込まれた順の逆（リバース）にするだけで表示
+  {% endcomment %}
+  {% assign reversed_pages = dated_pages | reverse %}
+
+  {% for page in reversed_pages limit:15 %}
+    {% if page.path != "index.md" and page.path != "README.md" %}
       <li style="margin-bottom: 8px;">
         {% assign parts = page.path | split: "/" %}
         
