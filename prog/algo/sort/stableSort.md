@@ -24,7 +24,7 @@ date: 2026-02-19
 
 {% raw %}
 
-````c
+```c
 int is_stable(int N, Card in_c[], Card out_c[])
 {
     for (int i = 0; i < N; i++)
@@ -200,7 +200,7 @@ int is_stable(int N, Card in_c[], Card out_c[])
     return 1;
 }
 
-````
+```
 
 {% endraw %}
 
