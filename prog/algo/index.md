@@ -1,24 +1,33 @@
 ---
 layout: default
-title: アルゴリズム
+title: アルゴリズムとデータ構造
 parent: プログラミング
 nav_order: 4
 has_children: true # 今後この下に記事を増やすならこれが必要
 ---
 
-# アルゴリズム
+# アルゴリズムとデータ構造
 
 ## カテゴリ
 
 ### 探索
 
 - [全探索](./)
-- [二分探索]
+- [二分探索](./)
 
 ### ソート
 
 - [挿入ソート(InsertionSort)](./sort/insertionSort.md)
-- [バブルソート]
+- [バブルソート(BubbleSort)](./sort/bubbleSort.md)
+- [選択ソート(SelectionSort)](./)
+- [安定ソート(StableSort)](./)
+- [シェルソート(ShellSort)](./)
+
+### データ構造
+
+- [スタック(Stack)](./)
+- [キュー(Queue)](./)
+- [双方向リスト(DoublyLinkedList)](./)
 
 ---
 
