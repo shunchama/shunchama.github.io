@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>浜松・静大 タイムトラベル（航空写真版）</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background: #222;
+        color: white;
+      }
+      #map {
+        height: 85vh;
+        width: 100%;
+        border-bottom: 2px solid #444;
+      }
+      .controls {
+        padding: 15px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .info-panel {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 8px 20px;
+        border-radius: 20px;
+        pointer-events: none;
+        border: 1px solid #666;
+      }
+      button {
+        padding: 8px 16px;
+        cursor: pointer;
+        background: #444;
+        color: white;
+        border: 1px solid #666;
+        border-radius: 4px;
+        transition: 0.3s;
+      }
+      button:hover {
+        background: #666;
+      }
+      .slider-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      input[type="range"] {
+        width: 250px;
+        cursor: pointer;
+      }
+      .label {
+        font-size: 0.9em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="info-panel" id="locationLabel">浜松駅周辺 (1970年代)</div>
+
+    <div id="map"></div>
+
+    <div class="controls">
+      <button onclick="jumpTo('station', '浜松駅周辺')">浜松駅周辺</button>
+      <button onclick="jumpTo('university', '静岡大学周辺')">
+        静岡大学周辺
+      </button>
+      <div class="slider-container">
+        <span class="label">1970年代</span>
+        <input
+          type="range"
+          id="opacitySlider"
+          min="0"
+          max="1"
+          step="0.01"
+          value="0"
+        />
+        <span class="label">最新</span>
+      </div>
+    </div>
+
+    <script>
+      const locations = {
+        station: [34.7035, 137.7344],
+        university: [34.7249, 137.7188],
+      };
+
+      const map = L.map("map").setView(locations.station, 16);
+
+      // 2. 過去の航空写真（拡大しても消えない設定を追加）
+      const oldLayer = L.tileLayer(
+        "https://cyberjapandata.gsi.go.jp/xyz/gazo1/{z}/{x}/{y}.jpg",
+        {
+          attribution: "国土地理院 (1974-1978年)",
+          opacity: 1,
+          maxZoom: 18, // 地図全体としてどこまでズームを許すか
+          maxNativeZoom: 17, // タイルデータが存在する最大ズーム（ここを超えると引き伸ばす）
+          minZoom: 10,
+        },
+      ).addTo(map);
+
+      // 最新写真の方も合わせて設定
+      const modernLayer = L.tileLayer(
+        "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg",
+        {
+          attribution: "国土地理院 (最新航空写真)",
+          maxZoom: 18,
+          maxNativeZoom: 18,
+        },
+      ).addTo(map);
+
+      const slider = document.getElementById("opacitySlider");
+      const label = document.getElementById("locationLabel");
+
+      slider.addEventListener("input", (e) => {
+        const val = parseFloat(e.target.value);
+        oldLayer.setOpacity(1 - val);
+
+        // スライダーに合わせてラベルの色や文言を変える遊び心
+        if (val > 0.8) {
+          label.style.color = "#4ff";
+        } else {
+          label.style.color = "#fff";
+        }
+      });
+
+      function jumpTo(loc, name) {
+        map.setView(locations[loc], 16);
+        slider.value = 0;
+        oldLayer.setOpacity(1);
+        label.innerText = name + " (1970年代)";
+      }
+    </script>
+  </body>
+</html>
