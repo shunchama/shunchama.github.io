@@ -2,10 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>CHINA-MAP-MASTER</title>
     <style>
       :root {
@@ -15,12 +12,10 @@
         --panel-bg: #ffffff;
       }
       body {
-        font-family:
-          "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
+        font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
         text-align: center;
         background: var(--bg);
-        margin: 0;
-        padding: 0;
+        margin: 0; padding: 0;
         height: 100vh;
         overflow: hidden;
       }
@@ -32,21 +27,14 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       }
       .nav-btn {
         padding: 5px 15px;
-        cursor: pointer;
-        border: none;
-        background: none;
-        font-size: 14px;
-        font-weight: bold;
-        color: #7f8c8d;
+        cursor: pointer; border: none; background: none;
+        font-size: 14px; font-weight: bold; color: #7f8c8d;
       }
-      .nav-btn.active {
-        color: var(--primary);
-        border-bottom: 2px solid var(--primary);
-      }
+      .nav-btn.active { color: var(--primary); border-bottom: 2px solid var(--primary); }
 
       .container {
         height: calc(100vh - 130px);
@@ -61,7 +49,7 @@
         margin: 0 auto;
         padding: 20px;
         border-radius: 20px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
       }
 
       .map-box {
@@ -95,7 +83,7 @@
         width: 100%;
         background: white;
         padding: 15px;
-        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
         box-sizing: border-box;
         z-index: 1000;
         text-align: center;
@@ -114,81 +102,36 @@
         border-radius: 12px;
       }
 
-      .list-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        gap: 10px;
-        padding-bottom: 40px;
-      }
-      .list-item {
-        background: white;
-        padding: 8px;
-        border-radius: 10px;
-        font-size: 11px;
-        border: 1px solid #eee;
-      }
-      .list-item img {
-        width: 100%;
-        height: 70px;
-        object-fit: contain;
-      }
+      .list-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 10px; padding-bottom: 40px; }
+      .list-item { background: white; padding: 8px; border-radius: 10px; font-size: 11px; border: 1px solid #eee; }
+      .list-item img { width: 100%; height: 70px; object-fit: contain; }
 
       .review-toggle {
-        background: none;
-        border: 1.5px solid var(--secondary);
-        color: #d4ac0d;
-        padding: 4px 10px;
-        border-radius: 15px;
-        cursor: pointer;
-        font-size: 12px;
-        width: fit-content;
-        margin: 0 auto 5px;
+        background: none; border: 1.5px solid var(--secondary); color: #d4ac0d;
+        padding: 4px 10px; border-radius: 15px; cursor: pointer; font-size: 12px;
+        width: fit-content; margin: 0 auto 5px;
       }
-      .review-toggle.active {
-        background: var(--secondary);
-        color: white;
-      }
+      .review-toggle.active { background: var(--secondary); color: white; }
     </style>
   </head>
   <body>
     <nav>
-      <button class="nav-btn active" onclick="showPage('quiz-page', this)">
-        場所クイズ
-      </button>
-      <button class="nav-btn" onclick="showPage('list-page', this)">
-        省別一覧
-      </button>
+      <button class="nav-btn active" onclick="showPage('quiz-page', this)">場所クイズ</button>
+      <button class="nav-btn" onclick="showPage('list-page', this)">省別一覧</button>
     </nav>
 
     <div class="container">
       <div id="quiz-page" class="page active">
         <div class="panel">
-          <div
-            id="progress"
-            style="font-size: 12px; color: #999; margin-bottom: 5px"
-          >
-            0 / 0
-          </div>
+          <div id="progress" style="font-size: 12px; color: #999; margin-bottom: 5px;">0 / 0</div>
           <div class="map-box">
-            <img id="map-img" src="" alt="Image Loading..." />
+             <img id="map-img" src="" alt="Loading..." />
           </div>
-
+          
           <div id="answer-area">
-            <button
-              id="review-btn"
-              class="review-toggle"
-              onclick="toggleReview()"
-            >
-              ☆ 復習に追加
-            </button>
-            <div
-              id="name-jp"
-              style="font-size: 24px; font-weight: bold; color: #333"
-            ></div>
-            <div
-              id="name-cn"
-              style="font-size: 16px; color: var(--primary); font-weight: bold"
-            ></div>
+            <button id="review-btn" class="review-toggle" onclick="toggleReview()">☆ 復習に追加</button>
+            <div id="name-jp" style="font-size: 24px; font-weight: bold; color: #333;"></div>
+            <div id="name-cn" style="font-size: 16px; color: var(--primary); font-weight: bold;"></div>
           </div>
         </div>
       </div>
@@ -203,57 +146,55 @@
     </div>
 
     <script>
+      // 画像フォルダへのパス
       const IMAGE_PATH = "china_province_images/";
 
-      // 生成されたファイル名（shapeName）に完全に準拠
+      // Git上の実際のファイル名に完全に合わせたリスト
       const provinces = [
-        { id: "Anhui", jp: "安徽省", cn: "安徽省" },
-        { id: "Beijing", jp: "北京市", cn: "北京市" },
-        { id: "Chongqing", jp: "重慶市", cn: "重庆市" },
-        { id: "Fujian", jp: "福建省", cn: "福建省" },
-        { id: "Gansu", jp: "甘粛省", cn: "甘肃省" },
-        { id: "Guangdong", jp: "広東省", cn: "广东省" },
-        { id: "Guangxi", jp: "広西チワン族自治区", cn: "广西壮族自治区" },
-        { id: "Guizhou", jp: "貴州省", cn: "贵州省" },
-        { id: "Hainan", jp: "海南省", cn: "海南省" },
-        { id: "Hebei", jp: "河北省", cn: "河北省" },
-        { id: "Heilongjiang", jp: "黒竜江省", cn: "黑龙江省" },
-        { id: "Henan", jp: "河南省", cn: "河南省" },
-        { id: "Hubei", jp: "湖北省", cn: "湖北省" },
-        { id: "Hunan", jp: "湖南省", cn: "湖南省" },
-        { id: "Inner_Mongolia", jp: "内モンゴル自治区", cn: "内蒙古自治区" },
-        { id: "Jiangsu", jp: "江蘇省", cn: "江苏省" },
-        { id: "Jiangxi", jp: "江西省", cn: "江西省" },
-        { id: "Jilin", jp: "吉林省", cn: "吉林省" },
-        { id: "Liaoning", jp: "遼寧省", cn: "辽宁省" },
-        { id: "Ningxia", jp: "寧夏回族自治区", cn: "宁夏回族自治区" },
-        { id: "Qinghai", jp: "青海省", cn: "青海省" },
-        { id: "Shaanxi", jp: "陝西省", cn: "陕西省" },
-        { id: "Shandong", jp: "山東省", cn: "山东省" },
-        { id: "Shanghai", jp: "上海市", cn: "上海市" },
-        { id: "Shanxi", jp: "山西省", cn: "山西省" },
-        { id: "Sichuan", jp: "四川省", cn: "四川省" },
-        { id: "Tianjin", jp: "天津市", cn: "天津市" },
-        { id: "Tibet", jp: "チベット自治区", cn: "西藏自治区" },
-        { id: "Xinjiang", jp: "新疆ウイグル自治区", cn: "新疆维吾尔自治区" },
-        { id: "Yunnan", jp: "雲南省", cn: "云南省" },
-        { id: "Zhejiang", jp: "浙江省", cn: "浙江省" },
+        { id: "Anhui_Province", jp: "安徽省", cn: "安徽省" },
+        { id: "Beijing_Municipality", jp: "北京市", cn: "北京市" },
+        { id: "Chongqing_Municipality", jp: "重慶市", cn: "重庆市" },
+        { id: "Fujian_Province", jp: "福建省", cn: "福建省" },
+        { id: "Gansu_Province", jp: "甘粛省", cn: "甘肃省" },
+        { id: "Guangxi_Zhuang_Autonomous_Region", jp: "広西チワン族自治区", cn: "广西壮族自治区" },
+        { id: "Guangzhou_Province", jp: "広東省", cn: "广东省" },
+        { id: "Guizhou_Province", jp: "貴州省", cn: "贵州省" },
+        { id: "Hainan_Province", jp: "海南省", cn: "海南省" },
+        { id: "Hebei_Province", jp: "河北省", cn: "河北省" },
+        { id: "Heilongjiang_Province", jp: "黒竜江省", cn: "黑龙江省" },
+        { id: "Henan_Province", jp: "河南省", cn: "河南省" },
+        { id: "Hong_Kong_Special_Administrative_Region", jp: "香港特別行政区", cn: "香港特别行政区" },
+        { id: "Hubei_Province", jp: "湖北省", cn: "湖北省" },
+        { id: "Hunan_Province", jp: "湖南省", cn: "湖南省" },
+        { id: "Inner_Mongolia_Autonomous_Region", jp: "内モンゴル自治区", cn: "内蒙古自治区" },
+        { id: "Jiangsu_Province", jp: "江蘇省", cn: "江苏省" },
+        { id: "Jiangxi_Province", jp: "江西省", cn: "江西省" },
+        { id: "Jilin_Province", jp: "吉林省", cn: "吉林省" },
+        { id: "Liaoning_Province", jp: "遼寧省", cn: "辽宁省" },
+        { id: "Macau_Special_Administrative_Region", jp: "マカオ特別行政区", cn: "澳门特别行政区" },
+        { id: "Ningxia_Ningxia_Hui_Autonomous_Region", jp: "寧夏回族自治区", cn: "宁夏回族自治区" },
+        { id: "Qinghai_Province", jp: "青海省", cn: "青海省" },
+        { id: "Shaanxi_Province", jp: "陝西省", cn: "陕西省" },
+        { id: "Shandong_Province", jp: "山東省", cn: "山东省" },
+        { id: "Shanghai_Municipality", jp: "上海市", cn: "上海市" },
+        { id: "Shanxi_Province", jp: "山西省", cn: "山西省" },
+        { id: "Sichuan_Province", jp: "四川省", cn: "四川省" },
+        { id: "Tianjin_Municipality", jp: "天津市", cn: "天津市" },
+        { id: "Tibet_Autonomous_Region", jp: "チベット自治区", cn: "西藏自治区" },
+        { id: "Xinjiang_Uyghur_Autonomous_Region", jp: "新疆ウイグル自治区", cn: "新疆维吾尔自治区" },
+        { id: "Yunnan_Province", jp: "雲南省", cn: "云南省" },
+        { id: "Zhejiang_Province", jp: "浙江省", cn: "浙江省" }
       ];
 
       let quizList = [];
       let currentIdx = 0;
       let isShowingAnswer = false;
-      let reviewedIds =
-        JSON.parse(localStorage.getItem("chinaMapLocalV3")) || [];
+      let reviewedIds = JSON.parse(localStorage.getItem('chinaMapGitV4')) || [];
 
       function showPage(pageId, btn) {
-        document
-          .querySelectorAll(".page")
-          .forEach((p) => p.classList.remove("active"));
+        document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
         document.getElementById(pageId).classList.add("active");
-        document
-          .querySelectorAll(".nav-btn")
-          .forEach((b) => b.classList.remove("active"));
+        document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
       }
 
@@ -266,13 +207,11 @@
       function showQuestion() {
         isShowingAnswer = false;
         const p = quizList[currentIdx];
-        // ファイル名は "{shapeName}.png"
         document.getElementById("map-img").src = IMAGE_PATH + p.id + ".png";
         document.getElementById("name-jp").textContent = "";
         document.getElementById("name-cn").textContent = "";
         document.getElementById("action-btn").textContent = "答えを見る";
-        document.getElementById("progress").textContent =
-          `${currentIdx + 1} / ${quizList.length}`;
+        document.getElementById("progress").textContent = `${currentIdx + 1} / ${quizList.length}`;
         updateReviewBtnUI();
       }
 
@@ -294,7 +233,7 @@
         const idx = reviewedIds.indexOf(id);
         if (idx > -1) reviewedIds.splice(idx, 1);
         else reviewedIds.push(id);
-        localStorage.setItem("chinaMapLocalV3", JSON.stringify(reviewedIds));
+        localStorage.setItem('chinaMapGitV4', JSON.stringify(reviewedIds));
         updateReviewBtnUI();
         renderList();
       }
@@ -302,24 +241,20 @@
       function updateReviewBtnUI() {
         const btn = document.getElementById("review-btn");
         if (reviewedIds.includes(quizList[currentIdx].id)) {
-          btn.classList.add("active");
-          btn.textContent = "★ 復習中";
+          btn.classList.add("active"); btn.textContent = "★ 復習中";
         } else {
-          btn.classList.remove("active");
-          btn.textContent = "☆ 復習に追加";
+          btn.classList.remove("active"); btn.textContent = "☆ 復習に追加";
         }
       }
 
       function renderList() {
         const container = document.getElementById("list-container");
         container.innerHTML = "";
-        provinces.forEach((p) => {
+        provinces.forEach(p => {
           const div = document.createElement("div");
           div.className = "list-item";
-          const star = reviewedIds.includes(p.id)
-            ? '<span style="color:var(--secondary); float:right;">★</span>'
-            : "";
-          div.innerHTML = `${star}<img src="${IMAGE_PATH}${p.id}.png" loading="lazy"><div style="margin-top:5px;">${p.jp}</div>`;
+          const star = reviewedIds.includes(p.id) ? '<span style="color:var(--secondary); float:right;">★</span>' : '';
+          div.innerHTML = `${star}<img src="${IMAGE_PATH}${p.id}.png" loading="lazy"><div>${p.jp}</div>`;
           container.appendChild(div);
         });
       }
