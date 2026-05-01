@@ -7,16 +7,19 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 
 # 中国
 
-
 ## カテゴリ
 
-### 統計
-- 中国国家統計局 月次データ([https://data.stats.gov.cn/dg/website/page.html#/pc/national/en/monthData])
+### 各種サイト
+
+- 中国国家統計局 月次データ
+  [https://data.stats.gov.cn/dg/website/page.html#/pc/national/en/monthData](https://data.stats.gov.cn/dg/website/page.html#/pc/national/en/monthData)
 
 ### 歴史・政治
 
 <!-- - [近代からの歴史年表]() -->
+
 - [天安門事件](./tiananmen/tiananmen.md)
+
 <!-- - [反日教育]()
 - [南京大虐殺]()
 - [ウイグル問題]()
