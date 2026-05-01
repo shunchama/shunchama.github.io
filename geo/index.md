@@ -10,6 +10,7 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 ## カテゴリ
 
 - [国旗覚えゲーム](./dev/flag-master.html)
+- [中華人民共和国の省名暗記ゲーム](./dev/china-map-master.html)
 - [知識(準備中)](#)
 - [QGIS(準備中)](#)
 - [日記(準備中)](#)

@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHINA-MAP-MASTER</title>
+    <style>
+      :root {
+        --primary: #c0392b; /* 中国紅 */
+        --secondary: #f1c40f; /* 旗の黄色 */
+        --accent: #e67e22;
+        --review: #f1c40f;
+        --bg: #fdf2e9;
+      }
+      body {
+        font-family:
+          "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
+        text-align: center;
+        background: var(--bg);
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .nav-btn {
+        padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+        background: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: #7f8c8d;
+        border-bottom: 3px solid transparent;
+      }
+      .nav-btn.active {
+        color: var(--primary);
+        border-bottom: 3px solid var(--primary);
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 15px;
+      }
+      .page {
+        display: none;
+      }
+      .page.active {
+        display: block;
+      }
+
+      .panel {
+        background: white;
+        max-width: 550px;
+        margin: 0 auto 20px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Map Display Area */
+      .map-box {
+        width: 100%;
+        height: 300px;
+        background: #eef2f3;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      #map-img {
+        max-width: 95%;
+        max-height: 95%;
+        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1));
+      }
+
+      #answer-area {
+        min-height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .review-toggle {
+        background: none;
+        border: 2px solid var(--review);
+        color: var(--review);
+        padding: 6px 12px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .review-toggle.active {
+        background: var(--review);
+        color: white;
+      }
+
+      #action-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        cursor: pointer;
+        background: var(--primary);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 0 #922b21;
+      }
+      #action-btn:active {
+        transform: translateY(2px);
+        box-shadow: none;
+      }
+
+      /* List Grid */
+      .list-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 10px;
+      }
+      .list-item {
+        background: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+      .list-item img {
+        width: 100%;
+        height: 80px;
+        object-fit: contain;
+      }
+
+      footer {
+        margin-top: 40px;
+        padding: 20px;
+        color: #7f8c8d;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <button
+        class="nav-btn"
+        onclick="location.href = 'https://shunchama.github.io/geo/'"
+      >
+        ポータル
+      </button>
+      <button class="nav-btn active" onclick="showPage('quiz-page', this)">
+        場所クイズ
+      </button>
+      <button class="nav-btn" onclick="showPage('list-page', this)">
+        省別一覧
+      </button>
+    </nav>
+
+    <div class="container">
+      <div id="quiz-page" class="page active">
+        <div class="panel">
+          <div
+            id="progress"
+            style="margin-bottom: 10px; font-weight: bold; color: #555"
+          >
+            0 / 0
+          </div>
+          <div class="map-box">
+            <img id="map-img" src="" alt="China Map Highlight" />
+          </div>
+
+          <div id="answer-area">
+            <button
+              id="review-btn"
+              class="review-toggle"
+              onclick="toggleReview()"
+            >
+              ☆ 復習に追加
+            </button>
+            <p
+              id="name-jp"
+              style="font-size: 26px; font-weight: bold; margin: 0"
+            ></p>
+            <p
+              id="name-cn"
+              style="color: var(--primary); font-size: 18px; margin: 5px 0"
+            ></p>
+            <p id="name-en" style="color: #95a5a6; margin: 5px 0"></p>
+          </div>
+
+          <button id="action-btn">答えを見る</button>
+        </div>
+      </div>
+
+      <div id="list-page" class="page">
+        <div class="list-grid" id="list-container"></div>
+      </div>
+    </div>
+
+    <script>
+      // 台湾を除く全31行政区
+      const provinces = [
+        {
+          id: "Anhui",
+          jp: "安徽省",
+          cn: "安徽省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Anhui_in_China_%28de-facto%29.svg/250px-Anhui_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Beijing",
+          jp: "北京市",
+          cn: "北京市",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Beijing_in_China_%28de-facto%29.svg/250px-Beijing_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Chongqing",
+          jp: "重慶市",
+          cn: "重庆市",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Chongqing_in_China_%28de-facto%29.svg/250px-Chongqing_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Fujian",
+          jp: "福建省",
+          cn: "福建省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Fujian_in_China_%28de-facto%29.svg/250px-Fujian_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Gansu",
+          jp: "甘粛省",
+          cn: "甘肃省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Gansu_in_China_%28de-facto%29.svg/250px-Gansu_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Guangdong",
+          jp: "広東省",
+          cn: "广东省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Guangdong_in_China_%28de-facto%29.svg/250px-Guangdong_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Guangxi",
+          jp: "広西チワン族自治区",
+          cn: "广西壮族自治区",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Guangxi_in_China_%28de-facto%29.svg/250px-Guangxi_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Guizhou",
+          jp: "貴州省",
+          cn: "贵州省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Guizhou_in_China_%28de-facto%29.svg/250px-Guizhou_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Hainan",
+          jp: "海南省",
+          cn: "海南省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Hainan_in_China_%28de-facto%29.svg/250px-Hainan_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Hebei",
+          jp: "河北省",
+          cn: "河北省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Hebei_in_China_%28de-facto%29.svg/250px-Hebei_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Heilongjiang",
+          jp: "黒竜江省",
+          cn: "黑龙江省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Heilongjiang_in_China_%28de-facto%29.svg/250px-Heilongjiang_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Henan",
+          jp: "河南省",
+          cn: "河南省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Henan_in_China_%28de-facto%29.svg/250px-Henan_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Hubei",
+          jp: "湖北省",
+          cn: "湖北省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Hubei_in_China_%28de-facto%29.svg/250px-Hubei_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Hunan",
+          jp: "湖南省",
+          cn: "湖南省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Hunan_in_China_%28de-facto%29.svg/250px-Hunan_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Inner Mongolia",
+          jp: "内モンゴル自治区",
+          cn: "内蒙古自治区",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Inner_Mongolia_in_China_%28de-facto%29.svg/250px-Inner_Mongolia_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Jiangsu",
+          jp: "江蘇省",
+          cn: "江苏省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jiangsu_in_China_%28de-facto%29.svg/250px-Jiangsu_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Jiangxi",
+          jp: "江西省",
+          cn: "江西省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Jiangxi_in_China_%28de-facto%29.svg/250px-Jiangxi_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Jilin",
+          jp: "吉林省",
+          cn: "吉林省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jilin_in_China_%28de-facto%29.svg/250px-Jilin_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Liaoning",
+          jp: "遼寧省",
+          cn: "辽宁省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liaoning_in_China_%28de-facto%29.svg/250px-Liaoning_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Ningxia",
+          jp: "寧夏回族自治区",
+          cn: "宁夏回族自治区",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ningxia_in_China_%28de-facto%29.svg/250px-Ningxia_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Qinghai",
+          jp: "青海省",
+          cn: "青海省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Qinghai_in_China_%28de-facto%29.svg/250px-Qinghai_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Shaanxi",
+          jp: "陝西省",
+          cn: "陕西省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Shaanxi_in_China_%28de-facto%29.svg/250px-Shaanxi_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Shandong",
+          jp: "山東省",
+          cn: "山东省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Shandong_in_China_%28de-facto%29.svg/250px-Shandong_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Shanghai",
+          jp: "上海市",
+          cn: "上海市",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Shanghai_in_China_%28de-facto%29.svg/250px-Shanghai_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Shanxi",
+          jp: "山西省",
+          cn: "山西省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Shanxi_in_China_%28de-facto%29.svg/250px-Shanxi_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Sichuan",
+          jp: "四川省",
+          cn: "四川省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Sichuan_in_China_%28de-facto%29.svg/250px-Sichuan_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Tianjin",
+          jp: "天津市",
+          cn: "天津市",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Tianjin_in_China_%28de-facto%29.svg/250px-Tianjin_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Tibet",
+          jp: "チベット自治区",
+          cn: "西藏自治区",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tibet_in_China_%28de-facto%29.svg/250px-Tibet_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Xinjiang",
+          jp: "新疆ウイグル自治区",
+          cn: "新疆维吾尔自治区",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Xinjiang_in_China_%28de-facto%29.svg/250px-Xinjiang_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Yunnan",
+          jp: "雲南省",
+          cn: "云南省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Yunnan_in_China_%28de-facto%29.svg/250px-Yunnan_in_China_%28de-facto%29.svg.png",
+        },
+        {
+          id: "Zhejiang",
+          jp: "浙江省",
+          cn: "浙江省",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Zhejiang_in_China_%28de-facto%29.svg/250px-Zhejiang_in_China_%28de-facto%29.svg.png",
+        },
+      ];
+
+      let quizList = [];
+      let currentIdx = 0;
+      let isShowingAnswer = false;
+      let reviewedIds =
+        JSON.parse(localStorage.getItem("chinaMapReview")) || [];
+
+      function showPage(pageId, btn) {
+        document
+          .querySelectorAll(".page")
+          .forEach((p) => p.classList.remove("active"));
+        document.getElementById(pageId).classList.add("active");
+        document
+          .querySelectorAll(".nav-btn")
+          .forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+      }
+
+      function init() {
+        quizList = [...provinces].sort(() => Math.random() - 0.5);
+        showQuestion();
+        renderList();
+      }
+
+      function showQuestion() {
+        isShowingAnswer = false;
+        const p = quizList[currentIdx];
+        document.getElementById("map-img").src = p.img;
+        document.getElementById("name-jp").textContent = "";
+        document.getElementById("name-cn").textContent = "";
+        document.getElementById("name-en").textContent = "";
+        document.getElementById("action-btn").textContent = "答えを見る";
+        document.getElementById("progress").textContent =
+          `問題: ${currentIdx + 1} / ${quizList.length}`;
+        updateReviewBtnUI();
+      }
+
+      document.getElementById("action-btn").onclick = () => {
+        if (!isShowingAnswer) {
+          const p = quizList[currentIdx];
+          document.getElementById("name-jp").textContent = p.jp;
+          document.getElementById("name-cn").textContent = p.cn;
+          document.getElementById("name-en").textContent = p.id;
+          document.getElementById("action-btn").textContent = "次へ";
+          isShowingAnswer = true;
+        } else {
+          currentIdx = (currentIdx + 1) % quizList.length;
+          showQuestion();
+        }
+      };
+
+      function toggleReview() {
+        const id = quizList[currentIdx].id;
+        const idx = reviewedIds.indexOf(id);
+        if (idx > -1) reviewedIds.splice(idx, 1);
+        else reviewedIds.push(id);
+        localStorage.setItem("chinaMapReview", JSON.stringify(reviewedIds));
+        updateReviewBtnUI();
+        renderList();
+      }
+
+      function updateReviewBtnUI() {
+        const btn = document.getElementById("review-btn");
+        if (reviewedIds.includes(quizList[currentIdx].id)) {
+          btn.classList.add("active");
+          btn.textContent = "★ 復習中";
+        } else {
+          btn.classList.remove("active");
+          btn.textContent = "☆ 復習に追加";
+        }
+      }
+
+      function renderList() {
+        const container = document.getElementById("list-container");
+        container.innerHTML = "";
+        provinces.forEach((p) => {
+          const div = document.createElement("div");
+          div.className = "list-item";
+          const star = reviewedIds.includes(p.id)
+            ? '<span style="color:var(--review); float:right;">★</span>'
+            : "";
+          div.innerHTML = `${star}<img src="${p.img}"><div style="font-weight:bold; font-size:12px;">${p.jp}</div>`;
+          container.appendChild(div);
+        });
+      }
+
+      init();
+    </script>
+    <footer>© 2026 CHINA-MAP-MASTER | Built for Study</footer>
+  </body>
+</html>
