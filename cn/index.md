@@ -11,7 +11,7 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 
 ### 各種サイト
 
-- 中国国家統計局 月次データ
+- 中国国家統計局 月次データ(National Bureau of Statistics of China)
   [https://data.stats.gov.cn/dg/website/page.html#/pc/national/en/monthData](https://data.stats.gov.cn/dg/website/page.html#/pc/national/en/monthData)
 
 ### 歴史・政治
