@@ -7,7 +7,7 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 
 # 便利ツール
 
-- [電気料金計算](./calc_electricity_price.html)
+- [電気料金計算機](./calc_electricity_price.html)
 
 ---
 

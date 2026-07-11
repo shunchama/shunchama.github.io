@@ -30,28 +30,97 @@
     <div class="card">
       <h2>電気料金計算</h2>
       <label>消費電力 (W):</label>
-      <input type="number" id="watts" value="1000" />
+      <input type="number" id="watts" value="300" />
 
       <label>使用時間 (時間/日):</label>
       <input type="number" id="hours" value="1" />
 
-      <label>電力会社:</label>
-      <select id="electricityProvider" onchange="calculate()">
-        <option value="31">
-          全国家庭電気製品公正取引協議会目安 (31円/kWh)
-        </option>
-        <option value="28">電力会社A (28円/kWh)</option>
-        <option value="35">電力会社B (35円/kWh)</option>
-        <option value="25">電力会社C (25円/kWh)</option>
-      </select>
+      <label>1kWhあたりの単価 (円):</label>
+      <input
+        type="number"
+        id="ratePerkWh"
+        value="31"
+        step="0.1"
+        oninput="calculate()"
+      />
+      <p
+        style="
+          font-size: 0.9em;
+          color: #666;
+          margin-top: -5px;
+          margin-bottom: 10px;
+        "
+      >
+        ※参考: 全国家庭電気製品公正取引協議会目安 31円/kWh
+      </p>
+
+      <label>計算日数:</label>
+      <input type="number" id="days" value="1" min="1" oninput="calculate()" />
 
       <button onclick="calculate()">計算する</button>
 
       <h3 id="result">料金: - 円</h3>
 
       <hr />
-      <div>計算式: (W ÷ 1000) × 時間 × 単価</div>
+      <div>計算式: (W ÷ 1000) × 時間 × 単価 × 日数</div>
       <hr />
+
+      <h3>主要電力会社の料金ページ</h3>
+      <ul style="list-style-type: none; padding: 0">
+        <li>
+          <a
+            href="https://www.tepco.co.jp/ep/private/plan/index.html"
+            target="_blank"
+            >東京電力エナジーパートナー</a
+          >
+        </li>
+        <li><a href="https://kepco.jp/ryokin/" target="_blank">関西電力</a></li>
+        <li>
+          <a href="https://www.chuden.co.jp/ryokin/" target="_blank"
+            >中部電力ミライズ</a
+          >
+        </li>
+        <li>
+          <a href="https://kyuden.co.jp/rate/" target="_blank">九州電力</a>
+        </li>
+        <li>
+          <a
+            href="https://www.tohoku-epco.co.jp/d_ryokin/index.html"
+            target="_blank"
+            >東北電力</a
+          >
+        </li>
+        <li>
+          <a href="https://www.rikuden.co.jp/ryokin/" target="_blank"
+            >北陸電力</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.hepco.co.jp/home/ryokin/index.html"
+            target="_blank"
+            >北海道電力</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.energia.co.jp/e/home/ryokin/index.html"
+            target="_blank"
+            >中国電力</a
+          >
+        </li>
+        <li>
+          <a href="https://www.yonden.co.jp/ryokin/index.html" target="_blank"
+            >四国電力</a
+          >
+        </li>
+        <li>
+          <a href="https://www.okiden.co.jp/charge/index.html" target="_blank"
+            >沖縄電力</a
+          >
+        </li>
+        <!-- 必要に応じて他の電力会社も追加してください -->
+      </ul>
     </div>
 
     <script>
@@ -59,25 +128,44 @@
         // 入力値を取得
         const watts = parseFloat(document.getElementById("watts").value);
         const hours = parseFloat(document.getElementById("hours").value);
-
-        // 選択された電力会社の1kWhあたりの単価を取得
-        const electricityProviderSelect = document.getElementById(
-          "electricityProvider",
+        const ratePerkWh = parseFloat(
+          document.getElementById("ratePerkWh").value,
         );
-        const ratePerkWh = parseFloat(electricityProviderSelect.value);
-        const selectedProviderText =
-          electricityProviderSelect.options[
-            electricityProviderSelect.selectedIndex
-          ].text;
+        const days = parseFloat(document.getElementById("days").value);
 
-        // 計算ロジック: (W ÷ 1000) × 時間 × 単価
-        const kWh = (watts / 1000) * hours;
-        const rawPrice = kWh * ratePerkWh;
-        const price = rawPrice.toFixed(1); // 小数第一位まで表示
+        // 入力値のバリデーション (負の数やNaNを防ぐ)
+        if (isNaN(watts) || watts < 0) {
+          document.getElementById("result").innerText =
+            "消費電力は0以上の数値を入力してください。";
+          return;
+        }
+        if (isNaN(hours) || hours < 0) {
+          document.getElementById("result").innerText =
+            "使用時間は0以上の数値を入力してください。";
+          return;
+        }
+        if (isNaN(ratePerkWh) || ratePerkWh < 0) {
+          document.getElementById("result").innerText =
+            "単価は0以上の数値を入力してください。";
+          return;
+        }
+        if (isNaN(days) || days < 1) {
+          document.getElementById("result").innerText =
+            "日数は1以上の数値を入力してください。";
+          return;
+        }
+
+        // 計算ロジック: (W ÷ 1000) × 時間 × 単価 × 日数
+        const kWhPerDay = (watts / 1000) * hours;
+        const rawPrice = kWhPerDay * ratePerkWh * days;
+        const price = rawPrice.toLocaleString(undefined, {
+          minimumFractionDigits: 1,
+          maximumFractionDigits: 1,
+        }); // 3桁区切りと小数第一位表示
 
         // 結果を表示
         document.getElementById("result").innerText =
-          `料金: 約 ${price} 円 / 日`;
+          `料金: 約 ${price} 円 / ${days} 日間`;
       }
 
       // ページ読み込み時と電力会社選択時に計算を実行
