@@ -68,7 +68,8 @@
 
         // 計算ロジック: (W ÷ 1000) × 時間 × 単価
         const kWh = (watts / 1000) * hours;
-        const price = kWh * ratePerkWh; // 小数第一位まで
+        const rawPrice = kWh * ratePerkWh;
+        const price = rawPrice.toFixed(1); // 小数第一位まで表示
 
         // 結果を表示
         document.getElementById("result").innerText =
