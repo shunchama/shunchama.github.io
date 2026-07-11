@@ -15,6 +15,7 @@ nav_order: 1
 - [地理](./geo/)
 - [統計](./statistics/)
 - [便利ウェブツール](./variety/)
+- [調べた用語](./terms)
 
 ---
 
