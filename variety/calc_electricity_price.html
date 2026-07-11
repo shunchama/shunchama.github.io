@@ -1,46 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>簡易・電気料金計算機</title>
     <style>
-        body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
-        .card { background: white; padding: 20px; border-radius: 8px; max-width: 400px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        input, button { width: 100%; padding: 10px; margin: 10px 0; box-sizing: border-box; }
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+        background: #f4f4f4;
+      }
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 400px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      input,
+      button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="card">
+      <h2>電気料金計算</h2>
+      <label>消費電力 (W):</label>
+      <input type="number" id="watts" value="1000" />
 
-<div class="card">
-    <h2>電気料金計算</h2>
-    <label>消費電力 (W):</label>
-    <input type="number" id="watts" value="1000">
-    
-    <label>使用時間 (時間/日):</label>
-    <input type="number" id="hours" value="1">
-    
-    <button onclick="calculate()">計算する</button>
-    
-    <h3 id="result">料金: - 円</h3>
-</div>
+      <label>使用時間 (時間/日):</label>
+      <input type="number" id="hours" value="1" />
 
-<script>
-function calculate() {
-    // 入力値を取得
-    const watts = parseFloat(document.getElementById('watts').value);
-    const hours = parseFloat(document.getElementById('hours').value);
-    
-    // 1kWhあたりの単価（例: 31円 ※全国家庭電気製品公正取引協議会目安）
-    const ratePerkWh = 31; 
-    
-    // 計算ロジック: (W ÷ 1000) × 時間 × 単価
-    const kWh = (watts / 1000) * hours;
-    const price = Math.round(kWh * ratePerkWh);
-    
-    // 結果を表示
-    document.getElementById('result').innerText = `料金: 約 ${price} 円 / 日`;
-}
-</script>
+      <label>電力会社:</label>
+      <select id="electricityProvider" onchange="calculate()">
+        <option value="31">
+          全国家庭電気製品公正取引協議会目安 (31円/kWh)
+        </option>
+        <option value="28">電力会社A (28円/kWh)</option>
+        <option value="35">電力会社B (35円/kWh)</option>
+        <option value="25">電力会社C (25円/kWh)</option>
+      </select>
 
-</body>
+      <button onclick="calculate()">計算する</button>
+
+      <h3 id="result">料金: - 円</h3>
+    </div>
+
+    <script>
+      function calculate() {
+        // 入力値を取得
+        const watts = parseFloat(document.getElementById("watts").value);
+        const hours = parseFloat(document.getElementById("hours").value);
+
+        // 選択された電力会社の1kWhあたりの単価を取得
+        const electricityProviderSelect = document.getElementById(
+          "electricityProvider",
+        );
+        const ratePerkWh = parseFloat(electricityProviderSelect.value);
+        const selectedProviderText =
+          electricityProviderSelect.options[
+            electricityProviderSelect.selectedIndex
+          ].text;
+
+        // 計算ロジック: (W ÷ 1000) × 時間 × 単価
+        const kWh = (watts / 1000) * hours;
+        const price = Math.round(kWh * ratePerkWh);
+
+        // 結果を表示
+        document.getElementById("result").innerText =
+          `料金: 約 ${price} 円 / 日 (${selectedProviderText} の単価)`;
+      }
+
+      // ページ読み込み時と電力会社選択時に計算を実行
+      window.onload = function () {
+        calculate();
+      };
+    </script>
+  </body>
 </html>
