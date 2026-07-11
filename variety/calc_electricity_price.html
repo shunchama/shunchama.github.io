@@ -13,7 +13,8 @@
         background: white;
         padding: 20px;
         border-radius: 8px;
-        max-width: auto;
+        max-width: 500px; /* カードの最大幅を設定 */
+        margin: 20px auto; /* 上下20px、左右autoで中央寄せ */
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
       input,
@@ -67,11 +68,11 @@
 
         // 計算ロジック: (W ÷ 1000) × 時間 × 単価
         const kWh = (watts / 1000) * hours;
-        const price = Math.round(kWh * ratePerkWh);
+        const price = Math.round(kWh * ratePerkWh * 10) / 10; // 小数第一位まで
 
         // 結果を表示
         document.getElementById("result").innerText =
-          `料金: 約 ${price} 円 / 日 (${selectedProviderText} の単価)`;
+          `料金: 約 ${price} 円 / 日`;
       }
 
       // ページ読み込み時と電力会社選択時に計算を実行
