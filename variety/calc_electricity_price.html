@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>簡易・電気料金計算機</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+        .card { background: white; padding: 20px; border-radius: 8px; max-width: 400px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        input, button { width: 100%; padding: 10px; margin: 10px 0; box-sizing: border-box; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>電気料金計算</h2>
+    <label>消費電力 (W):</label>
+    <input type="number" id="watts" value="1000">
+    
+    <label>使用時間 (時間/日):</label>
+    <input type="number" id="hours" value="1">
+    
+    <button onclick="calculate()">計算する</button>
+    
+    <h3 id="result">料金: - 円</h3>
+</div>
+
+<script>
+function calculate() {
+    // 入力値を取得
+    const watts = parseFloat(document.getElementById('watts').value);
+    const hours = parseFloat(document.getElementById('hours').value);
+    
+    // 1kWhあたりの単価（例: 31円 ※全国家庭電気製品公正取引協議会目安）
+    const ratePerkWh = 31; 
+    
+    // 計算ロジック: (W ÷ 1000) × 時間 × 単価
+    const kWh = (watts / 1000) * hours;
+    const price = Math.round(kWh * ratePerkWh);
+    
+    // 結果を表示
+    document.getElementById('result').innerText = `料金: 約 ${price} 円 / 日`;
+}
+</script>
+
+</body>
+</html>
