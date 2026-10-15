@@ -1,0 +1,132 @@
+---
+layout: default
+title: 中国ニュース
+parent: 中国
+nav_order: 1
+---
+
+<h1>中国ニュース</h1>
+
+{% assign news = site.data.cn_news %}
+
+<p class="cn-news-meta">
+  各媒体のRSSから見出しを自動収集しています（1日4回更新・直近14日分）。
+  記事の本文は各媒体のサイトでご覧ください。
+  {% if news.updated %}<br>最終更新: {{ news.updated | date: "%Y-%m-%d %H:%M" }} JST{% endif %}
+</p>
+
+<style>
+  .cn-news-controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; align-items: center; }
+  .cn-news-controls button {
+    background: #111; color: #ddd; border: 1px solid #444; border-radius: 14px;
+    padding: 3px 12px; font-size: 0.85em; cursor: pointer;
+  }
+  .cn-news-controls button[aria-pressed="true"] { background: #00d4ff; color: #000; border-color: #00d4ff; }
+  .cn-news-controls input {
+    background: #111; color: #fff; border: 1px solid #444; border-radius: 4px;
+    padding: 4px 8px; min-width: 180px; flex: 1 1 180px; max-width: 320px;
+  }
+  .cn-news-day h3 { margin: 24px 0 8px; font-size: 1em; color: #aaa; border-bottom: 1px solid #333; padding-bottom: 4px; }
+  .cn-news-day ul { list-style: none; margin: 0; padding: 0; }
+  .cn-news-item { margin: 0 0 10px; line-height: 1.5; }
+  .cn-news-item[hidden], .cn-news-day[hidden] { display: none; }
+  .cn-news-tag {
+    font-size: 0.7em; color: #aaa; border: 1px solid #555; padding: 1px 6px; border-radius: 3px;
+    margin-right: 6px; white-space: nowrap; display: inline-block;
+  }
+  .cn-news-sub { color: #777; font-size: 0.8em; margin-left: 6px; white-space: nowrap; }
+  .cn-news-empty { color: #888; margin-top: 24px; }
+</style>
+
+{% if news.items and news.items.size > 0 %}
+
+<div class="cn-news-controls" id="cn-news-cats" role="group" aria-label="カテゴリ"></div>
+<div class="cn-news-controls">
+  <div id="cn-news-langs" role="group" aria-label="言語" style="display:flex; gap:8px;"></div>
+  <input type="search" id="cn-news-q" placeholder="見出しを検索" aria-label="見出しを検索">
+</div>
+
+<div id="cn-news-list">
+{% assign last_day = "" %}
+{% for item in news.items %}
+  {% assign day = item.published | date: "%Y-%m-%d" %}
+  {% if day != last_day %}
+    {% unless forloop.first %}</ul></section>{% endunless %}
+    <section class="cn-news-day"><h3>{{ item.published | date: "%Y-%m-%d (%a.)" }}</h3><ul>
+    {% assign last_day = day %}
+  {% endif %}
+  <li class="cn-news-item" data-cat="{{ item.category | escape }}" data-lang="{{ item.lang | escape }}">
+    <span class="cn-news-tag">{{ item.category | escape }}</span>
+    <a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">{{ item.title | escape }}</a>
+    <span class="cn-news-sub">{{ item.source | escape }} · {{ item.published | date: "%H:%M" }}{% if item.lang == "en" %} · EN{% endif %}</span>
+  </li>
+{% endfor %}
+</ul></section>
+</div>
+
+<p class="cn-news-empty" id="cn-news-none" hidden>該当する記事がありません。</p>
+
+<script>
+(function () {
+  var items = Array.prototype.slice.call(document.querySelectorAll(".cn-news-item"));
+  var days = Array.prototype.slice.call(document.querySelectorAll(".cn-news-day"));
+  var state = { cat: "", lang: "", q: "" };
+
+  function makeButtons(container, values, key, allLabel) {
+    var counts = {};
+    items.forEach(function (li) { var v = li.dataset[key === "cat" ? "cat" : "lang"]; counts[v] = (counts[v] || 0) + 1; });
+    var defs = [{ v: "", label: allLabel + " (" + items.length + ")" }];
+    values.forEach(function (v) { if (counts[v.v]) defs.push({ v: v.v, label: v.label + " (" + counts[v.v] + ")" }); });
+    defs.forEach(function (d) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.textContent = d.label;
+      b.setAttribute("aria-pressed", String(state[key] === d.v));
+      b.addEventListener("click", function () {
+        state[key] = d.v;
+        Array.prototype.forEach.call(container.children, function (c) { c.setAttribute("aria-pressed", "false"); });
+        b.setAttribute("aria-pressed", "true");
+        apply();
+      });
+      container.appendChild(b);
+    });
+  }
+
+  function apply() {
+    var q = state.q.trim().toLowerCase();
+    var shown = 0;
+    items.forEach(function (li) {
+      var ok = (!state.cat || li.dataset.cat === state.cat) &&
+               (!state.lang || li.dataset.lang === state.lang) &&
+               (!q || li.textContent.toLowerCase().indexOf(q) !== -1);
+      li.hidden = !ok;
+      if (ok) shown++;
+    });
+    days.forEach(function (d) { d.hidden = !d.querySelector(".cn-news-item:not([hidden])"); });
+    document.getElementById("cn-news-none").hidden = shown > 0;
+  }
+
+  makeButtons(document.getElementById("cn-news-cats"),
+    [{ v: "政治・外交", label: "政治・外交" }, { v: "経済", label: "経済" },
+     { v: "軍事・安全保障", label: "軍事・安全保障" }, { v: "台湾・香港", label: "台湾・香港" },
+     { v: "社会・その他", label: "社会・その他" }], "cat", "すべて");
+  makeButtons(document.getElementById("cn-news-langs"),
+    [{ v: "ja", label: "日本語" }, { v: "en", label: "English" }], "lang", "全言語");
+  document.getElementById("cn-news-q").addEventListener("input", function (e) { state.q = e.target.value; apply(); });
+})();
+</script>
+
+{% else %}
+
+<p class="cn-news-empty">まだニュースデータがありません。</p>
+
+{% endif %}
+
+<hr>
+
+<p style="font-size: 0.85em; color: #888;">
+  収集元: Google ニュース / NHK / Yahoo!ニュース / BBC News / South China Morning Post。
+  見出しの著作権は各媒体に帰属します。分類はキーワードによる自動判定のため、誤りを含む場合があります。
+</p>
+
+© 2026 shunchama. Built with GitHub Pages.

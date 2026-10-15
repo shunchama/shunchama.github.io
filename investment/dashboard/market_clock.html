@@ -1,0 +1,185 @@
+---
+layout: default
+title: Market Clock
+parent: 投資ダッシュボード
+grand_parent: 投資情報
+nav_order: 1
+---
+
+<h1>Global Market Clock</h1>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<style>
+/* Layout: terminal header with UTC + local clock, 24h session tape, then a dense grid of exchange tiles */
+#mc-root{
+  --bg:#0b0d10; --panel:#12161b; --line:#232a32; --fg:#d9dee4; --dim:#6b7682;
+  --amber:#ffb238; --up:#3ddc84; --down:#ff5c5c; --pre:#5fa8ff;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif;
+  box-sizing:border-box;background:var(--bg);color:var(--fg);font-family:var(--mono);font-variant-numeric:tabular-nums;padding:16px;margin:16px -16px;
+}
+#mc-root *{box-sizing:border-box}
+#mc-root .wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+#mc-root header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:1px solid var(--line);padding-bottom:16px}
+#mc-root .brand{font-family:var(--cond);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:14px;color:var(--amber);display:flex;align-items:center;gap:8px}
+#mc-root .dot{width:8px;height:8px;border-radius:50%;background:var(--amber);animation:mc-blink 1s steps(2) infinite}
+@keyframes mc-blink{50%{opacity:.2}}
+@media (prefers-reduced-motion:reduce){#mc-root .dot{animation:none}}
+#mc-root .big{font-size:clamp(40px,9vw,76px);font-weight:500;line-height:1;margin-top:8px;letter-spacing:-.02em}
+#mc-root .big small{font-size:.4em;color:var(--dim);margin-left:6px}
+#mc-root .meta{font-size:12px;color:var(--dim);margin-top:6px}
+#mc-root .utc{text-align:right}
+#mc-root .utc .v{font-size:28px;color:var(--amber)}
+#mc-root .lbl{font-family:var(--cond);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+
+#mc-root .tape{background:var(--panel);border:1px solid var(--line);padding:14px 14px 10px}
+#mc-root .tape-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px;gap:8px;flex-wrap:wrap}
+#mc-root .rows{position:relative;display:grid;gap:6px}
+#mc-root .row{display:grid;grid-template-columns:72px 1fr;align-items:center;gap:8px;font-size:11px}
+#mc-root .row span{font-family:var(--cond);letter-spacing:.1em;text-transform:uppercase;color:var(--dim);font-size:12px}
+#mc-root .track{position:relative;height:14px;background:repeating-linear-gradient(90deg,var(--line) 0 1px,transparent 1px calc(100%/24))}
+#mc-root .seg{position:absolute;top:2px;bottom:2px;background:color-mix(in srgb,var(--amber) 28%,transparent);border-left:2px solid var(--amber)}
+#mc-root .seg.live{background:color-mix(in srgb,var(--up) 40%,transparent);border-color:var(--up)}
+#mc-root .axis{display:grid;grid-template-columns:72px 1fr;gap:8px;margin-top:6px}
+#mc-root .ticks{display:flex;justify-content:space-between;font-size:10px;color:var(--dim)}
+#mc-root .now{position:absolute;top:-4px;bottom:-4px;width:1px;background:var(--fg);pointer-events:none}
+#mc-root .now::after{content:"";position:absolute;top:-3px;left:-3px;border:3.5px solid transparent;border-top-color:var(--fg)}
+
+#mc-root .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+#mc-root .tile{background:var(--panel);padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+#mc-root .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+#mc-root .city{font-family:var(--cond);font-weight:600;font-size:20px;letter-spacing:.04em;text-transform:uppercase}
+#mc-root .ex{font-size:11px;color:var(--dim)}
+#mc-root .time{font-size:34px;font-weight:500;letter-spacing:-.01em}
+#mc-root .time .s{color:var(--dim);font-size:.55em}
+#mc-root .bot{display:flex;justify-content:space-between;font-size:11px;color:var(--dim);gap:8px;flex-wrap:wrap}
+#mc-root .pill{font-family:var(--cond);font-weight:700;font-size:12px;letter-spacing:.12em;padding:2px 8px;border:1px solid currentColor}
+#mc-root .open{color:var(--up)} #mc-root .closed{color:var(--down)} #mc-root .lunch{color:var(--pre)} #mc-root .wknd{color:var(--dim)}
+#mc-root .cd{color:var(--fg)}
+#mc-root footer{font-size:11px;color:var(--dim);line-height:1.6}
+</style>
+
+<div id="mc-root">
+<div class="wrap">
+  <header>
+    <div>
+      <div class="brand"><i class="dot"></i>Global Market Clock</div>
+      <div class="big" id="mc-local">--:--:--</div>
+      <div class="meta" id="mc-localMeta">LOCAL</div>
+    </div>
+    <div class="utc">
+      <div class="lbl">UTC / GMT</div>
+      <div class="v" id="mc-utc">--:--:--</div>
+      <div class="meta" id="mc-utcDate"></div>
+    </div>
+  </header>
+
+  <section class="tape" aria-label="FX sessions in UTC">
+    <div class="tape-head"><div class="lbl">FX Sessions · UTC 24h</div><div class="meta" id="mc-overlap"></div></div>
+    <div class="rows" id="mc-rows"></div>
+    <div class="axis"><div></div><div class="ticks"><span>00</span><span>04</span><span>08</span><span>12</span><span>16</span><span>20</span><span>24</span></div></div>
+  </section>
+
+  <section class="grid" id="mc-grid" aria-label="Exchanges"></section>
+
+  <footer>取引時間は各取引所の通常立会時間（現地時間・平日）。祝日・特別休場は反映していません。</footer>
+</div>
+</div>
+
+<script>
+(function(){
+const EX=[
+  {city:"Tokyo",ex:"TSE · 東証",tz:"Asia/Tokyo",s:[[540,690],[750,930]]},
+  {city:"Hong Kong",ex:"HKEX",tz:"Asia/Hong_Kong",s:[[570,720],[780,960]]},
+  {city:"Shanghai",ex:"SSE",tz:"Asia/Shanghai",s:[[570,690],[780,900]]},
+  {city:"Singapore",ex:"SGX",tz:"Asia/Singapore",s:[[540,720],[780,1020]]},
+  {city:"Sydney",ex:"ASX",tz:"Australia/Sydney",s:[[600,960]]},
+  {city:"Mumbai",ex:"NSE",tz:"Asia/Kolkata",s:[[555,930]]},
+  {city:"Dubai",ex:"DFM",tz:"Asia/Dubai",s:[[600,900]]},
+  {city:"Frankfurt",ex:"Xetra",tz:"Europe/Berlin",s:[[540,1050]]},
+  {city:"London",ex:"LSE",tz:"Europe/London",s:[[480,990]]},
+  {city:"New York",ex:"NYSE · NASDAQ",tz:"America/New_York",s:[[570,960]]},
+  {city:"Chicago",ex:"CME (Equity)",tz:"America/Chicago",s:[[510,900]]},
+  {city:"São Paulo",ex:"B3",tz:"America/Sao_Paulo",s:[[600,1020]]}
+];
+const FX=[
+  {n:"Sydney",tz:"Australia/Sydney",o:420,c:960},
+  {n:"Tokyo",tz:"Asia/Tokyo",o:540,c:1080},
+  {n:"London",tz:"Europe/London",o:480,c:1020},
+  {n:"New York",tz:"America/New_York",o:480,c:1020}
+];
+const DAYS=["SUN","MON","TUE","WED","THU","FRI","SAT"];
+const fmts={};
+function parts(tz,d){
+  const f=fmts[tz]||(fmts[tz]=new Intl.DateTimeFormat("en-US",{timeZone:tz,hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",weekday:"short"}));
+  const o={};for(const p of f.formatToParts(d))o[p.type]=p.value;
+  const y=+o.year,m=+o.month,da=+o.day,h=+o.hour,mi=+o.minute,se=+o.second;
+  const off=Math.round((Date.UTC(y,m-1,da,h,mi,se)-Math.floor(d.getTime()/1000)*1000)/60000);
+  return {y,m,da,h,mi,se,wd:DAYS.indexOf(o.weekday.toUpperCase()),off};
+}
+const p2=n=>String(n).padStart(2,"0");
+const offStr=m=>{const s=m<0?"-":"+";m=Math.abs(m);return `UTC${s}${p2(Math.floor(m/60))}:${p2(m%60)}`};
+const dur=s=>{const d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),x=s%60;return (d?d+"d ":"")+`${p2(h)}:${p2(m)}:${p2(x)}`};
+
+function status(e,p){
+  const mins=p.h*60+p.mi, wkday=p.wd>=1&&p.wd<=5;
+  let st="closed";
+  if(!wkday) st="wknd";
+  else if(e.s.some(([a,b])=>mins>=a&&mins<b)) st="open";
+  else if(mins>=e.s[0][0]&&mins<e.s[e.s.length-1][1]) st="lunch";
+  for(let d=0;d<8;d++){
+    const wd=(p.wd+d)%7; if(wd===0||wd===6) continue;
+    for(const [a,b] of e.s){
+      for(const t of [a,b]){
+        const delta=d*1440+t-mins;
+        if(delta>0){
+          const isOpen=t===a;
+          if((st==="open")!==isOpen) return {st,next:delta,verb:isOpen?"opens":"closes"};
+        }
+      }
+    }
+  }
+  return {st,next:0,verb:""};
+}
+const LABEL={open:"OPEN",closed:"CLOSED",lunch:"BREAK",wknd:"WEEKEND"};
+
+const grid=document.getElementById("mc-grid");
+grid.innerHTML=EX.map((e,i)=>`<article class="tile"><div class="top"><div><div class="city">${e.city}</div><div class="ex">${e.ex}</div></div><span class="pill" id="mc-pl${i}"></span></div><div class="time" id="mc-t${i}"></div><div class="bot"><span id="mc-o${i}"></span><span class="cd" id="mc-c${i}"></span></div></article>`).join("");
+
+const rows=document.getElementById("mc-rows");
+rows.innerHTML=FX.map((f,i)=>`<div class="row"><span>${f.n}</span><div class="track" id="mc-tr${i}"></div></div>`).join("")+`<div class="row" style="position:absolute;inset:0;pointer-events:none"><span></span><div style="position:relative;align-self:stretch"><div class="now" id="mc-now"></div></div></div>`;
+
+function tick(){
+  const d=new Date();
+  const lp=parts(Intl.DateTimeFormat().resolvedOptions().timeZone,d);
+  document.getElementById("mc-local").innerHTML=`${p2(lp.h)}:${p2(lp.mi)}<small>:${p2(lp.se)}</small>`;
+  document.getElementById("mc-localMeta").textContent=`LOCAL · ${lp.y}-${p2(lp.m)}-${p2(lp.da)} ${DAYS[lp.wd]} · ${offStr(lp.off)}`;
+  const u=parts("UTC",d);
+  document.getElementById("mc-utc").textContent=`${p2(u.h)}:${p2(u.mi)}:${p2(u.se)}`;
+  document.getElementById("mc-utcDate").textContent=`${u.y}-${p2(u.m)}-${p2(u.da)} ${DAYS[u.wd]}`;
+
+  EX.forEach((e,i)=>{
+    const p=parts(e.tz,d), s=status(e,p);
+    document.getElementById("mc-t"+i).innerHTML=`${p2(p.h)}:${p2(p.mi)}<span class="s">:${p2(p.se)}</span>`;
+    const pl=document.getElementById("mc-pl"+i);pl.className="pill "+s.st;pl.textContent=LABEL[s.st];
+    document.getElementById("mc-o"+i).textContent=`${DAYS[p.wd]} · ${offStr(p.off)}`;
+    document.getElementById("mc-c"+i).textContent=s.verb?`${s.verb} in ${dur(s.next*60-p.se)}`:"";
+  });
+
+  const nowU=u.h*60+u.mi+u.se/60, live=[];
+  FX.forEach((f,i)=>{
+    const off=parts(f.tz,d).off; let a=((f.o-off)%1440+1440)%1440, b=a+(f.c-f.o);
+    const on=(nowU>=a&&nowU<b)||(nowU+1440>=a&&nowU+1440<b);
+    const weekend=u.wd===6||(u.wd===0&&nowU<1260)||(u.wd===5&&nowU>=1320);
+    const isLive=on&&!weekend; if(isLive) live.push(f.n);
+    const segs=b>1440?[[a,1440],[0,b-1440]]:[[a,b]];
+    document.getElementById("mc-tr"+i).innerHTML=segs.map(([x,y])=>`<div class="seg${isLive?" live":""}" style="left:${x/14.4}%;width:${(y-x)/14.4}%"></div>`).join("");
+  });
+  document.getElementById("mc-now").style.left=(nowU/14.4)+"%";
+  document.getElementById("mc-overlap").textContent=live.length>1?`OVERLAP: ${live.join(" × ").toUpperCase()}`:live.length?`ACTIVE: ${live[0].toUpperCase()}`:"FX MARKET CLOSED";
+}
+tick();
+setInterval(tick,1000);
+})();
+</script>

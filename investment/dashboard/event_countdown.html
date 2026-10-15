@@ -1,0 +1,347 @@
+---
+layout: default
+title: Event Countdown
+parent: 投資ダッシュボード
+grand_parent: 投資情報
+nav_order: 2
+---
+
+<h1>Macro Event Countdown</h1>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<style>
+/* Layout: hero countdown with last print, currency filter, expandable event rows with history chart + table, add-event form */
+#ec-root{
+  --bg:#0b0d10; --panel:#12161b; --panel2:#0f1317; --line:#232a32; --fg:#d9dee4; --dim:#6b7682;
+  --amber:#ffb238; --up:#3ddc84; --down:#ff5c5c; --pre:#5fa8ff;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif;
+  box-sizing:border-box;background:var(--bg);color:var(--fg);font-family:var(--mono);font-variant-numeric:tabular-nums;padding:16px;margin:16px -16px;
+}
+#ec-root *{box-sizing:border-box}
+#ec-root .wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+#ec-root .brand{font-family:var(--cond);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:14px;color:var(--amber);display:flex;align-items:center;gap:8px}
+#ec-root .dot{width:8px;height:8px;border-radius:50%;background:var(--amber);animation:ec-blink 1s steps(2) infinite}
+@keyframes ec-blink{50%{opacity:.2}}
+@media (prefers-reduced-motion:reduce){#ec-root .dot,#ec-root .live .pill{animation:none}}
+#ec-root .lbl{font-family:var(--cond);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+#ec-root .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:12px}
+#ec-root .clock{font-size:13px;color:var(--dim)}
+
+#ec-root .hero{background:var(--panel);border:1px solid var(--line);border-top:2px solid var(--amber);padding:18px 18px 20px;display:flex;flex-direction:column;gap:8px}
+#ec-root .hero-name{font-family:var(--cond);font-weight:600;font-size:clamp(22px,5vw,30px);letter-spacing:.03em;text-transform:uppercase;text-wrap:balance}
+#ec-root .hero-cd{font-size:clamp(42px,12vw,96px);font-weight:500;line-height:1;letter-spacing:-.03em}
+#ec-root .hero-cd .d{color:var(--amber);font-size:.5em;margin-right:.2em}
+#ec-root .hero-meta{font-size:12px;color:var(--dim);display:flex;gap:14px;flex-wrap:wrap}
+#ec-root .hero-last{font-size:13px;display:flex;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:10px;margin-top:4px}
+#ec-root .hero-last b{font-weight:500}
+#ec-root .hero.soon .hero-cd{color:var(--amber)}
+#ec-root .hero.now{border-top-color:var(--up)} #ec-root .hero.now .hero-cd{color:var(--up)}
+
+#ec-root .filters{display:flex;gap:6px;flex-wrap:wrap}
+#ec-root .chip{font-family:var(--cond);font-weight:600;letter-spacing:.12em;font-size:13px;background:transparent;color:var(--dim);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+#ec-root .chip[aria-pressed="true"]{color:var(--bg);background:var(--amber);border-color:var(--amber)}
+#ec-root :focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+
+#ec-root .list{display:flex;flex-direction:column;border:1px solid var(--line);background:var(--line);gap:1px}
+#ec-root .ev{background:var(--panel)}
+#ec-root .ev-head{display:grid;grid-template-columns:54px 1fr auto;gap:12px;align-items:center;padding:12px 14px;width:100%;background:none;border:none;color:inherit;font:inherit;text-align:left}
+#ec-root .ev-head.has{cursor:pointer}
+#ec-root .ev-head.has:hover{background:var(--panel2)}
+#ec-root .ccy{font-family:var(--cond);font-weight:700;font-size:15px;letter-spacing:.08em;text-align:center;padding:4px 0;border:1px solid var(--line)}
+#ec-root .ccy.USD{color:var(--up)} #ec-root .ccy.JPY{color:var(--down)} #ec-root .ccy.EUR{color:var(--pre)} #ec-root .ccy.OTH{color:var(--amber)}
+#ec-root .info{min-width:0;display:flex;flex-direction:column;gap:3px}
+#ec-root .name{font-size:14px;font-weight:500;overflow-wrap:anywhere}
+#ec-root .sub{font-size:11px;color:var(--dim);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+#ec-root .prev{color:var(--fg)}
+#ec-root .imp{color:var(--amber);letter-spacing:1px}
+#ec-root .right{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+#ec-root .cd{font-size:16px;font-weight:500}
+#ec-root .pill{font-family:var(--cond);font-weight:700;font-size:11px;letter-spacing:.12em;padding:1px 7px;border:1px solid currentColor;color:var(--dim)}
+#ec-root .ev.live .pill{color:var(--up);animation:ec-blink 1s steps(2) infinite}
+#ec-root .ev.past .ev-head{opacity:.45}
+#ec-root .ev.soon .cd{color:var(--amber)}
+#ec-root .caret{color:var(--amber);font-size:11px}
+#ec-root .del{background:none;border:none;color:var(--dim);font:inherit;font-size:11px;cursor:pointer;padding:0;text-decoration:underline}
+
+#ec-root .hist{border-top:1px solid var(--line);background:var(--panel2);padding:14px;display:flex;flex-direction:column;gap:12px}
+#ec-root .hist-head{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:baseline}
+#ec-root .chart{width:100%;height:auto;display:block}
+#ec-root .tbl-wrap{overflow-x:auto}
+#ec-root table{border-collapse:collapse;width:100%;font-size:12px;min-width:340px}
+#ec-root th{font-family:var(--cond);font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);text-align:right;padding:6px 8px;border-bottom:1px solid var(--line);font-size:12px}
+#ec-root th:first-child,#ec-root td:first-child{text-align:left}
+#ec-root td{text-align:right;padding:6px 8px;border-bottom:1px solid var(--line)}
+#ec-root .beat{color:var(--up)} #ec-root .miss{color:var(--down)} #ec-root .inl{color:var(--dim)} #ec-root .nf{color:var(--pre)}
+#ec-root .hike{color:var(--down)} #ec-root .cut{color:var(--up)} #ec-root .hold{color:var(--dim)}
+#ec-root .src{font-size:11px;color:var(--dim)}
+#ec-root .src a{color:var(--dim)}
+#ec-root .empty{background:var(--panel);padding:20px;color:var(--dim);font-size:13px}
+
+#ec-root details{background:var(--panel);border:1px solid var(--line)}
+#ec-root summary{cursor:pointer;padding:12px 14px;font-family:var(--cond);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:13px;color:var(--amber)}
+#ec-root form{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;padding:4px 14px 16px}
+#ec-root .f{display:flex;flex-direction:column;gap:4px;min-width:0}
+#ec-root .f.wide{grid-column:1/-1}
+#ec-root input,#ec-root select{background:var(--bg);color:var(--fg);border:1px solid var(--line);font:inherit;font-size:14px;padding:8px;width:100%;min-width:0}
+#ec-root .submit{grid-column:1/-1;justify-self:start;background:var(--amber);color:var(--bg);border:none;font-family:var(--cond);font-weight:700;letter-spacing:.12em;font-size:14px;padding:9px 20px;cursor:pointer}
+#ec-root .msg{grid-column:1/-1;font-size:12px;color:var(--up);min-height:1em}
+#ec-root footer{font-size:11px;color:var(--dim);line-height:1.7}
+@media (max-width:480px){#ec-root .ev-head{grid-template-columns:44px 1fr}#ec-root .right{grid-column:2;flex-direction:row;align-items:center;gap:10px}}
+</style>
+
+<div id="ec-root">
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand"><i class="dot"></i>Macro Event Countdown</div>
+    <div class="clock" id="ec-clock"></div>
+  </div>
+
+  <section class="hero" id="ec-hero" aria-live="polite">
+    <div class="lbl">Next Release</div>
+    <div class="hero-name" id="ec-hName">—</div>
+    <div class="hero-cd" id="ec-hCd">--:--:--</div>
+    <div class="hero-meta" id="ec-hMeta"></div>
+    <div class="hero-last" id="ec-hLast" hidden></div>
+  </section>
+
+  <div class="filters" role="group" aria-label="通貨で絞り込み" id="ec-filters"></div>
+
+  <section class="list" id="ec-list" aria-label="イベント一覧"></section>
+
+  <details id="ec-addBox">
+    <summary>+ イベントを追加</summary>
+    <form id="ec-form" autocomplete="off">
+      <div class="f wide"><label class="lbl" for="ec-fName">イベント名</label><input id="ec-fName" required placeholder="例：米小売売上高"></div>
+      <div class="f"><label class="lbl" for="ec-fDate">日時（端末の現地時刻）</label><input id="ec-fDate" type="datetime-local" required></div>
+      <div class="f"><label class="lbl" for="ec-fCcy">通貨</label><select id="ec-fCcy"><option>USD</option><option>JPY</option><option>EUR</option><option>GBP</option><option>AUD</option><option>OTH</option></select></div>
+      <div class="f"><label class="lbl" for="ec-fImp">重要度</label><select id="ec-fImp"><option value="3">★★★ 高</option><option value="2" selected>★★ 中</option><option value="1">★ 低</option></select></div>
+      <button class="submit" type="submit">ADD EVENT</button>
+      <div class="msg" id="ec-msg"></div>
+    </form>
+  </details>
+
+  <footer>
+    日程・過去データは 2026年10月14日時点の公表情報から収録（FRB・BLS・ECB・日銀・総務省・内閣府）。以降の結果は自動では更新されません。<br>
+    日本の指標は市場予想（コンセンサス）を一部しか収録できていないため、予想なしの回は青で表示。<br>
+    日銀の結果発表は時刻非公表のため 11:00 JST で仮置き。表示時刻はすべてこの端末のタイムゾーン。追加したイベントはこのブラウザ内にだけ保存されます。
+  </footer>
+</div>
+</div>
+
+<script>
+(function(){
+// ---- History snapshots (as of 2026-10-14) ----
+// Indicator rows: [release date, reference month, actual, forecast]
+const SERIES={
+  cpi:{kind:"ind",title:"米CPI 前年比",unit:"%",fmt:v=>v.toFixed(1)+"%",
+    src:["forexfundamentals.com","https://forexfundamentals.com/economic-calendar/us-cpi"],
+    rows:[["2026-09-11","8月",3.4,3.4],["2026-08-12","7月",3.4,3.4],["2026-07-14","6月",3.5,3.9],["2026-06-10","5月",4.2,4.0],["2026-05-12","4月",3.8,3.6],["2026-04-10","3月",3.3,3.2],["2026-03-11","2月",2.4,2.4],["2026-02-13","1月",2.4,2.4]]},
+  nfp:{kind:"ind",title:"米非農業部門雇用者数 前月比",unit:"K",fmt:v=>(v>0?"+":"")+v+"K",
+    src:["forexfundamentals.com","https://forexfundamentals.com/economic-calendar/nfp"],
+    rows:[["2026-10-02","9月",29,90],["2026-09-04","8月",162,42],["2026-08-07","7月",-23,79],["2026-07-02","6月",57,110],["2026-06-05","5月",172,102],["2026-05-08","4月",115,95],["2026-04-03","3月",178,50],["2026-03-06","2月",-92,70]]},
+  jcpi:{kind:"ind",title:"全国CPI 生鮮食品除く総合 前年比",unit:"%",fmt:v=>v.toFixed(1)+"%",
+    src:["総務省統計局 / JILPT","https://www.jil.go.jp/kokunai/statistics/shuyo/0107.html"],
+    rows:[["2026-09-18","26/8",1.7,null],["2026-08-21","26/7",1.8,null],["2026-07-24","26/6",1.6,null],["2026-06-19","26/5",1.4,null],["2026-05-22","26/4",1.4,null],["2026-04-24","26/3",1.7,null],["2026-03-24","26/2",1.5,null],["2026-02-20","26/1",1.9,null],["2026-01-23","25/12",2.4,null],["2025-12-19","25/11",3.0,null],["2025-11-21","25/10",3.0,null],["2025-10-24","25/9",2.9,null]]},
+  tcpi:{kind:"ind",title:"東京都区部CPI 生鮮食品除く総合 前年比（中旬速報）",unit:"%",fmt:v=>v.toFixed(1)+"%",
+    src:["第一生命経済研究所","https://www.dlri.co.jp/report/macro/666224.html"],
+    rows:[["2026-10-02","26/9",2.7,2.4],["2026-08-28","26/8",1.8,null]]},
+  jgdp:{kind:"ind",title:"実質GDP 前期比年率",unit:"%",fmt:v=>(v>0?"+":"")+v.toFixed(1)+"%",
+    src:["内閣府 / 三菱UFJリサーチ&コンサルティング","https://www.murc.jp/wp-content/uploads/2026/09/gdp_res_2609_01.pdf"],
+    rows:[["2026-09-08","4-6月 2次",1.4,null],["2026-08-17","4-6月 1次",1.1,null]]},
+  tankan:{kind:"ind",title:"日銀短観 大企業製造業 業況判断DI",unit:"pt",fmt:v=>(v>0?"+":"")+v,
+    src:["日本銀行 / 三菱UFJ銀行","https://www.bk.mufg.jp/report/whatsnew/report_jp_20261001.pdf"],
+    rows:[["2026-10-01","26/9",24,null],["2026-07-01","26/6",22,null],["2026-04-01","26/3",17,null],["2025-12-15","25/12",15,15],["2025-10-01","25/9",14,null]]},
+  jobless:{kind:"ind",title:"完全失業率（季節調整値）",unit:"%",fmt:v=>v.toFixed(1)+"%",
+    src:["総務省 / 大和総研","https://www.dir.co.jp/report/research/economics/japan/20261002_026107.html"],
+    rows:[["2026-10-02","26/8",2.5,null],["2026-08-28","26/7",2.4,null],["2026-07-31","26/6",2.5,null],["2026-06-30","26/5",2.5,null],["2026-05-29","26/4",2.5,null]]},
+  fomc:{kind:"rate",title:"FF金利 誘導目標",
+    src:["federalreserve.gov","https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"],
+    rows:[["2026-09-16",25,"3.75–4.00%",4.00],["2026-07-29",0,"3.50–3.75%",3.75],["2026-06-17",0,"3.50–3.75%",3.75],["2026-04-29",0,"3.50–3.75%",3.75],["2026-03-18",0,"3.50–3.75%",3.75],["2026-01-28",0,"3.50–3.75%",3.75],["2025-12-10",-25,"3.50–3.75%",3.75],["2025-10-29",-25,"3.75–4.00%",4.00]]},
+  ecb:{kind:"rate",title:"ECB 預金ファシリティ金利",
+    src:["ECB","https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"],
+    rows:[["2026-09-10",25,"2.50%",2.50],["2026-07-23",0,"2.25%",2.25],["2026-06-11",25,"2.25%",2.25],["2026-04-30",0,"2.00%",2.00],["2026-03-19",0,"2.00%",2.00],["2026-02-05",0,"2.00%",2.00]]},
+  boj:{kind:"rate",title:"日銀 政策金利（無担保コール翌日物）",
+    src:["日本銀行","https://www.boj.or.jp/mopo/mpmsche_minu/index.htm"],
+    rows:[["2026-09-18",25,"1.25%",1.25],["2026-07-31",0,"1.00%",1.00],["2026-06-16",25,"1.00%",1.00],["2025-12-19",25,"0.75%",0.75]]}
+};
+const BASE=[
+  {id:"cpi-oct",n:"米消費者物価指数 CPI（9月分）",c:"USD",i:3,t:"2026-10-14T12:30:00Z",s:"cpi"},
+  {id:"fomc-oct",n:"FOMC 政策金利発表",c:"USD",i:3,t:"2026-10-28T18:00:00Z",s:"fomc",note:"議長会見 30分後"},
+  {id:"ecb-oct",n:"ECB 政策金利発表",c:"EUR",i:3,t:"2026-10-29T13:15:00Z",s:"ecb",note:"総裁会見 30分後"},
+  {id:"boj-oct",n:"日銀 金融政策決定会合 結果",c:"JPY",i:3,t:"2026-10-30T02:00:00Z",s:"boj",note:"発表は11–13時頃"},
+  {id:"nfp-nov",n:"米雇用統計 NFP（10月分）",c:"USD",i:3,t:"2026-11-06T13:30:00Z",s:"nfp"},
+  {id:"cpi-nov",n:"米消費者物価指数 CPI（10月分）",c:"USD",i:3,t:"2026-11-10T13:30:00Z",s:"cpi"},
+  {id:"nfp-dec",n:"米雇用統計 NFP（11月分）",c:"USD",i:3,t:"2026-12-04T13:30:00Z",s:"nfp"},
+  {id:"fomc-dec",n:"FOMC 政策金利発表 + 経済見通し",c:"USD",i:3,t:"2026-12-09T19:00:00Z",s:"fomc",note:"ドットチャート公表"},
+  {id:"cpi-dec",n:"米消費者物価指数 CPI（11月分）",c:"USD",i:3,t:"2026-12-10T13:30:00Z",s:"cpi"},
+  {id:"ecb-dec",n:"ECB 政策金利発表 + 経済見通し",c:"EUR",i:3,t:"2026-12-17T13:15:00Z",s:"ecb"},
+  {id:"boj-dec",n:"日銀 金融政策決定会合 結果",c:"JPY",i:3,t:"2026-12-18T02:00:00Z",s:"boj",note:"発表は11–13時頃"},
+  {id:"j-mach-oct",n:"機械受注（8月分）",c:"JPY",i:1,t:"2026-10-14T23:50:00Z"},
+  {id:"jcpi-oct",n:"全国CPI（9月分）",c:"JPY",i:2,t:"2026-10-22T23:30:00Z",s:"jcpi"},
+  {id:"tcpi-oct",n:"東京都区部CPI（10月中旬速報）",c:"JPY",i:3,t:"2026-10-29T23:30:00Z",s:"tcpi",note:"全国の先行指標"},
+  {id:"jobless-oct",n:"完全失業率・有効求人倍率（9月分）",c:"JPY",i:1,t:"2026-10-29T23:30:00Z",s:"jobless"},
+  {id:"ip-oct",n:"鉱工業生産 速報（9月分）",c:"JPY",i:1,t:"2026-10-29T23:50:00Z"},
+  {id:"jgdp-nov",n:"GDP 1次速報（7-9月期）",c:"JPY",i:2,t:"2026-11-15T23:50:00Z",s:"jgdp"},
+  {id:"jcpi-nov",n:"全国CPI（10月分）",c:"JPY",i:2,t:"2026-11-19T23:30:00Z",s:"jcpi"},
+  {id:"tcpi-nov",n:"東京都区部CPI（11月中旬速報）",c:"JPY",i:3,t:"2026-11-26T23:30:00Z",s:"tcpi",note:"全国の先行指標"},
+  {id:"ip-nov",n:"鉱工業生産 速報（10月分）",c:"JPY",i:1,t:"2026-11-29T23:50:00Z"},
+  {id:"jobless-dec",n:"完全失業率・有効求人倍率（10月分）",c:"JPY",i:1,t:"2026-11-30T23:30:00Z",s:"jobless"},
+  {id:"jgdp-dec",n:"GDP 2次速報（7-9月期）",c:"JPY",i:2,t:"2026-12-07T23:50:00Z",s:"jgdp"},
+  {id:"tankan-dec",n:"日銀短観（12月調査）",c:"JPY",i:3,t:"2026-12-13T23:50:00Z",s:"tankan",note:"日銀会合の直前"},
+  {id:"jcpi-dec",n:"全国CPI（11月分）",c:"JPY",i:2,t:"2026-12-17T23:30:00Z",s:"jcpi",note:"日銀会合 結果発表と同日"},
+  {id:"tcpi-dec",n:"東京都区部CPI（12月中旬速報）",c:"JPY",i:3,t:"2026-12-24T23:30:00Z",s:"tcpi"},
+  {id:"jobless-dec2",n:"完全失業率・有効求人倍率（11月分）",c:"JPY",i:1,t:"2026-12-24T23:30:00Z",s:"jobless"},
+  {id:"ip-dec",n:"鉱工業生産 速報（11月分）",c:"JPY",i:1,t:"2026-12-27T23:50:00Z"}
+];
+
+const KEY="macro-countdown-v1";
+let custom=[];
+try{custom=JSON.parse(localStorage.getItem(KEY)||"[]")||[]}catch(e){custom=[]}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(custom))}catch(e){}};
+let filter="ALL"; const open=new Set();
+const LIVE_WIN=15*60;
+const DAYS=["日","月","火","水","木","金","土"];
+const p2=n=>String(n).padStart(2,"0");
+const fmtDate=d=>`${d.getMonth()+1}/${d.getDate()}(${DAYS[d.getDay()]}) ${p2(d.getHours())}:${p2(d.getMinutes())}`;
+const ymd=s=>{const [y,m,d]=s.split("-");return `${y.slice(2)}/${m}/${d}`};
+const cd=s=>{s=Math.max(0,Math.floor(s));const d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),x=s%60;return {d,str:`${p2(h)}:${p2(m)}:${p2(x)}`}};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const all=()=>[...BASE,...custom.map(e=>({...e,custom:true}))].map(e=>({...e,ms:Date.parse(e.t)})).sort((a,b)=>a.ms-b.ms);
+
+function surprise(a,f){if(f==null)return ["nf","—"];const d=a-f;if(Math.abs(d)<1e-9)return ["inl","予想通り"];return d>0?["beat","▲ 上振れ"]:["miss","▼ 下振れ"]}
+function rateMove(bp){return bp>0?["hike",`利上げ +${bp}bp`]:bp<0?["cut",`利下げ ${bp}bp`]:["hold","据え置き"]}
+function lastLine(key){
+  const S=SERIES[key]; if(!S) return "";
+  const r=S.rows[0];
+  if(S.kind==="ind"){const [c]=surprise(r[2],r[3]);return `前回 <span class="${c}">${S.fmt(r[2])}</span>`+(r[3]==null?"":`（予想 ${S.fmt(r[3])}）`)}
+  const [c,t]=rateMove(r[1]);return `前回 <span class="${c}">${t}</span> → ${r[2]}`;
+}
+
+function chartInd(S){
+  const rows=[...S.rows].reverse(), W=600,H=170,L=44,R=10,T=14,B=26;
+  const vals=rows.flatMap(r=>[r[2],r[3]]).filter(v=>v!=null); let lo=Math.min(0,...vals), hi=Math.max(...vals);
+  const pad=(hi-lo)*.12||1; hi+=pad; if(lo<0) lo-=pad;
+  const y=v=>T+(hi-v)/(hi-lo)*(H-T-B), bw=(W-L-R)/rows.length;
+  const ticks=niceTicks(lo,hi,4);
+  let g=ticks.map(t=>`<line x1="${L}" x2="${W-R}" y1="${y(t)}" y2="${y(t)}" stroke="var(--line)" stroke-width="1"/><text x="${L-6}" y="${y(t)+4}" fill="var(--dim)" font-size="10" text-anchor="end">${t}${S.unit==="%"?"%":""}</text>`).join("");
+  g+=`<line x1="${L}" x2="${W-R}" y1="${y(0)}" y2="${y(0)}" stroke="var(--dim)" stroke-width="1"/>`;
+  rows.forEach((r,i)=>{
+    const x=L+i*bw+bw*.2, w=bw*.6, [cls]=surprise(r[2],r[3]);
+    const col=cls==="beat"?"var(--up)":cls==="miss"?"var(--down)":cls==="nf"?"var(--pre)":"var(--dim)";
+    const y0=y(0),y1=y(r[2]);
+    g+=`<rect x="${x}" y="${Math.min(y0,y1)}" width="${w}" height="${Math.max(1,Math.abs(y1-y0))}" fill="${col}" fill-opacity="${i===rows.length-1?.95:.6}"/>`;
+    if(r[3]!=null) g+=`<line x1="${x-3}" x2="${x+w+3}" y1="${y(r[3])}" y2="${y(r[3])}" stroke="var(--amber)" stroke-width="2"/>`;
+    if(rows.length<=6||i===rows.length-1) g+=`<text x="${x+w/2}" y="${Math.min(y0,y1)-5}" fill="var(--fg)" font-size="10" text-anchor="middle">${S.fmt(r[2])}</text>`;
+    if(rows.length<=8||i%2===(rows.length-1)%2) g+=`<text x="${x+w/2}" y="${H-8}" fill="var(--dim)" font-size="10" text-anchor="middle">${r[1]}</text>`;
+  });
+  const anyNull=rows.some(r=>r[3]==null);
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(S.title)}の推移">${g}</svg>
+  <div class="src">棒＝結果（<span class="beat">上振れ</span>／<span class="miss">下振れ</span>／予想通り${anyNull?'／<span class="nf">予想データなし</span>':""}）　<span style="color:var(--amber)">━</span> 予想</div>`;
+}
+function chartRate(S){
+  const rows=[...S.rows].reverse(), W=600,H=150,L=44,R=14,T=14,B=26;
+  const lv=rows.map(r=>r[3]); let lo=Math.min(...lv),hi=Math.max(...lv); const pad=Math.max(.25,(hi-lo)*.2); lo-=pad; hi+=pad;
+  const y=v=>T+(hi-v)/(hi-lo)*(H-T-B), step=(W-L-R)/(rows.length-1||1), x=i=>L+i*step;
+  const ticks=niceTicks(lo,hi,4);
+  let g=ticks.map(t=>`<line x1="${L}" x2="${W-R}" y1="${y(t)}" y2="${y(t)}" stroke="var(--line)" stroke-width="1"/><text x="${L-6}" y="${y(t)+4}" fill="var(--dim)" font-size="10" text-anchor="end">${t.toFixed(2)}</text>`).join("");
+  let d=`M${x(0)},${y(lv[0])}`; for(let i=1;i<rows.length;i++) d+=`H${x(i)}V${y(lv[i])}`;
+  g+=`<path d="${d}" fill="none" stroke="var(--amber)" stroke-width="2"/>`;
+  rows.forEach((r,i)=>{const [c]=rateMove(r[1]);const col=c==="hike"?"var(--down)":c==="cut"?"var(--up)":"var(--dim)";
+    g+=`<circle cx="${x(i)}" cy="${y(lv[i])}" r="${i===rows.length-1?4.5:3}" fill="${col}"/>`;
+    g+=`<text x="${x(i)}" y="${H-8}" fill="var(--dim)" font-size="10" text-anchor="${i===0?"start":i===rows.length-1?"end":"middle"}">${r[0].slice(2,7).replace("-","/")}</text>`;});
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(S.title)}の推移">${g}</svg>
+  <div class="src">● <span class="hike">利上げ</span>／<span class="cut">利下げ</span>／据え置き</div>`;
+}
+function niceTicks(lo,hi,n){const raw=(hi-lo)/n, mag=Math.pow(10,Math.floor(Math.log10(raw))), st=[1,2,2.5,5,10].map(k=>k*mag).find(k=>k>=raw)||raw;
+  const out=[];for(let v=Math.ceil(lo/st)*st;v<=hi+1e-9;v+=st) out.push(+v.toFixed(4));return out;}
+
+function histHTML(key){
+  const S=SERIES[key];
+  let tbl;
+  if(S.kind==="ind"){
+    tbl=`<table><thead><tr><th>発表日</th><th>対象</th><th>結果</th><th>予想</th><th>差</th></tr></thead><tbody>${S.rows.map(r=>{const [c]=surprise(r[2],r[3]);const nf=r[3]==null, df=nf?0:r[2]-r[3];
+      const dfs=nf?"—":Math.abs(df)<1e-9?"±0":(df>0?"+":"")+(S.unit==="%"?df.toFixed(1)+"pt":S.unit==="K"?df+"K":df+"pt");
+      return `<tr><td>${ymd(r[0])}</td><td>${r[1]}</td><td class="${c}">${S.fmt(r[2])}</td><td>${nf?"—":S.fmt(r[3])}</td><td class="${c}">${dfs}</td></tr>`}).join("")}</tbody></table>`;
+  }else{
+    tbl=`<table><thead><tr><th>決定日</th><th>決定</th><th>決定後の金利</th></tr></thead><tbody>${S.rows.map(r=>{const [c,t]=rateMove(r[1]);return `<tr><td>${ymd(r[0])}</td><td class="${c}">${t}</td><td>${r[2]}</td></tr>`}).join("")}</tbody></table>`;
+  }
+  return `<div class="hist"><div class="hist-head"><div class="lbl">History · ${esc(S.title)}</div><div class="src">出典：<a href="${S.src[1]}" target="_blank" rel="noopener">${S.src[0]}</a></div></div>
+    ${S.kind==="ind"?chartInd(S):chartRate(S)}<div class="tbl-wrap">${tbl}</div></div>`;
+}
+
+function renderFilters(){
+  const set=["ALL",...new Set(all().map(e=>e.c))];
+  if(!set.includes(filter)) filter="ALL";
+  document.getElementById("ec-filters").innerHTML=set.map(c=>`<button class="chip" type="button" data-c="${c}" aria-pressed="${c===filter}">${c}</button>`).join("");
+}
+document.getElementById("ec-filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;filter=b.dataset.c;renderFilters();renderList();tick();});
+
+function renderList(){
+  const now=Date.now();
+  const evs=all().filter(e=>filter==="ALL"||e.c===filter).filter(e=>now-e.ms<86400000);
+  const L=document.getElementById("ec-list");
+  if(!evs.length){L.innerHTML=`<div class="empty">この通貨の予定はありません。下の「イベントを追加」から登録できます。</div>`;return;}
+  L.innerHTML=evs.map(e=>{const has=!!SERIES[e.s], isOpen=open.has(e.id);
+    return `<article class="ev" data-ms="${e.ms}">
+    <div class="ev-head${has?" has":""}" ${has?`role="button" tabindex="0" aria-expanded="${isOpen}" data-open="${esc(e.id)}"`:""}>
+      <div class="ccy ${["USD","JPY","EUR"].includes(e.c)?e.c:"OTH"}">${esc(e.c)}</div>
+      <div class="info"><div class="name">${esc(e.n)}</div>
+        <div class="sub"><span>${fmtDate(new Date(e.ms))}</span><span class="imp">${"★".repeat(e.i)}</span>${e.note?`<span>${esc(e.note)}</span>`:""}${e.custom?`<button class="del" type="button" data-id="${esc(e.id)}">削除</button>`:""}</div>
+        ${has?`<div class="sub"><span class="prev">${lastLine(e.s)}</span><span class="caret">${isOpen?"▲ 閉じる":"▼ 履歴"}</span></div>`:""}</div>
+      <div class="right"><span class="cd"></span><span class="pill"></span></div>
+    </div>${has&&isOpen?histHTML(e.s):""}</article>`}).join("");
+}
+const listEl=document.getElementById("ec-list");
+listEl.addEventListener("click",e=>{
+  const del=e.target.closest(".del");
+  if(del){e.stopPropagation();custom=custom.filter(x=>x.id!==del.dataset.id);save();renderFilters();renderList();tick();return;}
+  const h=e.target.closest("[data-open]"); if(!h) return;
+  const id=h.dataset.open; open.has(id)?open.delete(id):open.add(id); renderList(); tick();
+});
+listEl.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches("[data-open]")){e.preventDefault();e.target.click();}});
+
+function tick(){
+  const now=Date.now(), d=new Date(now);
+  const off=-d.getTimezoneOffset(), os=`UTC${off<0?"-":"+"}${p2(Math.floor(Math.abs(off)/60))}:${p2(Math.abs(off)%60)}`;
+  document.getElementById("ec-clock").textContent=`${d.getFullYear()}-${p2(d.getMonth()+1)}-${p2(d.getDate())} ${p2(d.getHours())}:${p2(d.getMinutes())}:${p2(d.getSeconds())} ${os}`;
+
+  document.querySelectorAll("#ec-root .ev").forEach(el=>{
+    const ms=+el.dataset.ms, diff=(ms-now)/1000;
+    const c=el.querySelector(".cd"), p=el.querySelector(".pill");
+    el.classList.remove("live","past","soon");
+    if(diff>0){const t=cd(diff);c.textContent=(t.d?t.d+"d ":"")+t.str;p.textContent="UPCOMING";if(diff<3600)el.classList.add("soon");}
+    else if(-diff<LIVE_WIN){el.classList.add("live");c.textContent="+"+cd(-diff).str;p.textContent="LIVE";}
+    else{el.classList.add("past");c.textContent="—";p.textContent="RELEASED";}
+  });
+
+  const evs=all().filter(e=>filter==="ALL"||e.c===filter);
+  const live=evs.find(e=>now>=e.ms&&now-e.ms<LIVE_WIN);
+  const next=live||evs.find(e=>e.ms>now);
+  const H=document.getElementById("ec-hero"), last=document.getElementById("ec-hLast");
+  H.classList.remove("soon","now");
+  if(!next){document.getElementById("ec-hName").textContent="予定なし";document.getElementById("ec-hCd").textContent="--:--:--";document.getElementById("ec-hMeta").textContent="";last.hidden=true;return;}
+  document.getElementById("ec-hName").textContent=next.n;
+  if(live){H.classList.add("now");document.getElementById("ec-hCd").innerHTML="LIVE +"+cd((now-next.ms)/1000).str;}
+  else{const s=(next.ms-now)/1000,t=cd(s);if(s<3600)H.classList.add("soon");document.getElementById("ec-hCd").innerHTML=(t.d?`<span class="d">${t.d}d</span>`:"")+t.str;}
+  document.getElementById("ec-hMeta").innerHTML=`<span>${next.c}</span><span>${fmtDate(new Date(next.ms))}</span><span class="imp">${"★".repeat(next.i)}</span>${next.note?`<span>${esc(next.note)}</span>`:""}`;
+  const ll=lastLine(next.s); last.hidden=!ll; if(ll && last.dataset.k!==next.id){last.innerHTML=`<span class="lbl">Last</span><b>${ll}</b>`;last.dataset.k=next.id;}
+}
+
+document.getElementById("ec-form").addEventListener("submit",e=>{
+  e.preventDefault();
+  const n=document.getElementById("ec-fName").value.trim(), v=document.getElementById("ec-fDate").value;
+  const ms=new Date(v).getTime();
+  if(!n||isNaN(ms)){document.getElementById("ec-msg").textContent="イベント名と日時を入力してください。";return;}
+  custom.push({id:"c"+Date.now(),n,c:document.getElementById("ec-fCcy").value,i:+document.getElementById("ec-fImp").value,t:new Date(ms).toISOString()});
+  save();renderFilters();renderList();tick();
+  document.getElementById("ec-fName").value="";
+  document.getElementById("ec-msg").textContent=`「${n}」を追加しました。`;
+});
+
+renderFilters();renderList();tick();
+setInterval(tick,1000);
+setInterval(renderList,60000);
+})();
+</script>

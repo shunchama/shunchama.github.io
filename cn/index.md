@@ -9,6 +9,10 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 
 ## カテゴリ
 
+### ニュース
+
+- [中国ニュース（自動収集）](./news.html)
+
 ### 各種サイト
 
 - 中国国家統計局 月次データ(National Bureau of Statistics of China)

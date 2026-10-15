@@ -1,0 +1,39 @@
+name: Update China news
+
+on:
+  schedule:
+    - cron: "15 */6 * * *" # 6時間ごと（UTC）= 日本時間 0:15 / 6:15 / 12:15 / 18:15
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cn-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch news
+        run: python scripts/fetch_cn_news.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- _data/cn_news.json; then
+            echo "no changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/cn_news.json
+          git commit -m "chore: update china news"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

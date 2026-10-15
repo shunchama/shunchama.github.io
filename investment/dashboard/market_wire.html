@@ -1,0 +1,108 @@
+---
+layout: default
+title: Market Wire
+parent: 投資ダッシュボード
+grand_parent: 投資情報
+nav_order: 3
+---
+
+<h1>Market Wire</h1>
+
+{% assign wire = site.data.market_wire %}
+
+<p class="mw-meta">
+  日米欧・アジア・為替・株式企業・商品の市況ニュースの見出しをGoogleニュースから自動収集しています（1日4回更新・直近14日分）。
+  記事の本文は各媒体のサイトでご覧ください。売買判断の前に、必ずリンク先の元記事を確認してください。
+  {% if wire.updated %}<br>最終更新: {{ wire.updated | date: "%Y-%m-%d %H:%M" }} JST{% endif %}
+</p>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<style>
+#mw-root{
+  --bg:#0b0d10; --panel:#12161b; --line:#232a32; --fg:#d9dee4; --dim:#6b7682;
+  --amber:#ffb238; --pre:#5fa8ff;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif;
+  box-sizing:border-box;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;padding:16px;margin:16px -16px;
+}
+#mw-root *{box-sizing:border-box}
+#mw-root .mw-controls{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;align-items:center}
+#mw-root .chip{font-family:var(--cond);font-weight:600;letter-spacing:.08em;font-size:13px;background:transparent;color:var(--dim);border:1px solid var(--line);padding:5px 12px;cursor:pointer;border-radius:3px}
+#mw-root .chip[aria-pressed="true"]{color:var(--bg);background:var(--amber);border-color:var(--amber)}
+#mw-root input[type="search"]{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:5px 10px;min-width:180px;flex:1 1 180px;max-width:320px;font-size:.9em}
+#mw-root .mw-day h3{margin:22px 0 8px;font-size:1em;color:var(--dim);border-bottom:1px solid var(--line);padding-bottom:6px;font-family:var(--cond);letter-spacing:.06em}
+#mw-root .mw-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line)}
+#mw-root .mw-item{margin:0;padding:10px 12px;background:var(--panel);display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;font-size:14px;line-height:1.6}
+#mw-root .mw-item[hidden]{display:none}
+#mw-root .mw-cat{font-family:var(--cond);font-weight:700;font-size:11px;letter-spacing:.08em;color:var(--fg);border:1px solid var(--line);padding:1px 7px;white-space:nowrap}
+#mw-root .mw-item a{color:var(--fg);text-decoration:none}
+#mw-root .mw-item a:hover{color:var(--amber);text-decoration:underline}
+#mw-root .mw-src{color:var(--pre);font-size:.8em;font-family:var(--mono);white-space:nowrap}
+#mw-root .mw-time{color:var(--dim);font-size:.8em;font-family:var(--mono);white-space:nowrap}
+#mw-root .mw-empty{color:var(--dim);margin-top:24px}
+</style>
+
+{% if wire.items and wire.items.size > 0 %}
+
+<div id="mw-root">
+<div class="mw-controls" id="mw-cats" role="group" aria-label="カテゴリ"></div>
+<div class="mw-controls">
+  <input type="search" id="mw-q" placeholder="見出しを検索" aria-label="見出しを検索">
+</div>
+
+<div id="mw-list">
+{% assign last_day = "" %}
+{% for item in wire.items %}
+  {% assign day = item.published | date: "%Y-%m-%d" %}
+  {% if day != last_day %}
+    {% unless forloop.first %}</ul></section>{% endunless %}
+    <section class="mw-day"><h3>{{ item.published | date: "%Y-%m-%d (%a.)" }}</h3><ul class="mw-list">
+    {% assign last_day = day %}
+  {% endif %}
+  <li class="mw-item" data-cat="{{ item.category | escape }}">
+    <span class="mw-cat">{{ item.category | escape }}</span>
+    <a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">{{ item.title | escape }}</a>
+    <span class="mw-src">{{ item.source | escape }}</span>
+    <span class="mw-time">{{ item.published | date: "%H:%M" }} JST</span>
+  </li>
+{% endfor %}
+</ul></section>
+</div>
+</div>
+
+<script>
+(function(){
+  const list=document.getElementById("mw-list");
+  const items=[...list.querySelectorAll(".mw-item")];
+  const cats=[...new Set(items.map(i=>i.dataset.cat))];
+  const catsBox=document.getElementById("mw-cats");
+  let activeCat="ALL";
+
+  function render(){
+    const q=document.getElementById("mw-q").value.trim().toLowerCase();
+    items.forEach(i=>{
+      const okCat=activeCat==="ALL"||i.dataset.cat===activeCat;
+      const okQ=!q||i.textContent.toLowerCase().includes(q);
+      i.hidden=!(okCat&&okQ);
+    });
+    list.querySelectorAll(".mw-day").forEach(sec=>{
+      const anyVisible=[...sec.querySelectorAll(".mw-item")].some(i=>!i.hidden);
+      sec.hidden=!anyVisible;
+    });
+  }
+
+  catsBox.innerHTML=["ALL",...cats].map(c=>`<button class="chip" type="button" data-c="${c}" aria-pressed="${c==="ALL"}">${c}</button>`).join("");
+  catsBox.addEventListener("click",e=>{
+    const b=e.target.closest(".chip"); if(!b) return;
+    activeCat=b.dataset.c;
+    catsBox.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));
+    render();
+  });
+  document.getElementById("mw-q").addEventListener("input",render);
+})();
+</script>
+
+{% else %}
+<div id="mw-root"><p class="mw-empty">ニュースを読み込んでいます。このページは定期実行タスクが1日4回、主要な市況ニュースの見出しを集めて自動で書き込みます。</p></div>
+{% endif %}

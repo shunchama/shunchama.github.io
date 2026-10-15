@@ -10,6 +10,8 @@ has_children: true # 今後この下に記事を増やすならこれが必要
 ## カテゴリ
 
 - [市場の振り返り](./report/index.md)
+- [信用貸借銘柄](./lending/index.md)
+- [投資ダッシュボード（市場クロック・指標カウントダウン・ニュース）](./dashboard/index.md)
 - [投資日記(準備中)](#)
 
 ---

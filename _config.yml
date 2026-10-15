@@ -21,5 +21,8 @@ aux_links:
 
 mathjax: true
 
+exclude:
+  - scripts/
+
 future: true
 timezone: Asia/Tokyo
