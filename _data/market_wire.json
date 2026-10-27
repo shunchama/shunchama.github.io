@@ -1,6 +1,790 @@
 {
- "updated": "2026-10-27T21:41:01+09:00",
+ "updated": "2026-10-28T03:17:23+09:00",
  "items": [
+  {
+   "title": "為替相場 28日（日本時間 3時）",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcXpMZkFsYTlTTmFWZTJxOTVBR2FDTEJkbDNrd3E4ak5CMG8zTWFHNnBlRzFUWjFiX2g1cU51RFhtV1IxOThTUm14Z2hmSDZhaFRxV0lDM2dGWUdXZVhOMTB2UzBSakpTZFJrNEFDc000LWVic0Z5TFhSc2xES2YwZ1hqdkxsN3NlOTEwZVpB0gGTAUFVX3lxTE5sOThWbWt4MTdJZTMtd3FxeE41bVBuRjVyNzlVVXZNREliTF9ydDhhdm9ObEF6ZHBPamNSaXhuLXlVNmFmNk9tM2lod2x4SXlnOTRsbm13N000b2RjVEk1UUxrcVUwMU83Y3dXSXFVT1pIMFRaZ1BMeU9LU2NUWVI4WFNrWnFEZDdYRnRGWWlRaTJwTQ?oc=5",
+   "source": "ｄメニューニュース",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T03:03:09+09:00"
+  },
+  {
+   "title": "為替相場 ２８日（日本時間 ３時）｜全国のニュース｜Web東奥",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TcXAzSHFQT2pJS3Q0M1BzSlotRWVuTHdGUndPLWx0eVpMM3owQ0FLOGhzRUNkT0RsVGxXT2EyOThtMUFSdnAzb25NYjVvREUyN0x5aTFNSFM?oc=5",
+   "source": "東奥日報社",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T03:00:33+09:00"
+  },
+  {
+   "title": "為替相場 ２８日（日本時間 ３時）",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XMDl5OVk2amdwaEVPc1FVQVl4UXYtUGlmY0dHc245TTBBa09VRDNXWWJMM1pRS1paMVVwR3JwQ0t2RVljWFZQVllpS29EQnpGZGdLVXZB?oc=5",
+   "source": "佐賀新聞",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T03:00:00+09:00"
+  },
+  {
+   "title": "ＧＭ、上場先をナスダックに変更へ 株価上昇＝米国株個別(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTndWdHZIRnplRzhuQlhpdmZQM25jaUhvTW5vaVpXR2p0QU4yUDg5cnVzYVRyR0tGUmVQRzJ0dDlHQ1pjbTEyREJFVDBqeW15VHZOekZFcEJUcTBOckh3dFI5cFZEaUVlTkRQdWR5a08xU3NnZXRCZzdmX1ZRRm9kdDhTOWxWVkU?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T02:50:43+09:00"
+  },
+  {
+   "title": "米メモリー株の勢い失速、好決算でも売り－AI大手の設備投資継続が鍵",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbV9GZTZSMUJBXzJkakkxallfWHJaZUFsbllrQlI2eGRBX2xpQWROdXB6UC1xdHI1R2JwcG80TkYtMWkta09MMUpfSmplcF9qblFqQlliMWhBWEEzcXE2WEc1WGxMVnZrVVcwTHh3djBuLU9uV0dhRHFVT05udWxlZkRucXhpXzlJWUxSUDRn?oc=5",
+   "source": "Bloomberg.com",
+   "lang": "ja",
+   "category": "株・企業",
+   "published": "2026-10-28T02:49:20+09:00"
+  },
+  {
+   "title": "米GM、上場先をナスダックに変更＝ハイテク路線をアピール(時事通信)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHpOdFUtLTA4WXFVVmhTUHI3cFo1cFY2QW9yc21BRWRXSUJ2TXhDV2VZYW92VFNubktCQ0haUlN1dHdpNFlMaFhXeWJYZWFndnBnemQtaDFGckU2N0ota0EzbE55cTlEUks4MENpOVRJWXFXcVdEWjlBcWxiOGRuZ3QzMmlfTEk?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T02:38:29+09:00"
+  },
+  {
+   "title": "Saudi Aramcoがパイプライン再稼働後、欧州向けスポット原油を提供 執筆",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TaWwtd20zTFhJRnRkOGYxSVFTZnNFeGxYUnVEczJCY3NkS1Q4WGVoUG9ySjN2Ni1EX3JnZFhXdHNnSXJLU25nQm9PdUt6eENBMFI5c1FncUFRSWxHbkRkbDZ4S0xxWnc5S1d4SEFuaw?oc=5",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T02:20:00+09:00"
+  },
+  {
+   "title": "日経平均200SMAで反発！｜大橋ひろこ",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iWGYtM0hKZlpyM2ROLUp0YVZ2ZTR5NTlqZ09Pal9oV3QtMDdibFpiZGRIWmNRenhUdmJGb3NXdFdPaWh3TWw3alU1bGVYazZmZGdhQTlLMUIzZw?oc=5",
+   "source": "note",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T02:13:54+09:00"
+  },
+  {
+   "title": "ニューヨーク外国為替市場概況･2時 ドル円、底堅い(トレーダーズ・ウェブ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRDZsNVZYN0t4S200Mmk1WTB2bmxuZW5XLXNwUjVjSnRZenV1dUMzUkpnT1AtV3ZDSXhIUV9YZ1JxNDZqMVVYSktHNE5tbEFvbWxTZlVGM3NCM0d2eVB0bWR3dEJaYzI4MG1BcTlfcnNqUk05dlF4WjdGNEJSeWkxaTVOaDk2bU0?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T02:06:04+09:00"
+  },
+  {
+   "title": "英予算案がポンドの試金石に 緊縮財政で年内１．３０ドルへの下落予想も＝ＮＹ為替",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB4YVRfRW1Mb05GcnVwMHNmQzR3Wm8wUTdPMmJmWmV0SGVGU29idi01Zk81c1k1ZTFfSVlrcFFKNnJIcTY3d1JNdw?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T02:04:28+09:00"
+  },
+  {
+   "title": "為替相場 28日（日本時間 2時）",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBtaXJkckhiQVZ3NFJVSG1hOGZXdExCVFdzU0NFZTEyc0RYNHVST1hGZlJqMWhHVjdIVjZpQmNxQU5nSWNhVTV5NDFKNA?oc=5",
+   "source": "47NEWS",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T02:00:00+09:00"
+  },
+  {
+   "title": "バーティブ・ホールディングス【VRT】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKUm92QUJEQ2dVdXAyUVoxU1lJR3Vjd0QyVmVPTFh1el9wbER2X29vc0dRNUp6RUp2aFVfUG4xU1dkQ2wwb0I3eE85cDMtUQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T01:53:10+09:00"
+  },
+  {
+   "title": "(株)ティアフォー【593A】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94TjJYZU16blZqUGNKRHRDY2c1YlRGRFZSYW5fbXo3Ym5LNW0zSWdDeDA5UmdDYjFWMFA2OERRb2tyTEM5UkR3YnFOS3Brc25Ec1E?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T01:53:09+09:00"
+  },
+  {
+   "title": "(NEXT FUNDS)日経平均高配当株50指数連動型ETF【1489】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QSENxNlJuMUI2TzlkUldaZ3JEc1Y4Vk9Zb2RPb1FNZnJQaXR4OFc3SVhRYS1FWDBHTFlidkhfd3YzVl9RZklERWhvajJfaVViQ3c?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T01:49:10+09:00"
+  },
+  {
+   "title": "NY外為：加ドル売り継続、原油安で、トランプ米大統領は加との通商合意近いとの発言も｜FX・為替ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96cHlZd29uODRMZWVyVlc1a2JZWWlRR1VXVHd5dzBUb2JvUDl4Y3hQUzVFdTVoaU1xMHFNZGRBMllXeU5jR21oVE1RODBtSW5EUkE?oc=5",
+   "source": "ザイFX！",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T01:38:00+09:00"
+  },
+  {
+   "title": "楽天 日本株4.3倍ブル【9I31115A】：基準価格・投資信託情報",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzTVhNVjdtU2Fob0pqRXE2VVdNWXFYM3NsbG9RVFpqdUc0b0w4bVpmTVNvdjZ2c0NwSjJnQ0dPcWVPRldTYnVWMUVQUW95LU9oZWN4bg?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T01:37:29+09:00"
+  },
+  {
+   "title": "(NEXT FUNDS)日経平均レバレッジ上場投信【1570】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoSXJOa2dkbWprTUdFYWNqMS1TUks2aF82bXFUblhxcThHSmY3S1I0cWJWeWlqc3QyalZoM3pUMFRpZVhQa3FidUcweFVhUFplRFE?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T01:35:14+09:00"
+  },
+  {
+   "title": "楽天・プラス・NASDAQ-100インデックス・ファンド【9I314241】：基準価格・投資信託情報",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qQ0dncWZtc29VMU1XUzB1TXl3T1N3ZWtuRFUzd295RGdsUnZoTlJPVmNlck9RbWZadmJPT3lqYnZJMzFQNEs1UmxpdndkYVVQVkgzQQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T01:29:10+09:00"
+  },
+  {
+   "title": "ジョビー・アビエーション【JOBY】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tN1h2WDR2X2NrMnM4YzFhbzhVQTFZZnM4UVlVUjg2M3pQbkVlOHQtTEFUVkN6c0daMnVhcVlNOVpBUHNrekk0SlVTZmZwaW8?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T01:29:10+09:00"
+  },
+  {
+   "title": "アドバンスト・マイクロ・デバイセズ【AMD】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XMlFpV2lBbGlNY0ZmdVpmamxPWHFnNWhzSW4xVW16SXpNbllBRmtGWHZ5QzB6VGNfODRrWGp3dWFhXzBhaENZanoxcjg3dw?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T01:29:09+09:00"
+  },
+  {
+   "title": "ブルーム・エネルギー【BE】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QZkpXWjRsNlpuandIYXZCdVEydktuMEVPUGVnbUl5V1FQcllDRlBFQ2FhaFVUWkFCcWJNTEVGa2VYZTdWUjJTN2g4RUs?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T01:29:09+09:00"
+  },
+  {
+   "title": "NY外為：加ドル売り継続、原油安で、トランプ米大統領は加との通商合意近いとの発言も 執筆： Fisco",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsUGdUalVuTUF1NXU5LUc4Yk45eGdjYnZIR01QZW1qNkx6NWpMU2xGSTRycG4tV0VWa3Z5RGZyMmlQT3BTeGFLcTAxX0IySTlTaXZSMTc1Wk9uX3R0LWVaX256WjdkOG8?oc=5",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T01:28:00+09:00"
+  },
+  {
+   "title": "NY外為：加ドル売り継続、原油安で、トランプ米大統領は加との通商合意近いとの発言も",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS215VF81dHgwY0s5dFJFVjI3T3RzSXQ2WXFKZkpKX0wyUjdJRnJZd0ZFNmg0Qkp1RjgxUE5TLWFPaWV1YjNtMmVILUtfemx3dUQ3cm82M3BMWlUzbHl6cTVsNHJFUVdjZGc2UV9Ld3hRVjBaOG1iRmdjZ0ZhOHFYckRaVzl1d1k3am90Y9IBjAFBVV95cUxOS215VF81dHgwY0s5dFJFVjI3T3RzSXQ2WXFKZkpKX0wyUjdJRnJZd0ZFNmg0Qkp1RjgxUE5TLWFPaWV1YjNtMmVILUtfemx3dUQ3cm82M3BMWlUzbHl6cTVsNHJFUVdjZGc2UV9Ld3hRVjBaOG1iRmdjZ0ZhOHFYckRaVzl1d1k3am90Yw?oc=5",
+   "source": "ｄメニューニュース",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T01:28:00+09:00"
+  },
+  {
+   "title": "英ポンド/円【GBPJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxT2xZZUdVWlItVS1jZXVOTDRla0NkN3hUZDBfTU5NbUE1YnphRmNoblNIbGVDczctbGxheEZDdTU1Q1pZaFpXeHFYcklmcFhZWkgtcEVR?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T01:25:06+09:00"
+  },
+  {
+   "title": "マイクロン・テクノロジー【MU】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T01:23:51+09:00"
+  },
+  {
+   "title": "ＮＹ各市場 １時台 ダウ平均は小幅高 ナスダックは１．３％の大幅高",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB4akpvTFYySk81S2Y0WlRtNEQyTGJZajVxVDNHRjl0SVNycGtTUkU2Rl9YRW5PVml4ZkF1RWdNVnlEYUpRSFJQRg?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T01:17:29+09:00"
+  },
+  {
+   "title": "純金上場信託(現物国内保管型)【1540】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wT0pLZFYweEZKZEI1MWVnSDNHYXJfemt1T1FNNDFfai1kRkFoVGp2Y0pLemJYVGRIUDc2VGNXVUlUSUFFdTNscnZBME81Ml9Oenc?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T01:17:00+09:00"
+  },
+  {
+   "title": "インテル【INTC】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mdHBiLW90SE0wYUM1YjA2bnhmS0RGNVBQZkp6LW45cUMtNDhYZ1FwOFl1bXBURGNNRUVoTnJFXzNhTkplSEc3QnBmZTJfWEE?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T01:09:00+09:00"
+  },
+  {
+   "title": "レッドワイヤー【RDW】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pXy1KMEVwUk5yVERVa3lQUEQ5QnpxbEhTU2RROWFiUFFhSHhUM2xnUEUxaERwSEd6X0JPT01FXzc0elZSVVFnYzl3RUV3dw?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T01:02:55+09:00"
+  },
+  {
+   "title": "米国株続伸、AI投資熱が再び高まる－日米の中銀政策控えて円は小動き",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXJKajFsTVd2dWlLVmpOTDlRTkswYmpkYW5SbzlJcTVFMWRxa0NlNi1qeVFvZ2VuWXI1WDYzMWhKcUx3eWRxVU8tT0t3ZFhxQlZTcXRfLW01SVI5Q3JnV1R2UmlUM241Q1NIM2RLdFJlWFc0TGJfdHg2RGQ2OUUyOGJHYUtQZl9yRGx3X1h3?oc=5",
+   "source": "Bloomberg.com",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:59:54+09:00"
+  },
+  {
+   "title": "ベライゾン・コミュニケーションズ【VZ】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5reWVHbk1oY3JjRkFMZTFVN1lrOEYxMXduLTVoOEEtTGlHa2QtSmp5bkZwdDRfRTlpQ3FJQUJKVVR1T0thNGgxRkd2Tm0?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:54:11+09:00"
+  },
+  {
+   "title": "日本株配当オープン【64318056】：基準価格・投資信託情報",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XTjN2TjNkS1JTak5UQnpyUUtXZjlpX0hwOWVKQURSa1c4bGdyRm00VElpUk9pakd4WFlzOU92MWJETm84b1ZTd0xseExFWF9XSTAtTQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T00:50:48+09:00"
+  },
+  {
+   "title": "上海総合の指数情報・推移",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "アジア",
+   "published": "2026-10-28T00:50:48+09:00"
+  },
+  {
+   "title": "ダウ平均が小反発 ナスダックは大幅続伸 ＡＩ関連株への買い戻し続く＝米国株序盤",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhbVF5VFVicTROd3cwSGZBSmtVZzNERGtBZVd5QmhxMXRxMElHdF9XVndsZi1COFBzQzdDVm9qZ0tFaC1QcDEzM091V1JQbS1aanc?oc=5",
+   "source": "株探",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:47:00+09:00"
+  },
+  {
+   "title": "ビッグテック、社員1人当たり利益率30％…S&P500残り企業は10％",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbGQ3M2lqUFlzWXF6OWVkLTR4NUVzbHJGdFlfSWZYS2dfMU5JeEgxQTNiMTctN3BWbmlLRDg3bGhjbGMxU2V1anIxWE9JaDUzMzd0VlIxYlJUVnJrWnJKYXhWNUF3ZHRJQWpES081YnRfQ0k4eHd1U2JpMWFMYzN0Qg?oc=5",
+   "source": "조선일보",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:47:00+09:00"
+  },
+  {
+   "title": "【テクニカル】日経平均株価テクニカル分析－5日線を上回る大幅反発",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5IQXI3bG9ZSEVYU25kdWZVQzNyRGRPRWdHY2tNMFNRQ2tuYTFlVGNMWW9KYXh6blRnXy1sdWZoNzNMMG9LNG1EWHMyWFBGTnprdG9zZG9rc3lfUmVSWmo5X0RfSQ?oc=5",
+   "source": "外為どっとコム",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T00:43:32+09:00"
+  },
+  {
+   "title": "米国株：半導体売りで等ウエートS&P500が1990年以来の大幅な1カ月反発",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5c0M4SVpQYzllbEdZLW1sWldRQVJvUE9zZGdZd2xXU0swd0Ixa3J4VXdNalhkdE90UlBuSy1YNXRkcEU2QU1GM2NjZVdObEJXcWhsc2E3VnBpcUVjaVFMNVJuXzh6QW9tWVVreE56U3RYUmZE?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:35:00+09:00"
+  },
+  {
+   "title": "ジェットブルー航空が大幅高 赤字決算も２７年の黒字化計画は順調と強調＝米国株個別(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY1RRZklZeUhtRnlmeDNmc3p1ZG91ZHYzUFNsQUM5NzdEdFRieTNra09sZG1UTmtpUnVkYVltdjRRcXM1NGhHNVEyYXhaV3cwMnFxUlVHR1M3Zy1LdmQyVENSS29hNGZiZXJmSkdLV0ViY0N3NXpDLUl4NWVlX1kxVEI0MEZGN1E?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:30:03+09:00"
+  },
+  {
+   "title": "【ハートフォード・インシュアランス・グループ 2026年第3四半期決算説明会】ハートフォード、増配12%でコア利益9.56億ドル達成も、中小企業向け保険の価格競争が成長に影",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BaTMzNzVEQm4ySkVOLWszQjBhQU04ZmRORXVPUnFQaDEtdDJ4WGprMWJDRjhNak9pUmZJUlg4QTQ5Ty1fT3Y0TFM0R1J4blh1NkFlZHh4aWl5N3M?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "株・企業",
+   "published": "2026-10-28T00:29:36+09:00"
+  },
+  {
+   "title": "米国の戦略石油備蓄量は、44年ぶりの低水準となっている。",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56X2pWOE9BR2VUYmZIRjFQSWtpeFF5d09ER2haY0piT3BFaDN1aVdXZ09YOGdwc09ERFVHUDA0UTIwcjhWVXJMcU9tYTcwR3F3VGloZkFsem1RZjhNZ1pXYVlNdnhQSmxRYTJjQWgxUmtaZXNGX1RjVmVVbw?oc=5",
+   "source": "Vietnam.vn",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T00:27:40+09:00"
+  },
+  {
+   "title": "独ドイツ銀行、米S&P500は2026年最後の下落局面で底入れか 中間選挙の追い風蓄積",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxX285UlhNU0lIMmJ0VzFZd3pSR20zRHA1M1U0dWVfTWlCTzNYWU5Dd1Q3N3N0UDh6UVI0aVFJT2hYSVdNTFlBNzJzLV9paHR3WmNsMU14dF90R0Q1c3RESmltQTdlSVJqVUJWSEtpbXk3d3pm?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:25:00+09:00"
+  },
+  {
+   "title": "原油が1バレル101ドル割れ、FRB会合を前にウォール街は強弱まちまち",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LdFdNWktNX3Z5S2x3NjJBN0l5X1ZJMTZRVTRQcXdMaUt2LVZrWEhhTVlrZEZ4V0xhNHI2czJtYk8xc01zeU5fMlp2d2ZkZ3QwX0FFeG1JdnQzWHI4NVp6Z2NhWjlncnptMUtLYmNPbVFIMkZ0?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:25:00+09:00"
+  },
+  {
+   "title": "原油価格100ドル突破とAI投資ブームが重なり、世界のインフレは2027年まで尾を引く恐れ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNWGRnSHFVTHRxUXRwSlQxZ0pYalBlTjhDakFyOU1iUVhRaXoxTWZOdnFjV19raWptWlpVUjN0QUU3MXFldndaQTFMTUszQ1NhUUxEVnF1Z3hVSnpYOTVWVmYxUGI4UjZxRlZMOEFjN0pWRXFx?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T00:25:00+09:00"
+  },
+  {
+   "title": "eMAXIS Slim米国株式(S&P500)【03311187】：基準価格・投資信託情報",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEMU9Tck5nc1F6c2FMaUVWSm52cXRNVUY1b0cwYXZHZlFpRHlQNlZtTHp2eGZBZFAzQTVhaW9LVlNhREtGT0dQNnl3X25HRlRaNUF4RA?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:24:20+09:00"
+  },
+  {
+   "title": "NY外為：ドル買い弱まる、NY原油先物は100ドル割り込む、米10年債利回りも5％割れ 執筆： Fisco",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qRVZHeDUwRUJMZVlNeHRBVUh2WXFFdmdiVmpYRElKenVjYl92QUVCMlFvTElSZ0I0bWVKYVdGUklDNHpVWU51TG9CVE80LVMwT2Q4R1l2QlRBX2o1MWRTS2xaaF9tV2s?oc=5",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T00:23:00+09:00"
+  },
+  {
+   "title": "NY外為：ドル買い弱まる、NY原油先物は100ドル割り込む、米10年債利回りも5％割れ",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObEhCWlJ1TWUtRlRaVWFzZk9WT2hDTVVIY0JJTzluMWlHeVFSUjNfbnh2QlBEcDk0d2xGcDZ4RTdZdGFSWGY2SzgyYzVucjNHbGtuOGVvWF8yZml0SmVfTHo1NjA5TVhGQm9rbkZQaDNWYWNNLXEtWWJRa25YTmZFNjFHT0h6WnhxNURHUdIBjAFBVV95cUxObEhCWlJ1TWUtRlRaVWFzZk9WT2hDTVVIY0JJTzluMWlHeVFSUjNfbnh2QlBEcDk0d2xGcDZ4RTdZdGFSWGY2SzgyYzVucjNHbGtuOGVvWF8yZml0SmVfTHo1NjA5TVhGQm9rbkZQaDNWYWNNLXEtWWJRa25YTmZFNjFHT0h6WnhxNURHUQ?oc=5",
+   "source": "ｄメニューニュース",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T00:23:00+09:00"
+  },
+  {
+   "title": "【独自】石油国家備蓄買い戻し第一弾「UAE産原油200万バレル」 三井物産が落札 11月にも日本到着 財源は「放出時の売却益」",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RcWRzNUR2MlRWaXg5NGhxdTJZcE5sNHNERzlZdXYwM0ZOVlpNbUtSbk1BcWtWeVZIS3pKSmMwaC1xUTJSY0xLNERuX2Z4SkpEcHlFY3lvNA?oc=5",
+   "source": "TBS NEWS DIG",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T00:20:44+09:00"
+  },
+  {
+   "title": "【速報】NY原油先物一時100ドル割れ、中東脅威が緩和、イラン戦争巡る外交的解決期待｜FX・為替ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TV0lPTzRnRS0tYmg5SXRjTEpqbXhKenFzMVdfTGl2c2tia01FcTN5YU5Ebk95TVBnTkxmT1NMMnJOdlQ1MXRSSkx3SE1QZTZEbnc?oc=5",
+   "source": "ザイFX！",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T00:15:00+09:00"
+  },
+  {
+   "title": "エヌビディア【NVDA】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xcERaYlUwR2Rhb0pfZnNyNExXTmhkeHd5MjVsSTNwdG9tR041dE1hYkdPSGswOTFranNkVW85U0cwQ25CaGh0bzJEbnk3UkU?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:13:04+09:00"
+  },
+  {
+   "title": "ナスダックは高で引ける見込み 明日のマイクロストラテジー（MSTR）は過去最高水準になるだろう",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSEFydlh0bE9nV09HWWwyaFptd09YbnN4Y3lRT1F6SjJBdnJseWs0bVBOYVk2b3BRTHowLVR4NXlOUkZ0aW1MaVNLNHF3UENfaGx4WlBlSXZ2TlVjNHJIeDNSNnJkb2NFWG5jcjRBVGZHeXlXRlptUmxLekpoV2pFZzZzcjZlZXYwVDROTnFyRWM0NGtZeVNHQWVGTTA1SXpJOUt2OQ?oc=5",
+   "source": "Moomoo",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:08:15+09:00"
+  },
+  {
+   "title": "ニューヨーク外国為替市場概況・24時 ドル円、伸び悩み(トレーダーズ・ウェブ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ3FvUElLYTFtb3F4RTFpRkRKaTVSd1IyRXA2X0EyTjF4R3NEaklNejVPdll6ckwyNEMxSzQ5dkhDa1J5OW83M0FGQm15Ul9WZ0ZxNU1NblZTOVlQS2hjeUVtS044d2FzVDBnVmdiN1hRWC1UZHAycHI0bUhaTHVhaUpmdTJITEk?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T00:06:04+09:00"
+  },
+  {
+   "title": "クラサスケミカル(株)【646A】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44LUVXTWV3RVAxeTNQUzUzbWNjUVdocDRmVXAxWGJsck9pWE9VeEZsWHpEU2lLcnkxakVZWVJLRWw1am5zOWMyZnFmMFlWT3BzU2c?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-28T00:06:03+09:00"
+  },
+  {
+   "title": "FRB、10月は金利据え置きの公算―根強いインフレで追加利上げ余地",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0dXh1TkZzZEhBSXY4dVU1QmdiZDVWQ0NGZU5kZS1GOEswM2dRWFJpNDJCR2ZvM2dKdlRtREdrbWE1UFpHMHRwSExFbDRydE5OWW1QX1Jlb202THl0UHZleU5NWdIBaEFVX3lxTE9NT2JxVTNSS2ZfVE9Pd1VOcFBmY0MtZjhqN0R1RFltYkRZQl9qRkNwVFN0Ul8xQXYxemJtZTVmNVg3ZENoN0d6ZGMzeGNfZzBEV1gyNEN1TUw2b1FKRWFuOHJWaEpqN0d4?oc=5",
+   "source": "財経新聞",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:06:01+09:00"
+  },
+  {
+   "title": "[写真]FRB、10月は金利据え置きの公算―根強いインフレで追加利上げ余地",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4MVN5MXp6MVRaWVpyM1JCMmswMV9nOWZvemJUQzlLaGUwQmg2Y3NTVU5VaEk1UVpDeDdIN252YUxhVUlNQWs3WWttZGotM0N3NVBJNA?oc=5",
+   "source": "財経新聞",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-28T00:06:00+09:00"
+  },
+  {
+   "title": "27日為替、史上初の１ドル＝64 ペソ台に突入",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA1X3pCM3JwaC02OHp4WEVoM1FlRU5BYVlIV0l2R0FDN00ybjJpUWM4TE5MSkt0aGFkSWwxc2plckhRYkF1cnc?oc=5",
+   "source": "NNAアジア",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T00:04:31+09:00"
+  },
+  {
+   "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQa1U5NTk2aS1xRjBZb0dxSzJocWtGel9GdVBUTEx4TVhJY0R1cHB1aGlFZnltb1dpQ3lYVmd2M09TUnMxXzV2cE1GR1kxbGhHWXNGUQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T00:04:02+09:00"
+  },
+  {
+   "title": "NY市場動向（午前10時台）：ダウ101ドル安、原油先物1.41ドル安｜FX・為替ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ic3o0THBJQWRfcE8tdlhiWkFDWldRdkRFZXFKeVhZcGJrWWNjMDhKYUM4bEJQVGNEQVdpVmZkc25LTjgzS0h2bjhENTZGcVVoYVE?oc=5",
+   "source": "ザイFX！",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-28T00:00:00+09:00"
+  },
+  {
+   "title": "原油貯蔵の枠組み構築、サウジアラビアと合意",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBmOHhpZHJ6WUlnYnhXek1QNVJTRkdoN3l0TkVYS19iQlAtVlBIa1NrQklfOHlhUGpTaFVSWHktWHl1d3V5Y3c?oc=5",
+   "source": "NNAアジア",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-28T00:00:00+09:00"
+  },
+  {
+   "title": "(NEXT FUNDS) 日経ダブルインバース上場投信【1357】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rcjVpV2ZEM1VtNnlBVk9SN0ZSOGkyMTI2WFlKejY4RS1LUm5CUVpFaS1YNUNMd2JSYkVCbzdMRjRIZE8xcHQ0XzdyRE5TT0hIaWc?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-27T23:56:24+09:00"
+  },
+  {
+   "title": "原油高続く、ブレント110ドル超―サウジなどがイランと緊張緩和協議",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00UVpMSTZ3TmhKMGhadGRzLUM3TVpVOWdXbkh5Ujgwd2FUeXB0N1JjYTN3aGdEc3I5RjI2aHpYTjBXZmRMV2JvaWFSY25GM0NRVHZaZGdoMUtjdVlBajdJVVVqUdIBaEFVX3lxTE5Kal85T1o5OV9kXzRUa0JOZXBsVVJNWEg5dE9VbTlBNXlmbzlZSzJCN0tCdU5wYWxYMk10aWZWcks4WWp5QzltWkREbzFWVDNWY0JSalhGVjR0cTFld2laYU0xa3FDOG51?oc=5",
+   "source": "財経新聞",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T23:52:33+09:00"
+  },
+  {
+   "title": "[写真]原油高続く、ブレント110ドル超―サウジなどがイランと緊張緩和協議",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vVXlyQXY4UmNYTGRnOGotT1kyRS1hc2VTNzVLemZwOGNwU2VsTU1RcGtCWlFPRWdFUmlZbjQ1d2JDeWhseGZuOTJPY3VTLUJXWWpTbA?oc=5",
+   "source": "財経新聞",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T23:52:00+09:00"
+  },
+  {
+   "title": "モデルナ【MRNA】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHU3NzVktQMzRKUzdKcVAyX0hOTlpCTDFIMW5DcnhHYXFpSDdubUFReWkybnA0cmZWTmdUSEFfVmRXem9xclJScE1iaEZQcm8?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T23:51:54+09:00"
+  },
+  {
+   "title": "ミッドキャップが大幅高 アレスが同社買収で合意＝米国株個別(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObGdsSUpGQVd5ZnROMXJPbV9FYjJYSVpBV01waU5JQTN0SElNYW82TFZQV1d2UjNxMnFlZnJuYXc3Q0lxc090dnBnaUtGc2FaeVBUMWNrcFE2djZSdDV5SmRZXzMwSDlDalpCZ3BMZjVuYUdSdDlZS2FBSG9NQVp3V1VlSzZaclU?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T23:46:02+09:00"
+  },
+  {
+   "title": "WTI原油は100ドル近辺で推移し、オプションのコール・スキューは+7.2%に上昇しました。",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAza0xkOXVDRGp5QTNtaVBNbURMWWx2aVdaeFhiVnh1MFFmOFpiX1cxenZGM1V6WVdfMHZKRXdSaGE3TnY5V25rRWxFUzNjakE0X3NYc28ydFdOQQ?oc=5",
+   "source": "Moomoo",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T23:41:38+09:00"
+  },
+  {
+   "title": "【市場反応】米・10月消費者信頼感指数は予想外に上昇、9月新築住宅販売件数は予想上回る、ドル続伸",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yckRuZEVWOEswYmRqaEZRZ2F5Q3Njczk2NjhSWld4WFRoWlFHWUFpQ2N5MUlDbkFxdllQa013NnFUS1NER29SVTJtYUhZeW0wSnc?oc=5",
+   "source": "ザイFX！",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T23:41:00+09:00"
+  },
+  {
+   "title": "StoneX、Striveの目標株価を43ドルへ34%引き上げ…Bitcoin 4.3万枚確保で「買い」維持",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XOWIwT2Q5SzF5SkFacnpqYXRGTDNjYlJmYkRpcUFzeWN0TWdWaFBKaVlaQW5TU1FUY2RHQWMwYTFUbnNSSHVVVzhmRzFJMW5ENlNicnVQdy1FdWhyZWpRX3B3ZnAyc05DeEpPYUh2VW1faUZH?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "株・企業",
+   "published": "2026-10-27T23:35:00+09:00"
+  },
+  {
+   "title": "〔米株式〕ダウ反落、100ドル安＝ナスダックは高い（27日午前）（時事通信）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hem5NSUY2Q21rZmlvakcxUS1kdDN6dmVnYnFnbnJKSU5nNzVtMGlmYXYxWHFOUlZxWVB2V0dNbTV3Y3gzSndhallsTTQzWnZTcEU0ZlNsNHF1WEpYU3cxa1VwM1JBdXBueFVrRnItYUhieGdCQXg5Nl8wLUdhcU0?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T23:30:12+09:00"
+  },
+  {
+   "title": "米AI大手･アンソロピックのIPOが日経平均株価の調整一巡のきっかけに!? AI･半導体株の見直し買いに期待し、弱気を封印して逆張りで買い向かうのがおすすめ",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95TDVaMEZUWGx6b0l5bHdkU01ldFFJZ18zR2l1Rmh1Y2FPQWJVaU1xUnpILXFRQi1rSWtXdThhaUs3LXpnbUMycm51UVVoTmJRMzN3?oc=5",
+   "source": "ダイヤモンド・オンライン",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-27T23:26:00+09:00"
+  },
+  {
+   "title": "ナスダック100がオンチェーン化、ジャナス・ヘンダーソンとセントリフュージュが初のライセンス取得ファンドを立ち上げ",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM0czRGhOMmFPeWNBbW9VUnp0TzBrd21qdlRlV2NQWm5BcGJMNHg0cENWeVhhTWx6SXVLUXh6ZUE5a252d0hiMWRkQXYtc3RHNlB2ZHV2dU4wQ280TEc2Um5ZcHB3MDZXNlBBeU96djVRTHpMLXQ4R3BDRFlaU1ZlbUdLbGloR0lHMEE0Qnlma29BeEVVZ1BjeVBUM29JWmtaaDZNejAyS2RXbEZYazBLZDY4aU1hV0lTY1R4TVI2THRQMFI3UGlydVY5aFRPZw?oc=5",
+   "source": "CoinDesk",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T23:21:10+09:00"
+  },
+  {
+   "title": "投資熱が高まる現在、特に成長性の高い米国株に焦点を置き、初級者でもわかるよう優しく解説したのが10/27発売、ムック誌『米国株大全2027』です。",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtWnBxb2dKZU0tYzNJUzc1NFdFOTdjNVMwcjJYQ3IxV3d4UTVmZTROTWZNZ1NLUVZhQlBnTnNSRkxIZE1ZMFNoc2p1ZmVOMm9JZHJDVzNvSE9fMkMtQXpzRGN3UWxlVjVfMkhQRWtlY25JQQ?oc=5",
+   "source": "Infoseek",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T23:15:36+09:00"
+  },
+  {
+   "title": "リカージョン・ファーマシューティカルズ【RXRX】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ycUVOODZGUXRGbWtCa1ZIdWFYejdQUXkxLXN6a21yNzVvZElfeFNfak5MLWgwelJ3NFdBdWthVnZWWDBNRXh4RjFFSUg4cjg?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T23:14:34+09:00"
+  },
+  {
+   "title": "ドル円、伸び悩み 大台が抵抗として意識されるか(トレーダーズ・ウェブ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDJPdEtiamYxVjZQQ2tZY3FhNGdmdTN6bXlzU0VLQlRHWENITkExNnpqalhzc2xtY2V2VjUtbWVyV3RXek5rVGtGSlAtbG1TYV9GakdMQlJpVVl6VURtUHF4aEdGb2pBeVhoOFdCTDFRS0lCTnhOMWVOS2VfNHpCa3lMRk5pSlU?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T23:13:17+09:00"
+  },
+  {
+   "title": "OPECプラスは、2026年12月まで原油生産量を現状維持する見込みだ。",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTXlwWVhuMVFRQjRUdDFmZU40bHVRbndEVE5ORDljRVJacEFjb19YcEdzc3FTSGNvQjFHNHdmZ2ZkNHp6T2dUM0g2b0hfMkJsMlBCYnB0cWd2dzc0TmI3emZNLVlTMHZZaWdIUmZTVWhMdFNHb3ZqdTRHQ2tlX2F3NWNXaFIxbVh6S0VDZm9ZUQ?oc=5",
+   "source": "Vietnam.vn",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T23:07:31+09:00"
+  },
+  {
+   "title": "SBI・V・S&P500インデックス・ファンド【89311199】：基準価格・投資信託情報",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBub29LdVJRaElPNWsxVDMyRkxkVHNnR05ya0MyN1EyalZHd2dZUlJkRlJ5MWVpSnpOdi0zcG5xem9DWlMzUnY1MU5EdDZSQzRfV2E5OQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:53:46+09:00"
+  },
+  {
+   "title": "デル・テクノロジーズ【DELL】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xWVYzVUZvWWZ1b3hmRVVWSllnNkJzX1oxakdaLXVFNE1JZGJIekg3bm5hVlNmUm56THVPOENYQVRVSnU2MmliZjdrTHJqM1U?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:49:38+09:00"
+  },
+  {
+   "title": "アルファベット【GOOG】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1razdWeTFYd2FjWm9WUVlraE9tOEVLXzYzd1FiZ21ueHpaUUNLMl9vdzNrc1BJejVyckVfdnRmaWlpUEg4dDVYOHVXc2xYbkE?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:45:42+09:00"
+  },
+  {
+   "title": "楽天・プラス・S&P500インデックス・ファンド【9I31223A】：基準価格・投資信託情報",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aeVJsQTkyM0ZlMm8yTEJLQlJpZHlqWmhjWnhDQmZERTJONGY5QVVOdDRKaldjVmhIcVNIRkY4eUJnX0pXQllycUhHRW11QlktNFZxcw?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:44:02+09:00"
+  },
+  {
+   "title": "ＵＰＳ、決算受け上昇 年末に向けた事業環境を楽観視＝米国株個別(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNEQ1LURSMW55akNqRE1zQzdhMDdxMEFaZjI2Mi1iWTRESWlJWkNrcGRoUnRuVXFudkhIZEljTWdPMlkyWjBSOFotRkxPOFd5U3Frd3Y1VXNNMVRZdkJEbXk2ZUV6bDh0bVYzTmwtdnBWMmZwWm11YlJyeV9Bb1FPQzRQdlNwMHc?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:42:38+09:00"
+  },
+  {
+   "title": "まもなく米リッチモンド連銀製造業指数などの発表",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UdEQxSWRMTDJveURuMFBocHZTNExqUzRWMU9tSHVKcHVSZzdRcjdyOWZQaVljSnBJeFB2MTA3ako1d2VsOVRKYg?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "欧州",
+   "published": "2026-10-27T22:40:29+09:00"
+  },
+  {
+   "title": "セールスフォース【CRM】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAtT2l4OFFPYnNhZXlkYndSSU05SXhCMHZhWXRVSEdQbEJPamxyX2R0c09uS3hPYm1mbTRVbjJfZmdISnNCOHZ2WjQzRGI0UQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:35:55+09:00"
+  },
+  {
+   "title": "ダウ平均は上昇して始まる ナスダックも上昇＝米国株オープン",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FM0ZHY3p5dF95OWVlNHZkbHcxdmxxWGo4M1NmWVRsNF9mN0g3YjBsMklZcmtacFdOOU0xVHExUU84dzhFUlRReQ?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:34:29+09:00"
+  },
+  {
+   "title": "【市場反応】米・8月FHFA住宅価格指数/S&P20都市住宅価格指数、予想上回る伸び、ドル買い優勢｜FX・為替ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtR19iZ3lSbXBtNHRUSURZZHJObkVzUXo1X21GbWU0MkVNbl9zYXNQQURqTlZHaUphc2JvT3R6aVY4S1hLT3lwYjFCV1pmRVMyTnc?oc=5",
+   "source": "ザイFX！",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T22:33:00+09:00"
+  },
+  {
+   "title": "10月27日の金価格：金価格は回復したが、急激な上昇は見込めない。その理由は？",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVGtiSDA3WlhrbGp0ODNtaVNRLXBhNGx6LUxwcGw2X0I2LWkxR2kwMlpjNE9ONTBJVDJZd21ULXVYMkY3Z3o3eGZIRXVGRDVkTERVWFU0U2l4eUpuSi1RM2dmeVJRNElhdnBUSDFUbzJpUnIzQm0zaUR2aTV2OEhyckQ5OVJfUzFTT1NjWUJPNHh6cEk?oc=5",
+   "source": "Vietnam.vn",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T22:32:29+09:00"
+  },
+  {
+   "title": "〔NY外為〕円、157円台後半（27日朝）（時事通信）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ybUhlM0s0OS1QVnBKeTZWWGRFNDRBYXpINlFDbWJmSDczTXdRbGVZYUFDcC0ycVc3SURTbURCbVV6OUwwUFBLZEx1UWtoUGhHcjdVMkdWaWJ3MHZQMDE5NWVnRjNCc1ZqdTctTE1ONWVMNEZIYW5xMHo0azhLMEE?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T22:30:16+09:00"
+  },
+  {
+   "title": "ビットコイン、原油高とAI懸念でリスク回避姿勢強まりさらなる下落も 執筆",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rMFpEQUhwYzFJYW9OcEEzZi1yQjNyOGNfMzhLdzFacElzTE9VWGFneGxEZHRya2NNRElIQ1lqd1FOdl9GY25BdG9kcU5jdkFJT2VLSWpYZTJJRHZSNGo4d0FsVktyS0JBODhXRWZQb05mdE0?oc=5",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T22:23:00+09:00"
+  },
+  {
+   "title": "ドル円、１５７円台後半 日米の金融政策待ち＝ＮＹ為替序盤",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE00eXhILUQ5VUdtS0Yzci1QT05EYnRGME12LW5md2NhRlFPaW1pMW1oWnNJTDR5MWhVakFLLVNuRG5jcVAtZUVqTw?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T22:21:29+09:00"
+  },
+  {
+   "title": "オーストラリア ドル / 日本 円【AUDJPY=X】：為替レート・相場",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZNnNQU0VuNWo4LTdyaS1Ybng4dm55OTBYcGtfVmhrbHRRSGNUUmV5MUt2dDBDOHR4NnlleUZOWGtubEpMY2xaYnpVTXBlRE53MlRvVQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T22:16:11+09:00"
+  },
+  {
+   "title": "イオンキュー【IONQ】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEUjVBaUQ2Mi1Td2tGRVZsc3Jma0tfT09vX3M4X1pRZ3A5TGpXTzRGZlljZVRNMW5FR0Ywd24zQy1sZmhINzJEdFUwdmUxT2c?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:13:33+09:00"
+  },
+  {
+   "title": "【速報】ドル・円は157.83円、ドルじり高、米住宅価格指数が伸び加速｜FX・為替ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ORUVoQ1VRYTgyYUU0QzRTUF85U0JwQWt6M1ZYNFNKSTQwaXNSdzdiNTVUbEprT3ZxTnVELTJzUG02NjgyemE1VmFhbTI5MEU3RlE?oc=5",
+   "source": "ザイFX！",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T22:07:00+09:00"
+  },
+  {
+   "title": "欧州外国為替市場概況・22時 ドル円、底堅い(トレーダーズ・ウェブ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYVd4R3dFN21EY1ZNT2dtbExUbjI3OGhKWEllVnlGR21td1Fnc1E1SXFndV90MkhfVS01QkhwODJweHNNdllQMkY0NjM0azlsZG5pT0JDQVBnc0M4YktKWWR4b05pV0xIVlJOZlJLREEwSU9ISzJnc1h1RGpCalZNeEhOV1l1bm8?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T22:06:04+09:00"
+  },
+  {
+   "title": "【市場反応】米・9月耐久財受注速報値は4月来で最高、ドルは高値圏でもみ合い｜FX・為替ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pd0w4aWd6Ym5qdk1fbWctcU5ucUQ5cDZ2UDhTbG1FY0VzYWF6LVRiNDVwYUlnYWdaQk1YMU9vMVBSTVlDdlEzRTZ6dUdFNDNNdkE?oc=5",
+   "source": "ザイFX！",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T22:06:00+09:00"
+  },
+  {
+   "title": "米経済指標【住宅価格指数】",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9hX3hvdEdWa2pPVUVpQ1JMcFcwck13RjRPc0NMOHlBS2szbEkxSUh0bEcyMEoyWHhUUDBWalVzcTRGWGRSOWplMg?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "欧州",
+   "published": "2026-10-27T22:01:29+09:00"
+  },
+  {
+   "title": "カナダドル、カナダ銀行とFRBの金利決定を前に下落 執筆",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLdmtsXzBjRG53TXZzREswTmhaek1oM1NrVmplcDNOOHlNd2E0YVdPY1RuMWlWbmNoRWl4a2xnYTRIaWxSbHRGMDZBbGx3M2MyNjVrNGhtMS1nQ2FTTjlSelh0d0llMVU?oc=5",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T22:00:00+09:00"
+  },
+  {
+   "title": "原油は下落、イラン外交の進展見極め－供給リスクと選挙も意識",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3NV9aZXM1TXlNZnVrSkJkcEpUNE1Nem15YWY2SFk5eWFEalFibFNvRHBPRHhpTG8wUVhBejdSNFU0THNXdUFLOGlKMnZaYU15MGc2cmYzT3Q5RDNNUmgtMnRVeVQ1VGJILWt0b3k4aUZGQ0FvWFVF?oc=5",
+   "source": "Bloomberg.com",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T21:58:40+09:00"
+  },
+  {
+   "title": "ドル円のピボットは１５７．７０円付近＝ＮＹ為替",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CengwekFndXJlVE44YWpENWFvbTVXUjFuZFVOUTZkcnhBM1N5TVBhVjdPT2F2OFgzZlBYYV9hQlM1cTF6VlFKWA?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T21:58:29+09:00"
+  },
+  {
+   "title": "ＧＭ、ＮＹＳＥからナスダックに上場先移管 11月17日から",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VY3FlRWhTZXNBSXMwa1BGVzlFQVd4YTlseHdCdWloS2dfdzdOZEFDNU1WVUMxTzh2WlhGaTAyU2hsMTB6QndCd0NEQ0ZURnNaZGxETm1zenIwT1A5T2VDbjRSR09acVpGVDJsd0dMdG5qaDdRWG5ObUt0LXJHUQ?oc=5",
+   "source": "Reuters",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T21:49:04+09:00"
+  },
+  {
+   "title": "原油は下落して始まる＝ＮＹ原油オープン",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KZUc1cy1qM0hWUDNZTE1sUzUxQVBxeE9vOW1tUHlCT1hBUXRGNXBRQkVmbkF3R2hmckVjRllhOVJKdzcyaUlWSg?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T21:47:29+09:00"
+  },
+  {
+   "title": "ワールプール、決算受け時間外で７％安＝米国株個別(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb3Fodk1DRm9jRlFxcjFYTGpVNXc4ZVh3OUI4TU1LVDN4NzBkeDNETVlOYlRXaEJUQWRhNE1sTkgxWXBhOWdOQWw3Zkx0dTdSWl9YeTVNdWNxV1Y0bFI0c1ROdGZHcllscVJ2WkFQZEZibzJMWVhCRWFCbUJoNXpldUwtYjA1M2s?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T21:41:05+09:00"
+  },
   {
    "title": "ミッドキャップ、時間外で２２％高＝米国株個別(株探ニュース)",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSWRCUXZTYVVMNFVCNktpdWVrSGs5LUJ6aWQxZ1Q4dHFyYkljQ05HWGgzcVpSaGJDRlRkcFNYRDBjWk5kNlZDVzEwYjJKdHpXbjZFNkx2ZWdNRm94SDVheVk2aDZrSDd4ZmxWRGJ3Y2FKQnNrNkR2WmluX1VYZXVzNmprbXJTc2s?oc=5",
@@ -42,6 +826,14 @@
    "published": "2026-10-27T21:25:00+09:00"
   },
   {
+   "title": "【速報】ドル・円157.72円、ドル底堅い、米・週次ADP雇用統計は前回から伸び鈍化(フィスコ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc3dmb29uR2MxRHlJcmlEMzhZdjY4Um1FYUtXaFl4T05JMHdmby1zaklxNWlZd1dTT3lNUHlDZmJIRzNoZk93RDZWVnp1Z21HOGZXX0hpWVl2N0VSMEZaVExnalJxdTJyOUEyb3VsU1JsdTJqcFF5emNCc2RfZVA0LUhLUHNTSms?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T21:22:09+09:00"
+  },
+  {
    "title": "フリーポート、銅・金価格上昇で第3四半期予想を上回る 執筆",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96ZFRpYktiaW40MzYtUWdNdXlxNjZ5Q09mTm5LcUYxcnlUcWJEbmtEamV3TzR0VWdvT3VaZFRocnNOZk9URDNHNUxrWnUtbzBLMXJIcmh5ZmVtQ0N1enQ2R1RraU8?oc=5",
    "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
@@ -58,6 +850,14 @@
    "published": "2026-10-27T21:19:29+09:00"
   },
   {
+   "title": "大手ハイテク企業の決算発表を控え、中東での外交努力を受けて株価は上昇、原油価格は下落した",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YRmszVGQtYnBPN3FEVUQ0OF9YZ3QwbTFYblE3R25KUTUxVU1SbFNrVy15cDJtUVRrT2kyV1RXUjNyalJQVlVadGtMRmxVOHhBN0lBRlQ3QnlCY0RkZVlLLW9OSW9oTC1OZ2RweDJHT2RMNXh6N1ItQQ?oc=5",
+   "source": "TradingView",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T21:15:06+09:00"
+  },
+  {
    "title": "ダウ先物は続伸 原油や利回りが低下＝米国株",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nRzdHUE1Mb1lic0dfckUtQUJ3MTVUbkdkSGM2cF9XSE1XeGVfTWtvSmpYLTZrV3ZUVWFybFJJdkhZczRqSXRGYjNJdmNGN3ZULXc?oc=5",
    "source": "株探",
@@ -72,6 +872,14 @@
    "lang": "ja",
    "category": "為替",
    "published": "2026-10-27T21:10:00+09:00"
+  },
+  {
+   "title": "米ドル/円は157円台半ばから約150pips下落も、日足レンジ内で反発！ 米中間選挙を控えた膠着相場では、守りを固めて利益を狙いたい！(ザイＦＸ！)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRU11TGRyS0FZT0NQT3Z1NEM5M0dhSEtwQ3A3Y1p4MXlrNWZqOExWMml5ZjN2MjRwV2lCVVNJcXM5VDNnZGlxMmpQNUxVY3pxbkhNR1VKT3dKMHY1OWs5LVNHZnV5WGVKNGtPR0ZmdkJjZEpXSEVBSndHV0Z1Y3prdjE5aTZfTWs?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T21:06:25+09:00"
   },
   {
    "title": "先物相場は堅調、AI関連企業の決算発表を前にVIXは低下",
@@ -104,14 +912,6 @@
    "lang": "ja",
    "category": "為替",
    "published": "2026-10-27T21:01:20+09:00"
-  },
-  {
-   "title": "為替相場 27日（日本時間21時）",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBtaXJkckhiQVZ3NFJVSG1hOGZXdExCVFdzU0NFZTEyc0RYNHVST1hGZlJqMWhHVjdIVjZpQmNxQU5nSWNhVTV5NDFKNA?oc=5",
-   "source": "47NEWS",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T21:00:00+09:00"
   },
   {
    "title": "Tracers NASDAQ100ゴールドプラス【02311251】：基準価格・投資信託情報",
@@ -162,6 +962,22 @@
    "published": "2026-10-27T20:47:48+09:00"
   },
   {
+   "title": "香港株サマリー（27日）",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9RaXhkd0dHb2ozN3FmRU5DZ3pVcEZyaEZCQjliUW83WGE3SHhGY2swRW9DRUJtRUFuOE5pcnlSOVFYTXFxanJTbjMzZGFqN2xuUy1ZYnEyWjlMZ1hMR2dpWmRGLTNkNEZiWDBmclJIekhZN1pjT0lVajJ2Yw?oc=5",
+   "source": "OANDA証券",
+   "lang": "ja",
+   "category": "アジア",
+   "published": "2026-10-27T20:41:03+09:00"
+  },
+  {
+   "title": "中国株サマリー（27日）",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSOWhLVzJ1UmlRRVpVM3NzazNKNEw2WjlaT3IyNlZNMGtTaC1lT1lXbkhCNG0talFwVmViaHl3eGpmU08zaUxlVDNFNl80QXlwT3laMGYyRzVFOUdncExlVWpKeDBwT09OQVFYSHlyTVJJTWVXempQeVpmYw?oc=5",
+   "source": "OANDA証券",
+   "lang": "ja",
+   "category": "アジア",
+   "published": "2026-10-27T20:36:03+09:00"
+  },
+  {
    "title": "金価格は売り浴びせの後、1オンスあたり4,500ドルまで回復するだろうか？",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMkF6dE4wNUlKUHY3VUE2QzA2MjRjYktjN2pIeDBpRFkyYkVoekhtTXphTzFjZS1lUXJMU0ZpaENCM1NRUUlkdWN2SElzbzB3NU5Ua01KVml5ZnY0OHdVdEpMaEIydWZNT2UtbnJBdmZhcG1xZVhvZlVieGNYaGlDWWExTWlfVVNDN1Fz?oc=5",
    "source": "Vietnam.vn",
@@ -186,20 +1002,28 @@
    "published": "2026-10-27T20:33:17+09:00"
   },
   {
-   "title": "ＧＭ、ＮＹＳＥからナスダックに上場先移管 11月17日から(ロイター)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOVlpS3lJNUhQT19XTl9ZX3o4STF4aFlfb3M1TkFKd2llYXFtUVV5STlxZ29FOVY2aXhKTHlTNFRlMW5icnBubUVRNVlWdEFCMWNBTUJseG1uWDF2WFNkTjd2bHluUDBjYXZoNkFFcVFEWWFVa1NYYXlINkJVcGN3VldmeEl5UHc?oc=5",
-   "source": "Yahoo!ファイナンス",
+   "title": "ＧＭ、ＮＹＳＥからナスダックに上場先移管 11月17日から（ロイター）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16aTlySENYZWZYNUdJem8tN3ZvMWh3eUJVcU9ldGRlcVMtdmZLRjhkQldCcU40Vll1ZlJrVU02X0NSaVl0aVNuZ09qb0NWNFUwVTg4SjRSZ1dsTmFXbEVJV0ZqSzRleWtGcmV2ekxzWVg1bWxQS0QxNXhWU0hjWEk?oc=5",
+   "source": "Yahoo!ニュース",
    "lang": "ja",
    "category": "米国",
    "published": "2026-10-27T20:32:13+09:00"
   },
   {
-   "title": "ＧＭ、ＮＹＳＥからナスダックに上場先移管 11月17日から",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BTWhVMXlLaFJRZzJUSl8tSDVza2NqMjNLRjJHcmpMbjkzWjlMU1pmMGw1SHJmQUttRGN0aEZENWFDcHN5S1U3enpjSEhJaFJHTHh5bW1jSENUdw?oc=5",
-   "source": "ニューズウィーク日本版",
+   "title": "原油先物は下落",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYktucjNTRHB5a1RycEpBQl94cFB5RzQ0Qm5vN1c5cXhUb0luNGgtNWJHMGpkbW1hcFlyaFRtMF9ubllkbnFoT3dYb2FOSWlNbkVlcDdMbnhHVFhnb3FrS3FxcU9tbWdpQ2FXVWtYNzl2MVdHdTk5aGVPcG82ejdGb3U1TQ?oc=5",
+   "source": "Moomoo",
    "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T20:32:00+09:00"
+   "category": "商品",
+   "published": "2026-10-27T20:31:25+09:00"
+  },
+  {
+   "title": "【随時更新】WTI原油、USD103.53高値圏で上昇チャネルが80%完成 執筆",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VUU5BckNVZXBBWVVsMlREZXB1NndfaG9OWmpTREFNc2tTQlFXR2JBX01IbTRRYm8wWTJMMUtuVHFzUm5YNWI3OGF6UDZRWFptc2tXTGpDM1lEQlpranNZYV9RdWI1cFNOYkZmemk5Y0ZueUl2c2c?oc=5",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T20:29:39+09:00"
   },
   {
    "title": "ユーロ圏9月銀行融資、堅調維持 銀行の融資姿勢厳格化でも",
@@ -216,14 +1040,6 @@
    "lang": "ja",
    "category": "欧州",
    "published": "2026-10-27T20:24:31+09:00"
-  },
-  {
-   "title": "純金上場信託(現物国内保管型)【1540】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wT0pLZFYweEZKZEI1MWVnSDNHYXJfemt1T1FNNDFfai1kRkFoVGp2Y0pLemJYVGRIUDc2VGNXVUlUSUFFdTNscnZBME81Ml9Oenc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T20:20:42+09:00"
   },
   {
    "title": "ドル・円は失速、豪ドル・円は堅調｜FX・為替ニュース",
@@ -314,7 +1130,7 @@
    "published": "2026-10-27T20:00:24+09:00"
   },
   {
-   "title": "FX実践解説、相場分析＆リアルトレード、ドル円などの注目材料（2026年10月27日）",
+   "title": "FX実践解説、ドル円堅調「FOMCを前にタカ派警戒」（2026年10月27日）",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Yem41VkFFWS1QTmVRSjBTTkQ0d3NEcUo4bFRKcDZVaXR0U1J6YTVFTGlSVWswU2gzam5adk5wbG0zclU3WWVLYlNGcGVmbDJjMUNvdUdvSlF0VjFJeE5oVHY3cw?oc=5",
    "source": "外為どっとコム",
    "lang": "ja",
@@ -322,28 +1138,28 @@
    "published": "2026-10-27T20:00:00+09:00"
   },
   {
-   "title": "(株)ティアフォー【593A】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94TjJYZU16blZqUGNKRHRDY2c1YlRGRFZSYW5fbXo3Ym5LNW0zSWdDeDA5UmdDYjFWMFA2OERRb2tyTEM5UkR3YnFOS3Brc25Ec1E?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T19:58:26+09:00"
-  },
-  {
-   "title": "(NEXT FUNDS)日経平均高配当株50指数連動型ETF【1489】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QSENxNlJuMUI2TzlkUldaZ3JEc1Y4Vk9Zb2RPb1FNZnJQaXR4OFc3SVhRYS1FWDBHTFlidkhfd3YzVl9RZklERWhvajJfaVViQ3c?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T19:55:55+09:00"
-  },
-  {
-   "title": "上海総合の指数情報・推移",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
-   "source": "Yahoo!ファイナンス",
+   "title": "アントロピック社の新規株式公開（IPO）への期待感から、アジア株は上昇した。",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNVJfZHhrZ2Q4Q0ozNHZ5RDZwa0M1SHVDUm1VYXhkYXc2ZFFRaE9BSXVubGwzYTItXzVWdC1xYUhMQ2VPZHkzZmhLWTVIYWxRNUR5OG93b1dlR1NOZWdmNFB4MVdKNDZJQWxtYm50MTBlOGFEWmxIMjYzd3o4M01YZERSeEVhdFMtdXRIdU9QelRwMHpvVnc?oc=5",
+   "source": "Vietnam.vn",
    "lang": "ja",
    "category": "アジア",
-   "published": "2026-10-27T19:55:55+09:00"
+   "published": "2026-10-27T19:58:44+09:00"
+  },
+  {
+   "title": "27日外国為替市況（日銀公表分）(トレーダーズ・ウェブ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUmZvSTV0bFlmV3hiNV9aTHVoTWRYNXAwM1FVUUZCQWJycjZIMF9mZU40eDNRLWx5YlU4R3MwTWpjQmNERjNmQkFUd2d1R2lFalFINHdrUnpCR2hqVFlRcmY2R25lUVRkbGpPWlZwRFhydEYzOGZUeUExWTJHd0hNakFzLWQ3Rm8?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T19:50:04+09:00"
+  },
+  {
+   "title": "おおむねドル買いがやや優勢、ユーロドルは１４日以来の安値水準＝ロンドン為替",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5YzlRUlRZN3VYT3ZxM01od2daZUw5RXBxZ2NUMmNLTnBESWlycGpPNzN6bVBWVUs3WU1HckpLMkJWalJsM2RxXw?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T19:48:29+09:00"
   },
   {
    "title": "(NEXT FUNDS) 日経半導体株指数連動型上場投信【200A】：株価・株式情報（夜間PTS含む）",
@@ -386,20 +1202,20 @@
    "published": "2026-10-27T19:43:51+09:00"
   },
   {
+   "title": "ペトロレオ・ブラジレイロ・ペトロブラス【PBR】：株価・株式情報",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9wNmE2aHBCMG1RUzJsbVpEd1ZzYXZENDRLcDNhZWJGVE1jNl9iQjdtcGxLdno1Tl90aUVsS0Nqa2FVQ1Z2YUhLN3ZkcnZZdw?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T19:43:36+09:00"
+  },
+  {
    "title": "ドル・円は底堅い、クロス円にらみ｜FX・為替ニュース",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtc2lrcFFnM2gyZllOYzM3bTRIa0dYelF1WUQ5WnY2M243Zy1jYmhFelJUMmw5S185M1ZydFNVLUt6WHVnWkRlSjQ0Z1RaSnZRWVE?oc=5",
    "source": "ザイFX！",
    "lang": "ja",
    "category": "為替",
    "published": "2026-10-27T19:43:00+09:00"
-  },
-  {
-   "title": "アルファベット【GOOG】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1razdWeTFYd2FjWm9WUVlraE9tOEVLXzYzd1FiZ21ueHpaUUNLMl9vdzNrc1BJejVyckVfdnRmaWlpUEg4dDVYOHVXc2xYbkE?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T19:41:34+09:00"
   },
   {
    "title": "NY為替見通し＝ドル円、FOMC他イベント控え堅調 財務相発言で上値も限定的か(トレーダーズ・ウェブ)",
@@ -416,14 +1232,6 @@
    "lang": "ja",
    "category": "株・企業",
    "published": "2026-10-27T19:37:52+09:00"
-  },
-  {
-   "title": "楽天・プラス・NASDAQ-100インデックス・ファンド【9I314241】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qQ0dncWZtc29VMU1XUzB1TXl3T1N3ZWtuRFUzd295RGdsUnZoTlJPVmNlck9RbWZadmJPT3lqYnZJMzFQNEs1UmxpdndkYVVQVkgzQQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T19:37:31+09:00"
   },
   {
    "title": "ゼネラル・モーターズ、株式上場をニューヨーク証券取引所からナスダックに移管へ 執筆",
@@ -458,20 +1266,20 @@
    "published": "2026-10-27T19:32:29+09:00"
   },
   {
-   "title": "楽天 日本株4.3倍ブル【9I31115A】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzTVhNVjdtU2Fob0pqRXE2VVdNWXFYM3NsbG9RVFpqdUc0b0w4bVpmTVNvdjZ2c0NwSjJnQ0dPcWVPRldTYnVWMUVQUW95LU9oZWN4bg?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T19:31:26+09:00"
-  },
-  {
    "title": "米連邦準備制度理事会（FRB）の会合を前に米ドルが上昇したことを受け、世界の金価格は下落した。",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSlNuWDdGa3pHYWIzVUZaRUtlRXNHall1aVJZZDM2amhRUlVxNVdVNmhXMjRRd1M0Zjhfcy1fWXY4S2RVVUM0Vl9yVVJoMlc0NENhTjhRTk03eE4wYUI1LURvRUN4bDBkU2M5cWd2QW5kNnd2ckMzR0Vvekx6cFJuM0wyVnFaWEcxREV3RmREWjJWMzhVLTJRUA?oc=5",
    "source": "Vietnam.vn",
    "lang": "ja",
    "category": "米国",
    "published": "2026-10-27T19:30:57+09:00"
+  },
+  {
+   "title": "不安定相場を乗り切る！ 希少な11月期決算銘柄で賢く狙う優待投資 ＜株探トップ特集＞(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUG9DVDhnWXMxVGpjQ3FMajBxSFpjRThkMzFYZEdULWtPNGRCRExVM1UxeFVBUXJLbXNqY1BVUXlUVDRYSDF2dW9IUWtyYWUteElpNmZZYXN5dEhOeElOalZfbHVYU3UxUTdJNjY5SkNuaVY3VGNoTlhSS2stMVVBZDUxc05NTjQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "株・企業",
+   "published": "2026-10-27T19:30:30+09:00"
   },
   {
    "title": "不安定相場を乗り切る！ 希少な11月期決算銘柄で賢く狙う優待投資 ＜株探トップ特集＞",
@@ -546,12 +1354,12 @@
    "published": "2026-10-27T19:21:19+09:00"
   },
   {
-   "title": "英ポンド/円【GBPJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxT2xZZUdVWlItVS1jZXVOTDRla0NkN3hUZDBfTU5NbUE1YnphRmNoblNIbGVDczctbGxheEZDdTU1Q1pZaFpXeHFYcklmcFhZWkgtcEVR?oc=5",
-   "source": "Yahoo!ファイナンス",
+   "title": "ドル指数は上昇、１５日以来の高水準＝ロンドン為替",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85cFk5SkNPZGdKakg1RGhBYmlYZ1BfbWdsNjFsSEhUNFBiUndLUUhuSTUycnlxTUY5c0VNVGJ2dW9nVlZBRU5qTg?oc=5",
+   "source": "みんかぶ FX/為替",
    "lang": "ja",
    "category": "為替",
-   "published": "2026-10-27T19:17:30+09:00"
+   "published": "2026-10-27T19:17:29+09:00"
   },
   {
    "title": "S&P500/ゴールド・プラス・Manトレンドフォロー戦略【12312267】：基準価格・投資信託情報",
@@ -560,14 +1368,6 @@
    "lang": "ja",
    "category": "米国",
    "published": "2026-10-27T19:16:14+09:00"
-  },
-  {
-   "title": "オーストラリア ドル / 日本 円【AUDJPY=X】：為替レート・相場",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZNnNQU0VuNWo4LTdyaS1Ybng4dm55OTBYcGtfVmhrbHRRSGNUUmV5MUt2dDBDOHR4NnlleUZOWGtubEpMY2xaYnpVTXBlRE53MlRvVQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T19:15:17+09:00"
   },
   {
    "title": "シールエスキュー【LAES】：株価・株式情報",
@@ -602,6 +1402,14 @@
    "published": "2026-10-27T19:06:47+09:00"
   },
   {
+   "title": "金価格が4,000ドル接近で下落する中、中国の家計が買いに転じる―上海の現物取引量が6カ月ぶり高水準",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10Y2s5aC01SHEyRWpxYnVoOTdnRUtteXp4dXFiYV9hRWRwQ21vTFhuWmJDa3VIVUJXZ0hjTkNCNmt4Z2J6c01rNjB6anF1Y0dMRWpjcmtfc0lTY0dOMGMxckVfT0xtSl83OXBSWWE1S1ROZlli?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T19:06:00+09:00"
+  },
+  {
    "title": "HSBCの不振が欧州銀行株を圧迫、大型テック決算を前にSTOXX600下落",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oS0wzNFY0d2JidzBSeXpxQU42RTBMUHBpWlBNX2d0X29SSmpEM3NEYUFRTDJ2Y3M5VWRzSnpjZDBPQi1EOTJ5MGpCTy1fOEt0X1E4MV9reDlCNmtPVWUwckR2Rnoxc1lQTW1iZlA3MlVMdGRY?oc=5",
    "source": "BigGo ファイナンス",
@@ -624,14 +1432,6 @@
    "lang": "ja",
    "category": "米国",
    "published": "2026-10-27T19:00:00+09:00"
-  },
-  {
-   "title": "日本株配当オープン【64318056】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XTjN2TjNkS1JTak5UQnpyUUtXZjlpX0hwOWVKQURSa1c4bGdyRm00VElpUk9pakd4WFlzOU92MWJETm84b1ZTd0xseExFWF9XSTAtTQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T18:57:27+09:00"
   },
   {
    "title": "ジャパンリアルエステイト投資法人【8952】：株価・株式情報（夜間PTS含む）",
@@ -666,9 +1466,9 @@
    "published": "2026-10-27T18:49:41+09:00"
   },
   {
-   "title": "ユーロ圏の住宅ローン需要、金利上昇で第3四半期に急減＝ＥＣＢ（ロイター）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fQ2RRTnNMTVVBVFp4NDJBNmo2dnRIa2U3SS1nWVpTWE1QRDFTY2E5Um1DTTlXc05NdTBwR0lPZXVTelY2Y1J3eXJWQjhEX0ZMOVY0S0lLcjRZcXg4MUhJSmFYNlFENllYdS1fcmVQZTZTNmZKRDl6dEhQMXNRVEE?oc=5",
-   "source": "Yahoo!ニュース",
+   "title": "ユーロ圏の住宅ローン需要、金利上昇で第3四半期に急減＝ＥＣＢ(ロイター)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMlVOSjFnZlNJNmlub0NSbjJIUjZBMU1MeHZNUFJYX0lxZTRkRHVkRjBrakcwdWNsbEhNVlRMYms5TnUwTVlOUFQtbXFTb3RmZ2xoZE1UU0tVenBHQnFzVEhDTHNQb0wzYmtUcEZKTFFKRWhud2FIUTBnYjAwclBvZlE1enBDX1E?oc=5",
+   "source": "Yahoo!ファイナンス",
    "lang": "ja",
    "category": "欧州",
    "published": "2026-10-27T18:48:13+09:00"
@@ -680,6 +1480,14 @@
    "lang": "ja",
    "category": "商品",
    "published": "2026-10-27T18:47:00+09:00"
+  },
+  {
+   "title": "【今日のマクロ経済】FRB据え置き観測、物価を注視",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GYXhPSDJELWpCUy15dklRdlZYdndCbGJqc1VSNUNyMDZBUUhWZ0hPRmxQZkdNMHBZd25vU3dtTmNBaHZDMVhXZVBHa0xGcUtfMXBCSzNKREhQcmpOdkRSaA?oc=5",
+   "source": "CRYPTO TIMES",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T18:38:03+09:00"
   },
   {
    "title": "(株)エブリー【607A】：株価・株式情報（夜間PTS含む）",
@@ -696,14 +1504,6 @@
    "lang": "ja",
    "category": "株・企業",
    "published": "2026-10-27T18:37:40+09:00"
-  },
-  {
-   "title": "【今日のマクロ経済】FRB据え置き観測、物価を注視",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GYXhPSDJELWpCUy15dklRdlZYdndCbGJqc1VSNUNyMDZBUUhWZ0hPRmxQZkdNMHBZd25vU3dtTmNBaHZDMVhXZVBHa0xGcUtfMXBCSzNKREhQcmpOdkRSaA?oc=5",
-   "source": "CRYPTO TIMES",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T18:35:34+09:00"
   },
   {
    "title": "ドル・円は失速、ユーロ・円にらみ｜FX・為替ニュース",
@@ -726,7 +1526,7 @@
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1kLUFKa0lrTWM2SjgtLTRsVlN1aXlOTkZXN0llQnlPQnR5LWNJYzc1YkpObWJpVGZLcEg0U050R0VCa3IxMVVjUHNMdTdPay1O?oc=5",
    "source": "Yahoo!ファイナンス",
    "lang": "ja",
-   "category": "株・企業",
+   "category": "米国",
    "published": "2026-10-27T18:19:20+09:00"
   },
   {
@@ -762,6 +1562,14 @@
    "published": "2026-10-27T18:16:00+09:00"
   },
   {
+   "title": "日経平均テクニカル： 4日ぶり反発、終値は3週間ぶり5日線突破(フィスコ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQnVVeXFVdDlkbGZnbzZHVGZnMmtTcjBlNWUxdk1DbHpPdDZpaTVoWE1rT2E1WWNqeVBKeTI2UW1ZeFJWSkpGNFUzSWw3Q21HU3BVamNXVkhTVnpoSzJJZ3p4QndVY3hiR3hBVWZPOVJqVjM0VGF1dnlxY1F5OEROaWNJMHktMWc?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-27T18:15:00+09:00"
+  },
+  {
    "title": "◎〔決算〕信越化、２６年９月中間は増収増益",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1oUTZNdGxhb21FMjhsTm5iZUZjdVpaLTIwRUlnQ1E5ODFqQk9VTGxKaXNhYUVqUXdmdkhxdnRXWFVJQ3BKc0o1cm84cThENGxBdnZudQ?oc=5",
    "source": "時事通信ニュース",
@@ -794,20 +1602,20 @@
    "published": "2026-10-27T18:09:58+09:00"
   },
   {
-   "title": "エヌビディア【NVDA】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xcERaYlUwR2Rhb0pfZnNyNExXTmhkeHd5MjVsSTNwdG9tR041dE1hYkdPSGswOTFranNkVW85U0cwQ25CaGh0bzJEbnk3UkU?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T18:08:58+09:00"
-  },
-  {
    "title": "中東情勢の緊張緩和への期待感から、世界の原油価格は約1％下落した。",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUzJaNXQ2dmc2ZUZBUTVUTmlPRTJMcnRmYU80dDNCdEpITGdxYm9EM2ZEVEI0T0FFX29XWHVwVTFULUZRRkZCSG9NTnRUUmRUaGNTd1RqZWVaRDVVNV9VdkE2cjB5SHJybFVwM0w3c3Y2T0ZtX0ZfT0VUNjlaMVdjSzBNNllkb21rbkx6aElodlcxZ0xHakU5Yg?oc=5",
    "source": "Vietnam.vn",
    "lang": "ja",
    "category": "商品",
    "published": "2026-10-27T18:08:02+09:00"
+  },
+  {
+   "title": "27日の中国本土市場概況：上海総合は3日ぶり反落、企業決算の本格化で見極めるムード(フィスコ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY0hzVFk0eUkzTllhMm42R2hZQVphdlpvUHl3TVdFY0x6ZFczMU9wUnlkTkFwbzBCQ1V0bC0zZ3F3bkdnMUNPN1dMNXBuT0djR2RrVE83X3dCbmZSbnlEQW5DM2Q2Nnp2bHd3ZEJGeHJHN1V3NzV5U0tpaFRsblp2SmJKNF9FVGs?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "株・企業",
+   "published": "2026-10-27T18:07:12+09:00"
   },
   {
    "title": "ユーロ圏経済指標【マネーサプライM3】",
@@ -818,20 +1626,12 @@
    "published": "2026-10-27T18:04:28+09:00"
   },
   {
-   "title": "クラサスケミカル(株)【646A】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44LUVXTWV3RVAxeTNQUzUzbWNjUVdocDRmVXAxWGJsck9pWE9VeEZsWHpEU2lLcnkxakVZWVJLRWw1am5zOWMyZnFmMFlWT3BzU2c?oc=5",
-   "source": "Yahoo!ファイナンス",
+   "title": "Ｎｅｗｓモーニングサテライト【フランス売りにＥＣＢはどう動く？】(テレ東、2026/10/27 05:45 OA)の番組情報ページ",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWUtZWGw5TjNmc1JuZ0ZhS0NtdDBDOS1pcU9VSndLSTYxM3J6dTIxT0RfYld1RktjRlQ0UG55OXJYVjk3QUNLQmxaSjJfVVYwRU04c2VLdUIzSU15VW0tSGZBbFBZNTI1ZDVhZnRVZmFSaHdScXpoSWlLUTF0Xzh6RFZ6dG5WOXVNT0ZYMHRNOA?oc=5",
+   "source": "テレビ東京",
    "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T18:02:58+09:00"
-  },
-  {
-   "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQa1U5NTk2aS1xRjBZb0dxSzJocWtGel9GdVBUTEx4TVhJY0R1cHB1aGlFZnltb1dpQ3lYVmd2M09TUnMxXzV2cE1GR1kxbGhHWXNGUQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T18:01:14+09:00"
+   "category": "欧州",
+   "published": "2026-10-27T18:03:09+09:00"
   },
   {
    "title": "(株)イントラスト【7191】：株価・株式情報（夜間PTS含む）",
@@ -858,12 +1658,28 @@
    "published": "2026-10-27T18:00:03+09:00"
   },
   {
+   "title": "日経平均反発、アンソロピックIPO目論見書でAI・半導体株に買い戻し【日経CNBC／きょうのポイント、明日のヒント】",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkbGhnVUZZMlBwN1NNU3pwenFDOW8tVFg4d3VKUUtqZUFpWjZnODk2bUVCak1qRl9BWTBwV3BITVA1Nmd0SjBVSFZoMlEyR3VieFc4WGR2ZmpmbHdCSXNiemtidWlSblk?oc=5",
+   "source": "テレ東BIZ",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-27T18:00:00+09:00"
+  },
+  {
    "title": "円高への転換は近いか 原油価格が下がれば米ドル円の下落傾向が鮮明に 野村證券・後藤祐二朗",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIaWxUNUpBVWNqZkNZVVhhUDVubTYwRVMwdWgyTlRjWllIZWFUMWliZHJsUkFvNGpfY2pyWExibUNYc2NCUWJIWDl6NjBJZElnOEg3RlY5Q1BRcGdJN21n?oc=5",
    "source": "野村證券",
    "lang": "ja",
    "category": "為替",
    "published": "2026-10-27T18:00:00+09:00"
+  },
+  {
+   "title": "日経平均サマリー（27日）",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KdEdnWWk5em1mM1d1N0ZMOGxyZC16dmV2NEVWdFUydHoyb3djLTlNbEYyaVdQZ0FGNTdPdklMdVBCUzUydDBMTWNkSnVvdFo5aEFpcG14eDh3OHc0RGhLRVVrUVpuN2hFdHp2bnpaUlIyaWhQMHFudGJzMA?oc=5",
+   "source": "OANDA証券",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-27T17:58:06+09:00"
   },
   {
    "title": "ゴールドマン・サックス「中東・ロシアの製油障害は日量580万バレル、最悪シナリオを超過」",
@@ -874,12 +1690,20 @@
    "published": "2026-10-27T17:56:00+09:00"
   },
   {
-   "title": "(NEXT FUNDS) 日経ダブルインバース上場投信【1357】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rcjVpV2ZEM1VtNnlBVk9SN0ZSOGkyMTI2WFlKejY4RS1LUm5CUVpFaS1YNUNMd2JSYkVCbzdMRjRIZE8xcHQ0XzdyRE5TT0hIaWc?oc=5",
-   "source": "Yahoo!ファイナンス",
+   "title": "2つの米連邦準備制度理事会の議論 ビットコインと金に影響",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fb2dPN1pzcUo0aFJwODlBa2YtbVdJcW4wMmo5RzdXU1BTQnRDODVkbTRGeG16U1VVN3ZTZkRzaUYyVDdUa0xoWUd2b3JFY2gwS0xCRWRnNkk3NGZENUpWRXVLeDRvRGowV3Izejg5d3RKUnVi?oc=5",
+   "source": "BeInCrypto",
    "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T17:54:01+09:00"
+   "category": "米国",
+   "published": "2026-10-27T17:50:51+09:00"
+  },
+  {
+   "title": "アジア株 まちまち、韓国株は大幅反発",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OVFItWTQ5LWtWcDNKVFlxcFlzOE9nb043d2Nzd29UYkJzZ0YwYUQzanluSkNHNVdZMGZYbmV1dXpfdGNmcl9CS2VTLXRySnBodzBxM0Roa19SY3dOWHNCdg?oc=5",
+   "source": "株探",
+   "lang": "ja",
+   "category": "アジア",
+   "published": "2026-10-27T17:50:00+09:00"
   },
   {
    "title": "ソーファイ・テクノロジーズ【SOFI】：株価・株式情報",
@@ -888,14 +1712,6 @@
    "lang": "ja",
    "category": "米国",
    "published": "2026-10-27T17:48:54+09:00"
-  },
-  {
-   "title": "セールスフォース【CRM】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAtT2l4OFFPYnNhZXlkYndSSU05SXhCMHZhWXRVSEdQbEJPamxyX2R0c09uS3hPYm1mbTRVbjJfZmdISnNCOHZ2WjQzRGI0UQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T17:48:02+09:00"
   },
   {
    "title": "GX US テック・トップ20【2244】：株価・株式情報（夜間PTS含む）",
@@ -914,22 +1730,6 @@
    "published": "2026-10-27T17:44:58+09:00"
   },
   {
-   "title": "アジア株 まちまち、韓国株は大幅反発",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TMnY5aHpiSy1iWm5Kb190cmVKUFpoeFo0cnd1WE1xX3lEYjUyWDVsS0tBYTVOZ3lwS0FzRDgxakhnZlpadGNOUg?oc=5",
-   "source": "みんかぶ FX/為替",
-   "lang": "ja",
-   "category": "欧州",
-   "published": "2026-10-27T17:40:29+09:00"
-  },
-  {
-   "title": "SBI NASDAQ100インデックス・ファンド【89311265】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RT0lFNkU3dUt0N2V6a3p4Nm5LWmwwRkRhVXV6M0hpS3BLVXF0RjRJdTlZTzNuVmdHM3R2ZDlGZW9SRHFGVHVRcXNGZzRRSmdlQ3B6bA?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T17:37:00+09:00"
-  },
-  {
    "title": "ＥＣＢ総裁に早期退任観測 ユーロ圏諸国、後任巡り駆け引き",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05QWEyYmhQem5GMHc4dV91UnpiVjVRV1lkZG1qbE5aVGlFUi1fTWNRS2lhZHBuZjVyNU96ZHhPWko3U2JseF9yMllnbC1iZDhTVWgzSWJob0d4QWxhaXNQX3Z0aw?oc=5",
    "source": "時事ドットコム",
@@ -938,11 +1738,27 @@
    "published": "2026-10-27T17:37:00+09:00"
   },
   {
+   "title": "明日の為替相場見通し＝１５７円台後半を中心に一進一退も",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjUEVHNmRpLWMxbEU2Smk0X2Z6RGotNGFIOWZzY2VwZHJRSUFuOFZjcVpmVWdJMG9ud3NWNmhDU3ZaSDdkbDQ2UlFzdjZzYlhDRnc?oc=5",
+   "source": "株探",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T17:37:00+09:00"
+  },
+  {
    "title": "ドル・円は小じっかり、158円回復目指す｜FX・為替ニュース",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00NHAzQnc2RzBKOEc1Rl9WNXJpTEtEbWgwQnRLYXNDdGNkcGIwT2ZkTk85XzVod1VtQndicF9uNzN1ZFVKdWlTZFI5OHlnVkN3NXc?oc=5",
    "source": "ザイFX！",
    "lang": "ja",
    "category": "為替",
+   "published": "2026-10-27T17:37:00+09:00"
+  },
+  {
+   "title": "SBI NASDAQ100インデックス・ファンド【89311265】：基準価格・投資信託情報",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RT0lFNkU3dUt0N2V6a3p4Nm5LWmwwRkRhVXV6M0hpS3BLVXF0RjRJdTlZTzNuVmdHM3R2ZDlGZW9SRHFGVHVRcXNGZzRRSmdlQ3B6bA?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "米国",
    "published": "2026-10-27T17:37:00+09:00"
   },
   {
@@ -984,6 +1800,14 @@
    "lang": "ja",
    "category": "株・企業",
    "published": "2026-10-27T17:28:16+09:00"
+  },
+  {
+   "title": "１０月の内閣府月例経済報告 景気の基調判断を「緩やかに回復」に維持",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5iaVhNYWpsaTR2alg0OEZ5eXhXa1RFdERBVXVLQjdlYTB1aTRTX01DQk51U3diVjd6aGFrc2ZyaDJFU3lNNk5Ibw?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "欧州",
+   "published": "2026-10-27T17:26:29+09:00"
   },
   {
    "title": "欧州株 総じて軟調 英FTは決算受けたHSBCの下げなど目立つ",
@@ -1040,6 +1864,14 @@
    "lang": "ja",
    "category": "米国",
    "published": "2026-10-27T17:15:10+09:00"
+  },
+  {
+   "title": "第4四半期の石油・ガス価格：圧力は原油価格だけによるものではない。",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORE5UdHFPUlozcDF2RlRPVUJpX2syYW9Wd1NwMkVsOU0xQWtfNUwxSjdpekFuV2dWWnpTWWhqV1ZXaDBsckEyN2tKY04yQ1JlbjY4OGFOSlNlakxJclVsRU9FTERJTWt1QkVZaEZDaTBsU01WdFlnb256cHNKZGFXUmRmWQ?oc=5",
+   "source": "Vietnam.vn",
+   "lang": "ja",
+   "category": "商品",
+   "published": "2026-10-27T17:13:51+09:00"
   },
   {
    "title": "Kitco Newsの調査によると、ウォール街の専門家は金価格の回復について悲観的な見方を示している。",
@@ -1106,6 +1938,14 @@
    "published": "2026-10-27T17:03:00+09:00"
   },
   {
+   "title": "225ナイト・セッションは日中終値比150円安の63350円で開始／先物ＯＰ市場ウォッチ(フィスコ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMC1wY2xNOEMzWWZJckE1eTFSV3dHUlBXZ3V2R0pDMUs0REx3NlZaa244cEFOeXpWb1lveFZGaUJON0hPVFUzSHhtTTcyQ3A4SllhbEJFMHRJdmhTSjUwLXh5TEFLNFE4cllBajhYRzctOHB3WDJOYzhWQXptNVY0UFlhOHhRVEU?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T17:02:00+09:00"
+  },
+  {
    "title": "香港株の証券会社格付けが相次ぐ 凱莱英の目標株価151.2香港ドル、安踏は93.58香港ドル視野",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WdmFMckJrazhNM1kzYXhJWlBickhtdEFuekF6UXFmN2x0c3Q0RDJYWHZsMWVwbnh1VkNVQWV4QkczUWxzcmFqN0owX3Q4YmdTRGZGMTNiTFVTcVA2aUVWVXhkQVItQ0dmZmpMeUliS1ItTUIy?oc=5",
    "source": "BigGo ファイナンス",
@@ -1122,28 +1962,20 @@
    "published": "2026-10-27T16:50:38+09:00"
   },
   {
-   "title": "SBI・V・S&P500インデックス・ファンド【89311199】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBub29LdVJRaElPNWsxVDMyRkxkVHNnR05ya0MyN1EyalZHd2dZUlJkRlJ5MWVpSnpOdi0zcG5xem9DWlMzUnY1MU5EdDZSQzRfV2E5OQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T16:50:37+09:00"
-  },
-  {
-   "title": "ブルーム・エネルギー【BE】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QZkpXWjRsNlpuandIYXZCdVEydktuMEVPUGVnbUl5V1FQcllDRlBFQ2FhaFVUWkFCcWJNTEVGa2VYZTdWUjJTN2g4RUs?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T16:48:33+09:00"
-  },
-  {
    "title": "POETテクノロジーズ【POET】：株価・株式情報",
    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BVGRNNWV3MGtaY2Y2cWF0UVJfc2FMc1dtZlRQRk5CQkN4b0VwZ1pRZXZTY01FQnhma1JibmlsajhQNUx2TzlZbEpleGhuTXM?oc=5",
    "source": "Yahoo!ファイナンス",
    "lang": "ja",
    "category": "米国",
    "published": "2026-10-27T16:48:27+09:00"
+  },
+  {
+   "title": "ポンドドル １．３３台前半推移＝ロンドン為替",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UejhNY05DU09EQUkyQncxV2NIS2VTYjFKbkdSRGhycmxhOVlmTlB3bnNOYUxSMGdkdm01Mm1aRjZZaVRIVFp3YQ?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T16:45:29+09:00"
   },
   {
    "title": "秩父鉄道(株)【9012】：株価・株式情報（夜間PTS含む）",
@@ -1250,12 +2082,28 @@
    "published": "2026-10-27T16:30:31+09:00"
   },
   {
+   "title": "テクニカルEYE（豪ドル円）＝１日線がサポートとなり、堅調な流れが継続か",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ybHpxRndaU0FPVG1mclR4a2Y0YTJCT21sY0tGMTJ5OXgyWmVBT1laU1FNRkNkZ0JkeEZEQ0NUQkItYjdWMndvYQ?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T16:30:29+09:00"
+  },
+  {
    "title": "テクニカルEYE（豪ドル・ドル）＝やや買い優勢、０．７０４０突破に注目",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8yZ3F5VWk5LXlkYkROSDJBX0dWdHJVdS05UENHdDZ1UVlIWVU4N3dDZXFndzBfZWhEeVBtVGpFdk1LMEs0dGpTMQ?oc=5",
    "source": "みんかぶ FX/為替",
    "lang": "ja",
    "category": "欧州",
    "published": "2026-10-27T16:30:29+09:00"
+  },
+  {
+   "title": "東証グロース市場250指数先物概況：投資マインド改善と短期資金の買い戻しで3連騰(フィスコ)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMGRycmQzNUVvSmh3eHlyOFRVMjFRT01nRHI2ZVREVkJOdVRHVWV5bF9vR3UwU2F4dmgzdjEycTg1RjcxdnJWdDhIeG1WV0ZyeFlfLWR3dGRUTmhYcndZbjJBZnAwRUh2OVEwOUk1M0dHYkhEOXRudV9rbFV3THFmZVFFeDAyZDA?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-27T16:30:00+09:00"
   },
   {
    "title": "東証グロース市場250指数先物概況：投資マインド改善と短期資金の買い戻しで3連騰／先物ＯＰ市場ウォッチ(フィスコ)",
@@ -1274,20 +2122,20 @@
    "published": "2026-10-27T16:30:00+09:00"
   },
   {
+   "title": "【FX】ライブトレード 欧州タイムを攻略だ！「ドル/円、158円が視野に」ドル円分析＆取引 2026/10/27 17:00",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DVE1rNFhYaXNjVW9ETmN5NjZZMkRHbURKZVFNb3owOWlTLV9TaDZaWTh2MHMyc2RlSFNycFpQUl9PQXRhWDVsMTVwbjMzX2gxVHR2MWh3OTgtREJ2ZTlidVpHWQ?oc=5",
+   "source": "外為どっとコム",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T16:30:00+09:00"
+  },
+  {
    "title": "ドル円は１５７．８８円まで上昇、ドルはほぼ全面高＝ロンドン為替",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MRzJLVURjUGVIdW0zanZjRWx0MlAwZjVCUVRoVjUtVU1rZVZpZE9XbE1xTXZDTi1NU3JxLTFPcjJWUzY5UEUyNg?oc=5",
    "source": "みんかぶ FX/為替",
    "lang": "ja",
    "category": "為替",
    "published": "2026-10-27T16:25:29+09:00"
-  },
-  {
-   "title": "日経平均株価 一時1400円超上昇（午前10時） アンソロピック上場前進で安心感広がる",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDZDg4emY2ZGVpa29RMVFyN254Z2tmYkNYRDBOa21hRHl4YncteHgxZndUZ3RCSkllaDdxQm9jczY1NVlLanBaaXlMQUdjQ1k?oc=5",
-   "source": "khb東日本放送",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T16:25:22+09:00"
   },
   {
    "title": "バッテリー価格下落と原油高、EUのエンジン車規制見直し論が再浮上",
@@ -1386,6 +2234,14 @@
    "published": "2026-10-27T16:10:14+09:00"
   },
   {
+   "title": "カプコン、9月中間決算は営業益54％増の607億円と大幅増益…『プラグマタ』270万本、『鬼武者WS』170万本突破、『バイオ』『モンハン』リピートも伸長",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1tU0FydDhLZ2JmOVQxMk93T1hGOHZseUFENVQ4dFFvbGdNNG45RUJnM09Uc29GTG1Iek8tSnlLbnJPTTFC?oc=5",
+   "source": "gamebiz【ゲームビズ】",
+   "lang": "ja",
+   "category": "株・企業",
+   "published": "2026-10-27T16:10:00+09:00"
+  },
+  {
    "title": "(株)システムソフト【7527】：株価・株式情報（夜間PTS含む）",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiaVFucXhfaTNLeGNFcG9JNEl6bjFqOUhHX0JWNS1WQ3FwM2piUjFlelhvbFNCUmZpQzlpc0Vqc3J4cW5lMjNBc2VjSl8yY1RGRWc?oc=5",
    "source": "Yahoo!ファイナンス",
@@ -1442,6 +2298,14 @@
    "published": "2026-10-27T15:59:28+09:00"
   },
   {
+   "title": "香港株動向｜中国銀行株が市場全体に逆らって上昇、主要銀行株が繰り返し最高値を更新 機関投資家は銀行セクターの第3四半期業績が安定的に改善すると予想",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUVQMkJWNXJjaTRDMUM2THA3bWZka19XbU5YVUY1VnNtenRIMXBGeGxjOVY5SDMtajNCcnFuaDM2SnEzR1FFNl9vRG9nLTJGRjNYeVFDWTRwSWVzY3JrQmFKd3hyRTdVZXhNa3NPTWNEd0RpMFVyS3N0RUxCVjJibGZKRGpJb0F0ZkFnVThzejVqb2lhWlU3V2h4T1hzcS0wa0dYd3VVX2NYYjRyR2c?oc=5",
+   "source": "Moomoo",
+   "lang": "ja",
+   "category": "アジア",
+   "published": "2026-10-27T15:57:20+09:00"
+  },
+  {
    "title": "米国株が「23時間」取引可能に 12月7日から日本の日中も売買へ",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNLUxELTBLbDBaODBORmlMdFZJU3ViTEhKbGcxR1dMSnY5dXlpbXAzd29fQk45dmtkSkxjWVBPeGNGYWNPMWVzSQ?oc=5",
    "source": "emogram",
@@ -1472,6 +2336,14 @@
    "lang": "ja",
    "category": "株・企業",
    "published": "2026-10-27T15:54:31+09:00"
+  },
+  {
+   "title": "通貨オプション ボラティリティー ドル円１週間物は８％前後",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FVXVVOUp6R1dsRURGaUlHaWY3YUI2U1NqaEFqenhNaEwxa2REMjhsQVVOVmF3TUFJdTJkOUxGWld0b0dmdWpqbQ?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T15:52:28+09:00"
   },
   {
    "title": "大引け概況－日経平均は4日ぶり大幅反発 大日本塗料が後場急騰(トレーダーズ・ウェブ)",
@@ -1506,6 +2378,14 @@
    "published": "2026-10-27T15:47:00+09:00"
   },
   {
+   "title": "本日のランキング【値下がり率】 (10月27日)(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY2hiQl9FNHA1UzJJZFItYUp5TTc2RGNHd2FZU2hHaGRiQ3otQXVjVTV3SmRsaVZoal9zRnlLZWJSNm5zMmVPaXk4U3pROUVQc1F0ZnR4T3FHZzg4c0x2djlXb0RZWkliU1NzRWk1Q3FNUXVUSmdfQ0lNN1MxNGZGLXVFVnNodzg?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "日本",
+   "published": "2026-10-27T15:46:08+09:00"
+  },
+  {
    "title": "本日のランキング【値上がり率】 (10月27日)(株探ニュース)",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMmppVHVsVXljcXpsMzIyQllpM0ZDN3Q4ajJHcWpMVUZvOHk5U2M1UnBMRWxyMEdfbDhKdlFSb3g4YWlDWDhVTzJCcllvSmwzdUZDcVhpVlFrbXBWdnJoUVI0VUJzUWRYQzRyYVc0YU8xRENiLXlPWFZYSk5SS0xDTjBXU2NmcTQ?oc=5",
    "source": "Yahoo!ファイナンス",
@@ -1536,14 +2416,6 @@
    "lang": "ja",
    "category": "日本",
    "published": "2026-10-27T15:42:33+09:00"
-  },
-  {
-   "title": "ペトロレオ・ブラジレイロ・ペトロブラス【PBR】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9wNmE2aHBCMG1RUzJsbVpEd1ZzYXZENDRLcDNhZWJGVE1jNl9iQjdtcGxLdno1Tl90aUVsS0Nqa2FVQ1Z2YUhLN3ZkcnZZdw?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T15:42:19+09:00"
   },
   {
    "title": "日経平均が４営業日ぶり上昇、終値は１０７８円高の６万３２６８円…ＡＩや半導体関連株中心に値上がり",
@@ -1600,6 +2472,14 @@
    "lang": "ja",
    "category": "株・企業",
    "published": "2026-10-27T15:39:56+09:00"
+  },
+  {
+   "title": "2027年3月期第2四半期（中間期）決算の連結業績は、前年同期比で増収増益、通期計画に対し順調に進捗",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xbl9GbUlpb2NqV3hDb1Ftc29fRE9JSVg3YnR4YzRwNFNUUHM3Znd0NTdUX25pS3FoejU5WEpFT2VVWTN1YVFiUmVIWGFZZ1lzcmN2Wm1QQjJMUHNSa2ZN?oc=5",
+   "source": "CAPCOM",
+   "lang": "ja",
+   "category": "株・企業",
+   "published": "2026-10-27T15:38:26+09:00"
   },
   {
    "title": "東京マーケットダイジェスト・27日 円安・株高(トレーダーズ・ウェブ)",
@@ -1722,6 +2602,14 @@
    "published": "2026-10-27T15:24:16+09:00"
   },
   {
+   "title": "アングル：債券市場の混乱やインフレ、為替変動がアジア系銀行を圧迫 収益と資本にリスク（ロイター）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Ea1JPNHpQYUhTZ0t5eVhxT0lhYU1ZM0R6RmprU2g2VGtSamRFVnY5RDR5ODNnaG9aZ1hWN0JtVTlVZlZkU3FEajh2Z0xtWVVmWVBINEktaVkzSFNWYklvZUhud2hTY19nZjB2bklLQXVqUEtoU1RlOUZBWWxHYVU?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T15:24:09+09:00"
+  },
+  {
    "title": "アングル：債券市場の混乱やインフレ、為替変動がアジア系銀行を圧迫 収益と資本にリスク",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeFdTNEdmOWdlaWxkQVpUYktSbng0T2ttQjliVWhiMFlXSnJFWlBnb2JMelh3MmV2ejhFTExCUFhtYXZyRFA0Vk5BUmFPR3JnN3FJbmF4ZHNSY3ZoQUhuREJpU2JZbzNrcHgzQmpjMmotNmpIQ21hQnI1MkZCOG56VVlGdU5DQQ?oc=5",
    "source": "Reuters",
@@ -1738,12 +2626,12 @@
    "published": "2026-10-27T15:18:00+09:00"
   },
   {
-   "title": "ベライゾン・コミュニケーションズ【VZ】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5reWVHbk1oY3JjRkFMZTFVN1lrOEYxMXduLTVoOEEtTGlHa2QtSmp5bkZwdDRfRTlpQ3FJQUJKVVR1T0thNGgxRkd2Tm0?oc=5",
-   "source": "Yahoo!ファイナンス",
+   "title": "これからの予定【発言・イベント】",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JQ280OHBxRFk2SE5qVFJ6Z1c0TkRGWW1wc2hEdHE4SGh1QW1CdVlManptRlRMWU1tVUFhSjN4TTU4eEpjUzY2UQ?oc=5",
+   "source": "みんかぶ FX/為替",
    "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T15:17:04+09:00"
+   "category": "為替",
+   "published": "2026-10-27T15:12:29+09:00"
   },
   {
    "title": "FX個人投資家動向｜メキシコペソ円はシェアが二桁台、金利発表前にNZドル円の見通しが分かれる 2026年10月27日",
@@ -1770,12 +2658,12 @@
    "published": "2026-10-27T15:07:47+09:00"
   },
   {
-   "title": "リカージョン・ファーマシューティカルズ【RXRX】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ycUVOODZGUXRGbWtCa1ZIdWFYejdQUXkxLXN6a21yNzVvZElfeFNfak5MLWgwelJ3NFdBdWthVnZWWDBNRXh4RjFFSUg4cjg?oc=5",
-   "source": "Yahoo!ファイナンス",
+   "title": "テヘラン首脳会合で米・イラン打開への期待再燃も、フーシ派攻撃が下値を支え＝原油小幅安",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrNEV2eFNnRVN1aXBLMnV1b25Odm1jZzlQUFlwLWdMZ3lyUmZNWGMyM280VUJXaThoaU9tRmJyd0lEd3VXbHU3WjlSLUZyZ3dnUGY3MEdZZEpIWUxIWGlhUzZNVjd4b3Z0WkxHelF1Si1FTmgx?oc=5",
+   "source": "BigGo ファイナンス",
    "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T15:07:21+09:00"
+   "category": "商品",
+   "published": "2026-10-27T15:05:00+09:00"
   },
   {
    "title": "モルガン・スタンレー、マイクロソフトに600ドル目標株価を提示 3大優位性でマルチモデル時代の恩恵享受と評価",
@@ -1783,14 +2671,6 @@
    "source": "BigGo ファイナンス",
    "lang": "ja",
    "category": "株・企業",
-   "published": "2026-10-27T15:05:00+09:00"
-  },
-  {
-   "title": "テヘラン首脳会合で米・イラン打開への期待再燃も、フーシ派攻撃が下値を支え＝原油小幅安",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrNEV2eFNnRVN1aXBLMnV1b25Odm1jZzlQUFlwLWdMZ3lyUmZNWGMyM280VUJXaThoaU9tRmJyd0lEd3VXbHU3WjlSLUZyZ3dnUGY3MEdZZEpIWUxIWGlhUzZNVjd4b3Z0WkxHelF1Si1FTmgx?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "商品",
    "published": "2026-10-27T15:05:00+09:00"
   },
   {
@@ -1840,6 +2720,14 @@
    "lang": "ja",
    "category": "株・企業",
    "published": "2026-10-27T15:00:00+09:00"
+  },
+  {
+   "title": "天斉リチウム（09696）、決算発表後に3%超上昇。第1～3四半期の親会社株主帰属純利益は前年比30倍以上増加",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdVZJU1F2TXA0N25IRmdYLS0xZ0o1NkFwLUVOMGxPV1V3NmZNUzlBdlBJZ0p4Z0RyeE1wUXR1T21IYlJkWmdrZzZPbE8wU2pxYUJtU2ZaRFZGcXc4bzBFVnEyT0lpX25zTXVMZmlObTdYSDhYaEtrS1BpMW5jRGZ1ZG9aelZGbUp6MGZWV1FrM3lwT1MtOFNqenVBZ0xXMGNIS3A5c1pn?oc=5",
+   "source": "Moomoo",
+   "lang": "ja",
+   "category": "アジア",
+   "published": "2026-10-27T14:59:54+09:00"
   },
   {
    "title": "２７日の東京外国為替市場＝ドル・円、１５７円台後半で堅調(ウエルスアドバイザー)",
@@ -1930,6 +2818,14 @@
    "published": "2026-10-27T14:31:23+09:00"
   },
   {
+   "title": "住友ベークライト、株価安定上昇の背景は？（IPリポート VOL 186)",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDTGtHUEkxSkpfd09jZ09fbE53OWc2RHlaV3RNVHhkbEtVRDhCWE5XVkxWZWdlLTk5TE1qLU5zOEtZZnUtMUZndUh6VWV5YjlTYjNwZzFR?oc=5",
+   "source": "QUICK Money World",
+   "lang": "ja",
+   "category": "株・企業",
+   "published": "2026-10-27T14:30:00+09:00"
+  },
+  {
    "title": "【通貨別まとめと見通し】南アランド円：10月高値9.67円から株安ショックで9.42円へ急落、9.50円の戻り売り抵抗を意識した下値固めの局面へ",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1WY29ld0JJbDdqNUU4QS16ZWVyTDJnUlh5b2JhLWk4cEFuUXFDaTRqaHA3cm0zQUJuN1FDQW52Mm9RRFpROFdvUA?oc=5",
    "source": "みんかぶ FX/為替",
@@ -1962,6 +2858,14 @@
    "published": "2026-10-27T14:17:19+09:00"
   },
   {
+   "title": "米中間選挙、民主党勝利なら米国債値上がりか－AI規制でS&P500に逆風",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oUGp3R1BEZlJoZG1xVUhJUE5hWlFkZktWbWJYbWdNODV5NGUzM2MwUmZsRGNNTzE5ZWdycDRoa0w2MDVSem8yekZUTzd2VXBHQnZhR2l1T3Q4U1RUWHZTa2kwcVpJN3d2YlVFZmM2ek1yeG5xNnBr?oc=5",
+   "source": "Bloomberg.com",
+   "lang": "ja",
+   "category": "米国",
+   "published": "2026-10-27T14:16:52+09:00"
+  },
+  {
    "title": "売り買い増加、日経平均は63310円付近：東証指値総計／先物ＯＰ市場ウォッチ(フィスコ)",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWGZVeWFiUjJPQkVmaXFCS243LUdlU2ZjRnhuOUU5Z0hNbFBrbTc0eHdJSm5yUTQydlZiRFdUSi1nWnhOaUtLX2pvLXZPdWs1SkFud05uQ1VYTnhxc3RtV1hFcThreHZldkJTclVXRTk5cWx2VHpxZENUUml1amNHTjRiOUxnX2c?oc=5",
    "source": "Yahoo!ファイナンス",
@@ -1976,22 +2880,6 @@
    "lang": "ja",
    "category": "商品",
    "published": "2026-10-27T14:16:10+09:00"
-  },
-  {
-   "title": "米中間選挙、民主党勝利なら米国債値上がりか－AI規制でS&P500に逆風",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oUGp3R1BEZlJoZG1xVUhJUE5hWlFkZktWbWJYbWdNODV5NGUzM2MwUmZsRGNNTzE5ZWdycDRoa0w2MDVSem8yekZUTzd2VXBHQnZhR2l1T3Q4U1RUWHZTa2kwcVpJN3d2YlVFZmM2ek1yeG5xNnBr?oc=5",
-   "source": "Bloomberg.com",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T14:16:00+09:00"
-  },
-  {
-   "title": "投資熱が高まる現在、特に成長性の高い米国株に焦点を置き、初級者でもわかるよう優しく解説したのが10/27発売、ムック誌『米国株大全2027』です。",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kdlVrTk5wa3d4T2ZlbzItd0tGbnNvYkxaQXVqZi1uelFLX29ueUE0cUl0V0tZU3JVU2UxNDFvR3pKYzZnWnVYRkFWMzNkcmJJWXd6cVdIUmQ2eE56SktFNjZ0blQ4ZmpfNFdabGdfS25oYnBtcmc?oc=5",
-   "source": "Mantan Web",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T14:14:56+09:00"
   },
   {
    "title": "〔インド株式〕横ばい＝FRB政策決定控え様子見（27日午前）(時事通信)",
@@ -2014,7 +2902,7 @@
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE03aE9qOUFWZXNELVZISWJodUNBeW16Y1Y0NHdLWFd4dERqUWtaRTN3Qm9GUGdCZjVlQkRRb3lFZm1GVGJSVkZTTg?oc=5",
    "source": "みんかぶ FX/為替",
    "lang": "ja",
-   "category": "欧州",
+   "category": "為替",
    "published": "2026-10-27T14:10:29+09:00"
   },
   {
@@ -2063,6 +2951,14 @@
    "source": "Yahoo!ファイナンス",
    "lang": "ja",
    "category": "日本",
+   "published": "2026-10-27T14:01:50+09:00"
+  },
+  {
+   "title": "外為：1ドル157円59銭前後とドル高・円安で推移(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMkVaVTlXYzduX3VERDhaN2V0aDV5MzRjb0VMNjcwNTRTSFpYckRJejhGZFVXZy16TWVFakFrU2RsbDZGZkZkOGxORHFra21veWJYeWJZY25VZFdZandmcVc3RnYwVXBELUJIcmoyYi1sOWU4bXFSck05SnhFWnI4dXA5b1FmVjQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
    "published": "2026-10-27T14:01:50+09:00"
   },
   {
@@ -2218,6 +3114,22 @@
    "published": "2026-10-27T13:31:47+09:00"
   },
   {
+   "title": "外為：NZドル、89円82銭前後とNZドル高・円安で推移(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUkZrRXZ1cXZDWXB3U0NiT1ZJYlh1SDNGcmRpS3poOWJXbkxVSmtwYko4TTNmSERXOGpxMnNCSFRKMl9OcnBLS2FoQld5bEtlZUJOT0p2V0w1Y2d5UGIwbmVrVXRpZXROV0dYeGEtS0Z1MVlnV0h6ckhSZkpqemdPcEVmVG9FOFE?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T13:31:47+09:00"
+  },
+  {
+   "title": "外為：カナダドル、112円47銭前後とカナダドル高・円安で推移(株探ニュース)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUk9rTmx2VVZWczkzU3hzcG11TkNSU18xbk4xdkRHYTNUb3ZYQTJCY29kME55b3VaelZ2WUU4UVJfSjFpdDJQemNtSC1IdFdYMEpBYzdnRjlwOUNCLXJ4UnFxRW52SzVwdU42Mk5NT2NuTEk2TTJSclZzc0xrMTBXYjgxekcxZTQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T13:31:47+09:00"
+  },
+  {
    "title": "外為：スイスフラン、190円45銭前後と横ばい圏で推移(株探ニュース)",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0N2bTlKZ0R4ZEpSME1qYW5pNExEQnVKOHVwWVlIV1o4czQ3bkxRU1NsUDRXRTJ2dmM0YWVwd1lrVVlwaGE0T29UWmtJU0hXRVZrU2Z2bGVsdnFhdFZZYnpybGVXZnZDRFN6SzkwTFAxZ2NCZ3VKNTU2anJrY2pLLWNIZXFEZzg?oc=5",
    "source": "Yahoo!ファイナンス",
@@ -2266,11 +3178,19 @@
    "published": "2026-10-27T13:16:33+09:00"
   },
   {
+   "title": "テクニカルポイント ドル円 １０日線が上値抑える",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5mdnVTc2VOYk9YZ0ZYcjA3YzA0M1ZKaHkyVWpZb2FVdEVTNHVIOWVKZkVDUml4UGY3YTVKTGZxX2FBc3lncFhXVA?oc=5",
+   "source": "みんかぶ FX/為替",
+   "lang": "ja",
+   "category": "為替",
+   "published": "2026-10-27T13:13:28+09:00"
+  },
+  {
    "title": "東京為替、ドル円157円台で上値重い 米金利と原油の失速が重荷",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JZGkzN01GWnUtanRoRldlN3RyMjNJU0MtcjI3ck45WHRzMU04MjBDVGd4aEJMa1Jhci1wbDF1TEQyVHlDc1hZaEVPTTRBYWk4SVBqMTI5Sm96YU9QX3g2bEtvd0hSeVFlbzZSSUlSUDgtUENV?oc=5",
    "source": "BigGo ファイナンス",
    "lang": "ja",
-   "category": "為替",
+   "category": "商品",
    "published": "2026-10-27T13:05:00+09:00"
   },
   {
@@ -2280,926 +3200,6 @@
    "lang": "ja",
    "category": "為替",
    "published": "2026-10-27T13:05:00+09:00"
-  },
-  {
-   "title": "ニッセイ NASDAQ100インデックスファンド＜購入・換金手数料なし＞【29313233】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE05SG9LaFhHOHdZWEpyVDF5TDdBZ2sxcENjVDFFZ3pIekpKS21NVzFSLUo2WXVmbEhhUGFYOXphTTdaZm16ZFJXQU1zUkxNampaZDdwNA?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T13:04:24+09:00"
-  },
-  {
-   "title": "(株)ディ・アイ・システム【4421】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15el96Q3Y1TF80Z3o0OUJ4ajdtTjlYXy1HZ2RlMl9rTk1wWGFoeHRNV25ZWlA0T0I0djF3SG9VVEVEZTUwR0FnSkRrQ3dlNEZPVHc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T13:01:07+09:00"
-  },
-  {
-   "title": "13時の日経平均は1278円高の6万3467円、アドテストが664.50円押し上げ",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mSmZVYk0wYjYycFZpWm1NZGgwMDBfel9DblB1X280bW8tUmRlVWtrX016b2lNVmlNTmdGd3dQMndmWG5JQW5pNXc4M3ZhNEhZX3c?oc=5",
-   "source": "株探",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T13:01:01+09:00"
-  },
-  {
-   "title": "後場の日経平均は1065円高でスタート、アドバンテストやレゾナックなどが上昇／後場の寄り付き概況",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Cd1V0WWNDV1BzNklPVlEtQjZ5REJRbjhFanZWbG5La2JxMERWT3lRUlVaOXhtT3pjTEk1VDFGYmJFVXMyblpvZ1VhUGdMaHVSVXc?oc=5",
-   "source": "株探",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T13:00:30+09:00"
-  },
-  {
-   "title": "日経平均、1065円26銭高の6万3254円91銭で始まる＝東京株式後場（時事通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MZllialhINUp6VHJvT2ROVHR6bVpaNGZwQnQ0ZU9Kd1ltcnhnR0x6Nnc4THRHd1NlbXd0dXkzaW5uajdfcXJPT2Vsc2tMRVA4R0ZmeW9CX1J3WTRCVHFQTkhibDNod25OMTJtZ1Z5ZERpSHk2VnlrRWxsTGJaLUU?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T13:00:27+09:00"
-  },
-  {
-   "title": "アングル：29日にＥＣＢ理事会、フランス売りと原油高にどう反応するか",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0tWno0ZUhNcEdONnA0U1RHcGdUUE5aRkFKMHZ5NFhmb3h1ODlBZDFZcExTVjltU3I5dkNxVzdDYVFnOTB0WmM5aEtGLTFqaDJZY3JpclBjOHY5OXNsZHBYdGRTU2JTellkUmh5c25EdVZPWndsZ3hVTU40N3dFQQ?oc=5",
-   "source": "Reuters",
-   "lang": "ja",
-   "category": "欧州",
-   "published": "2026-10-27T12:57:00+09:00"
-  },
-  {
-   "title": "アングル：29日にＥＣＢ理事会、フランス売りと原油高にどう反応するか（ロイター）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wM2NvNTZQOUxRbHlybngzNDE4cEtYaGd6ZVhvUDgzNDNJOThvdE1LLVYybmlORVUyMTR3SGUtRmZEYlJSb1ZsWXlqTHIybkZBSGl6ajhYWlg4N0phRXZxU1ZQMVd3SUtBbnEyNTZlNlVXWlR2N1M5dHFCbzdpMG8?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "欧州",
-   "published": "2026-10-27T12:56:49+09:00"
-  },
-  {
-   "title": "東証後場寄り 日経平均は堅調 半導体に物色続く、韓国株高も支え",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55X1p6TWFUOU50SFhrX0tGTGhIRWdCRHhScFhWcVd4SlhudHlrd2RiOFJmS1pvSUtfbnYwcjQ4R052TlRtMU1jNG9mTWhOVndfOHBpdUcxTzFJQWVTVU5FYnhxb3IxLVloYksyVw?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:55:59+09:00"
-  },
-  {
-   "title": "日経平均は１２６０円高、プラス寄与上位はアドバンテス、ソフバンＧ、東エレク＝２７日後場(ウエルスアドバイザー)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbGJHMGpFNDk2bHlYaDg3NDB4eFhvcm44ZnlYMmFGSExGQXFZal9LMEl2bzN0VFEzYXM3dDJoTzlJMGZYRXpLd3F0SDNMU05ZWmprMXhwWHNNM2gzZlhhTnJQbjJUOXNpQXBhS3VRVFlLbVdBTmIySFk5Uk1UT2RkWnVYMmlvVGM?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:52:02+09:00"
-  },
-  {
-   "title": "野村 構造変化日本株ファンド【01314267】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0yUkhZYW43LXAtTHgxLW9pZE9HQnNEbHVQMDQ2Nk9jR3M1ZmRlM0lsaEc1SmRDd1NyYmdxeERpamhQX1BRRzRpalhOSVl0MnpiTF96NA?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:51:50+09:00"
-  },
-  {
-   "title": "キヤノン(株)【7751】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDclhncmpndFFMVnRUNU1vYTdyazNhRkRhN3lTV0E2bS1OcFp1ZHRwb09ZNGhoU281a0ctbzlWUHlfMGNIdHZ4UE01ejNLcW5DVzR0enVQRDIwRlRwUjFHQTVpTDY3eDNHUHEyUHlLS1dFanhVdGc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T12:51:26+09:00"
-  },
-  {
-   "title": "為替相場 ２７日（日本時間１３時）",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kNzRYX25adTJKQWtBTlNQeXNXazZoNW40TFJpZ3lfNTJfRmZheWxYZHhFU0tCaHd4S0Yxb3VZUWZOaGEtdGFXN1ZmVmtQeDJMV3kzTQ?oc=5",
-   "source": "中日新聞Web",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:50:00+09:00"
-  },
-  {
-   "title": "米ドル/円【USDJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbWxqc1ltSU1ndEE0VElnZldUTGdyRVJpOTdKeXBsc0RDSm40dm9kLTJqaDZlOVpoR2E5eEZIX1o0bFR1SFR2N2k4WjRiTnN5dHVBTHJn?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:38:54+09:00"
-  },
-  {
-   "title": "日本ビルファンド投資法人【8951】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NSlBNYTNSb1FmLVNRRkkzTV96WElwcEV0NU8teklFQ2hTeVNKNW8tc0w5THdIT296TWQ5d2F4SlY0djVGcE9pRENPYS1XbGFRbXc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T12:38:53+09:00"
-  },
-  {
-   "title": "ドル・円：ドル・円は伸び悩み、米金利・原油の失速で｜FX・為替ニュース",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9hcVQ2RWo0U1ZlcjcweEtBN2lQeWZVb19iN0t5VkNGU2NPQTRRQ1BocXpLdWFqZTBacS1BcjZrdHFLSm4yV2s4Wm9tcWNZdWxDOWc?oc=5",
-   "source": "ザイFX！",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T12:35:00+09:00"
-  },
-  {
-   "title": "２７日後場寄り付きの日経平均株価＝１０６５円２６銭高の６万３２５４円９１銭(ウエルスアドバイザー)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbDYzZHp2QzhSckkyQ3Q2cmdDdzRRbTA2LTZ0eDRiYldVRURFMjRIWG42aTR1c0VFc0V6RHZXaV9aMnVYZWZaSXdaZm9kYTBqZ3BiTUlRTlVScnJ3S3p5ZzJPVHo2QmJjTlUxckdSYnNtMTdmVnc3QkR4YkljMk01dFVQeFphZjg?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:31:13+09:00"
-  },
-  {
-   "title": "東京株式（後場寄り付き）＝日経平均株価は前場終値比でもみ合い圏推移",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XSGs2aVdvRVFZY3JlY1A4SnJCbTZnd25KMy1XZ0FmUGRSaUp0NTd1SlJNNlZINWJCQWxNYWtkWGdCVGE5aV9BM3JsWk1mbG5xb2RlVmN3b3ZoV2VIdFlmaw?oc=5",
-   "source": "株探",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:31:00+09:00"
-  },
-  {
-   "title": "日経平均後場寄り付き：前日比1065.26円高の63254.91円(フィスコ)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbFFzVlNWSW5TWHU3TUJ6LTd5TC1wcW82c01UNzBEQTVZSDJlNjJXU2Q1U3hYZHF6MGZINWhJY054bUNqOXMyY1BhMDBBdmhQamNXUGdGQzhmU0NrNFJDLWQ0YlpLcHR0azM3endBOEdKVkxXc3FjdDhJRHFwYVgtbXBkaURBbm8?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:30:55+09:00"
-  },
-  {
-   "title": "「AI投資＝米国株」はもう古い？ 10月新設ファンドが示す、AIの成長・普及に欠かせない「意外な投資先」",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HZlNZODRTTjctMXZubk9BQy1oUzRyMW80UThuX3J6bkwxSnpKR2cxaFRSb0Q5WTlRTlBMTk01ZGM5Y1d1SGZEdVFwcVdqZDIzcFgw?oc=5",
-   "source": "Finasee",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T12:30:00+09:00"
-  },
-  {
-   "title": "NEXT NOTES 金先物 ダブル・ブル ETN【2036】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OalI5Q1dyNlBxeWM2R3pCelFzV1JhQ1p3dkJiVmlCS0RhclBZZDl6UFpqQmlEV05IRjRaQXE4M3hZYWtEc0FScHJ2VlVqNzk3MGc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:28:17+09:00"
-  },
-  {
-   "title": "アジア通貨は方向感まちまち、円安進行——FRB決定を前にドル強含み 執筆",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zYjgyX0VYZHFHTTlvZGU3Q25ybmF4RVdodE00dW5tVTk4c25GbWZzYmFYcGo1QnJ2T1dtNnlSdG9fSnFHdi1jMGwydjZoa0FvSXl3UzlKRHJXZVZ0dWN2NlJhN2F0MTA?oc=5",
-   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T12:28:00+09:00"
-  },
-  {
-   "title": "日経平均は大幅に4日ぶり反発、アドバンテストが1銘柄で約649円分押し上げ",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xcGFpTW05TEJaWTBkWU04eE44dDZFOGg4bzhkdUdCYmZCa2hpZTg0WURjWUlZLWRXQU5tMDBQQXg5a1dDQ1ZfZWQxYV9NSk43MmVkYWpqNXNkTWNZUGpiVw?oc=5",
-   "source": "株探",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:26:47+09:00"
-  },
-  {
-   "title": "日経平均前引け 反発 1191円高 前場のポイントは",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lQTdDdXlTQnpqVVJ4cGZ3X2NkazFTZ0c0Z1BBdjc4WV8xS0pyTFpDYjhLN3R2SWk2b2VtaXNUUEVOdEthLUZDZldVTnJ6cXUySnY1Rg?oc=5",
-   "source": "日経CNBC online",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:25:00+09:00"
-  },
-  {
-   "title": "ドル・円は伸び悩み、米金利・原油の失速で｜FX・為替ニュース",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PMWlYVE9xaEZUMFpqdThRNmFBR0NYTVBaVXNqWEJ5MVlobGlrZkFLTGVaNlFodENxM3F1clFjTXJNRmlKZk14dVNmMklNYUZSUHc?oc=5",
-   "source": "ザイFX！",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:24:00+09:00"
-  },
-  {
-   "title": "東京外国為替市場概況・12時 ドル円、伸び悩み(トレーダーズ・ウェブ)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEdzVUIzdGp5TW5xUkg4ZHV5Mng4d2txWXdnMEJqeTN1MDNaNDl5TnNCMDQ0UjBFU1daNnNVTHdoVmpjYzFmdlNvYmtGdHkySmdBTTFlNzhublZSX1ZQWEpoQUM2QWtyOG03MjlxR2thelpfS25YYlNIbUhZbF96bzRIcmk4RXM?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:19:17+09:00"
-  },
-  {
-   "title": "NEXT NOTES ドバイ原油先物 ダブル・ブル ETN【2038】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KM05heGtjcV9oamZETXFGN0tBeVlTTFltTTRISlVIQV9Ncl9fX2dxaHlfaHBKempFU1ppTmtDQ3pXd29paWJzZ2JuRzVfQkNhaEE?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T12:18:29+09:00"
-  },
-  {
-   "title": "東京為替：ドル・円は伸び悩み、米金利・原油の失速で(フィスコ)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRGVRZDliMVJJQjdFTjlKeXR2VGxXdGV4aWNiemhmSmpUMUszcm5Xa05pNXRxdkVxSDdxblEzYXlVSUdRSWk4dmxfdmV5bDR6b3k1S3NLd1p3RGlNU3gtNmhIRmxoTkN1NlRxa2dfTUROWVoyaUZyTlBleWlyd2gzVFBTXzl6N2s?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:15:52+09:00"
-  },
-  {
-   "title": "東京為替：ドル・円は伸び悩み、米金利・原油の失速で",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tV2V5eVJwNWR5TzdEY3FvX3JDTzVDVHVod1BpejlEeWVUd3J0SEJkRWFvRFhmWmlRTUhQejNmN0tjV3lmRTdVQ3I5S0FRZFFDU19PaUNUWm1YczE3WmpSNA?oc=5",
-   "source": "株探",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T12:15:52+09:00"
-  },
-  {
-   "title": "東京為替：ドル・円は伸び悩み、米金利・原油の失速で 執筆： Fisco",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aUE9paXJWV3pjT2NjRV9FS0lJQThLRkNzajMyWWJBVUgySHZmMXhVOWhYb2J4RlhVQU9aZnZFbnFhNWJib2RsUGQzamZDaWFhOW5ZTDByQTZxeWFGVG5PS1VtcGUtQ28?oc=5",
-   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T12:15:00+09:00"
-  },
-  {
-   "title": "iFreeNEXT NASDAQ100インデックス【04317188】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9nbGpmbnhxMGUyWlN4b2llZ0lXM3QwcnA4a2Niak9WeHEyd3BaN0xrY3dmZExQM1hXZV9BUFVWNUdST0hoYmFOWlhkYS1sa0VjYmJVYg?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T12:14:18+09:00"
-  },
-  {
-   "title": "原油安がインフレ懸念を緩和し、金価格は小幅に反発して4,000ドルの大台を中心に上下動を繰り返しています。",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWRQUWZmbVFvYnJ3aF82cmhYcl8wVlRSNWJkaWFjUHpYMDNKeXItSW1pNU1uQS1mLWVsd3Q4N0ZnRU9mOHY1dTg4OUxrTjl0SUhjdHJUZEpXYnpWekxEbzdkS08yOW43RzFPN2EySVRDbjN4YUpQMHVINDFONWRqLU5NOHZPWW5rMDdMbUJDQVdPYzNYUmFFN0xFaVUyNHU1NkJSTVd2TnRZa2VLRHc?oc=5",
-   "source": "Moomoo",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T12:11:56+09:00"
-  },
-  {
-   "title": "円相場、１５７円７０～７０銭＝２７日正午現在",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03SmtiMmI2Wjd6SzZNcWpmd1d0Ui1nVHM2bmRqX2NYWk9UZWZzOHplVnpST2VWSzhWNm05Mk82TFRKd0haQjBLZ21oZGRZSzFLemYxQzNlZU5hUlZhUDlR?oc=5",
-   "source": "Excite エキサイト",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:07:00+09:00"
-  },
-  {
-   "title": "ミナトホールディングス(株)【6862】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Fdk1qTWJnQ2hvdkJpSllHWDNpaHI1UnptMmFablJFeXFXZ3RKQVFleTdqc3djekJJOWhqdUJIdG82NkI4cDB5b1k4SzluNWJ3M0E?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T12:06:33+09:00"
-  },
-  {
-   "title": "日経平均は大幅反発、AI関連の期待高まり半導体株に買い／ランチタイムコメント",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qcjNOX05qYVF3VjVXQTUtRFB0clE0OUF3bVcyUDBNN3k1WkItYnNEMDYtclhaMjVvaDAwX3VkRkk5UjFOSHFYc1c1U1lrZmlTX3c?oc=5",
-   "source": "株探",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:06:32+09:00"
-  },
-  {
-   "title": "株価 値上がり 米AI企業上場向け書類の公開で",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wMXhXSUpWTGNQTko4Y2l5TVZuV3pCUUt6dVQ4bGFQbHpqYnY0dVZfR1VHSHFZUG1GWmFPMmZUMHdwSDJLSkhNd1dTWFF2MlNoZlJvSUdyY1ppNWpwR3lZ?oc=5",
-   "source": "NHKニュース",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T12:06:22+09:00"
-  },
-  {
-   "title": "東京外為、円安157円台後半に拡大 月末のドル買い圧力が重荷",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwLUxuUDJnX0Q3dDU2b3laN2w4OE54Qmx6emRaTjdfVmtadjZ2MXl5MGxZem8zTU9INkRpcTAxWW93M3FINWR0eUJ5UDNJM1c5Ny1aeHJ6TXR1cTJNSTJ1QTFROGhnNzJSNm9kMXlDcEhVS1Ux?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:06:00+09:00"
-  },
-  {
-   "title": "日経平均、午前の終値は１１９１円高の６万３３８１円…ＡＩ関連など買われる",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtY21XOFhILVBvbmZpa2RxQ05tOGNKNWlzb0xpZm1SUHJTelN2WldyTU12emR6NXU5NnlhdC02R0xTVXN1dUFYOGN4NGFFN204U3V5Mi01dG0xd3VsdVlBY3dVWUM?oc=5",
-   "source": "読売新聞",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:04:00+09:00"
-  },
-  {
-   "title": "27日午前の記事一覧：1－9月の中国工業企業利益15.5％増＝国家統計局など(トレーダーズ・ウェブ)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbEZGSGxXVVBEM1ZCMTdtVEdiTEVSSE1OWDA4S2hoWWVlSWhWZFhDNEJ0SFNHV0F0M3VzVFNseDJxdnZzY1BaREdrOE9XLWJyd3IwOC1yN0VxYXJnbTUtMWJVMk5MaE1HTjViZ01vQTBCV29xZ3NKcHlWc1Y4am9zNGlIX2pQdTQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T12:02:56+09:00"
-  },
-  {
-   "title": "MARAホールディングス【MARA】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mQWJlU1Bwbnp2NERTQXEyN2RjN2VSRWROZ1U4Tkx0azU0R2tBMzRGLWJ1TVM5LTFSdjNSVmdNRUlYT1JxVnIwdXo3Um9nX2s?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T12:02:54+09:00"
-  },
-  {
-   "title": "午前の日経平均は反発、ＡＩ・半導体株を物色 中盤から伸び悩む",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbGRfMWdQTGNsYVJmRTByd05YTm1WeXFYbTRuMEt5X0dod0xqOHdNd2ZuanNoaWZiekUxeXN4STJ4X0N6THFsSW5EM1oyZURuc1dYbmJ2S2hzWmNLamJiaEhJWWUyeWtidk9ZaE9ZRmptTkVoSWJEa2Fsa0xwc2ZqYzhYeFAwdw?oc=5",
-   "source": "Reuters",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:02:00+09:00"
-  },
-  {
-   "title": "外為：1ドル157円69銭前後と大幅なドル高・円安で推移(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLS1EcmhiSjdndk5jdXdsQUoyRThKYTkxVEh3Y25zX2VZQmZBdVZCMjhLYzFleWZha1RySjBjUnVFQmktc3ZScm5mWVNPejdXN29HTXdLMHpCVjNPTDBLXzltU1Bzb05VdDFrWE5Dd2NQTjdsdW5wXzFxclYwR3RVMzRnank5STg?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:01:44+09:00"
-  },
-  {
-   "title": "午前の日経平均は反発、ＡＩ・半導体株を物色 中盤から伸び悩む（ロイター）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIRGp1NmRqVlB6ZnVUT2RrcENLbXNvd1RCZDVVaHo1d1ZWaTFnbDBmcVM0YVNzNXd6OUdjZWk1OFNLa3BDUVFBQVFqUGs3amhVZ2FIcGdKb3hTTjZleFc4N1JCRjJVa2xHQURmN0I5Ukk2ZDY0eHF2NFAtQzhiZG8?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:01:05+09:00"
-  },
-  {
-   "title": "サンディスク【SNDK】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yRGE0cG1GNW1GcS1aQWs1bTNUaGhRM0llaEU1UHh1S0dRVVhLNkwtdDRwWjRYbGZyaEk2cEZndDNiQmdtUkVkWVhaTVNycnc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T12:00:42+09:00"
-  },
-  {
-   "title": "日経平均、1191円64銭高の6万3381円29銭で終了＝東京株式前場（時事通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aX0FVUVJmbjlETldYUHhPMl9XRUVBRElDeEl6SlZMUGlHNmFieEtDZUhEQmpVV3NXM21iZDlSMzcwX3JueWV1UFpTUm5xTHYwdWE3MTFtS1lfZkxJbGVlZ3hqbWI2LWxqbUhYT1N1U0N0azlUQS1mOXdhZF85UlE?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T12:00:22+09:00"
-  },
-  {
-   "title": "図表でわかる財務分析 アルファベット（Alphabet) 2026年2Q決算・3Q予想 2026年10月27日",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95STRnb2NVMko0bHNmV1dFQmhJVzE3T2Z3VU9pNnFYVDZfMnRRYTUwUTE3eFhhcm9OYl9UZVBPcXFLSFluLWRaNGYyNjZzRWx2bGdpdVR1WjN3YTJJTGxOaGlqVQ?oc=5",
-   "source": "外為どっとコム",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T12:00:00+09:00"
-  },
-  {
-   "title": "為替相場 27日（日本時間12時）",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVFJPQlpJMlBJSGp1QWVtSFVqZHMzSzJUUWs1eWZrTUZYWE5GNkg5clhSaUxNOUdoeHM1WmdGWU9CSHlyeDVubG1qUERMX0hDWm1jMnZ4M3U0Mnc2UWtfSExrSUpnc3BpTHprOW1Nc0o2YlQ2NWE1UHFzT053NEQ2cElDUzNHR2JBV3pfQTBR0gGTAUFVX3lxTE1zZHloNUxRSDJsc3RKcDhlTnhIMnBDRUM1MUZZX0RDZHpFM2Q5SkdWTmxrMmhaMDEwQVpweGVjZzhUR1o3WEZ5MDJBMlg5aFdoVzBKbGdqZWVrd19ScnN4RWNOaXlmQmJPOFRneHViTUVhR2ZDOFV5ZUd2MDFUMFRlNU9JTExYUmFhWFIxR1dRUHF4VQ?oc=5",
-   "source": "ｄメニューニュース",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T12:00:00+09:00"
-  },
-  {
-   "title": "日経平均+1.92%でも、値下がり銘柄多い【今日の市場はどう動いた？】",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iU3V6cXFVOGg0OTV6NVA2VHhzeG9QMWlGVnZiajFsVTlaWkZ5eU5HcHR6TGNpQzc5RFViczFIWTNOaG9vcnUzQnFub3JaQ1JqZ2k0YlN5YWdRTXN4VUFoeWR6WEs?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:58:01+09:00"
-  },
-  {
-   "title": "ドル円157円台後半、円安が輸出株追い風【今日の市場はどう動いた？】",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vUlZtYm5xQXV1SE5PbmpXY0RHakpQRS1rcEYyZVAzaFhTbE4yUnc5VWpnZXBWS1VRdWhyMkMxZ1U1ZERDWFhDc3ZyRERfWlBSbU1fTFBzT2w5TlJ3dUR3SUtZbF8?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T11:58:01+09:00"
-  },
-  {
-   "title": "ETF売買で高配当・原油Wブルが新高値、資金の二極化【今日の市場はどう動いた？】",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9td3dyX240dUlBM0xCd2V4aEVLcXd0cUcyaXVvNkJQTlZCamR2TFUtdEJnV2hma2FSOWJ2WDR1bGpZSEtYVDEwdU9CSGhMZ0tXLTNPdUt6S3VuVTJpT2tiVG9WYlE?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:58:01+09:00"
-  },
-  {
-   "title": "原油は中東情勢見極め、エネルギー株の材料に【今日の市場はどう動いた？】",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1hbEd0Vkx6ckNIU2djRmpTbUZiaXFEMU1iMlBINlRJaU5UNFltN2JLdlB1OE93aC1ydHFxekdzMkVBLVRTWFVCaVZNRF9HNllycF94cmt1Rk9NZFdaalhISmc4MkM?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:58:01+09:00"
-  },
-  {
-   "title": "東証、午前終値６万３３８１円",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YdXE5S1g5Nk9sMWdrRDVrRVZURUhIZE1uUnBMUUVJRDFfNGs4V3h3ODRTdlFWQVFoMm5mZk5XYWZGOEdTenpYWjdPNXY2dlAyODd4Q1NDSGVudkQwU3FwdFVLb2MzWmwzdWdZZnYtY05ibFR6YlE?oc=5",
-   "source": "OANDA証券",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:57:22+09:00"
-  },
-  {
-   "title": "東証、午前終値６万３３８１円 米ハイテク株上昇でＡＩ関連買い | 全国のニュース",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkOVhIbzdDaGcteVByLUJLYndnZE1qV2hPcDB2UDJ1LXhnTWtLXzkyQXVRaEVreWN5VE9vZHJ6MTBWZ2lMU0FpcjNJX1A1Q1hBcUdOa0VrVXBrVkl2RGc?oc=5",
-   "source": "福井新聞社",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:57:18+09:00"
-  },
-  {
-   "title": "東証、午前終値6万3381円 米ハイテク株上昇でAI関連買い（共同通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zMkN2cEphMUpZeUlDcVdhc19Wc2lyVUhaZDJ6MUVhQVctUmxTTTVWbTQyWVJYYUllTVJYVkk4Y3EzLV80VWNFa0JqSzVLQk1JclljSzIwY0M1dnhmeERXZjZSRFJ6cU5IMFJ3cVB0eHVMSlBOV1V3VGxpczBrbjg?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:57:14+09:00"
-  },
-  {
-   "title": "日経平均サマリー（27日午前）",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBnWDhrZ3BYWV9Ybkt4cV9Hc2RLOXRwN0hkUUpHZ25uZXp2eHR4Zm5ZZTFZdk1RVHJqb3dUR1pmRU5pQXpOUU9scnVpMVBlNDc0YUdILWRWZ1ZYdWxOOXNyVFNPQmFobWpKM0d6N0w0U2JJV3Fid00xNC1fWQ?oc=5",
-   "source": "OANDA証券",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:57:03+09:00"
-  },
-  {
-   "title": "フクビ化学工業(株)【7871】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11UTNzOXBMT2t3bDk0NkVSWlhzbTl4WnpDaUJHRmNnTWdwZ0ZaejNMUk1SODhWZnRRUEg0Y0RPQlNxR1R6eWxvZnlpVERzbE82cVE?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T11:56:22+09:00"
-  },
-  {
-   "title": "ドル円157円台でこう着か、日銀会合とFOMC控え方向感欠く展開に",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KOHVfTTFYVm9MZUE3S3BYLTUzSUoyX0hwTVdkaEZuaUZsMmZGajRoME0taUozYzdrSmRQNnY2MHpMMmZyN3FkUHhaOFc4MkFqZWZ4aXNGaGt1enV2MmYza05hSllpdjQxcV9McVVfVkNrbHpl?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T11:56:00+09:00"
-  },
-  {
-   "title": "東証前引け 日経平均は反発 アンソロピックがIPO申請でAI・半導体に買い",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xZzJqUDZfM21qZFVsR0NOMnVHS0U0WWVaaVFUWl9zZGJlU0c2QXNlbVQtMFNELTNZa2V1akdKdHFPcDhPcHBBSnNPdExFRGlTcXJzUC1JNE5vV3AzalExZklkSFhCS2k4c0xIMA?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:54:52+09:00"
-  },
-  {
-   "title": "トヨタ自動車(株)【TM】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBVUdJM0U0aFlkR0FQN05mMW1YR2VRTlVLdEE1d19aRE9MWndrR1NnWTJZb1VtZmtjSGxRTzZseVZQaVhNU1NNUUJFSU8?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T11:54:29+09:00"
-  },
-  {
-   "title": "キューデンホールディングス(株)【642A】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoUHZrSGIxc2U0dWdUVjVkVWw4dER5bjh2aDVvdDEybVI2Ni01WEJEV0dFem1hWkQ1R3dTR1pfZS1pb0s3dG5xbU16cElkakZKY2c?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:54:29+09:00"
-  },
-  {
-   "title": "ニュースケール・パワー【SMR】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GRWxWZHdYSjVRTUlKQlBzSmY4eDMyY2Z0RExjSUNNTDVHdmdSRmlwTFBRVkw5TkZqWFpoS1BxTEVGbTFzUGNqalR4elc4Zw?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:54:29+09:00"
-  },
-  {
-   "title": "日経平均終値1078円高 アンソロピックIPO目論見書でAIラリー再点火",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tV05nNVVsMGtfWnJzWFBMUGpmTm1CbGFHbnZoNXJyVzhjWkFSak9zb1hXZjRGS0huUWVMbTBZNTFuV0VQQWpHazNucVRjTUFKN1pUSjRrT3R1Vm1DdzUzTXA2LW43RWVoWmxvbw?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:53:53+09:00"
-  },
-  {
-   "title": "(株)三菱ＵＦＪフィナンシャル・グループ【MUFG】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fb09UZ016WWhiUVBjc0RvWFltWjhxVkhJbkpyOEhKLXMzR2JuMk0wY1MybnpuUWNldldDSTJMak1rZV83N2JYNGFMWktSU3M?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:51:34+09:00"
-  },
-  {
-   "title": "SK･キオクシアなどメモリー4社、決算ラッシュ－AI業界先行き占う",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JcFlYVjVnRDNFNVVIYkFtV295NkE5RHNVVDZBd1FidEJscnVYQm82SmRQM0ZiYUtzNW5mcEdZMzhvbHpTbTdwd0czendZODZtYlhHem5RenBPdVJoZE1IYWhMYjRDdXc?oc=5",
-   "source": "TBS NEWS DIG",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T11:50:53+09:00"
-  },
-  {
-   "title": "[写真]イラン最高指導者、核技術などの進歩加速を要求―米国との緊張続く",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02Y1VDTmdSQllRaWZ3TWxsYXdvaUppaE5EUXRBLTkyVV9ydFFxSEdZdE9TY2l6dXhXemhVZkxfOEkzRDRIWHlrTTUxaENtaklZWURKTg?oc=5",
-   "source": "財経新聞",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:49:00+09:00"
-  },
-  {
-   "title": "日経平均は１１９１円高と大幅反発、一巡後は伸び悩む、プライムは値下がり銘柄多い＝２７日前引け(ウエルスアドバイザー)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSlJNMG9HWEswaHNTaWFsTnBNTVFDcGROUDJ6bEptWUZLZFFUdnFTa1BOUFk1MXhKbXh0YVVqdy1IY2pIUGZvazBpRC15aTNFemNHMUNJSHRxN25FZnhUa0MzZDlRbmFWUms0cWw1dm1CS3Q2N2k1cVNtVjhodHRVeEdhb3Brc2s?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:48:42+09:00"
-  },
-  {
-   "title": "前場のランキング【値上がり率】 (10月27日)(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb1REZ0p1dFJSNlRyOFVPTVFFdVhWN1AyVXVId3R5YTBvMHRDOVZrTUo1bWxBVHFGcXFUMzRsVkJuSTVVMm5jYkhydDJocnRQM2V1clJIMTJ5T1RoUDVCUXZEV1hIclRjLXh5TkxuYXRhVHE3RUg0ZnludlF6TzdEa3JTb3BxQW8?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:46:46+09:00"
-  },
-  {
-   "title": "前場のランキング【値下がり率】 (10月27日)(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUF9XU0kyNXFkb2ZtYXVyc2xFSzI0VmQ1Ul9ENTFjMG1pSHdiY3dKY3JqV1VvaGZmUVZraUNRN19Eb0JYRFlQNDRMWXI3YTdXQk1yWFRPc3BSMWhDMjdudF85dnBkdEprZTlRZDhUbV9zSnpEN3hsMlB3U0hkclRLZTg5bTFCY2M?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:46:35+09:00"
-  },
-  {
-   "title": "商品11時30分 原油が小高い 供給懸念根強く 金は上値重い",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3U2U4NXdFRV9neUZ0dnA3NHJ0M082UEhsbXJrRDdFLWt5UExkclk5XzFVSTVqeTdlU3g0VEdNVGJVWjlJcHVEaTBxRE52R1dzRFBJVHNrQ1hFX2c5el9zaDJ1cHFpQnBfU0RNMA?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:46:32+09:00"
-  },
-  {
-   "title": "【日本株週間展望】軟調、日米の金融政策やハイテク決算で振れ拡大も フォトギャラリー | TBS CROSS DIG with Bloomberg",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xdW5lMndqQ2VQaU5FUmtBTlR6cFB5ZHU5eE1SbU5SZmRtcWtLVWhURHJndGFNeHE2bmstSjJWQVJnTTZTb21aS1VCQTVrdGlLSG5SYXM2ZXo5aEViVjZhd1Zsb1FUTE1kQkdQZmFia1ZnTkl5Nk5odGJWRkk?oc=5",
-   "source": "TBS NEWS DIG",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:46:20+09:00"
-  },
-  {
-   "title": "前場のランキング【寄付からの値上がり率】 (10月27日)(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeXAteVV5bWxqTV90ZVZUV2VHSW1kRTVudHpTLUwtYUg0OG1LdlFONEVmX2V6SDc1Um9hQlhLOTh1c2xFZmFQTXRoVHFubVdsazNJU25jX2ZUZEFKdlYxV1QzZVd5ZUxnRmM1WEVHRktBUHdlZ0hVSUNFbXBHbjlzQ013TGtQNms?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:46:00+09:00"
-  },
-  {
-   "title": "ユーロ/スイスフラン【EURCHF】：外国為替相場FXレート・チャートをリアルタイム表示",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01OVktNTEwdFo2bzBJZ0FjM0hhTG9Zc2lhUkhhRWJ4TmFJb1J5c1lRTXZCT3YxdVExRUJXS2I3V3JXWVVtbl83QkplOTBGSGlHZGxTX1V3?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T11:44:30+09:00"
-  },
-  {
-   "title": "NYダウの指数情報・推移",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:40:15+09:00"
-  },
-  {
-   "title": "AnthropicのIPO申請がAI関連株を押し上げ、アジア株が急騰 執筆",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WQ3lQR3EyRExQUFV5QTloZk1ZSFZDQkxYZzZPRHhtUDFiMVBWbi1hd3VVc1JHVVlsd0dtVUNCOFV5eE9LeWNhckl6QzAyZy1zTWEweEtQLWM1cU1YQ2s2bG05Y21Id25SallIQTdLaTI?oc=5",
-   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-   "lang": "ja",
-   "category": "アジア",
-   "published": "2026-10-27T11:39:00+09:00"
-  },
-  {
-   "title": "高インフレにもかかわらず、FRBが利上げに「ブレーキをかける」可能性がある理由。",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVWw2YWU1UDdpRERPcXM0Y01TUWRlTE9INzFvLTVoSVJ2OS1FdUpzcXJES0R1QjZZQ3V4eXVaVmdQX0VIOXMxVVpTakNkNms4cVNTRVNMQ1JheURPUU9DTFhreUp2ZHpic2JDY0VNcjdsY3gxZ3dhTG9JU2NkOXZ2TWEwUGY?oc=5",
-   "source": "Vietnam.vn",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:35:52+09:00"
-  },
-  {
-   "title": "日経平均前引け 反発 1191円高の6万3381円",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yR0VmSHBtRU5qWVVNRmhxMDR2ZlJDUVVIMXM5OXhHeEJiWWstMGZmRVljUHpMQXFiSm5OcmtzWXhtTWFKTnlDQ1ltNWI1NElic1NkSDA5cHJ1eE5rUWtDWmtQYmJ6UmpmQTRWRw?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:35:48+09:00"
-  },
-  {
-   "title": "日経平均前場引け：前日比1191.64円高の63381.29円(フィスコ)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSVpZaHY0LXZ4bmZGYl9hRjdkRGdTdlpseGVGaUVzLUpPT2RLYWVLemZnSUhHM2UxSDZzaVRlbF9XMmZycGJJS2VRWnFQZFFhblZyWGh3alEwZ2pwNkJObTQ1Zm9wS0w5Yi16TVZXZEZnV1M2cWdjbFB6Ym5qYzdnVEwtVFNLS0E?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:35:43+09:00"
-  },
-  {
-   "title": "エヴァ・テクノロジーズ【AEVA】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pdFM2NHNGRHh4UzB2Z0tDX1h1aWlJS1hUQ1Zqc0tnQVBObzAyODNtNTNIYnQ3UEprTTNYUG5iS2Z5TWpBeGtodW02WUtNblE?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T11:34:44+09:00"
-  },
-  {
-   "title": "東証グロース（前引け）＝値上がり優勢、ジィ・シィがS高(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHdSVGRZQndOTk5WWHFHYzBpajZWMTA2bXR2XzVWeXJVdTdic2VBc0x6YlJZaFRRRkJsYUhLLUJpMU5yQWJRUzllS0gwb3JhWHRfZEV2RFctTDRuQmpRTS05d012UWVnckpKZ0tIci1UWHhGRG1oSlY3eTFBQzFrZGRVc1llQ3c?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:33:49+09:00"
-  },
-  {
-   "title": "ETF売買動向＝27日前引け、ｉＳ高配当、原油先Ｗブルが新高値(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR1dUbEg2S2R2MGY4Z2RDZm5fRnJTbldhdVRQbkt3RGVCN0J4MkpLMVBueThSaG1aOXJYOGU1cm9xd2hfb2d4MGZxU2tIZ0wwSWVIYVdkVG00b3VDajYxeWZCaHQ5anpTOXJaT3E3ZjhyZlRjNVJrSmhCQ1czRWFtdk9nZ3Exa3M?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:32:53+09:00"
-  },
-  {
-   "title": "東証スタンダード（前引け）＝値上がり優勢、セキュアヴェ、ショーケースがS高(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMV9nX0xQQUJkTDhMSVV0QldLLVVUOVhpZW1Ebk9xcHhtYy1XRV9XOHN6eWdRajcwd0Mxd1ltbk1wMFJPd3hkMGRjalBqa2RXLTJtRkI1Vl90aE1YWlhMZVdEYUphYUFjckhHNkxJZHRtWFlremliQ0pnb0cwME8zWFNJcU5TNkE?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:32:42+09:00"
-  },
-  {
-   "title": "２７日前引けの日経平均株価＝１１９１円６４銭高の６万３３８１円２９銭と４日ぶり大幅反発(ウエルスアドバイザー)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVnlQY0l3SC1VSl9EVjNpd25uWXpRb3QzSmhYdk9ueXBvNk9YYWV1a0lFOWpMZmN0UGw3ZDV6WUtNWHI1QmU5RVRIT3NfUU5jSWZwN0ZoQzY4OWJlSlZXTnpOdW9WY21yUVhGTWM1aWVjV2g5cXhwRzU0VnFqbHZvOUF1THYxV1U?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:32:17+09:00"
-  },
-  {
-   "title": "スペース・エクスプロレーション・テクノロジーズ【SPCX】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1TNlQzZEhOT2NLUzlIZ1lRejMzX09oV3hCaXNlRVNlemFIVFRQX2xzbHFMQkVlUEhLakxaZzRObGRRRTN1LUhfWXJmQmw2MHc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:32:16+09:00"
-  },
-  {
-   "title": "日経平均27日前引け＝4日ぶり反発、1191円高の6万3381円(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQXItS0g2LXRvZDhZSDItTjFqdlliNUJuWHZCaHVhejRoQlA0MDhodVJtcjBEcjJVMW9uMmVTQ2JqaUY4dXlGNVFKTXNfNktlZFZsOGdyaVp4aVdXSGFiT3ZWV0k0eV9kS0ZSOXh0OC1lUGtFbXNjbExnNkZrOEpsOXpYTGRUUk0?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:31:56+09:00"
-  },
-  {
-   "title": "明日の株式相場に向けて＝中銀ウィーク＆刮目の企業決算で正念場",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtd2FqT0V6WU1BNDM2YWxxTkhva1BtRjBua0dMVW5pc3RQWm1HS2ZIbGozVEFpTzlUWnUyOWlzUmNRRU5VRU4zakhCVFFPeUFZVVJZZ0tjN1VaWEJIc296bg?oc=5",
-   "source": "株探",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T11:30:14+09:00"
-  },
-  {
-   "title": "アジア株まちまち テック買い戻しも原油高が重荷 豪州週間インフレ期待6%超え",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JN2lGTUo3dFRybGI1TzNkengzNV9jT29EWmJZLTYwR0xWcUEyTmFEalFuTDZwc0NpejViekNmYjBISjZzSldhNkE0T1ZOUTVwRTBhckZlVWk1eE5oUlRDcWpn?oc=5",
-   "source": "株探",
-   "lang": "ja",
-   "category": "アジア",
-   "published": "2026-10-27T11:30:00+09:00"
-  },
-  {
-   "title": "【FX】10/27 ドル円157円台の攻防！円高の流れは終わった？ ｜為替市場ニュースの振り返り、今日の見通し",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKZnRucVI2cWg4cmxXbHlnSlMxYlpEVEhmUFlTRDdtV3BqUExaNWtlVF9kRkJFNmM1MXh4Snl3anByWWJsZnNPckpWb0o0bENRZ1ZuUHRfY0VIRU9UM1N0UGpUNA?oc=5",
-   "source": "外為どっとコム",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T11:30:00+09:00"
-  },
-  {
-   "title": "中国の工業利益、9月は3カ月ぶり大幅増－AIと原油で生産者物価上昇",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jbGp1ZGRfNDc0ZVJJWFp2Yk9Xb1JOSnpQZEdUbWY4WVc5dC1VZXFlM2tMMzhzWnhtVm1WSEhxT0hlSDlFVmlUdVVZT1pLVktrUDdIaG9NbF9Da1QxZU9pdGZuLVJWbU15ZHpfdEZCdGdFQXk2VHRJ?oc=5",
-   "source": "Bloomberg.com",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:30:00+09:00"
-  },
-  {
-   "title": "【ヤフコメで話題】「オルカンは分散投資の最適解か」「S&P500との比較で迷う声も」 - 初心者の投資信託選びに多様な意見",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwYVlQYXBSbjJfN1RkaVJ1azA3Vmx5YkRCcmtPNzV6YllTMHp2eFRxdVpPX3MzTkg0d1dfN0VMSEl6ang4ZmRMTzRROG80MF9veHdINVZEbEN5XzBGc3RFcXJ6Y0p3VU1QVEtSdEZXaEpYX3Z3a29ocTNFUUwxMkk?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:28:49+09:00"
-  },
-  {
-   "title": "金価格が4000ドル割れ後、UBSが強気転換：4082ドル突破で4400ドル視野、年末まで積み増し意欲乏しい",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IeWZrTllPakJWaTZuTTNtUVUxUGRyMzdaUmJKNjdsX1c1X2FRWWsxVmpKbDRkWWdCR3VlVGFwa09rV04wNmhBLTRwbUIzX19ER0hhV1ZpZnVFZzJLUVBWajl5RXdDRk9NTDZHcTM2ellrRW5Q?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:26:00+09:00"
-  },
-  {
-   "title": "本日10月27日の金価格：FRB会合を前に、世界の金価格は4,000ドルを突破した。",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmEzTnVvcmhrUXpEREFJdTNlTGxEcjJZaUVlR2E5dGJwcXpwQ2F4WmxwRmZrckRsTnViSUlEUVdfeTRWUlg5LUJmVmxNTnphYkVZSThxUUhHZnd2anR1N01pbXVqbmNBc3VVMTY0QVB3YnF4elZJMHNkRkZHQW9KTmhQX1J0aldtZEYtQ2FpX0NSN1RTdWhmLUdQUTBTZWZEWXc?oc=5",
-   "source": "Vietnam.vn",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:25:28+09:00"
-  },
-  {
-   "title": "S＆P 500の指数情報・推移",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CYUlyUG83cXdIaU84Q1g4dlhEbjJvNlJROFBNYWFKUzJYTmVTRXY1aVo5Sld6emQ1MzcwR29jUWg4Y2FqTlR1d2FZd2hhMU9uX0I0?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:24:23+09:00"
-  },
-  {
-   "title": "日経平均株価 一時1400円超上昇（ABEMA TIMES）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5MEJTZWFDZHZLMERUSEl6VHpzWDZxZ19sekdXVVIycGNyRHZYRlI3c083cGJscjN1a3ZyX2U5UURCckRpUU0xd2JRRkVETXpBM0xoMUJyWUJuNndaVGd2blJDb25ZUE95NnYxSVAzQ01ETENGYlVqbGVXWWttX0k?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:24:16+09:00"
-  },
-  {
-   "title": "(株)マクアケ【4479】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tMURqTUVHNV9PMi01QU0tcUI0eXJTY09GcUdPVktNdnpvSFQzV3U2MjFMUTdqQXVnaUtVbWtiS3NHU0Uya1NVUGdQbldWMG9pcUZLQlNfMU1RYTJBcEh6bmdQazBSZzdWcFAwYktHcXdyLW93?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "株・企業",
-   "published": "2026-10-27T11:12:03+09:00"
-  },
-  {
-   "title": "〔JPXエネルギー〕ドバイ原油、小幅まちまち＝中東情勢見極め（27日午前）(時事通信)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSkIydDJUUFV0cUZMQUY1TjZWajBMTXl3TkUyOXI5cmFFazhPMmxJNVAxTk9uRVg1djNFVUFTckhablpxZmFYRlVGcGZMTWd6WFJjcjVFeXUtb0dzNTNweVRMcU85REJWNkRXNVVXdkNEUHY1c2NVRE9YUURLMnA2ME44SVdGaXM?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:09:54+09:00"
-  },
-  {
-   "title": "[写真]イラン経済「25％超縮小」へ―ベッセント米財務長官が予測",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBORUpFdElfZ19tcHU1UTVUYTZKTzUtUWtMSHdjWWVNeXZfbjlYU3k3Q3dwSWVxdl82XzhsQlJwRnZmT3hWU3lpSFF4QVJQR3htdlNUTA?oc=5",
-   "source": "財経新聞",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:06:00+09:00"
-  },
-  {
-   "title": "日経平均１１７０円程度高、採用銘柄の値上がり率上位はイビデン、アドバンテス、ソフバンＧなど(ウエルスアドバイザー)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTERVYWt1cnNaR0UzQ1Z5V2xxNlR1YjlCZnA4NHNjRHBVS1lJa195Y1pBT29nX3VfQ2FZLWRMb0xRY2xnR19JQTBwbzNXNmotc2NCdlZJRlhnT0U2ZVdReFpMR0ZKdi1YSVNGUUlVM2VkQk1CdG1MbDJmTmtSY3FJSHdDUk9mTkk?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:02:43+09:00"
-  },
-  {
-   "title": "外為：1ドル157円66銭前後と大幅なドル高・円安で推移(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPelJtUWJyekJKWGpEemJwYndUd05oVUxsRlladGVjUzFvdFd2dDRUNVhvNlhNSFBPRVdkYmlwbUdnQkpLWWdjLUFNSXVIeUNsM3B6Ym11OUVQWEVYVGZkUlRRY1c0ZC1Od1dCVnhnaXhqNHdaRG14bFNYMmc4N29EMmhQclJsNTg?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T11:01:54+09:00"
-  },
-  {
-   "title": "11時の日経平均は1182円高の6万3372円、アドテストが638.61円押し上げ(株探ニュース)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR1lRZEtEZ0MwZUQ2Ni1WRVRJcHNmTVpjd2NFaUQzR0E2dlF2QU1ocmw5TnZib1BMdVVaSFdRaFhKR2RWOWpnbjFDVS0xVmhUT0ctVWlUUjZ4VU9nVE9XdFItRWZDQ2d2YkliOFJwX1JtaGRYcnhzSlBONWg2RVBNQnJLdUFZVVU?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T11:01:43+09:00"
-  },
-  {
-   "title": "金価格、一時4000ドル割れ－株式相場下落、換金売りが金にも広がる フォトギャラリー | TBS CROSS DIG with Bloomberg",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeURDQ0YxTFhMYzFkVkNKWlE2WHFtX2g1ME5rYi1fTGtBbWxKUjFhZXl3WkN0cE9xdE9Ed0dWeWNyX3lXaHNWVjNfTW1xUnZ3SEJORzYydXFNTUIzOHFFcWN6azhaSmdUQlhxc0d3TjFQQ1Y1Mmp0SjhJbWtlUlF6WE81VHlEN2s?oc=5",
-   "source": "TBS NEWS DIG",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:01:23+09:00"
-  },
-  {
-   "title": "アントロピック社の新規株式公開（IPO）申請が追い風となり、米国株は再び上昇基調を取り戻した。",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTEJjaW9JV0xQSnNabW1Hb2ZjSmk0amZCWXlDN0xudFpVZFlKMjQ5Q1piMnJFZl9CZFJIRDRvbDAtR215LTAtdXBPV2lHTE9Zb1drZlNWTkpJaXNGSGdCTmptVFdoU3Y5ZkZuZjlQR2t1amxQaUxacTlfV2FZcm84Q2xTNnZDMWQwNHlmbUg5NkpFQThORkE?oc=5",
-   "source": "Vietnam.vn",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:01:16+09:00"
-  },
-  {
-   "title": "豪ドル堅調 中国工業企業利益が急拡大、原油高とAIが寄与",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83S1BIUFlHN1R4Z0JGLUNIblA4WEU5OUNmblZQOHN2M2VOX2h3eHRmLWMtUzF2RlYtb3Iyb3N6djhWcHJ1Z3RGTg?oc=5",
-   "source": "みんかぶ FX/為替",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:00:29+09:00"
-  },
-  {
-   "title": "9月の企業向けサービス価格、3.7%上昇 原油高騰で輸送費に影響",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aUzhMY1NadlVBSjF4RE0zc1hIdHhibXp1NExwM0phaEdGTXRFeDJXRlRWVmxMWDBsaUtCYndrSTBaOFhaU0hRSF9xdVNCbVlkakh3ejMxSDBfT2JpSnZTRUUyWTZ1cWxGd2czaQ?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T11:00:23+09:00"
-  },
-  {
-   "title": "コアウィーブ【CRWV】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lcWJJWDR4T3JPOWJmRWtDTlBJeC1SQUttUGoyR1dEZXVnRUhQQUd5TjI5cGtLZHYyUVh6bzhMMlBoQThURGJrdFJzS2xadzA?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T11:00:02+09:00"
-  },
-  {
-   "title": "ウォン・ドル為替レートは1,323ウォン台で推移…米金利高で1,325ウォンにタッチ",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1tUFY3VlRySVJyNU02T0JMV01vUTFtZk1sV1ZsVmFzNTVMeER2Y3BSUWdMZks5emFpbjcwLTlHbmVWZHR4UmZDNFM3SWhqS1p4TDlENXprY3ZySEdLYThoWERQb1pFbC1jLUkzM29KQzJseVZs?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T10:55:00+09:00"
-  },
-  {
-   "title": "日本電信電話(株)【NTT】：株価・株式情報",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE52TjRVYUkyTnZiMTRNU1BqVWtnNnE5aVlldEZTYlB1X0g4VDB0NlJhcGViZExXNm9sME50anpqMW5nZV9iUFIxRXRoZVZMUQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T10:53:49+09:00"
-  },
-  {
-   "title": "インフレ懸念が一時的に後退したことで、金価格が回復した。",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBWV0xXczlINjRqNnpoSHFGcVRhRGhsaVdFdVpmNWhFV2ZLTTBjcG9XYkhMRlNOdUJOOGc4RjdCQUNBdjR6VDBPbGV0dE1GQzdLaWdCYlVlNkVHQUhKVkdfLUF2VEFkTEFCSVlvdE5lSkhsVGFoMjNMeW15QzI?oc=5",
-   "source": "Vietnam.vn",
-   "lang": "ja",
-   "category": "商品",
-   "published": "2026-10-27T10:52:51+09:00"
-  },
-  {
-   "title": "専門家は、FRBが10月の会合で金利を据え置くと予測している。",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORzNVZXJxejYtZF9WZEI1ZlRiZlBaSFJoRjA1TEl5QVUzZjBVc2szZ2lqbmU1dlZXNHcteEtjeXhaVUg3QXlnUnlHajBOTUdKb1h5N2U3UlMxbUlYSFlXZEdqY0VaWDJ4ME5yLTN5amtXcGROS2pGT0JMTDlKWmxVVjNTMkRjeThfN3FSeFltb2dZUkpvWnJ3?oc=5",
-   "source": "Vietnam.vn",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T10:51:14+09:00"
-  },
-  {
-   "title": "ヨーロッパの一部の抗議活動が暴力に発展した理由。",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd1oyUWFMM3prMFhxdHlweFJnT2FPWDdDSHlIVDUzcGp4eXZLcG5NTEMyam5QSHVXMU9IYWpsLTNrVGR2Yk1lTjVLWld4alZJTEdaLUQ2dDViVjhiUjFkQ2w1Q21JN3RSdGItR1BpdzhHbW80X3FrdVlNX1hOalJuWmUxTFlsbVVyTzdvQ01YN0E?oc=5",
-   "source": "Vietnam.vn",
-   "lang": "ja",
-   "category": "欧州",
-   "published": "2026-10-27T10:51:13+09:00"
-  },
-  {
-   "title": "10時45分時点の東証プライム騰落レシオ／先物ＯＰ市場ウォッチ(フィスコ)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMXdxdklRR2hqZ1AtX255N0ZVUmp5eFFiWVFUMDBiRnJUc2hBRFFIVTQ3ZXh0V1NqM2JzNnp4Q3hGeG1sMzBONXRyUHZNUVBQVF9KTFBqNzJUcUt6RWd6UzJ2LTUxSURnRjZuZEZwdDRITTRrNmdfSHp6dGxXYUFDTzJkMWpFV2c?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T10:46:44+09:00"
-  },
-  {
-   "title": "アンソロピックIPOでアジア株急騰、決算・中銀控える",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxbnk3Tlg3dmZNQ0RBMHBzOFZOYmNHeFlZbWtiZUR4VHZKOFhUWlJZM2VyVjZpTl9lYlpSR21mTk43UldmYkJ2blp3c01qNnRlcGR0cXd4dUVzTnl3Q3RjbFBJV0M1WGJ1UlItNm1ZMFYxeGxJMy1Seg?oc=5",
-   "source": "TradingView",
-   "lang": "ja",
-   "category": "アジア",
-   "published": "2026-10-27T10:45:00+09:00"
-  },
-  {
-   "title": "GX 米国優先証券【2866】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4ydGF4N1haak5YRFRHVTJ4bGNZU0l5bHZhTTVhLVc5cU1VY0h6QVo4QWd2R1MtZ2V1aW8zQ3ZRTG5RdWVXVy1RLWNEaXk0eFhuMmc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "日本",
-   "published": "2026-10-27T10:41:35+09:00"
-  },
-  {
-   "title": "先端技術の実用化・普及が押し上げるサイバーセキュリティの重要度",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYVHhEUlMxNnR5MjI4bzZibnJVUGFocWhudDU2WjNEclNDR0lzMUdIbkVXeU1wNGtnQ3NSUFZuby1UbVBYVE1KcHRybjFVSVBBVV9Xdw?oc=5",
-   "source": "日経CNBC online",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T10:41:07+09:00"
-  },
-  {
-   "title": "iFreeレバレッジ NASDAQ100【0431218A】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TSi1zclliczk4Wk1BZm5iNnJIZkw2S1QyQU1TOHlrc2d5Z0YwcVZqMlkzVEx4TGo0V1ppUHdIMk1LMTMxSGtWWUNBMzlxV0JCRWJNZQ?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "lang": "ja",
-   "category": "米国",
-   "published": "2026-10-27T10:39:14+09:00"
-  },
-  {
-   "title": "ドル・円は様子見ムードの強い展開か、イベント通過まではこう着が続きそうだ｜FX・為替ニュース",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12aUc2eUFLR2VpRmFlWGhMTEdiQzVXc3ZsV0dtck9sUzI2UjhzMmRLeTlqd3lBeXJ6djhxNVBJX2NXNVRYSk9ZLUI1dE9fVUFYS1E?oc=5",
-   "source": "ザイFX！",
-   "lang": "ja",
-   "category": "為替",
-   "published": "2026-10-27T10:38:00+09:00"
-  },
-  {
-   "title": "香港株寄り付き 続伸して始まる 中国本土系テックに買い",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZcUxHY2loNlRWUmU0M01QclRUTmF3emhFVmJQZlBMbDFyaDRZNDNNaFlxb0RPMzNlSjRyNGtVeV8yeVZpRTRUakVxbFRCZDZHLVVaNlRDakdpSmMyZHR0UEloeEFoWFdIY2NFeg?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "アジア",
-   "published": "2026-10-27T10:37:20+09:00"
   }
  ]
 }
