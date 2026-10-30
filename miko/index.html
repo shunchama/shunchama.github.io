@@ -1,10 +1,10 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>miko-article</title>
+<title>みこちポータル</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: narrow single column index. Oversized outlined "35" as the one bold gesture; the rest stays quiet, a ruled link ledger grouped by kind. */
+/* Layout: one long column with a sticky section nav. Oversized outlined "35" is the single bold gesture; profile is a ruled data sheet, history is a vertical rail, articles are a link ledger. */
 :root {
   --bg: #fdf3f5;
   --surface: #ffffff;
@@ -14,6 +14,7 @@
   --accent: #d9486f;
   --accent-soft: #fbdde6;
   --sky: #3f7fb5;
+  --on-accent: #ffffff;
   --font-display: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
   --font-body: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
   --font-mono: "DM Mono", ui-monospace, Menlo, monospace;
@@ -21,16 +22,18 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #1d1218; --surface: #281a22; --fg: #f6e6ec; --muted: #b997a8;
-    --line: #432936; --accent: #ff86a6; --accent-soft: #4a2434; --sky: #8fc0ea;
+    --line: #432936; --accent: #ff86a6; --accent-soft: #4a2434; --sky: #8fc0ea; --on-accent: #2a0f1a;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #1d1218; --surface: #281a22; --fg: #f6e6ec; --muted: #b997a8;
-  --line: #432936; --accent: #ff86a6; --accent-soft: #4a2434; --sky: #8fc0ea;
+  --line: #432936; --accent: #ff86a6; --accent-soft: #4a2434; --sky: #8fc0ea; --on-accent: #2a0f1a;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
   background: var(--bg); color: var(--fg);
   font-family: var(--font-body); font-size: 16px; line-height: 1.75;
@@ -38,163 +41,210 @@ body {
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); background: var(--bg); z-index: 10; }
 .wrap { max-width: 760px; margin: 0 auto; }
 a { color: inherit; }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--sky); outline-offset: 3px; border-radius: 6px; }
 
-header { position: relative; padding: 56px 0 28px; overflow: hidden; }
+header { position: relative; padding: 56px 0 20px; overflow: hidden; }
 .big35 {
   position: absolute; right: -6px; top: 6px;
   font: 900 clamp(140px, 34vw, 240px)/0.9 var(--font-display);
   color: transparent; -webkit-text-stroke: 2px var(--accent); opacity: .35;
   letter-spacing: -0.04em; pointer-events: none; user-select: none;
 }
-.badge {
-  display: inline-block; font: 500 12px/1 var(--font-mono); letter-spacing: .08em;
-  padding: 7px 10px; border: 1px solid var(--accent); color: var(--accent); border-radius: 999px;
-}
+.badge { display: inline-block; font: 500 12px/1 var(--font-mono); letter-spacing: .08em; padding: 7px 10px; border: 1px solid var(--accent); color: var(--accent); border-radius: 999px; }
 h1 { font: 900 clamp(34px, 8vw, 54px)/1.15 var(--font-display); margin: 18px 0 10px; text-wrap: balance; position: relative; }
 .lead { color: var(--muted); max-width: 34em; margin: 0; position: relative; }
 
-.controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 28px 0 8px; position: sticky; top: env(safe-area-inset-top, 0px); padding: 10px 0; background: var(--bg); z-index: 5; }
-.chip {
-  font: 700 14px/1 var(--font-display); padding: 10px 16px; border-radius: 999px;
-  border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer;
-}
-.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-:root[data-theme="dark"] .chip[aria-pressed="true"] { color: #2a0f1a; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chip[aria-pressed="true"] { color: #2a0f1a; } }
+nav.jump { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 11; background: var(--bg); display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 0; margin-bottom: 4px; }
+nav.jump a { font: 700 14px/1 var(--font-display); padding: 10px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); text-decoration: none; }
+nav.jump a:hover { border-color: var(--accent); color: var(--accent); }
 
-section { margin-top: 34px; }
-section h2 { font: 900 22px/1.3 var(--font-display); margin: 0 0 4px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+section { margin-top: 44px; scroll-margin-top: calc(70px + env(safe-area-inset-top, 0px)); }
+section h2 { font: 900 24px/1.3 var(--font-display); margin: 0 0 4px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 section h2 small { font: 400 12px/1 var(--font-mono); color: var(--muted); letter-spacing: .04em; }
-.note { color: var(--muted); font-size: 14px; margin: 0 0 10px; }
+.note { color: var(--muted); font-size: 14px; margin: 0 0 12px; }
 
+/* profile */
+dl.sheet { margin: 0; border-top: 2px solid var(--fg); display: grid; grid-template-columns: minmax(96px, 150px) 1fr; }
+dl.sheet dt, dl.sheet dd { margin: 0; padding: 12px 4px; border-bottom: 1px solid var(--line); }
+dl.sheet dt { font: 500 12px/1.9 var(--font-mono); color: var(--muted); letter-spacing: .04em; }
+dl.sheet dd { font-weight: 500; min-width: 0; overflow-wrap: anywhere; }
+
+/* history rail */
+ol.rail { list-style: none; margin: 0; padding: 0 0 0 22px; border-left: 2px solid var(--accent); }
+.rail li { position: relative; padding: 0 0 22px 18px; }
+.rail li::before { content: ""; position: absolute; left: -29px; top: 9px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 3px solid var(--accent); }
+.rail .when { font: 500 12px/1.9 var(--font-mono); color: var(--accent); letter-spacing: .04em; }
+.rail .t { font: 700 17px/1.5 var(--font-display); margin: 0; }
+.rail .d { margin: 2px 0 0; font-size: 14.5px; color: var(--muted); }
+.unverified { font: 500 11px/1 var(--font-mono); color: var(--sky); border: 1px solid var(--sky); border-radius: 999px; padding: 3px 8px; margin-left: 6px; white-space: nowrap; }
+
+/* songs */
+.years { display: grid; gap: 0; border-top: 2px solid var(--fg); }
+.year { display: grid; grid-template-columns: 64px 1fr; gap: 6px 16px; padding: 14px 4px; border-bottom: 1px solid var(--line); }
+.year b { font: 700 15px/1.9 var(--font-mono); color: var(--accent); }
+.year ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 8px; min-width: 0; }
+.year li { font-size: 14.5px; padding: 3px 12px; border-radius: 999px; background: var(--accent-soft); overflow-wrap: anywhere; }
+
+/* articles */
+.controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 6px; }
+.chip { font: 700 14px/1 var(--font-display); padding: 10px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.group { margin-top: 24px; }
+.group h3 { font: 900 18px/1.4 var(--font-display); margin: 0 0 8px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.group h3 small { font: 400 12px/1 var(--font-mono); color: var(--muted); }
 ul.ledger { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--fg); }
 .ledger li { border-bottom: 1px solid var(--line); }
-.ledger a {
-  display: grid; grid-template-columns: 92px 1fr; gap: 6px 16px; padding: 16px 4px; text-decoration: none;
-}
+.ledger a { display: grid; grid-template-columns: 92px 1fr; gap: 6px 16px; padding: 16px 4px; text-decoration: none; }
 .ledger a:hover .t { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
-.when { font: 500 12px/1.9 var(--font-mono); color: var(--muted); letter-spacing: .02em; }
-.t { font: 700 17px/1.5 var(--font-display); text-wrap: pretty; }
-.d { margin: 2px 0 0; font-size: 14.5px; color: var(--muted); line-height: 1.7; }
+.ledger .when { font: 500 12px/1.9 var(--font-mono); color: var(--muted); }
+.ledger .t { font: 700 17px/1.5 var(--font-display); text-wrap: pretty; }
+.ledger .d { margin: 2px 0 0; font-size: 14.5px; color: var(--muted); line-height: 1.7; }
 .src { display: inline-block; margin-top: 6px; font: 500 11px/1 var(--font-mono); color: var(--sky); letter-spacing: .04em; }
 .lock { color: var(--accent); }
-@media (max-width: 520px) { .ledger a { grid-template-columns: 1fr; } .when { line-height: 1.4; } }
 
-.todo { margin-top: 44px; padding: 18px 20px; background: var(--accent-soft); border-radius: 14px; }
-.todo h3 { font: 900 16px/1.4 var(--font-display); margin: 0 0 6px; }
-.todo p { margin: 0; font-size: 14.5px; }
-footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; line-height: 1.8; }
-@media (prefers-reduced-motion: no-preference) { .chip, .t { transition: color .15s, background .15s; } }
+/* links */
+.links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.links a { display: block; padding: 16px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; text-decoration: none; min-width: 0; }
+.links a:hover { border-color: var(--accent); }
+.links b { display: block; font: 900 17px/1.4 var(--font-display); }
+.links span { display: block; font-size: 13.5px; color: var(--muted); margin-top: 2px; }
+.links i { display: block; font: 500 11px/1.6 var(--font-mono); color: var(--sky); font-style: normal; margin-top: 8px; overflow-wrap: anywhere; }
+
+footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; line-height: 1.8; }
+@media (max-width: 520px) {
+  .ledger a { grid-template-columns: 1fr; } .ledger .when { line-height: 1.4; }
+  dl.sheet { grid-template-columns: 1fr; } dl.sheet dt { border-bottom: 0; padding-bottom: 0; } dl.sheet dd { padding-top: 0; }
+  .year { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: no-preference) { .chip, .t, nav.jump a, .links a { transition: color .15s, background .15s, border-color .15s; } }
 </style>
 
 <div class="wrap">
   <header>
     <div class="big35" aria-hidden="true">35</div>
     <span class="badge">UNOFFICIAL FAN SITE</span>
-    <h1>miko-article</h1>
-    <p class="lead">さくらみこさんのインタビュー、対談、ライブレポート、配信ニュースへのリンク集。見つけた記事を足していく非公式のファンサイトです。</p>
+    <h1>みこちポータル</h1>
+    <p class="lead">さくらみこさんの基本情報、年表、楽曲、記事、公式リンクを1か所にまとめた非公式のファンサイトです。</p>
   </header>
 
-  <div class="controls" role="group" aria-label="カテゴリで絞り込み">
-    <button class="chip" type="button" data-filter="all" aria-pressed="true">すべて</button>
-    <button class="chip" type="button" data-filter="interview" aria-pressed="false">インタビュー</button>
-    <button class="chip" type="button" data-filter="live" aria-pressed="false">ライブレポート</button>
-    <button class="chip" type="button" data-filter="news" aria-pressed="false">配信ニュース</button>
-  </div>
+  <nav class="jump" aria-label="ページ内の移動">
+    <a href="#profile">プロフィール</a>
+    <a href="#history">年表</a>
+    <a href="#songs">楽曲</a>
+    <a href="#articles">記事</a>
+    <a href="#links">公式リンク</a>
+  </nav>
 
-  <section data-cat="interview">
-    <h2>インタビュー・対談 <small>4 LINKS</small></h2>
-    <p class="note">1stアルバム『flower rhapsody』(2024年9月25日発売)まわりの記事が中心です。</p>
-    <ul class="ledger">
-      <li><a href="https://www.famitsu.com/article/202410/21546" target="_blank" rel="noopener">
-        <span class="when">2024.10</span>
-        <span><span class="t">さくらみこ×じん対談『DAI DAI DAI ファンタジスタ』を語る(3連続インタビューVol.2)</span>
-        <p class="d">アルバム発売記念の連載企画。作詞・作曲を担当したじんさんとの対談です。</p>
-        <span class="src">ファミ通.com</span></span></a></li>
-      <li><a href="https://www.famitsu.com/article/202410/22184" target="_blank" rel="noopener">
-        <span class="when">2024.10</span>
-        <span><span class="t">作家陣との対談:『flower rhapsody』の制作がどう決まったか</span>
-        <p class="d">堀江さん、神田さんと、制作のきっかけやオーダーの内容を振り返っています。</p>
-        <span class="src">ファミ通.com</span></span></a></li>
-      <li><a href="https://www.famitsu.com/article/202410/20841" target="_blank" rel="noopener">
-        <span class="when">2024.10</span>
-        <span><span class="t">水野さんとの対談:ホロライブとファンとの距離感</span>
-        <p class="d">アルバム連載の一本。VTuberとファンの近さについて話しています。</p>
-        <span class="src">ファミ通.com</span></span></a></li>
-      <li><a href="https://kai-you.net/article/90582" target="_blank" rel="noopener">
-        <span class="when">2024.09</span>
-        <span><span class="t">KAI-YOU:さくらみこさん掲載号の告知 <span class="lock">(続きは会員限定)</span></span>
-        <p class="d">本人もXで「たっぷりページ」と告知していた掲載号の紹介記事です。</p>
-        <span class="src">KAI-YOU</span></span></a></li>
-    </ul>
+  <section id="profile">
+    <h2>プロフィール <small>PROFILE</small></h2>
+    <p class="note">公開されている情報をもとにした基本データです。</p>
+    <dl class="sheet">
+      <dt>名前</dt><dd>さくらみこ (愛称:みこち)</dd>
+      <dt>肩書</dt><dd>エリート巫女アイドル</dd>
+      <dt>所属</dt><dd>ホロライブ 0期生</dd>
+      <dt>デビュー</dt><dd>2018年8月1日</dd>
+      <dt>誕生日</dt><dd>3月5日</dd>
+      <dt>身長</dt><dd>152cm</dd>
+      <dt>ファンネーム</dt><dd>35P(さんじゅうごピー)</dd>
+      <dt>あいさつ</dt><dd>にゃっはろー!</dd>
+      <dt>配信タグ</dt><dd>#みこなま</dd>
+      <dt>キャラクターデザイン</dt><dd>田中雄一さん(初期)、おるだんさん(新衣装)</dd>
+    </dl>
   </section>
 
-  <section data-cat="live">
-    <h2>ライブレポート <small>2 LINKS</small></h2>
-    <p class="note">2024年10月26日、有明アリーナ「1st Live “flower fantasista!”」。</p>
-    <ul class="ledger">
-      <li><a href="https://realsound.jp/2024/11/post-1827037.html" target="_blank" rel="noopener">
-        <span class="when">2024.11</span>
-        <span><span class="t">過去の自分を乗り越えて掴んだ“自分らしさ” 夢の初ソロライブ</span>
-        <p class="d">初のソロライブの流れを、ゲスト出演まで含めて追ったレポートです。</p>
-        <span class="src">Real Sound</span></span></a></li>
-      <li><a href="https://www.famitsu.com/article/202410/22419" target="_blank" rel="noopener">
-        <span class="when">2024.10</span>
-        <span><span class="t">念願の1stライブで魅せたエリート巫女アイドルの姿</span>
-        <p class="d">開幕から中盤までの演出とセットリストの印象をまとめています。</p>
-        <span class="src">ファミ通.com</span></span></a></li>
-    </ul>
+  <section id="history">
+    <h2>年表 <small>HISTORY</small></h2>
+    <p class="note">活動のおもな出来事です。見つけたものを順に足していきます。</p>
+    <ol class="rail">
+      <li><span class="when">2018.08.01</span><p class="t">活動開始</p><p class="d">キャラクターデザインは田中雄一さん。</p></li>
+      <li><span class="when">2018.12</span><p class="t">ホロライブ0期生として活動</p></li>
+      <li><span class="when">2022.08</span><p class="t">『ベイビーダンス』を公開</p><p class="d">EP『heart♡connect』に収録されています。</p></li>
+      <li><span class="when">2024.09.25</span><p class="t">1stフルアルバム『flower rhapsody』発売</p><p class="d">オリコンデイリーのアルバムランキングで1位になりました。</p></li>
+      <li><span class="when">2024.10.26</span><p class="t">1st Live “flower fantasista!” (有明アリーナ)</p><p class="d">活動7年目で初めてのソロライブです。</p></li>
+      <li><span class="when">2025.05</span><p class="t">ソロライブのBlu-ray発売開始を告知</p></li>
+      <li><span class="when">2026.10</span><p class="t">横浜K-Arenaでソロライブ「Blooming Parade」<span class="unverified">詳細は確認中</span></p><p class="d">Xのニュース表示で見かけた情報です。日程や内容は確認でき次第、書き直します。</p></li>
+    </ol>
   </section>
 
-  <section data-cat="news">
-    <h2>配信ニュース <small>4 LINKS</small></h2>
-    <p class="note">配信内容や告知を取り上げた記事です。</p>
-    <ul class="ledger">
-      <li><a href="https://www.appbank.net/2024/10/29/youtubernews/2747625.php" target="_blank" rel="noopener">
-        <span class="when">2024.10.29</span>
-        <span><span class="t">ソロライブの一部を無料公開した配信</span>
-        <p class="d">寄せ書きの待機画面と、会場の熱気が伝わる配信の紹介です。</p>
-        <span class="src">AppBank</span></span></a></li>
-      <li><a href="https://www.appbank.net/2024/10/31/youtubernews/2747763.php" target="_blank" rel="noopener">
-        <span class="when">2024.10.31</span>
-        <span><span class="t">ライブ後の特報配信とシャープさんとのコラボ発表</span>
-        <p class="d">グッズ情報と、加湿器の一件から決まったコラボを紹介しています。</p>
-        <span class="src">AppBank</span></span></a></li>
-      <li><a href="https://www.appbank.net/2025/04/05/youtubernews/2762892.php" target="_blank" rel="noopener">
-        <span class="when">2025.04.05</span>
-        <span><span class="t">エイプリルフールに新人Live2Dとして再デビュー</span>
-        <p class="d">初の2D姿で初配信を演じた、4月1日のネタ配信の紹介です。</p>
-        <span class="src">AppBank</span></span></a></li>
-      <li><a href="https://www.appbank.net/2025/05/04/youtubernews/2767302.php" target="_blank" rel="noopener">
-        <span class="when">2025.05.04</span>
-        <span><span class="t">ソロライブBlu-ray発売開始などの重大告知3連発</span>
-        <p class="d">特製キーキャップや、ゴールデンウィークのコラボ企画の発表がありました。</p>
-        <span class="src">AppBank</span></span></a></li>
-    </ul>
+  <section id="songs">
+    <h2>楽曲 <small>DISCOGRAPHY</small></h2>
+    <p class="note">ソロ名義の楽曲を年ごとに並べました(英語版Wikipediaの表をもとにしています)。アルバムは『heart♡connect』(2022年のEP)と『flower rhapsody』(2024年)。</p>
+    <div class="years">
+      <div class="year"><b>2021</b><ul><li>さくら色ハイテンション!</li><li>花月ノ夢</li></ul></div>
+      <div class="year"><b>2022</b><ul><li>ベイビーダンス</li><li>僕らと君のうた。</li></ul></div>
+      <div class="year"><b>2023</b><ul><li>乙女のススメ?!</li><li>ハートオンライン</li></ul></div>
+      <div class="year"><b>2024</b><ul><li>きゅんきゅんみこきゅんきゅん♡</li><li>にゃっはろーわーるど!!!</li><li>Sakura Day's</li><li>DAI DAI DAI ファンタジスタ</li><li>イケ贄</li><li>Cherry Message</li></ul></div>
+      <div class="year"><b>2025</b><ul><li>咲き誇れアイドル</li></ul></div>
+      <div class="year"><b>2026</b><ul><li>ファッションビート</li></ul></div>
+    </div>
   </section>
 
-  <div class="todo">
-    <h3>これから追加する予定</h3>
-    <p>横浜K-Arenaでのソロライブ関連の記事と、最近のインタビュー。見つけ次第この一覧に足します。</p>
-  </div>
+  <section id="articles">
+    <h2>記事 <small>ARTICLES</small></h2>
+    <p class="note">インタビュー、ライブレポート、配信ニュースへのリンク集です。</p>
+    <div class="controls" role="group" aria-label="カテゴリで絞り込み">
+      <button class="chip" type="button" data-filter="all" aria-pressed="true">すべて</button>
+      <button class="chip" type="button" data-filter="interview" aria-pressed="false">インタビュー</button>
+      <button class="chip" type="button" data-filter="live" aria-pressed="false">ライブレポート</button>
+      <button class="chip" type="button" data-filter="news" aria-pressed="false">配信ニュース</button>
+    </div>
+
+    <div class="group" data-cat="interview">
+      <h3>インタビュー・対談 <small>4 LINKS</small></h3>
+      <ul class="ledger">
+        <li><a href="https://www.famitsu.com/article/202410/21546" target="_blank" rel="noopener"><span class="when">2024.10</span><span><span class="t">さくらみこ×じん対談『DAI DAI DAI ファンタジスタ』を語る(3連続インタビューVol.2)</span><p class="d">アルバム発売記念の連載企画。作詞・作曲を担当したじんさんとの対談です。</p><span class="src">ファミ通.com</span></span></a></li>
+        <li><a href="https://www.famitsu.com/article/202410/22184" target="_blank" rel="noopener"><span class="when">2024.10</span><span><span class="t">作家陣との対談:『flower rhapsody』の制作がどう決まったか</span><p class="d">堀江さん、神田さんと、制作のきっかけやオーダーの内容を振り返っています。</p><span class="src">ファミ通.com</span></span></a></li>
+        <li><a href="https://www.famitsu.com/article/202410/20841" target="_blank" rel="noopener"><span class="when">2024.10</span><span><span class="t">水野さんとの対談:ホロライブとファンとの距離感</span><p class="d">アルバム連載の一本。VTuberとファンの近さについて話しています。</p><span class="src">ファミ通.com</span></span></a></li>
+        <li><a href="https://kai-you.net/article/90582" target="_blank" rel="noopener"><span class="when">2024.09</span><span><span class="t">KAI-YOU:さくらみこさん掲載号の告知 <span class="lock">(続きは会員限定)</span></span><p class="d">本人もXで「たっぷりページ」と告知していた掲載号の紹介記事です。</p><span class="src">KAI-YOU</span></span></a></li>
+      </ul>
+    </div>
+
+    <div class="group" data-cat="live">
+      <h3>ライブレポート <small>2 LINKS</small></h3>
+      <ul class="ledger">
+        <li><a href="https://realsound.jp/2024/11/post-1827037.html" target="_blank" rel="noopener"><span class="when">2024.11</span><span><span class="t">過去の自分を乗り越えて掴んだ“自分らしさ” 夢の初ソロライブ</span><p class="d">初のソロライブの流れを、ゲスト出演まで含めて追ったレポートです。</p><span class="src">Real Sound</span></span></a></li>
+        <li><a href="https://www.famitsu.com/article/202410/22419" target="_blank" rel="noopener"><span class="when">2024.10</span><span><span class="t">念願の1stライブで魅せたエリート巫女アイドルの姿</span><p class="d">開幕から中盤までの演出とセットリストの印象をまとめています。</p><span class="src">ファミ通.com</span></span></a></li>
+      </ul>
+    </div>
+
+    <div class="group" data-cat="news">
+      <h3>配信ニュース <small>4 LINKS</small></h3>
+      <ul class="ledger">
+        <li><a href="https://www.appbank.net/2024/10/29/youtubernews/2747625.php" target="_blank" rel="noopener"><span class="when">2024.10.29</span><span><span class="t">ソロライブの一部を無料公開した配信</span><p class="d">寄せ書きの待機画面と、会場の熱気が伝わる配信の紹介です。</p><span class="src">AppBank</span></span></a></li>
+        <li><a href="https://www.appbank.net/2024/10/31/youtubernews/2747763.php" target="_blank" rel="noopener"><span class="when">2024.10.31</span><span><span class="t">ライブ後の特報配信とシャープさんとのコラボ発表</span><p class="d">グッズ情報と、加湿器の一件から決まったコラボを紹介しています。</p><span class="src">AppBank</span></span></a></li>
+        <li><a href="https://www.appbank.net/2025/04/05/youtubernews/2762892.php" target="_blank" rel="noopener"><span class="when">2025.04.05</span><span><span class="t">エイプリルフールに新人Live2Dとして再デビュー</span><p class="d">初の2D姿で初配信を演じた、4月1日のネタ配信の紹介です。</p><span class="src">AppBank</span></span></a></li>
+        <li><a href="https://www.appbank.net/2025/05/04/youtubernews/2767302.php" target="_blank" rel="noopener"><span class="when">2025.05.04</span><span><span class="t">ソロライブBlu-ray発売開始などの重大告知3連発</span><p class="d">特製キーキャップや、ゴールデンウィークのコラボ企画の発表がありました。</p><span class="src">AppBank</span></span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="links">
+    <h2>公式リンク <small>OFFICIAL LINKS</small></h2>
+    <p class="note">本人と事務所の公式ページへのリンクです。最新の情報は、必ずリンク先で確認してください。</p>
+    <div class="links">
+      <a href="https://www.youtube.com/@SakuraMiko" target="_blank" rel="noopener"><b>YouTube</b><span>配信とライブのアーカイブ</span><i>youtube.com/@SakuraMiko</i></a>
+      <a href="https://x.com/sakuramiko35" target="_blank" rel="noopener"><b>X (旧Twitter)</b><span>告知と日々のつぶやき</span><i>x.com/sakuramiko35</i></a>
+      <a href="https://hololive.hololivepro.com/talents/sakura-miko/" target="_blank" rel="noopener"><b>ホロライブ公式</b><span>タレント紹介ページ</span><i>hololive.hololivepro.com</i></a>
+    </div>
+  </section>
 
   <footer>
-    このページはファンが個人で作った非公式のリンク集で、さくらみこさん本人、ホロライブプロダクション、カバー株式会社とは関係ありません。記事の内容は各サイトのものです。引用はせず、紹介文は要約しています。リンク先でご覧ください。
+    このページはファンが個人で作った非公式のサイトで、さくらみこさん本人、ホロライブプロダクション、カバー株式会社とは関係ありません。画像やロゴは使っていません。記事の内容は各サイトのもので、紹介文は要約です。詳しくはリンク先でご覧ください。
   </footer>
 </div>
 
 <script>
 (function () {
   var chips = document.querySelectorAll('.chip');
-  var sections = document.querySelectorAll('section[data-cat]');
+  var groups = document.querySelectorAll('.group[data-cat]');
   chips.forEach(function (chip) {
     chip.addEventListener('click', function () {
       var f = chip.getAttribute('data-filter');
       chips.forEach(function (c) { c.setAttribute('aria-pressed', String(c === chip)); });
-      sections.forEach(function (s) { s.hidden = !(f === 'all' || s.getAttribute('data-cat') === f); });
+      groups.forEach(function (g) { g.hidden = !(f === 'all' || g.getAttribute('data-cat') === f); });
     });
   });
 })();
