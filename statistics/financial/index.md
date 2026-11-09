@@ -15,10 +15,6 @@ has_children: true
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<style>
-  /* 数式を白く光らせる */
-  .MathJax_Display, .MathJax { color: #ffffff !important; }
-</style>
 
 # 統計学・金融数理リファレンス
 
