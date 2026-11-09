@@ -12,8 +12,8 @@ description: 趣味の話を中心に投稿しています
 plugins:
   - jekyll-remote-theme
 
-# 配色設定（darkを指定しつつ、後ほどCSSで#000000に追い込みます）
-color_scheme: dark
+# 配色設定（白背景）
+color_scheme: light
 
 # リンク設定
 aux_links:

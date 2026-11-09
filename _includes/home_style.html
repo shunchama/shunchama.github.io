@@ -1,72 +1,66 @@
 <style>
-/* ===== Home page only (.hp) — 昔ながらの個人サイト風 =====
-   assets/css の `* { color:#fff !important }` に勝つため、
-   色指定はすべて .hp 配下 + !important で書いています。 */
+/* ===== Home page only (.hp) — 昔ながらの個人サイト風（白背景） ===== */
 .hp {
   font-family: Verdana, "Hiragino Kaku Gothic ProN", "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   max-width: 760px;
+  color: #222;
 }
-.hp a { text-decoration: underline !important; }
-.hp a:visited { color: #b48cff !important; }
-.hp a:hover { color: #ffcc00 !important; }
 
 /* 見出しバー */
 .hp h2.hp-bar {
   font-size: 15px !important;
   font-weight: bold;
+  line-height: 1.6;
   margin: 28px 0 10px !important;
   padding: 3px 8px !important;
-  background: #1c1c1c !important;
-  border: 1px solid #555;
-  border-left: 6px solid #00d4ff;
+  background: #e8eefc;
+  border: 1px solid #9aa6c4;
+  border-left: 6px solid #33448a;
+  color: #1a2550;
 }
 
 /* 枠付きボックス */
 .hp .hp-box {
-  border: 1px solid #555;
+  border: 1px solid #999;
   padding: 10px 14px;
-  background: #0b0b0b !important;
+  background: #fafafa;
 }
 .hp .hp-box p { margin: 0; }
 
 /* 更新履歴 */
 .hp ul.hp-log { list-style: none; margin: 0; padding: 0; }
-.hp ul.hp-log li { margin: 0; padding: 3px 0; border-bottom: 1px dotted #333; }
-.hp ul.hp-log li::before { content: none !important; }
+.hp ul.hp-log li { margin: 0; padding: 3px 0; border-bottom: 1px dotted #bbb; }
+.hp ul.hp-log li::before { content: none; }
 .hp .hp-date {
   display: inline-block; width: 96px;
-  font-family: "Courier New", monospace; color: #9a9a9a !important;
+  font-family: "Courier New", monospace; color: #666;
 }
-.hp .hp-cat { color: #9a9a9a !important; font-size: 12px; margin-right: 4px; }
+.hp .hp-cat { color: #666; font-size: 12px; margin-right: 4px; }
 
 /* 表 */
 .hp table.hp-table { width: 100%; border-collapse: collapse; margin: 0; display: table; }
 .hp table.hp-table th,
 .hp table.hp-table td {
-  border: 1px solid #555 !important;
+  border: 1px solid #999;
   padding: 5px 8px; vertical-align: top; text-align: left;
-  background: transparent !important; font-size: 13px;
+  background: #fff; font-size: 13px; color: #333;
 }
-.hp table.hp-table th { background: #1c1c1c !important; white-space: nowrap; font-weight: bold; }
-.hp table.hp-table td.hp-sub { color: #bbb !important; }
-.hp table.hp-table td.hp-sub a { color: #00d4ff !important; }
+.hp table.hp-table th { background: #e8eefc; white-space: nowrap; font-weight: bold; }
 
 /* ニュース */
-.hp ul.hp-news { margin: 0; padding-left: 1.4em; }
+.hp ul.hp-news { margin: 0; padding-left: 1.4em; list-style: square; }
 .hp ul.hp-news li { margin: 0 0 4px; font-size: 13px; }
-.hp ul.hp-news li::before { content: none !important; }
-.hp ul.hp-news { list-style: square; }
-.hp .hp-small { font-size: 11px; color: #888 !important; }
+.hp ul.hp-news li::before { content: none; }
+.hp .hp-small { font-size: 11px; color: #777; }
 .hp .hp-more { text-align: right; font-size: 12px; margin: 4px 0 0; }
 
 /* フッター */
 .hp .hp-foot {
-  margin-top: 36px; padding-top: 8px; border-top: 1px solid #555;
-  text-align: center; font-size: 12px;
+  margin-top: 36px; padding-top: 8px; border-top: 1px solid #999;
+  text-align: center; font-size: 12px; color: #777;
 }
-.hp .hp-foot, .hp .hp-foot * { color: #888 !important; }
 
 @media (max-width: 520px) {
   .hp .hp-date { display: block; width: auto; font-size: 12px; }
