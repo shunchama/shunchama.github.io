@@ -1,6 +1,550 @@
 {
- "updated": "2026-11-14T15:21:51+09:00",
+ "updated": "2026-11-15T03:00:08+09:00",
  "items": [
+  {
+   "title": "タイ商務相、ASEAN首脳会議でデジタル経済協定に署名へ 中国向け農産物の通関短縮も推進",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QSEtLUXBJWlZ4MEE0OWZNaDQzUzUtNGlhTHA3VTdHZTZYZkllc2VFbUllQmstXzh5RnlkV2k5cGltOGNoeEFjR2EzYzUwQkFxRXdTMGdtamhjbF92?oc=5",
+   "source": "newsclip.be",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-15T02:10:12+09:00"
+  },
+  {
+   "title": "追跡：米中露首脳会談 中国の思惑は",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAyYlZna2ZSU1doN3VuMEN6SE9FbDJrc0xRUmZVcGdmT2VPUktFbG9ReDYyQTAxeWx2OHVtb0tBUTBNMDhCa3c5cU16SDF5YnVrVHVmM2NJLXlpVDhhTl9NRkdsemhxS0lE?oc=5",
+   "source": "毎日新聞",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-15T02:01:09+09:00"
+  },
+  {
+   "title": "ドナルド・トランプはNvidiaのスパイ疑惑スキャンダルについて習近平と話し合う意向はない／イーロン・マスクがAPEC首脳会議に出席する米大統領に同行する",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ1NSS01GN3JrNDYyZ0ZpSUQ2Q1hCdkZ0ZUpMdHhUODlzZUFlclRMckJfSEQ0THdmVWZabDFjQ3lxV1hVYUNoR1dPVE9zVnNWQTcwZ2hWa29BUmsyMXhneUc3a0RBM1djX2Z1dmhjVTdXSVBxU3BjZlpVdDJUTFl3OXRTbWhWeDdpSm9BM2ZrUlhGWmZNUFl1S2JMZlpFdw?oc=5",
+   "source": "Informat.ro",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-15T01:37:53+09:00"
+  },
+  {
+   "title": "台湾（中国）に圧勝したキルギスタンは、ベトナムとの試合を楽しみにしている。",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRkpZUk4zODJKY1R6Ymt6MnFkcFF1akpWV1B0UnlkTS1xOU1mczY2Nm42Zi1jdGhkdzJkV25LNDJYM3cyMzhpYlN4NF9fRFRfUlhpdFJRZnVER25OR3Voa19ZRDVUSWxwWGwxcThBOVVLNVJqUEJIX1dNUDluMjdIWm8zbEdKc0FlbFBjcGpsdF9LWTRHT1Q2aWN3?oc=5",
+   "source": "Vietnam.vn",
+   "lang": "ja",
+   "category": "台湾・香港",
+   "published": "2026-11-15T01:22:50+09:00"
+  },
+  {
+   "title": "趙兌烈外相と王毅外交部長が北京で会談…韓中首脳会談の準備が本格化 : 政治 : 財経日報",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrUHphUm9iR2hVZ3hTYUI2WmpwYXFHV0pIRGVmb0dSUXZPTExKN3JWLVA1SjB1N3MtR24yTDN4Ni1EeXdYeHpHSHVpMjR0R0tpN2Q0WjJwTDllMUR2U3hmbnFzQQ?oc=5",
+   "source": "재경일보",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-15T01:00:00+09:00"
+  },
+  {
+   "title": "【交通情報】中国道下り線 美祢IC～美祢西IC 事故に伴う通行止めは解除（15日午前0時50分現在）",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Wek45b1dzdFItVXp1UXF1UXdEYUlOVlFnU2o5dnZ6QlRQZ1NCT1RkVWgyZ1dwbWtaNjZjV1UzbV9vNVpSbXR3N3U5aURzRjgzUVp3bkpoRQ?oc=5",
+   "source": "TBS NEWS DIG",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-15T00:56:00+09:00"
+  },
+  {
+   "title": "キルギスタンは台湾（中国）を圧倒的な勝利で下し、ベトナムチームを苦しい立場に追い込んだ。",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRmxpMUhWV2ltaHZaYnVBMGphLVRRVXV2QjN5U3p3MGlLU0VsYldVX29jOUk1YUZuUTlPSUhnYVlJcFhFUUR0QkgyY1o5TXhyNm1tS0RFX0dEeXE3akxIeVFGYzM1MlJaaUYxLUsza0FQTkdJRWJoTExac0I4YU5kSHBRN1ZnR0F6anUyY2Z1ZkxrMlI2NUp6UFg0NkVEZw?oc=5",
+   "source": "Vietnam.vn",
+   "lang": "ja",
+   "category": "台湾・香港",
+   "published": "2026-11-15T00:36:26+09:00"
+  },
+  {
+   "title": "中国がマレーシアを破り、連敗を止めた。",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbC10d01rWlBrVUJQajhJendLMVAtQy1YRlFfTVFJX1AwT3BtcFJpdURwb2FTZm91RnVkZ1pnR2FYM3QwQ3Y0dzAtc1ZxaFpSUlFMd05wOGVmY2J2U3d6dXcxTm85Y0U5QzRaV04tT2hCcEtvVFF4UWdHaGFDTjYwd042WXY?oc=5",
+   "source": "Vietnam.vn",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-15T00:24:28+09:00"
+  },
+  {
+   "title": "中国自動車道 通行止め解除",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kUU43WE91NFNDazVXbTN0aFp4VEMtSGk1NzlyMUZfd3I0LUdVME1zdE1fWGZBVExhMmFDTmlsUXZ1QVNwMEhtMzlQWWhuZkxFcXpwdjhMQ28yUlZCVUZ3?oc=5",
+   "source": "NHKニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-15T00:10:25+09:00"
+  },
+  {
+   "title": "嘉鋼、中国から全面撤退 子会社2社を破産清算、輸出注文は台湾へ回帰",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04VHVsOXBic1JoYmpTQTlreVJYdXY5dC1uYktnMktHV2JKRVJydzFXWjJycDVyVWZrTkkxLTBGVlhFa0UtZmU0VGFXMjlqZ3pVajRvVU1VTVhrUjJKczBoakRFQjZaZUUtVWtvSjNHMEl6SGlu?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "台湾・香港",
+   "published": "2026-11-14T23:05:00+09:00"
+  },
+  {
+   "title": "Zero capital, 116 projects: AI spots the devils in the details of China corruption case",
+   "url": "https://www.scmp.com/news/china/politics/article/3374314/zero-capital-116-projects-ai-spots-devils-details-china-corruption-case",
+   "source": "SCMP",
+   "lang": "en",
+   "category": "社会・その他",
+   "published": "2026-11-14T23:00:05+09:00"
+  },
+  {
+   "title": "トランプ氏、習近平氏、プーチン氏が19日に深圳で初の3カ国首脳会談へ : 国際 : 財経日報",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WdFpheDVrdllSS0w1WjZybWpydGVhQ3A4RWxROW1FT1BRcDM4bUhrX1R6VTFvLTNvZXdpcjdtc1BOUUtGOVFHUmRQVS10UW5Bd1E3OWlnRHhON3U4Skk5VTdDZw?oc=5",
+   "source": "재경일보",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T22:50:30+09:00"
+  },
+  {
+   "title": "「快挙だ」「日本サッカーの進歩は疑いようがない」ブラジルを下した森保ジャパンに中国メディアが感嘆「特に久保建英のゴールは…」（SOCCER DIGEST Web）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wa09DSzRPZGcxOWFWWDk2MzFnczJhRmREaGZscWktZjltWUh3bVhRU3ZCYkY0ZjVjN3JDRFhSV2tTTTBXQm5jTnVHVUpvLVhaZXdrZ3VXeUFiQWYxd0hhVUo4WGNHRjJna1lQZzA1WkJVQnN6MHZxM29MSVZQZEU?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T22:26:00+09:00"
+  },
+  {
+   "title": "「原子核時計」世界初開発 3000万年に1秒しか狂わない精度、欧州と中国のチーム実証",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MdFpFSXl1QnBIeFpiclVSRHJUWnFSc0Z0UWlsNllLN0NZSXV1YXI4cF9udlFJcHVvZ0N4djkxYURjWHBOU0g0Z1ZtTXE5YzJiMHhucUU5a09NeXNyRXc4V01XYXg0OHJHSEh5dUdFNlB3bmhSUXc?oc=5",
+   "source": "産経ニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T22:15:35+09:00"
+  },
+  {
+   "title": "中国の洋上風力発電設備、累計分と新規系統連系分の両方ともに、5年連続で世界1位のシェア（5割強）を維持。年間発電量は1000億kWを突破。日本の全発電容量の約500倍（RIEF） | 一般社団法人環境金融研究機構",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9hTTJJSEZEUzRKRjd6TFN1Z3VZZjZ6S1ZILUp6b0xlYkgzdVNmS2hhdmdvZXpsa3Rtam1wMmllSzhKb21m?oc=5",
+   "source": "環境金融研究機構",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T22:07:47+09:00"
+  },
+  {
+   "title": "中国の非都市部で「ＳＮＳを見てナショナリズムを高める悪循環が起きている」と城山英巳教授…北大で国際シンポ",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WSk5Fa0dnLUdSNFFJbVF6R3F5TFQtRFU3dWg2c2MxSWZIaFhBVTB6NVFVMF8yN0tGOHE1WUkzU0YwaVkyUjBtNVZMbklvRXQ5dGRsb044SUJBdTNNblhzcUt3?oc=5",
+   "source": "読売新聞",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T21:44:00+09:00"
+  },
+  {
+   "title": "【速報】バイクで赤信号を無視し、中学生をひき逃げ 16歳少年逮捕 広島（中国新聞デジタル）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5EQkl2blhpUV8yVVpKTGZUSmJRNExXbmFYWllCTXNZa3gtXzliS3I3Qi1RTzczZDZheFczRkRVOWFGMUZaYkxQdXlTRUg5OEFoazh0TzJKYzUxZUU2aG1XMUlvc1dBemI3bU9vRVVyWlV6cTFMOFJkWllhYm5heVk?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T21:42:44+09:00"
+  },
+  {
+   "title": "10数台が関係か カーブ連続の区間で多重事故 3人が軽傷のもよう 中国道下り線美祢IC～美祢西ICは通行止め 山口・美祢",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBd00yU3d3c19UZDFlVW1KYzNvbHBuS0tEVzRsQ1hsUXdFVlNFTWFrWjhIUDFxbEdzZzYyT0JJWndqcS0wa1pMaEhnT3RnQWY2S09lUWRmTVpJNmtwRGJKYlhwTjVvcXc?oc=5",
+   "source": "TBS NEWS DIG",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T21:35:00+09:00"
+  },
+  {
+   "title": "「身近な関心から知る中国」 CGTN Japaneseと駒澤大学がオンライン交流授業",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnVBNGlyRF9pQ0FnV2ZVNDVxN1paRXdkMFJHNWJ2MEFFcWFlWGwyVUV6QUxBLVhxWm9xZzQ5c2ZqdW9rLVZqNlFRSEx0NUtWU3MzYUlVYTJHZ0FjajlBSXJ5ZHRuVDM3cXFfdnpUcFJFdWxSSzZQc3gwdFE5UEJUblZpbUM1dHcwWFHSAY8BQVVfeXFMT3kxRXlDTnNaeVk4NkU3QnUwNUYtOUFja1E3bDNNd3RwR1dVNzRzUmlVSDNGcGdmbUV0WmNLS093T18wU3B5b2NJdWIxVlM3UDN2RnR2QTdzb1FiU3JqMGpwZHFfZkJYNEFZYllNSDJfeVQ0bE40c3Vsam8wQkxhNkhJWkR2Vk41UF9oS1Z6Qkk?oc=5",
+   "source": "ｄメニューニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T21:30:00+09:00"
+  },
+  {
+   "title": "トランプ氏、NVIDIAの対中チップ輸出規制緩和前に約1.6億円分の株取得か 利益相反の疑いで批判",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IZXMxREMtVGVXRDlZU1RWQTMyUVVVSDd6VUVaUk1JUTFFMWpNRmthcXZqQ0YwQzJTMnJld1h1dGNFVUFfSjhYV3ZxZXVvRVltNzM5aDhkbFVzZHhralhLNFJ4dFVvbGhQZDZhSngxTlZrTXJv?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T21:25:00+09:00"
+  },
+  {
+   "title": "NVIDIA不倫相手の会社が中国不正輸出。マレーシア当局が調査",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYjlzYlYwMFpGcnFBUUZPNnZvRGdpSm5pN0NkQkRhWm1GcnA3U1RMLXVUMnFEdGRWaWRJVV9kYWFYQlJMaDRIVkoxTlJ5U1BFQ3NEZzV2dXBUdG84a3lEbW01M0stdDhTdkFtTzI2SHhYTzZSRFllb0U5UXpoY3gyT2dRMNIBiAFBVV95cUxQU2dKYnNZdXJPRG5DeE44cnRzSDRhZG5uc212eko1c0NaWnVxLWpLajVYcUFvbVI4a0ZybFNJenhhYTZKR3hhMEVJZVZwQzNXbV84VVo4UjZseFNOOFhNLWJuVUxXYkt0ZXY0SGJ6S3UyWEZkZ2ZJQmJpckhBWHRTc3BleWNXVG8t?oc=5",
+   "source": "すまほん!!",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T21:07:56+09:00"
+  },
+  {
+   "title": "輸出規制で９８％減のレアアースも、中国共産党側は「依存続けてもらわなければ」…調達多角化は長期戦（読売新聞オンライン）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42TUVuY0lzanlJU0pGWjdab29MX21ETVZGcGw3bEVHYTlTaWduOWFOWk1xZW9HTlA1SmxXd1cyWkx1a0l1OXU4TzE1RmpTN01OcVluWGtNTUYtMWVvZEotNlBoTWY3a21UMmRYcV9fM0RrSHJyQWR3VHZkcEZLRGM?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T21:05:00+09:00"
+  },
+  {
+   "title": "As Apec looms, China’s Shenzhen wraps up preparations for its toughest stress test ever",
+   "url": "https://www.scmp.com/news/china/politics/article/3374445/apec-looms-chinas-shenzhen-wraps-preparations-its-toughest-stress-test-ever",
+   "source": "SCMP",
+   "lang": "en",
+   "category": "社会・その他",
+   "published": "2026-11-14T21:01:55+09:00"
+  },
+  {
+   "title": "China, South Korea vow to deepen ties at Apec summit as Seoul pushes North Korea talks",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3374442/china-south-korea-vow-deepen-ties-apec-summit-seoul-pushes-north-korea-talks",
+   "source": "SCMP",
+   "lang": "en",
+   "category": "政治・外交",
+   "published": "2026-11-14T20:45:11+09:00"
+  },
+  {
+   "title": "中国の習近平国家主席（左）とトランプ米大統領＝9月、ワシントン郊外（ゲッティ＝共同） - 関税引き下げへ米中協議 「貿易委員会」が初会合 - 写真・画像(1/1)",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HaWxGN05jZzU4R0FDUkxwQ3BoUm1Kcm9VMnRzajZyNy1pZWJtQUw0RFMyRVdCWXU0ZjJvYlFtSXE2TVRqR0YxVi1BUFZVeXhTTVY1bVF4UQ?oc=5",
+   "source": "西日本新聞me",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T20:41:23+09:00"
+  },
+  {
+   "title": "男子の倉敷２位、女子の倉敷５位 中国高校駅伝 男子の世羅、女子の銀河学院が地区代表権",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mdl91ejRYQkZyWXBqUW15SHFsS0tYNk14YzJVOFJHZFBuNEZJdVpaMk9temNFNFVWSjFFRFFBRFFGUjZPMGFUUF8wb0tkNGxDX0E?oc=5",
+   "source": "山陽新聞",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T20:27:00+09:00"
+  },
+  {
+   "title": "王外交部長 韓国外相、中米政党対話の米国代表とそれぞれ会談・会見",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd3ppSk05R1QxZXlvYzhDNG8yeTZKUmd3NzQwYkVLb005eE1Xdk9xZDd6VnRYT285WDhNQmtlb1BPejFQM1YyQkI2SUExLWdneXZkaDBKUGh0a3BaM2hyZjVvSHBZQV9pc1gtMnB1MFc0VmNsaE1SbWJpeFZzbWloeHVuQWRaUdIBiwFBVV95cUxOSVdoYXBMRGJ0WkRVZ3RneEZwdzJIemtqTGdjTXZnTFVjY2ttSzl6QmRudGxEelBldE83cUJHNTBpdUJLOS1aYnR4dlU3d01wcUhkdjZHQ0FfQWRvWUNnenotTjJLT1ZKeUlDaTNsRS1DSS1nUzNLU3JuMzhoOVh6U2VRbV9fcGhyTjFJ?oc=5",
+   "source": "ｄメニューニュース",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T20:20:00+09:00"
+  },
+  {
+   "title": "平野美宇 中国の20歳若手有望株を撃破！フルゲームの激闘制しベスト4進出【卓球 WTTイスタンブール】",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aOE1kMFEtV0FPREg0LXhncU5hMXRMNUtueVJHd2Zrdk5wZmYtWlh1LTFkTlVFVmtkNXRVNW9Rc05Jbmdxd3ZOZHdxUzR1N3NVZWdOMWRwVGZqZkR2R2kzQzNWcE41Z3l0WXBhWlJnMmM?oc=5",
+   "source": "テレビ東京",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T20:06:54+09:00"
+  },
+  {
+   "title": "中国、高齢者介護サービスの料金制度見直しで持続的提供目指す―中国メディア",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU2RUN3FSQTVpRkEzdzlrWmNxbGwzWmJQSk8xVkc0VWRib1FEM215TFU5M0xObXhGdHd4Rm9FNW9KbDJzaVdIRlhCRDVqcW1wQmF1eTN0dTFVWlhjU0JaM0dPb0hBdWJyMTZZRllSZVBNcFpKX0xwUzA0Y01TSEFiR2hfNjVQTkw1RVHSAY8BQVVfeXFMTWo1Q3N4bTlvN2E2LWVYYU9WWU5Mcjl2UDRVSjg4amZrWmVOd2NYcTQ2MXRZQUEwazNScHItc0ZGa1hwTkZLbjVvcHBSdGxyTU80Zk54WVg4aUl6U2M5YU9Da1M2dm1mNFV1QzlocVI4NEl1YnVveXRfdzFDTWNFR01qbGNvNllSMU80S2M5S1E?oc=5",
+   "source": "ｄメニューニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T20:00:00+09:00"
+  },
+  {
+   "title": "10月アジアEV販売比率、中国が50％超える: ベトナム47％・タイ33％、日本は4.6%（オルタナ）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCZUVOdlI4STY5WWZDdkN0UDNsdlBhaXdUQS1XRWtlLXEtQ0l3cnhYZGN5TmVWdnZZS3Ayazl4OGt3bEROUmhxQWZqS3hpX3U3M1lRdVp3TkZ3TFQwYldxOE84RXNUWTFfUHRWcWJOMnhyTURacEwzYmZrUllBcVE?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T19:53:37+09:00"
+  },
+  {
+   "title": "10月アジアEV販売シェア、中国が50％超える：ベトナム47％、タイ33％に上昇",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBYNEJSTjVBVWdfTi1tSHBhNERoR0EwQkQ2RUJfM1ZIYy10bWwwZEJQNFhoeUR1bWtOWmNTYUkyeVYySVRvTzdCUQ?oc=5",
+   "source": "オルタナ",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T19:50:08+09:00"
+  },
+  {
+   "title": "中国、新薬51品目が医療保険に収載で過去最多 100万元超のCAR-Tが30万元に値下げし初の収載",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zRGQ4ZHVqZkpENjl4MG0yVVFvTEN6Xzh4UGRMcndBc0doRklFNW9kc2l5eEZzVUZOTGVZM1FYdUtkVVVHRlhoT2o3bG5NVGh4djIyTlNrUlpndEgtYzhEUExhcTFEZ0FqcFNEVE5JcWkyZXZ2?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T19:22:12+09:00"
+  },
+  {
+   "title": "イオンモール広島府中に「横濱元町ドリア」 中国地方初出店（みんなの経済新聞ネットワーク）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fSTBBVXNwQWttejZJcWNMMVBQNFcxSlp3b2lnbEljZkQ3TjltTUlkeTkxanpqaFFYWjFpcWhPaW8xTkxsQmpRQTA3ZS1kdVRqOGxYZ0trTE9aZUN1WTZvS0hjcXFkUWlBUUs5Y1J3Z0hYLWNWZU43MmdKa3ZzRmc?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T19:21:43+09:00"
+  },
+  {
+   "title": "【フィギュア】三浦佳生が首位 GPファイナルは重慶「中国のお客さんの前で滑ることが楽しみ」",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TVmhaeTgyWnU3TURGdUVUTTdRazNNdWwzOXhyWERlTzV6aWpkbFBBSEI2c0Nwd2paM3Jyd2NaZnpOd1BsdzE5Zmh2cmEwSnAxNVVONnRwZEdiQTBrdWZIMnZYQTZjMTdNLUNfSkNPZVlZRVN1YVVF0gF_QVVfeXFMTktTRVZHTUd0alBUT0Z4T2lyeW1NemV4X3BsZjBOMU84ZmQ1Y2s0dVRMYlV1bEtsOUVWVFJFSTZkc0ljazkwZ2V2OTBlOVNxSWs0Qm85eTlRUTRCZkZEWWs0SzM5c1JfZGR1dEJJSnplNzJXUVk5RGl6U2VKNjllQQ?oc=5",
+   "source": "日刊スポーツ",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T19:21:18+09:00"
+  },
+  {
+   "title": "米中ロ首脳19日会談 3カ国で初、中国・深圳 核軍縮、イラン情勢協議 トランプ氏外交に活路",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWWpKN3ZiWVpGYWpRYXh4cG5vYnI4cFJHZEF1TVlmSjMydUgwQnMtNWJNdkhjcUpRdFRQSDdfQlFKYVVxTHZSalJveDlnXzBqa01ZSzljRWo3bTM4TlIyUHNJM1dCdmhuX2JYU0lCa29OVUl1LVNlbE5Sc2V4MjBRODNWaTFNYkp6TDVQcFl3?oc=5",
+   "source": "日刊スポーツ",
+   "lang": "ja",
+   "category": "軍事・安全保障",
+   "published": "2026-11-14T19:12:47+09:00"
+  },
+  {
+   "title": "中国証券監督管理委員会の呉清主席が「三つの安定」を初提起：市場安定の長効メカニズムを体系的に構築、量的取引と保有削減の監管を再評価へ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwdl92eEJHUExHVGo4U3RhR09OM2RNTW16SG91T0VOdWJQOXNDMWFfcTF5cmd0TkR5NlBTQ3N0WlZpRlVKTW5CcHVFRWM0NF9wdV94Xzc2VTJMLWxpUnpLUUZ0eHlRdVlGc09NZkN3NEdLckk4?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T19:05:00+09:00"
+  },
+  {
+   "title": "ホワイトハウスは、中国で行われるトランプ、習近平、プーチンの首脳会談が「前例のないもの」になると伝えている",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFdzeG5NdFFJUnY4dU9BYmNqTUt5TFdCQzU2Uk1OQ1dWZjNOZ29FU0RpY0RfX3oycXU3R1U4OFNfQlBGZVF0ajE2ZEdpMmhaY2ZsQVQyY1E4X01yR0tmSlkzV25MUk1obWtBdE9NYTcwV1h3MzNaZDJFM0l6b3RYYjdlY250eXJURDBkOElEcDIyUXcwVEFPcXdKdVM1M2JlLTlGa3NWM2N5SjZUMHVZ?oc=5",
+   "source": "Informat.ro",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T19:01:05+09:00"
+  },
+  {
+   "title": "Wearing briefs boosts erectile dysfunction risk, 26,000-man study in China finds",
+   "url": "https://www.scmp.com/news/china/science/article/3374313/wearing-briefs-boosts-erectile-dysfunction-risk-finds-26000-man-study-china",
+   "source": "SCMP",
+   "lang": "en",
+   "category": "社会・その他",
+   "published": "2026-11-14T19:00:05+09:00"
+  },
+  {
+   "title": "平野美宇 中国の20歳若手有望株を撃破！フルゲームの激闘制しベスト4進出【卓球 WTTイスタンブール】 (テレ東スポーツ)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdkdJRWlkeHlIODRtSlV5NTh0akhnS042SjdXS3htQkxmbGR2YUFiQUZPUUZtbkRNUVNkOThTRURqenVEcmNIVTNVOFlIRV95dFgtUmttbzJGcVdRbWZNVG00UEdPSlZFR0s3NlRRVUZ2RXJhRkhTelRBNFVlWmxZOXRYNVpEakNJb3M2R2RR?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T18:55:25+09:00"
+  },
+  {
+   "title": "「中国が舞台の中央に」 「中露米」会談に応じた習近平氏の野心",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hdGhFLTgyM1RnZC1QSkppVHYzb1dTcDNEenJjeVhZdlBDMXBlSEFzZm5raEZmcDRwaUYyU3RiZGRsU0M4NFhObktRY3E2M2tDcERmSDVhekluODZKSGVoQlRhanQ4NGJV?oc=5",
+   "source": "毎日新聞",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T18:48:36+09:00"
+  },
+  {
+   "title": "中国のウラン調達戦略は長期的な地政学的ゲームか",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pLXNadl91c29nbk1vNlVTTjdtLXcyNjlZQ2J6MEoyaXRIQW5oYTBQUlNTSU9uZlhxSkVMT2V6TGdmNE1iMHNLdnN4WThxWldPNDV1ZVpwVFRqWDJucEwtUlhJSEE2RUs1UEE?oc=5",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T18:36:00+09:00"
+  },
+  {
+   "title": "中国初の電動商用機「CE-25A」、有人飛行に成功 19人乗り、都市間移動を想定",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBER2lUU3lqR291ZVhQYlp2dk9VZkVSYm44cFlNeDdxVzRtdExsR1RXOXYzbU5JUlRTeVNKMTFkRWFLeUY5SmgtMnJpMA?oc=5",
+   "source": "中国経済新聞",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T18:30:00+09:00"
+  },
+  {
+   "title": "米中が初の貿易委員会会合、関税引き下げや農産物協議＝中国商務省",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IakUwczd1SHpDWm9XUFdpTmxfcV9KSjJENHNFNFBNOWp4SUJITFVHdW5SaVZvUEJRVVFNR2piNy1WRHEtcjFYa2g2VmQ4SFhacWtHTnBzQnFoV1kyNmxRVXp6TVMxeEJ2ejBDT3lVM3k3X3YyZUZKUldvZXVsTzQ?oc=5",
+   "source": "Reuters",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T18:24:39+09:00"
+  },
+  {
+   "title": "米中が初の貿易委員会会合、関税引き下げや農産物協議＝中国商務省（ロイター）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42S1REYXlveFNmV1dmcXl6MnNtX1dZaTRNQ045QkR4aDZOVVdtemNDQkY3QzVYamszaXRITmEtQjVaQjYtYlN0QzZGV2I0bTFXWFBjaWZyZVd2cjdMUTVSd0NMV1dENWt2WmM3Njc2MzRnaVgzSTAwR0JMWWFBeXM?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T18:24:26+09:00"
+  },
+  {
+   "title": "男子鳥取城北が大会新記録で２連覇 米子松蔭４位、地区代表逃す 女子鳥取城北６位 中国高校駅伝",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wWkRtRVFHaHEwdFB5RG9NTC1IX2ZrVXBzOHJLTV9ub2JYNHg1SHJpRFBaTWxpczlEWjJ4RFlPR1dSMVpfeDY3VjJ0eVRTTGdE?oc=5",
+   "source": "日本海新聞",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T18:20:00+09:00"
+  },
+  {
+   "title": "【交通情報】中国道下り線 美祢IC〜美祢西IC 事故のため通行止め（14日午後6時5分現在） (ｔｙｓテレビ山口)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObEx3WUhzN2FtYmdMc3M5cmFBRHNTRDZCSUcwUUxXWmdWU05yQXVqYzN3WVdUaVd2djFMSWtwOUtZcXhiLUdkVTVNZUNjbklnUXNMOXpIMGpjYnI1amhDRFJMQzEyUF90aS1RX3VHbWlPNTljX3FvV1NLbVhBeG1Mamx1aVNycEl4Nkh0dVlB?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T18:08:12+09:00"
+  },
+  {
+   "title": "史上初の米中ロ首脳会談 19日に中国で開催へ 核軍縮が議題に ホワイトハウス発表トランプ氏はイラン情勢話し合う意向もウクライナ情勢は議題にしない考え",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtTy1qblBOcDlNZFAzdEZCZXlRbFdUU0VpNWp6UUdGNUZFWHBlTTZzMGZoUjhEanBJN1dlaGNkLW5rT3MwNFFoUWtQVXYyRDcxajNJYnl1dFU2NVJKMU5rVm11aW5GaGFrTVNoZlBveGJsYTBl?oc=5",
+   "source": "TBS NEWS DIG",
+   "lang": "ja",
+   "category": "軍事・安全保障",
+   "published": "2026-11-14T18:06:27+09:00"
+  },
+  {
+   "title": "【交通情報】中国道下り線 美祢IC～美祢西IC 事故のため通行止め（14日午後6時5分現在）",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YZU53YTdIZVVGX2tma2tUUmxucXJ5b2h1ZEVfVHlJQU14QnpKVEh4LW5HeVJubS03c3RvMnhGZmQwSW9pNV9DcHRtdUFoSTlXTXBmT1p2ajJkZw?oc=5",
+   "source": "TBS NEWS DIG",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T18:05:00+09:00"
+  },
+  {
+   "title": "史上初の米中ロ首脳会談 19日に中国で開催へ 核軍縮が議題に ホワイトハウス発表トランプ氏はイラン情勢話し合う意向もウクライナ情勢は議題にしない考え（TBS NEWS DIG Powered by JNN）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xN0lGMVdOdVhRN1pKY1hXU2hOcXZFamozV0Eyb1Z0VFhrdjhyMFY3QktVa0NOUWppRVM3RjJ3VmIzUmlCZDlEZVlkblBQSFRyOGlHLUhIYlctRnFhd0F4ZmpUcmZ2a0c4UW4ybVRXOGROYWZpem9uYi1VZ3JicVk?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "軍事・安全保障",
+   "published": "2026-11-14T18:04:11+09:00"
+  },
+  {
+   "title": "初の米中ロ首脳会談へ 3国の思惑交錯、「第2のヤルタ」への懸念も [トランプ再来]",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81cGI3WTVuWlZRQmxaT2V3bmhZeGNPR1ByQzF3Nng4ZDhwUG5NT04wd2lvSEZjLWRfcjdNOGhFamJJb1RmdjZLZFhNb29PcVZGTUY4N2VzWTFlSktrMk1sUk0xOUxJSHM?oc=5",
+   "source": "朝日新聞",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T18:00:00+09:00"
+  },
+  {
+   "title": "3者首脳会談は中ロの「大勝利」に 米識者が語る歴史的な意味と懸念 [トランプ再来]",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hQS1JVWlHVzJjNUJHaVlzS1lTSDdIMTl3YWpxV2ljV2k0LWtuMjFTZThiblFqMC1GUC1iel96dDlpeng5Q2tSTEZYTmhSRHptb01qN294SURMTGRwSHNhM3ZUcVdwbms?oc=5",
+   "source": "朝日新聞",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T18:00:00+09:00"
+  },
+  {
+   "title": "中国道下り 美祢ＩＣ～美祢西ＩＣが交通事故のため通行止め（午後5時50分現在）（2026年11月14日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WY0d4ZS1tLURfQUl0ZTdNUlh1ZVFTeGFGdkVUOEdHTG1QMHRsWnl3bzNPRVJVYk04dUtLV3hPRnpFOEJIMTJrVHpqN2V1NVJnMlg2bzVnRldZaXQ0bnNkV1ZidXZlblFiYkxwSnhITmZLbkd1cERyY2tJaVNQSkU?oc=5",
+   "source": "日テレNEWS NNN",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T17:56:01+09:00"
+  },
+  {
+   "title": "中国元湖北省トップ、王忠林氏を「重大な規律・法律違反の疑い」で調査…コロナ禍では防疫対策も指揮",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMemZ5TkJNUkh3SG9BQnk4WDF3X2dCWUdzTU9GOWdpNjdEQ0VJVmdieFA1aWpzUHpHX3hubE1ZZ1A2bllST245WVBOQWRnZmRfTXI2Z2QxckUzQ0JxSlNFRm53?oc=5",
+   "source": "読売新聞",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T17:35:00+09:00"
+  },
+  {
+   "title": "万里の長城“のぼれない”続出 観光客 石畳で四つんばい 中国【#世界のミダシ 】（日テレNEWS NNN）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5NEpZRWgxTWg0U21vODFiOUFvTXYxOTk3NjFZNXM3Nmh0anJINTlwbEhzS0FYUmNRNGlhcmVYVkxWTmFWLVhfcFhGck9GTkRncXdqRlhhYVBUU2ttd0lEMTJnRGpydjVjV1dYeTgtMlVnUFMzRmQtYkFNRGVic28?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T17:32:00+09:00"
+  },
+  {
+   "title": "China should share its renewable energy expertise",
+   "url": "https://www.scmp.com/opinion/china-opinion/article/3374104/china-should-share-its-renewable-energy-expertise",
+   "source": "SCMP",
+   "lang": "en",
+   "category": "社会・その他",
+   "published": "2026-11-14T17:30:05+09:00"
+  },
+  {
+   "title": "【バドミントン】山口茜が決勝進出 第3ゲームの途中で相手がリタイア 決勝の相手は宮崎友花を下した中国・王祉怡〈熊本マスターズジャパン〉",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCV1AxbUFybGhPZzc2cHQtMnZGdjR1RC0xclJrdy1HZGZRODBLclFCS0NWcGtqQTFWZndMcUhQQUlxdGhsQzByVkkzTEFpV1lsdHFBMFZzS1dVUmgzNjZkQTJlbEI1S1Q4ajVLYm9jMkYyVDFtYWRHQTFmSQ?oc=5",
+   "source": "日テレNEWS NNN",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T17:24:01+09:00"
+  },
+  {
+   "title": "中国バイクブランド「ＺＸＭＯＴＯ」、量産１０万台達成 重慶市",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1NWRGdXBPRjJmTFVBZUFveWo4MGFoQkJYR0JuSzlkdy1yQ2RDTU9nNTd6elRkQno3aDFzekFZSU1adFdISDhlM0tteXpCcGdtT0MyLW1JQmxrMWkyS21aQW5GckpxSWxJUVRxUWZwc3hQMTFZenc?oc=5",
+   "source": "新華網日本語",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T17:23:34+09:00"
+  },
+  {
+   "title": "Could major power politics stall the landmark High Seas Treaty?",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3374392/could-major-power-politics-stall-landmark-high-seas-treaty",
+   "source": "SCMP",
+   "lang": "en",
+   "category": "社会・その他",
+   "published": "2026-11-14T17:00:10+09:00"
+  },
+  {
+   "title": "国際金価格が週間で4.9％急落、中国国内の金飾品は1グラムあたり4日間で77元下落、20グラムの金ブレスレットは約1万元安く",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94U1ViRzdOUExxcUpLNVpya3JtVnBnNkZKRmo5WmNpNGs1YmlGNnR1TTFtZVRyNHN6LWRUaGM4bHc0N1piV3RtdFlaVWFtXzdOSjVhdWRhMGticGtGWFJVWGI2TlF5cW13aUlhcGd3T2dTQVN2?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T16:25:00+09:00"
+  },
+  {
+   "title": "【中国レアアース規制】経済的威圧で譲歩迫る 供給網の「脱中国」加速",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wWFNucGpuRHg2T3VERXlJaUZxdEd0VkdmNWFCaVJCRTJOWGVLaUNFS1Rua0x1Uzl3THI1X1JWNGw3aTZmQmdLN3ZWektNWUxwZFE?oc=5",
+   "source": "山陽新聞",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T16:21:37+09:00"
+  },
+  {
+   "title": "中国の研究者、国内乾燥地域でフェアリーサークル初発見",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0MFNFeExRcDRUVm1qdzNHMndZbWhLREJiSFlKak1jd19uQ3oyUm43MEQ1TU1adjB5NGcyU1FTZDJQSHRUNnFJb09SbDFwTHRUZUNUMnA2TmViTjFGbmNXdElGMmlCS1lyb3ctTTZKbXdSRjRlNWc?oc=5",
+   "source": "新華網日本語",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T16:10:46+09:00"
+  },
+  {
+   "title": "中国の研究チーム、サメの3D解剖データ集を世界に公開",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SRjFkZnZBSVZJUXk5eEJXRFE1a0xCVnktaGdRYVg1M0NTZXNvcHA5YjEzcE9nOU9lRElHM2FNbHAySFZ6TWNqOHlqVDBfSjBwQTlFd0g4RHE5X3dXS0wzNTNVV29MODR0NUNZWHFSNnF2UdIBVEFVX3lxTE9wMEdyMzR4TWZRSy05eEpxU1dlNjlkZWJBY1JuLXFLZHJuam4xTGIyT2dhMWwxNW5vUEpUYXVUdjVtYUhKUnEyanNqS0JRVkpmLTRJaQ?oc=5",
+   "source": "AFPBB News",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T16:05:18+09:00"
+  },
+  {
+   "title": "中国の銀信科技、42歳の祝国輝副総経理が死去 財務総監と董事会秘書の後任を選定へ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jY2hBcUlsOE5ENVEzSDRGSFFVR1FDcTNzc2l3dmlKM1d1S19hZjdnVVhTdlozcTFjRDdQbGx6SFp4bWFiVEpsX3VTdHhJNmlQaWs4cjFLUXVCdTM1clRRM0JXVEpvWEI5TTdpbnRRNkFoX3Bu?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T16:05:00+09:00"
+  },
+  {
+   "title": "中国、米国の半導体輸出規制強化の動きに反発 エヌビディアめぐるスパイ疑惑で（ＡＦＰ＝時事）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CcHlac2l0VlF3endUVGpSWnhoeVJyb015eUVxbFpPeGFjRVlESlYyNTFhNlpCUFJQUlhfNTdUWDBfUlFUSEU0UjNqU1BEckgyLWNfTzltSm53T2xlQUFXTGR0WXNxWGc2N0gwTWprSXVNbldYQ2xiNGNnNXdqWkU?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T15:49:33+09:00"
+  },
+  {
+   "title": "中国証券監督管理委員会の呉清委員長が「第15次五カ年計画」の監督方向を提示：量的取引と株式保有削減の規則を最適化評価へ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mTVBTUXhQY2FhQ2lSM0ctNmJ0Yl8zY3pZd1pCYjVENE5oeHNjNDNGalFBYzAwWHZTcFJyV3ZmdklJVVRQRXY0QnJvTUp0a29uVGV1RWt3ZzY1TmpWZjRlaGRaaWtZVXBuMTRodW9sLXFYWnFf?oc=5",
+   "source": "BigGo ファイナンス",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T15:46:50+09:00"
+  },
+  {
+   "title": "中国、米国の半導体輸出規制強化の動きに反発 エヌビディアめぐるスパイ疑惑で",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oSXN1T3hGUGNWcExsbkpucWdQNDBick9pZEM5SGRJSGNaWXk3a3poUVZnejFJZ2NsQnIzMGFyRmRuTVFNOWl1by1UbHIycDRZdFZLTtIBVEFVX3lxTE9oSXN1T3hGUGNWcExsbkpucWdQNDBick9pZEM5SGRJSGNaWXk3a3poUVZnejFJZ2NsQnIzMGFyRmRuTVFNOWl1by1UbHIycDRZdFZLTg?oc=5",
+   "source": "AFPBB News",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T15:45:44+09:00"
+  },
+  {
+   "title": "韓国、中国に「米中ロ首脳会談、第2のヤルタ会談になってはならない」",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUWpTZmRpeTBST05zNWQ0UUozSDdrNTdOUTZsd3FNT2ZmNU5ZbVVNa0ljT3lTNnVQWjBmQnlIY3hqMGVGLTc3QXlnYThvR2FObHo2Ulg1U1F4bWJxWXR4TU40cFpLaWU3dnFGelpSVGgyUnlja0ZJU2t3MUNtM094MkJMYUEtbmx0?oc=5",
+   "source": "조선일보",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T15:25:00+09:00"
+  },
+  {
+   "title": "Chinese scientists fired after child dies in world’s first brain gene-editing attempt",
+   "url": "https://www.scmp.com/news/china/science/article/3374429/chinese-scientists-fired-after-child-dies-worlds-first-brain-gene-editing-attempt",
+   "source": "SCMP",
+   "lang": "en",
+   "category": "社会・その他",
+   "published": "2026-11-14T15:23:22+09:00"
+  },
   {
    "title": "EXCLUSIVE-エヌビディア前ＣＥＯ、中国人女性との関係巡り幹部に事実と異なる説明（ロイター）",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kR1ZPb3YwM0c0YmVPd2ZCMDRkSmxmbEFmZHRiTDlvb0dIM1RtWnNNZjN1dkVsVnJxVWEzOG8xckR3YmdteGozRUJ4dXVYQkFsNFBrYnFVMXlzbUFXWkV3QXNEbzYxT1hQQlBzczNLMHN0V09LN1Y3eG1mak54M28?oc=5",
@@ -8,6 +552,22 @@
    "lang": "ja",
    "category": "社会・その他",
    "published": "2026-11-14T15:07:20+09:00"
+  },
+  {
+   "title": "エヌビディア前ＣＥＯ、中国人女性との関係巡り幹部に事実と異なる説明",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb20zUFNnLVczUUdzX2ZkWjd5TnRkeVF6aV8ya2h3Nko5endyZ0pHdklmYjh0NnI1WFZpbVI3YjVyUlRvOXdRTlVhVHJuMmtJeWV5eDZ4NzA4MEZUbkpxaXBzNnNnZnFIX25Xc2ZXcWhXU0d1TnkzTkgyZThTc3RZS1dvdVFaMXJuMnc?oc=5",
+   "source": "Reuters",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T15:07:00+09:00"
+  },
+  {
+   "title": "「新農人」育成で若者が起業する活気ある村へ 中国経済円卓会議",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSlNzNDZlS2hMdFB2T0t0c29CZG5OOVc5OGRwVDk2dUdRR3FEYVRNMDYtRWtpTzhkYnVfcHBkNHpEYjNURDZnWmRWS1R1bkZ6c3hNV2R3cG4wcFB5WFlXZmo0TUtrNE1HbUVfR3p6NXhwV2Zrd1Fld2VPNkcyR1JlUnJHUC1TYkw2UjZN0gGQAUFVX3lxTE5idzEtaE9rUVhZV1ZrUDQyV0RYVTk1dVBQUjNMaTdWTFA1YWtyT3hTQTV4QXg0dEpDNW95c015RURXYm5iR0FXal9rWF9wTTBMNE9ZRlhrMzBSNmwzVzF0eHpWbGx1S0wxOFZaYjA3WmFZWHZrRkFkQnEySlhIZFdCUXZfSEI0bEZZLU8yeUlkZw?oc=5",
+   "source": "ｄメニューニュース",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T15:06:00+09:00"
   },
   {
    "title": "Nvidia経営陣交代の余波…中国「レアアース報復」警告で半導体株動揺",
@@ -18,11 +578,27 @@
    "published": "2026-11-14T15:05:00+09:00"
   },
   {
-   "title": "重慶の「不死鳥」がついに失脚 中国の粛正を生きぬいた経済通に何が",
+   "title": "王毅氏と会談のチョ外交部長官「中国の台頭恐れず、力量過小評価も禁物」",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNmtOSzRTVXZhNEozV2piZXBrRGlySUxVWlBCVzVrMTNOU0t2ci02aE1QLVBOYzZjRVJGbkhDSGhEY01PUUVHdFVrNVMxblpYNjFSM0ZVLWw0VlRVRlZsbWw2LWNPamFlRkw3Z29pcmZFMVZhLXBfdHR6R3pLVTlCZzlpMVJYS3FE?oc=5",
+   "source": "조선일보",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T15:05:00+09:00"
+  },
+  {
+   "title": "重慶の「不死鳥」がついに失脚 中国の粛清を生きぬいた経済通に何が",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUno4dmwwMm11NGhzM2xZLWd1Q1VqdGhFMFA4MWx4VDNNN1dSajREQ1REMm8xQWpYdUNIY0ZhdWpUNHRMeHM5eTIwNWwwdWFZbWtVaEdZTXdrVWw0elRxNEFCNzRmMkE?oc=5",
    "source": "朝日新聞",
    "lang": "ja",
    "category": "経済",
+   "published": "2026-11-14T15:00:00+09:00"
+  },
+  {
+   "title": "中国高校駅伝、男子は鳥取城北 ２連覇 ２時間３分７秒で大会新 〈男女の各区間記録〉",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPS1ZtaHlLYnZSRGpXdVU0c0N3blEtRWFGbnpPbElQV2JFZHJ1U25mQmo5RXJ5eVFPR2V2b09Zc1lIWVNVc2UxVkZUck80eWJyTGwtYS05NXczQlk?oc=5",
+   "source": "山陰中央新報デジタル",
+   "lang": "ja",
+   "category": "社会・その他",
    "published": "2026-11-14T15:00:00+09:00"
   },
   {
@@ -34,27 +610,19 @@
    "published": "2026-11-14T14:50:00+09:00"
   },
   {
-   "title": "WSJ日本版：エヌビディア問題の背後に潜む中国の巨大スパイ網",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00NTBycVVPSzB2emk4U0t4THhmMEtMdHQ1d2JRMDZvb3Z4ckx2NktiU1dDOXJLaFd4aGVtRml0QXp2RFpHRUpsaE1sRDBOS1VKS29BZkc1ekpqUnhEREp5VGR0a3ZNVmJP?oc=5",
-   "source": "毎日新聞",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-14T14:50:00+09:00"
-  },
-  {
-   "title": "中国高校駅伝、男子は鳥取城北２連覇",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPS1ZtaHlLYnZSRGpXdVU0c0N3blEtRWFGbnpPbElQV2JFZHJ1U25mQmo5RXJ5eVFPR2V2b09Zc1lIWVNVc2UxVkZUck80eWJyTGwtYS05NXczQlk?oc=5",
-   "source": "山陰中央新報デジタル",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-14T14:50:00+09:00"
-  },
-  {
    "title": "米中対立激化なら中国が希土類で対抗示唆",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjZNdWl5OE9URnBRYnRCeHhPZ3pVNWltVFJucDRaVGlrQ1VCTjVWN1Rwei1CUE11cndJYS1KaUtob25nRnpRUVlLRG51Q3J1R3lTaE1GMGtBUkJlYmlvNkg3WG1oOFAxMHhkT2ZYU2dRWGdTVWYtMVpQRExyellOQ0UtOW84bnJO0gGcAUFVX3lxTE5IbWlNVlJBMFBTNUN3X19RU0tzNEV6dndCaU81NWRpeDVLbzR5cnF2NVNQNFlCZjNibUFoWXc3d0RrR3JKWHdfLXVrLWptekJSVzdDV3JGLVR4cENXQldvckx1czlEM2c3bFFlLWxYcFM4cVFsaG5fUThTSVFiTnZVUVJWVjBzLWpnTURFeF9zT001YTYzdFRUb0Vpdg?oc=5",
    "source": "Chosunbiz",
    "lang": "ja",
    "category": "経済",
+   "published": "2026-11-14T14:50:00+09:00"
+  },
+  {
+   "title": "WSJ日本版：エヌビディア問題の背後に潜む中国の巨大スパイ網",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00NTBycVVPSzB2emk4U0t4THhmMEtMdHQ1d2JRMDZvb3Z4ckx2NktiU1dDOXJLaFd4aGVtRml0QXp2RFpHRUpsaE1sRDBOS1VKS29BZkc1ekpqUnhEREp5VGR0a3ZNVmJP?oc=5",
+   "source": "毎日新聞",
+   "lang": "ja",
+   "category": "社会・その他",
    "published": "2026-11-14T14:50:00+09:00"
   },
   {
@@ -74,12 +642,28 @@
    "published": "2026-11-14T14:42:12+09:00"
   },
   {
-   "title": "パンダ貸与を中国に要請へ…関経連会長ら中国政府高官と12月に北京で面会予定",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqSW55NEJUSHIzWWZQZFJaejlDOFlOVHpVd0JOV2ZJOGw2Q3ZINjNfLXQyRnpkeFhFYVloWEE4Szl2QkxKNDgwUXFVU3ZxbU5JVzJhY21MNGl2ZUJuT28xdDJORXJoblQwd1IyWnRaMk1UUQ?oc=5",
-   "source": "読売新聞",
+   "title": "中国、AIで「経済圏」拡大へ APEC外交、25年で変貌 日米と主導権競う (時事通信)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONVNBcjFBSWtSdVZtajZZSXY5bHN2U21SRDBJSlZZWlRhV3Y5RGVES0RWQlZxbTlKVlQxczBzOTloNmVsNFlSa21qU0RNY0g2RTVKRWdFNDdIdTlVczV4dEVrOEEzQXY3dW9leEhjWDVXbndyb0lzWU12ZUZsbk1QS2YxdjIwcVNnbGlhOE53?oc=5",
+   "source": "Yahoo!ニュース",
    "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-14T14:36:27+09:00"
+   "category": "経済",
+   "published": "2026-11-14T14:35:24+09:00"
+  },
+  {
+   "title": "中国、ＡＩで「経済圏」拡大へ ＡＰＥＣ外交、２５年で変貌―日米と主導権競う",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yZWtESzduMHR5OFhlLVB0bUlELVo2WmVTS041bHI5amxGVUR6VDlkZFBBYl9xZjk3RE9SekdTakNPQTFVQ2cxNjJOd2lidVgzOWtLOUR5bjJIMklNcjBTWTJnRQ?oc=5",
+   "source": "時事ドットコム",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T14:34:00+09:00"
+  },
+  {
+   "title": "香港海運ウイーク、15日開幕 海運業の発展探る",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWtFOFd1T0lkVXkyZ1QyYnhlSkU2X0hWbkpHNlZoUkh6QjVXMWxEY1NRTlVtemtSc3BWR0hkcFhVOEtrZGZ6Vk91TE15SzBRM1dEaFBfT3YxeTI3SE1vaG1IRUZSMmtGWTI5d3hFT2g4VEltdG1BTTZKdlYyZWlQOElmVlZESzh6RHMw0gGQAUFVX3lxTE8zMnFoQUVsNjl3OWh2elZobmE1aE84bjlMRDBMYTJVakE4YXB6VmgxTHhSUzNaZHNPXzMwcy1GWWpON3RpT0NhN2V2TzBoMzU4cTVfdHBJT1BtVXQzbDdRcDl1UW56WnJCLWtVSDNKVUVONkdoMlU1dDIteWgxOU4zREhzTEp5NGVFTnVjVTZydA?oc=5",
+   "source": "ｄメニューニュース",
+   "lang": "ja",
+   "category": "台湾・香港",
+   "published": "2026-11-14T14:31:00+09:00"
   },
   {
    "title": "「原子核時計」世界初開発",
@@ -154,6 +738,14 @@
    "published": "2026-11-14T14:17:00+09:00"
   },
   {
+   "title": "北海道銘菓「白い恋人」 中国で偽物製造拠点を摘発 製造企業がSNS投稿し注意喚起も（FNNプライムオンライン（フジテレビ系））",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yTVdYMnBUZzRrN3FUNGlZTEZhOVo4S1NXWC1hS0VnRU1WajA4YkFNYkJFUW5oUVhQbDVkaEE1ZUQ2eUFBX1JnS0lPSlhfZWZESjJHOGhIUmlxWmREQ3N2d0tlVTBLQTVjUktZS1g0WGxqZXJZVWZQZ0ZzNnMyMXc?oc=5",
+   "source": "Yahoo!ニュース",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T14:15:37+09:00"
+  },
+  {
    "title": "北海道銘菓「白い恋人」 中国で偽物製造拠点を摘発 製造企業がSNS投稿し注意喚起も",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41eDByN2d5b2pWY3dYOTJZb04zU2l6UUxXcjQ2QWVwOXl5NTMzYmdEUVBMM0VnUE9MRWxfNzBYYUJwdnFPMk55UlBWY1VTdw?oc=5",
    "source": "FNNプライムオンライン",
@@ -163,11 +755,11 @@
   },
   {
    "title": "エヌビディア半導体が中国に密輸された疑惑を受けマレーシア政府が調査発表 国内の関連会社を経由して中国に密輸か",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Bb0luSUtKT2xkZUNiYm91U2VkdnZIcU1XOXo0SHhLVmg3Rzg0OXYzNFZTTEgxNHhpRy1iUjUxSVBVRjNObENJS0poYmdQUQ?oc=5",
-   "source": "FNNプライムオンライン",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00QXpqd1F0Qks0Tjc1eUdaSDh6elBGUjI1dFFiXzNYUGhlS0xUektNdUk0akpfYUFUdXdBd2l5OW5pZHFJLVh4MXZrUko1VWp6eEJyLUhDN3JIMEhMei1FbEtFUXV3UkVkRkp6RExuQ3BEMWpyQVpWX0lOLW9nMkk?oc=5",
+   "source": "Yahoo!ニュース",
    "lang": "ja",
    "category": "経済",
-   "published": "2026-11-14T14:02:00+09:00"
+   "published": "2026-11-14T14:03:22+09:00"
   },
   {
    "title": "中国の華大九天、5億元増資が確定 大湾区基金と組みデジタルフロントエンドEDAを統合",
@@ -184,14 +776,6 @@
    "lang": "ja",
    "category": "社会・その他",
    "published": "2026-11-14T13:55:06+09:00"
-  },
-  {
-   "title": "中国証券監督管理委員会の呉清主席、「第15次5カ年計画」の監督方向を提示―量的取引・株式保有削減ルールの最適化評価へ",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mTVBTUXhQY2FhQ2lSM0ctNmJ0Yl8zY3pZd1pCYjVENE5oeHNjNDNGalFBYzAwWHZTcFJyV3ZmdklJVVRQRXY0QnJvTUp0a29uVGV1RWt3ZzY1TmpWZjRlaGRaaWtZVXBuMTRodW9sLXFYWnFf?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-14T13:55:00+09:00"
   },
   {
    "title": "ホワイトハウスは、米国、ロシア、中国による三者首脳会談の開催を確認した。",
@@ -224,6 +808,14 @@
    "lang": "ja",
    "category": "社会・その他",
    "published": "2026-11-14T13:40:31+09:00"
+  },
+  {
+   "title": "銀河学院が優勝、4年連続4回目の都大路へ 高校駅伝女子・中国",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CS0drOE5qYmN5aGw3d0JQNmNONFdNcWQzVW85NTFjUlZKWmw1WEFLckRXQW5zMW5fUi01bU1IOTVldGJSMFYwVXNxeE04a3k1OUNjVU8zQmt0SjhvMEJqSzhyQ1gwR0M0?oc=5",
+   "source": "毎日新聞",
+   "lang": "ja",
+   "category": "社会・その他",
+   "published": "2026-11-14T13:40:16+09:00"
   },
   {
    "title": "K-POPグループi-dle中国出身メンバー「一つの中国」支持公表…同じグループに台湾出身メンバー（朝鮮日報日本語版）",
@@ -386,7 +978,7 @@
    "published": "2026-11-14T12:13:04+09:00"
   },
   {
-   "title": "米中露首脳会談、19日に中国で開催 3者会談は初 核兵器削減協議（2026年11月13日掲載）",
+   "title": "米中露首脳会談、19日に中国で開催 3者会談は初 核兵器削減協議（2026年11月13日掲載）｜日テレNEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS2plTGFCb3lZNW1RQ1ZnRnFNWVktMzdOQTBrRmJxcjRCN0pfMm1pV05laVBLWDV4eXFPN2tYRnJSSWE2dWdTRkFqbXEyclNNQzlvWk1RTHpKREhsQ3c0Y2hWMFBCVFFZcG1aRlZCaW01dWxBSm55R2Q2a215X0ZHZWxNSXo?oc=5",
    "source": "日テレNEWS NNN",
    "lang": "ja",
@@ -474,8 +1066,8 @@
    "published": "2026-11-14T11:00:13+09:00"
   },
   {
-   "title": "台湾メディア「アリス・フアン氏は中国国家安全部チップチームの要員」 (朝鮮日報日本語版)",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZmFzWTgxUmVwMllYQmRIczNHREZvOE45cjMzUHNNc3cwX19MTmE3U19yVm9YRU9ZZUNYczEwT1lSSEtnYzRKSzZGS1dobUtDTXJXbTFNTVdqVjZtUTRKWFAyM2xUV2VxMEdHWDcwaU04X0VsV2p1WkJ0WC1Ecjk4TzFRSTdNNFlBSGpqS0d3?oc=5",
+   "title": "台湾メディア「アリス・フアン氏は中国国家安全部チップチームの要員」（朝鮮日報日本語版）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XYWxGc1lnTU04U3UxVEpSWDVnUmtjc24xVTR5bGRFQjdHYVZ3N28tLXdOX2F1cnZUbERzeU5XdDV0bUsyQ2N0cm90OGtuaTZ0N1dZUWpYMzJtcXdUVEJhOWxMVi1HSkIwR3JpTW5Md2JuX0RoQzJKanVBOWt0cmM?oc=5",
    "source": "Yahoo!ニュース",
    "lang": "ja",
    "category": "台湾・香港",
@@ -488,14 +1080,6 @@
    "lang": "ja",
    "category": "台湾・香港",
    "published": "2026-11-14T11:00:00+09:00"
-  },
-  {
-   "title": "APEC参加国・地域との経済・貿易交流深まる 中国深圳市",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtcldBeTNNVGhtUGNvblJRWVBGOFNHN1FtN0hfb1o0cTNtYXFiQjhHUWVNbVFTdTk5eGpub01zWFZhOVQ1aTJOaGg4SW1YUGhZU1pGWG4wTnczaTN5WlBJ?oc=5",
-   "source": "千葉テレビ放送",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-14T10:57:22+09:00"
   },
   {
    "title": "トランプ氏、中国で中ロ首脳と核軍縮協議へ＝ホワイトハウス（ロイター）",
@@ -530,12 +1114,28 @@
    "published": "2026-11-14T10:53:31+09:00"
   },
   {
+   "title": "APEC参加国・地域との経済・貿易交流深まる 中国深圳市",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91ck1OTEQ0eEZzbkZIRkVTaFdXSXpsenVuSmR2b3lTWFJOdE5zdTU4TGhvWXlObUQ4THBZbXdNR1NnREs1OXFCbW4wdDBzaVB2MjBnRnFFSmlBWWxuT2w2NTFRTlpKX2ZralB4Y3dB?oc=5",
+   "source": "au Webポータル",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T10:52:20+09:00"
+  },
+  {
    "title": "APEC参加国・地域との経済・貿易交流深まる 中国深圳市 (2026年11月14日掲載)",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FVkNUQ0RTTG5ndjNTU0pnbFl2alVWMjBVNmstRjhoM0E5REpaYkRwNy0yWjc5Tk9HLXNad0pqcWppUmctaVdoOWVOYWhQd04zVjR4UjV3ZW9LZ1BIbEE?oc=5",
    "source": "ライブドアニュース",
    "lang": "ja",
    "category": "経済",
    "published": "2026-11-14T10:52:20+09:00"
+  },
+  {
+   "title": "中国船尖閣沖で海洋調査か ＥＥＺ、３月以降相次ぐ",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YdTFqLXJFZ3JqTzNPNm10cE9oWGg3akI0aEw5N1VvWk5QMENtTmpvS0R0YUpJOU1SQ05ZT3lkUEtTNFZ5UmY3TUpCaFRqck55ZllKSDdqNUlsQ0k?oc=5",
+   "source": "山陽新聞",
+   "lang": "ja",
+   "category": "軍事・安全保障",
+   "published": "2026-11-14T10:51:39+09:00"
   },
   {
    "title": "中国の敦煌医学研究、中医薬の伝承・革新に学術的裏付け",
@@ -570,14 +1170,6 @@
    "published": "2026-11-14T10:28:05+09:00"
   },
   {
-   "title": "中国船尖閣沖で海洋調査か ＥＥＺ、３月以降相次ぐ",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9mVnBvbGk2Nl9mMUxOejFlSC1EaWpWNjdnc0lyRXlBa0FBSTNnQUo3TnZyaDJtQ1FwS3UyRzZ1VmZnelU4QndOaFp0UkZnN3NueWtJQk1mNkJYTlJZ?oc=5",
-   "source": "山陽新聞",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-14T10:24:30+09:00"
-  },
-  {
    "title": "ホーチミン市政治学院の代表団が中国を訪問し、活動を行った。",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONGZ2ZWNOTVVuejk2Q3dEUGdRNlhkMHFBVlQ2eUJqeThoVHlvZVNiWUgzcDlvRlRQaWtWMjJIVEhCdXJGSjVYeHc2cDlvVDhQbkpHclZSNmw5QlJOWlJMcTJiM1JUYkRjTmNSdWpTTlNueDN1MHdDNFVnckthb19WOGU5UDd0VWVlVGhLVHFFZklRRjNPN3hiQVNzUUlPeFFTZ0ZwRy1Mb3FJNUVU?oc=5",
    "source": "Vietnam.vn",
@@ -610,7 +1202,7 @@
    "published": "2026-11-14T10:00:00+09:00"
   },
   {
-   "title": "米中ロ３カ国首脳会談開催へ",
+   "title": "初の米中ロ３カ国首脳会談開催へ",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9qU1dBdnlNejYxdUxzTUxuamRXZGU4LVJGa05XeVBNVldnbmFZYml2UFBTNm10U2kwOW1EMGxSdXVTTC1QRHhRajAxTmt5R3pwQk44cUVMZw?oc=5",
    "source": "埼玉新聞",
    "lang": "ja",
@@ -682,6 +1274,14 @@
    "published": "2026-11-14T09:26:22+09:00"
   },
   {
+   "title": "韓国外交長官「韓半島問題は死活的利益」、中国外相「手を握ってアジア太平洋共同体を築こう」",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwRVZtOG5vMjBOdkRrQ2JzUUVXWldPYkNsYkhHRFh5eUdzajF3LWFBMFZBUzhUdHRxQ2F1T2ZsVl9Sb2hHRktKeVluNDdwNF80UFV3ZmNlNXF6NzExOUt3?oc=5",
+   "source": "ライブドアニュース",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T09:21:09+09:00"
+  },
+  {
    "title": "米中露首脳会談、１９日に中国で開催…主要議題はトランプ氏が意欲示す核軍縮になる見通し",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWX29TOHlxOXdOVWdHcGVvSk9IdkZSZkRhN1YzQjFZYlk3eUVXVkFiR0J4YktHMVBGeXJHSTl1U2o1RlphNFAydldUMjY1VXhRdnVZUGNXNm41M3FnSkhBaXJn?oc=5",
    "source": "読売新聞",
@@ -730,6 +1330,14 @@
    "published": "2026-11-14T09:02:05+09:00"
   },
   {
+   "title": "元駐中国大使が読む「中国の対米戦略」【フォワードルッキング特別版】｜モーサテサタデー",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xQWc5NG5rYkpXUWtFcE5ET3I4Q05yUVBuX2c5T0JudVgyb0xoQngyVXBXWEhNMXdtQnJQOHRNNUJzdjJ2MG1GQnJxS3NVNVFGallZSldGb2ZIQjJfbWhZajFlMlVOQQ?oc=5",
+   "source": "テレ東BIZ",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T09:00:00+09:00"
+  },
+  {
    "title": "米中ロ3か国首脳会談 19日に初めての開催へ",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWS1ZPUWx2VVBzUXFpMEhGMVBJVTUtbHlKcy0yT1JzcVJ1UHVkOWlCNl8zZlQ4S0RabFRDZW1fUkwtZ1NRRnJZSDdnX1JneDhpdUg5RHdsQkhPam81LUhR?oc=5",
    "source": "NHKニュース",
@@ -738,11 +1346,11 @@
    "published": "2026-11-14T08:59:59+09:00"
   },
   {
-   "title": "米中ロが史上初の3首脳会談へ 米側が発表 中国深圳で19日開催 [トランプ再来][アジア太平洋経済協力会議][トランプ米大統領]",
+   "title": "米中ロ初の3首脳会談へ 核軍縮・イラン情勢議論、中国深圳で19日",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04OVpCSzlCS2lxQ2dUa1JNMHVZVzFDX0EtbFloZmZIVUFMRFBtS05RODdLeGZYZDk4Nkhya2VMck1keTRvLW1pMUxSVF9wVnp6WmZuVTEyREVVNGk5X1JvUmJ2ejVERUk?oc=5",
    "source": "朝日新聞",
    "lang": "ja",
-   "category": "経済",
+   "category": "軍事・安全保障",
    "published": "2026-11-14T08:55:00+09:00"
   },
   {
@@ -815,7 +1423,7 @@
    "source": "AFPBB News",
    "lang": "ja",
    "category": "経済",
-   "published": "2026-11-14T08:06:34+09:00"
+   "published": "2026-11-14T08:03:00+09:00"
   },
   {
    "title": "米財務長官、輸出規制に「賛成した」 半導体の中国密輸疑惑に「腹立たしい」と語る",
@@ -840,6 +1448,14 @@
    "lang": "ja",
    "category": "経済",
    "published": "2026-11-14T07:36:29+09:00"
+  },
+  {
+   "title": "中国９月輸出３６％増 貿易黒字拡大",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wVEtqbk01VDU5clEtdDFuZk04bnVJU2FtdXZVZFZ2UWVxcHRtUnlFTGZyNXQzdmZIX3F3RUhoUy1JY3dDT2d3NjdBRTJnTFBTZ2Zxak5PUFZNUWlqUy1xUTlMMVZjU0dPV1hBR0ktQ21XOHM?oc=5",
+   "source": "山陽新聞",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T07:32:36+09:00"
   },
   {
    "title": "中国の主要AIモデル4種にBlackwellの「ハードウェア指紋」、元OpenAI研究者が6兆通りの組み合わせを照合し特定",
@@ -910,7 +1526,7 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HVFlxUmpVOHNkTU5OcU9LRFh2aWJYOFJOUFFWQUZUZlRkS09XOFAxU1FqTGZfWXlNT0FSVVpCeXphX1VYMnpBeGJpWWpIX3RQenI5cWJXMGRQZlgtOFVQeWJ1NzdfYUtrQVpRdGhwRGR0STlu?oc=5",
    "source": "BigGo ファイナンス",
    "lang": "ja",
-   "category": "社会・その他",
+   "category": "経済",
    "published": "2026-11-14T06:57:16+09:00"
   },
   {
@@ -971,10 +1587,10 @@
   },
   {
    "title": "中国を牽制するためなら何でも許されるのか､日本がフィリピンに老朽護衛艦を譲渡する｢見過ごせないリスク｣",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMeUFLdmdJUWRoMHZ4T0NqVGZZQTlyTDRhaGY1WC1iRF83WTVvam5RRXUzWWNaRFVrc09nYTNMUmZSbVJHQ3BZMGNVeW5mbkJGc25wa0dvbWZmUms?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJOU5yTmtjejRVUlZSOE9QcDRyb1VCVDFjVXpTRFByRVQzM1VlOWduMzRFdldNMFYzUDRrSmVNUGR3a3czcjkzOUZULUx4RWk1MVdIRnNIcTBJU0hOb2lR?oc=5",
    "source": "東洋経済オンライン",
    "lang": "ja",
-   "category": "社会・その他",
+   "category": "経済",
    "published": "2026-11-14T05:45:00+09:00"
   },
   {
@@ -994,14 +1610,6 @@
    "published": "2026-11-14T05:20:33+09:00"
   },
   {
-   "title": "中国、ＡＩで「経済圏」拡大へ＝ＡＰＥＣ外交、２５年で変貌―日米と主導権競う",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05M0RLellPb0l0UEFidkxXTjFqeTNsRmRIWFl6dVM4M05hcXVEQ0RqUEpaWXlETWdRaS1wNDcybTJJVHRjN29FdjhheHU1U3hxVUVPRnRiOEZkV0V2b3NGY21leUNXakczVG5lVy13NGotUUk1NXVLM2ZUeVDSAYIBQVVfeXFMTmhlZW16d3p5MHNPT0FtOXVoZjJ2VVJscVJpYTZJdFVsR3VnNlVrS0gyR19ITG1Ra0NiT2NXdElMbGVhYlV2MjgyeWdWTXhQVzVvYXdmNUItLTZyM1VXbFdlNTVMNk80NEhrTzd4a0JEaTl3U0VsWlZGejVscmZITERZQQ?oc=5",
-   "source": "ｄメニューニュース",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-14T05:19:00+09:00"
-  },
-  {
    "title": "エヌビディア先端半導体輸出 ラトニック商務長官の責任論浮上",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vSW1CV01RYm14emRjekNwbFJZV1NSajZQN211RmtfSGRlRGVma2lTckpIdDNrQ05nUGhZRFBhSnpFYVpGTUt3QUpyUnhOSVdLdVRiNUt4bndTZlBqTjNZ?oc=5",
    "source": "NHKニュース",
@@ -1016,6 +1624,14 @@
    "lang": "ja",
    "category": "社会・その他",
    "published": "2026-11-14T05:00:01+09:00"
+  },
+  {
+   "title": "パンダ貸与を中国に要請へ…関経連会長ら中国政府高官と12月に北京で面会予定",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqSW55NEJUSHIzWWZQZFJaejlDOFlOVHpVd0JOV2ZJOGw2Q3ZINjNfLXQyRnpkeFhFYVloWEE4Szl2QkxKNDgwUXFVU3ZxbU5JVzJhY21MNGl2ZUJuT28xdDJORXJoblQwd1IyWnRaMk1UUQ?oc=5",
+   "source": "読売新聞",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T05:00:00+09:00"
   },
   {
    "title": "（インタビュー）日中関係、立て直すには 元駐中国大使・宮本雄二さん",
@@ -1098,6 +1714,14 @@
    "published": "2026-11-14T03:00:22+09:00"
   },
   {
+   "title": "グローバル対話会「自己革命の力：中国共産党の全面的かつ厳格な党内管理と世界への啓示」が欧州各国で開催",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5UXZJcl9KSk1fOC1lTGJZYWJJcTRIU0dSUnozSlJSekUyQjVEckpyb3Jxd0tXMXpQel9zaXhybWJJQU9GaHlmUENiX21taVlTT2lWRWx2RV9Nbm5ZRFRmLWNLMzVwUQ?oc=5",
+   "source": "CGTN Japanese",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-14T02:43:11+09:00"
+  },
+  {
    "title": "スパイ疑惑の中国人女性と不倫で辞任、エヌビディアＣＥＯを米議会が追及へ…ラトニック商務長官は証言同意",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FYk9nWkppSG4xbGIyVG1jU2wxRzMyeXgxUHhGUWt3VWFIUGhTNTVLbktObjdGbHdUdGVoT2xiS0djZGNEYksxX1RFNGVtSDVScU9OQnZlSl8tbHM3ZHNveFVYRzE?oc=5",
    "source": "読売新聞",
@@ -1120,6 +1744,14 @@
    "lang": "ja",
    "category": "政治・外交",
    "published": "2026-11-14T02:12:15+09:00"
+  },
+  {
+   "title": "深セン、中国本土で初の輸出入額5兆元超の都市に",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55cmh1bUtFTXlvSV9CLTdLU0FUN1Y1QjJwNWpQcl9ibHlLVnUzTWtEQ1YzcXZlWi16V3MzX21mZG15ZlVyalRWaUNXOUZSRlZaTGhEZ3Q1Q3RSNkdkZVlsZE1iWVpEUQ?oc=5",
+   "source": "CGTN Japanese",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T02:10:43+09:00"
   },
   {
    "title": "エヌビディアのジェンスン・フアン氏が退任、中国向けGPU規制を巡る闘いは始まったばかり＝ディラン・パテル氏",
@@ -1151,7 +1783,7 @@
    "source": "BigGo ファイナンス",
    "lang": "ja",
    "category": "台湾・香港",
-   "published": "2026-11-14T01:41:53+09:00"
+   "published": "2026-11-14T01:42:24+09:00"
   },
   {
    "title": "華麗な宙返りのはずが「脚がポロリ」…中国の最新人型ロボット、公開実演で起きた珍事",
@@ -1186,12 +1818,20 @@
    "published": "2026-11-14T01:10:00+09:00"
   },
   {
-   "title": "エヌビディアの半導体“中国に密輸”疑惑 マレーシア政府が国内企業の不正輸出関与ないか調査",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JNW8zT2lRelZWQVVyN2p5SFQzbmNDbGpueTJOWTRkWmtReGtNYVROaFlmRU1UX3k0N0FlbVRadUphRUZLeV84a1ZFdjFwdlQ2QzRDMlE5bk9wRngtaHRZQ0tUZmZRc1ZQMGdfelQyeE54QjJ0MVlIWURVUXRTYms?oc=5",
-   "source": "Yahoo!ニュース",
+   "title": "エヌビディア半導体“中国に密輸”疑惑 マレーシア政府が「メガスピード」関連会社の不正輸出ないか調査",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mdV93V0duQndialFORG9WVWV5OVNrRExlWkpiOFVqNEF1dkk3VGFQN2h5Vm9WTUJCR1JCNkcxajh6alhqbHlyUkpHVEtJRVlPYVl0RE1SVQ?oc=5",
+   "source": "TBS NEWS DIG",
    "lang": "ja",
    "category": "経済",
-   "published": "2026-11-14T01:08:09+09:00"
+   "published": "2026-11-14T01:07:20+09:00"
+  },
+  {
+   "title": "エヌビディアの半導体“中国に密輸”疑惑 マレーシア政府が国内企業の不正輸出関与ないか調査",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkNjUwWlNXekV6Y3ZtOWJRQ1hkR2xNQURBSWlKVGh5N29zZDZwX1lVNktOS1I4NXVEbnpQSEYwMTFvRVdXQ2xrdHJzSlphaVhBWUE5a1JWcG83SVNGSFFTek1QYlZZTFZOS0tKQ1YwaUtqOHlZ?oc=5",
+   "source": "TBS NEWS DIG",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-14T01:07:20+09:00"
   },
   {
    "title": "アンソロピックIPO、中国・香港の機関投資家を除外－関係者",
@@ -1336,6 +1976,14 @@
    "lang": "en",
    "category": "社会・その他",
    "published": "2026-11-13T22:00:11+09:00"
+  },
+  {
+   "title": "黒竜江省、緑色・有機食品の生産基地１億ムー超 中国経済円卓会議",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4X3BScjA2Y296ZzVYOUJyY1FQTG5JbVhmZF92MmJqWTJsbXczTWd3SDVtdE9TRlJ2NGRRNGF1ZlJMajh5dC1feWlhTnBHY2c1OFNWbUlKV2JpTVAxVVhlMXQ3TEJKakhtLXdsOVRWVGpveEcwZEE?oc=5",
+   "source": "新華網日本語",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-13T21:44:15+09:00"
   },
   {
    "title": "黒竜江省、緑色・有機食品の生産基地1億ムー超 中国経済円卓会議",
@@ -1818,14 +2466,6 @@
    "published": "2026-11-13T18:08:13+09:00"
   },
   {
-   "title": "輸出規制で９８％減のレアアースも、中国共産党側は「依存続けてもらわなければ」…調達多角化は長期戦（読売新聞オンライン）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42TUVuY0lzanlJU0pGWjdab29MX21ETVZGcGw3bEVHYTlTaWduOWFOWk1xZW9HTlA1SmxXd1cyWkx1a0l1OXU4TzE1RmpTN01OcVluWGtNTUYtMWVvZEotNlBoTWY3a21UMmRYcV9fM0RrSHJyQWR3VHZkcEZLRGM?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T18:05:00+09:00"
-  },
-  {
    "title": "【無料記事】NVIDIAのCEOとの関係が報じられた中国人実業家、アリス・フアンとは何者か #ロイター",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sU25sckJTaWtWQlVHSDkzY1UyTDhKc3o2YVBEbjNZa0FzS2tVN1czUjBTT0plVVc1ZDU3MGFDTWx6OHlJc2d2N0xKZTI5c1pr?oc=5",
    "source": "新潮QUE",
@@ -1882,7 +2522,7 @@
    "published": "2026-11-13T17:31:05+09:00"
   },
   {
-   "title": "「白い恋人」の偽物製造か 中国の製造拠点を複数摘発（2026年11月13日掲載）",
+   "title": "「白い恋人」の偽物製造か 中国の製造拠点を複数摘発（2026年11月13日掲載）｜日テレNEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNER3VnVVY2hTVHE1ZVZZcHo5OHBuLWlqX1pUOXlVUVFMMGJBRUlwRk9HdjBNVVdWV2F0RmtBeFUwRFpxNS1WUzR0djFmbnFaU1NNQmdkRGJnalJWZm0xUHUzbFpBMDgzeEY4Q3NfWlh0N2pPeEE4STlpSnVRWDFmVFRHTVo?oc=5",
    "source": "日テレNEWS NNN",
    "lang": "ja",
@@ -2234,6 +2874,14 @@
    "published": "2026-11-13T14:23:00+09:00"
   },
   {
+   "title": "中国・香港発EU向け貨物便 10月前年比23%減、繁忙期の増勢見えず | 航空 | ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ad2N4R1BYMFlDQzY3dlI5MzQyclR0QTN5bXFkLXVpVnVQczdWN1dkVDVSc0ZDZWtMODN3Mk9wazZsWF9Sb2ZjYjlMTDFwU2lMZ3VzeThPaXFzTjNDU3h1RjBRQjY2ZnJv?oc=5",
+   "source": "Daily Cargo電子版",
+   "lang": "ja",
+   "category": "台湾・香港",
+   "published": "2026-11-13T14:17:35+09:00"
+  },
+  {
    "title": "中国ZJK、物流ロボ向け精密部品6系列を整備",
    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1oUkNWVzhTellGT0N4bGlIQ0prTk85cGZsYl8taEpDZ0V1dWNrWkRXY0FJZ1lqSkpkS3hPXzFRS0pkSGY1Xy1ERFRR?oc=5",
    "source": "LOGISTICS TODAY",
@@ -2322,12 +2970,28 @@
    "published": "2026-11-13T13:15:04+09:00"
   },
   {
+   "title": "台湾「統一」実現すべき、歴史の流れ止められず＝中国国家主席",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JRGFFdTIzX29WM2VLNHMyejl5eFp0aW9mbUZyRi05cTRKWVZiaHUwUGl5ZE1FbVhLR0t0X3pUTHlfWHp0Y18wWWdHR2pnWXcySkxKVnU4SklFT1BBUGNVbE9XMUhmMTA?oc=5",
+   "source": "ニューズウィーク日本版",
+   "lang": "ja",
+   "category": "台湾・香港",
+   "published": "2026-11-13T13:11:27+09:00"
+  },
+  {
    "title": "“安い中国メーカー”のイメージを変えられるか？ ハイセンス新エアコンは55℃対応、第三者検定、国内R&Dまで用意（VAGUE）",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3X2tCTnVLYzlUbUM0MzltZzRwSy1CZUFZUGdORm1iVHBjTzNKbnB6Z3h4TFVUcjFnRkV2RVVuZkZGODhkT2E5aTJqV0pyenhOczZvZWZXNWk2bnZ6X2dPZVRYaXpQRDBEQ1VMQzAyVXZQLXVGWmJSRTc1S0txczg?oc=5",
    "source": "Yahoo!ニュース",
    "lang": "ja",
    "category": "社会・その他",
    "published": "2026-11-13T13:10:00+09:00"
+  },
+  {
+   "title": "習近平氏、深圳のCEOサミットで演説 APEC首脳会議控え",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sTjhScmEweWFCdGt4ZEVjNmJJOHFmeWdTVXZ5OGpaQ3pNQWQxMlBhUFRVSm5SUVZlS1N4OTZ4MWI3aVpManNSZHRDR3lWZllsSUxtXzRZLVotZXJaYTIwNlhSQTNXQkZmRGUyVQ?oc=5",
+   "source": "日本経済新聞",
+   "lang": "ja",
+   "category": "政治・外交",
+   "published": "2026-11-13T13:05:36+09:00"
   },
   {
    "title": "中国のレアアース輸出規制で日本が調達危機、価格は1年で9倍にも＝韓国ネット「他人事ではない」",
@@ -2352,6 +3016,14 @@
    "lang": "ja",
    "category": "社会・その他",
    "published": "2026-11-13T12:54:20+09:00"
+  },
+  {
+   "title": "キーボード、「押し心地」を体感 中国で実店舗相次ぐ",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YdDVaeTJEb19DQnpQZDl5akVDc2FFU3F1UmV4SklaVlVTRlJqcU1CanlkN2drVFFwa0F5WmEwWVFvUXpUVnlKV2VlTFYzZkJGQTRrX2dhVUthdngwSFVpQk1zMUhmX3lURktHVw?oc=5",
+   "source": "日本経済新聞",
+   "lang": "ja",
+   "category": "経済",
+   "published": "2026-11-13T12:47:05+09:00"
   },
   {
    "title": "中国共産党の5中総会に臨む習近平国家主席＝北京（新華社＝共同） - 【海外コラム】習氏、対米関係で余裕も トランプ氏と内政基盤で差 台湾の国立政治大・国際関係研究センター主任、王信賢さん - 写真・画像(2/9)",
@@ -2528,678 +3200,6 @@
    "lang": "ja",
    "category": "経済",
    "published": "2026-11-13T11:46:00+09:00"
-  },
-  {
-   "title": "中国の貿易黒字1兆ドル突破 経済の命綱に",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QT3RiTDRDLVlQRUI0eFpaNnNnWGtDaE9QbWFGQVBVRlFldzM4N2l6OTV3WEtobjZnSlBOcmVxS3J1anJ2RGZIcTllSDFXR1BBSlo5MnhVZXVGM1I5VkNOZjJWWHVSREZUckI5NWdRX05pWTjSAXhBVV95cUxNVTJVRzhLal9ZWktoQm5uNXl2MnNPLXJZb2JaUlhvbjR3U2dfdXg4OC13UHd4Z181ejVIamZSckZFdGRhY09VdUppdjNCa1F2Qi0tandWV0tHY2NVN0NYd09NUUtDLW5ZWU5BOVR2clZ4akZLTW5KVkM?oc=5",
-   "source": "Infoseek",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T11:45:10+09:00"
-  },
-  {
-   "title": "Breakingviews - COMMENTARY: コラム：日産、業績復活には中国市場撤退やむなしか",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQjdRZU1tNmxUa0RobXpYVVhDb3cteUZKbEJxX24zR19YaHozb1JQT1BJTUMtbnBqcmxrajhyTHVRZ0Z2bHJGbXYxVVlJUU5zWkZCd3Bqa0FaUThITGFYQXFjWXg3Nm5TelA0UFl4TFM3TVp0VnpXZEtuUGo0M2ZkYS16dXU4aEtnYng1cmdTN0M?oc=5",
-   "source": "Reuters",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T11:42:00+09:00"
-  },
-  {
-   "title": "日本共産党の山添 拓議員の「死の商人国家」発言に問う-防衛産業は国防の基盤、中国の軍拡こそ直視すべき",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRmJGdzFPWDZ5SVZ5eVZLVGE2bFFSdktBMjhLSnZiQTB4aXRaclhuc0E3U0c1QTNkbUF1NWN2SGhhSGVkdjNjdmtTZzhrTjF6Q3EwTUdwVWhreXE1Rjg4WmJVaUZnbjM0SjdVRjFDckVydlQ1Q0dZc0Z4SFl0WTdpZWE1MDlvUWZTOU9yYnF2TnM?oc=5",
-   "source": "合同会社ロケットボーイズ",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T11:40:17+09:00"
-  },
-  {
-   "title": "Reporter’s notebook: shooting brings home grim reality in the US capital",
-   "url": "https://www.scmp.com/news/us/politics/article/3374284/shooting-close-home-reporters-view-grim-reality-us-capital",
-   "source": "SCMP",
-   "lang": "en",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:34:39+09:00"
-  },
-  {
-   "title": "【海外コラム】習氏、対米関係で余裕も トランプ氏と内政基盤で差 台湾の国立政治大・国際関係研究センター主任、王信賢さん",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RRWVFdnJJdlVHTlI1VW9jY3J1LUd3a3AtXzFBcGp3dkRobmVmbUM4Y0pCS05FQi1iUFJjZGN1VzZ3T3B0REpsdG42OFptQQ?oc=5",
-   "source": "静岡新聞DIGITAL",
-   "lang": "ja",
-   "category": "台湾・香港",
-   "published": "2026-11-13T11:33:00+09:00"
-  },
-  {
-   "title": "イメージワン[2667]：子会社ENERGY SKIN JAPAN、中国のスポーツサポーター等の開発・製造企業SENSPORTと、機能性素材を活用した新たな製品の共同開発に向け業務提携 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53NUt0NWlHMVd1bzVVMFV2Rlp4TGlKb201RTkxR2ItSFJ4X3A3VG5pOEt6WjZYVzRJTHRvbHp4cEtUcUt1Yi1JRlprVHpNbFFGZENCem4xdVNSdjFSVEk0X3MzbVNoeENEaWc?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T11:32:00+09:00"
-  },
-  {
-   "title": "【中国】一汽ＶＷ、中国製ＳＵＶを中東に輸出（NNA）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2WW9NU2lDVmhnVFBTTkRKVWpIN3djZC0xZ05OZzZ6S3dfUThYUHNJV2hsYnJqSlZ1aUg4cUVaeUUxUUcwamJETGNnTjZzNDFGejY5Q1RvSzk5YWVEeV8xaWVYWU44WTlTQjZfM3NjcTBsWmVCeExPZ2FOamZPbGM?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T11:30:43+09:00"
-  },
-  {
-   "title": "中国が「長征2号丁」を打ち上げ 宇宙科学計画「太空探源」の技術試験衛星を軌道投入（sorae 宇宙へのポータルサイト）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rMnFwd3kwbmVJaFhEYUcxR2pfb0Rja0hEc0FOb21mT0dHbnlhdVlwZTNiV1czcXFFaVE4enBJMVg4RjFpaURtLUhPd2dwRC1nbVJqOFNfRTlHSDIzQUlXQk9JR2pkc3AycXlRZFRKVUNwb1lLeU9NaDlRR29fUUk?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:30:02+09:00"
-  },
-  {
-   "title": "超党派で半導体規制に乗り出したアメリカ議会…中国に巨大生産拠点を持つサムスン電子､SKハイニックス､日本にも影響",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KeU1YejNUSXY2V01rNndfc0RFQkxPNl9nOE53bnBSbUtFSERqTmNWaGl6T1I2MG1BanJobFV3RHB5X1ZPSWF2eGJVNjdxaS1tTXlwUnZGem1BYUNxaEJN?oc=5",
-   "source": "東洋経済オンライン",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T11:30:00+09:00"
-  },
-  {
-   "title": "スーパー銭湯に窃盗目的で侵入疑い 中国籍の男を逮捕 中国人窃盗グループによる組織的犯行か 千葉",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DejB6QXQ4OFJJTHpIelpyTnk4aEVuT2N6M0ZQcW0tMDdlVnlBQkRLNHFzSlpuajlfWjdab2JacDBzOExRWThQUjFGcWwwMTVlcE1qVUZUSnI0cm96Nm5CLXBJeFlVVFVQc3BSdE53WkxpalRJdzY1NUthQVlvLVE?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:26:19+09:00"
-  },
-  {
-   "title": "中国の習近平国家主席 - 習主席のAPEC出席発表 初の米中ロ会談実施か注目 - 写真・画像(1/1)",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZX0N2ZmRkVGpoaEx2LVpWT2ttZzVvS0k3NkcxdlhFQ2dOVHZDeDNWOVdLbEl3SzFsYXdwNjA3ZmFsb0RfWEd2bEZmb2U1dXV5bzR4UEt0NA?oc=5",
-   "source": "西日本新聞me",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T11:18:27+09:00"
-  },
-  {
-   "title": "アジア株 エヌビディア混乱は一時的か ライバル中国カンブリコン・ムーア続伸",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wUV90dXFOcHE5dkxlQ1FiR21HcUFoOFB4eERXSE4zWDRUSlpIQ3pGTHhWQi1nX3VoNVJWVm1yeF9ZdFI5eS1YNg?oc=5",
-   "source": "みんかぶ FX/為替",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:16:29+09:00"
-  },
-  {
-   "title": "ＡＩチップ供給網、27年を通じて逼迫続く＝中国ＳＭＩＣ（ロイター）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WZVl0cTdXdDlaRHpPRDlpVnpXaHdiWUFuMkxfVTR5NERnbERFVm5FUzV0MWc0SFV1SERFR25oX2xndDNYeVN2YXM5Ri1hdF9jdm9mUlJfT3E2ajZ5NXJtMFdqZlNLV2draUtVM3RXSG9Wd1NiOTVSU0lZZ3ozQnc?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:13:16+09:00"
-  },
-  {
-   "title": "ＡＩチップ供給網、27年を通じて逼迫続く＝中国ＳＭＩＣ",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWQ2QwX2RDSEVlaUctLW1PNGEwMjdiMlB6SGtxdkhTSlB1NllMTWpOT1ROa0hRcG1ZWmJFeDBNS0dQQnpxSy1rQUxiUWV2bmhBUkpiRk9FR1plLThjc1dBc1BQYWpMb1A2RV9RR1B3R3FyYW9SaGpLVnJyLTRyUGs?oc=5",
-   "source": "Reuters",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:13:00+09:00"
-  },
-  {
-   "title": "エヌビディアのフアン前CEOと不倫報道の中国スパイ疑惑女性 元勤務先「メガスピード」がアメリカ政府の調査に全面協力を表明",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VUXFFaWplSGNXUUhwMkkwTGVScms2aEhEMGljdENyemt2RUUxbWZaM2JTUDNISndfemhBUFl5clpsMkxYYjhVam5nTFFXY1JuTVpPYk5OaDVYWUZlRVpiamFabzRYRWd1UzlEUzRNbmVMblJSNXNncDFwcmU5WmM?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T11:08:21+09:00"
-  },
-  {
-   "title": "中国：大湾区9都市の輸出入、1～10月は26％増の227兆円規模",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Wdmt2ME8wYklLRFZsQU5rSGd2blFsRWpOVlVqYWlFT2FHWlRZclFmS3BQRV85V3g5aGZ3OXM0dkIyN3VvRTVCVnZwaEJSRTl3Vkh1Zzk5bU90bzZic1kyS1VxU0RackZi?oc=5",
-   "source": "ashu-chinastatistics.com",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T11:05:00+09:00"
-  },
-  {
-   "title": "福田康夫元首相への弔電から中国「竹のカーテン」が開くか 高市首相が行き詰まった日中関係を打開する方法",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oLUxXSHJZTG5BTXBSaTNlcG5JeEpCQzFHWUdPOTA0Z1FCQW15bk41VG9CeEJiS0tVcDZURGVlSnhUbzFvRjVuaklqdjlIWDJE?oc=5",
-   "source": "新潮QUE",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:03:09+09:00"
-  },
-  {
-   "title": "高市首相、16日からフィリピンと中国を訪問 ASEANとAPEC出席",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBam1yUUNna19vZUg3cW0zUFR0bW91OG9YOUhCOGw3MUJyQ2FCdUdtY05WSEo2VVYzc2VvTzhpMzNHWExCMVVNN193YkVBTEQzR3V1RWNRa3REaEh4alNYSnpfeGhHYVc2YkQ0YVdQTzFiaGpkRFE?oc=5",
-   "source": "産経ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:00:40+09:00"
-  },
-  {
-   "title": "中国、米国の「半導体規制」強化の動きに反発──エヌビディアCEOの不倫問題受け",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SZ0tTU3M2QjNXUlczamx4NVdNWmdlQVpKLUUtaHRWM1dTOFBPUzdHaWVxTFYtcW1hbDAtaklNR2VzckNZQWl6ZVVpWGpjbmRRbVlZYS1PTjY4dw?oc=5",
-   "source": "Forbes JAPAN",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T11:00:00+09:00"
-  },
-  {
-   "title": "中国で「白い恋人」の偽造工場を摘発、オンラインなどで大量流通―中国メディア",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84akM2ckk1THZKYTEzLTdCS2REd201SFRVQ3NCWXktM2I4VS1XT3JFblJtZlJZdWpvOVRvOEFNbHY0aEczWnZHMnphMF9MXzltTFRya2V3aktXV0VDVWdJanAxTWdXTzRD?oc=5",
-   "source": "Infoseek",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T11:00:00+09:00"
-  },
-  {
-   "title": "エヌビディアのフアン前CEOと不倫報道の中国スパイ疑惑女性 シンガポール政府が厳重警告・再入国禁止を公表",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11VW52Wk1KWUNSMU5ZQ1lWY2NwdFpvTFBsLUd2NHo3b0dWZmRNSmpmT2EtblNaei1pZk9PWnlESTVLSzJjSWZqNDRBMFR6bEQ1SXNVSllNei1XS2JFd09MT1kzbGFNR2hKcTJpRHZYMGcxRTVYNldrR2VST2Z6a0U?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T10:57:23+09:00"
-  },
-  {
-   "title": "習主席のAPEC出席発表 初の米中ロ会談実施か注目",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EaXpSbDVoTkJ2TmFoM24xY2ttNHN0OFNlb2VQSThVeGxONzJvdS16bzBFSThOYjVxWG1MXzBKYlJ3NERjbW4wdDVNUnlxNEp4VjFaT2dpQzItS1dISmV2bDVSTTl6YWhhczV5YnhB?oc=5",
-   "source": "au Webポータル",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T10:51:37+09:00"
-  },
-  {
-   "title": "高市首相が16－19日にフィリピンと中国を訪問、ASEAN首脳会議など出席＝官房副長官（ロイター）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vcG1Ea05nR3dwOVdpc3MtcTZxVFhoUk9ydVlrT0JNUnBzcTBnQWV5enJVS1E4Y1hRNm80REZ2MHlpc18tV0JzN2xDR2NleUVWbmFfQ1l0dmg2ZlhoeTBkc0VuanFaQ3M4cjhxaDJfV3lXaVJ1N3pIUkhRdUh2Wlk?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T10:39:15+09:00"
-  },
-  {
-   "title": "米シティ、人民元6.5元到達を予想 中国企業の海外展開支援で収益拡大へ",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12ZmJOU0FHYVh1N3hZZFdKcmMyRXM3WXk1TldFbFdibEE2SG4tOW94MENYdTJXWVQtS05qSWl3QVliZTd5M0VfOXltS0s1M2VmVW40RWJrYjFxZm01ZlRuS1pQY2NGeGFXVno2c2xleVV0aHZx?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T10:35:00+09:00"
-  },
-  {
-   "title": "中国、習近平氏のＡＰＥＣ首脳会議出席発表",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaUVBcHM4Z3lUeDFOZW9BQldrenBqYVFuYm5pc0o4ZFFjcXNwYU5WTU96eXA1N1ZLdGNzQkowTmxFaS1mempnLTNNWGFxWEZMN01HalN5SmxRZ3hHeVdZWVpaOHVIU19oVTV3VkZLRFpsQzI5VF9fVEl1dVdIalJJeDNZVjjSAYQBQVVfeXFMT2lFQXBzOGd5VHgxTmVvQUJXa3pwamFRbmJuaXNKOGRRY3FzcGFOVk1PenlwNTdWS3Rjc0JKME5sRWktZnpqZy0zTVhhcVhGTDdNR2pTeUpsUWd4R3lXWVlaWjh1SFNfaFU1d1ZGS0RabEMyOVRfX1RJdXVXSGpSSXgzWVY4?oc=5",
-   "source": "大分合同新聞",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T10:21:29+09:00"
-  },
-  {
-   "title": "【フィギュア】イグナトワ５年ぶりスケートアメリカＶへ闘志 中国杯から連戦も「何の問題も」（日刊スポーツ）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zYjRmOHFBNE1RTGRJNFRfXzBfZkxST180ZC12NGI0bU1ObDhEM0hyRmRBNmFkNGkxaU04WE5sd0VtS3F2Qlp5VTVGT3VVZEF1ZmNGaFR6SFFHT0FFcXQ0RFIzWVF0RVFMLXpkU21WZG5wakxBMmItbmc1U1Z3bDQ?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T10:20:47+09:00"
-  },
-  {
-   "title": "マカオ当局が中国本土居民のトランジット滞在制度濫用への厳格対応継続…年初来約6100人の入境拒否（マカオ新聞）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUdzRldUVWNTlpb1NEdWVnUURvdGR4MDZsbWx5bE1uUUZqY19DQnBuSUVWWDRTeEtlaVJ4Nlh2ZHgzcEVlQloxNC10RDVHcHlUcktybFE5LWc4YTZldm9MbmN6UWRlRHdERGVTd1pRbDNEeXZBblpjbXk4LWU4bEE?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T10:20:02+09:00"
-  },
-  {
-   "title": "尖閣諸島沖には｢ブイ｣､南シナ海には｢滑走路付きの人工島｣…海が欲しい中国が繰り返す呆れた手法",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1McW1ncngyWW5Kak53cnRheGg4TjMzMDl2b2dyWVUxckE0SDBjT3BQaU9VcWQwNnhRWm93WnEwM2dWS2RPdjFGSW5pYnJFcllVU0JBd3BkTkZWX0ZQWHB5ckxkWHZoTHh2TFpOYzNBQ1FPUUE?oc=5",
-   "source": "ニコニコニュース",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T10:18:21+09:00"
-  },
-  {
-   "title": "【速報】中国、習近平氏のAPEC首脳会議出席発表",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pWnJ4bGs3MWNmVjNaM0l0eHMtWXJrOC1kQnB0cnJGeXhVUWJzaEh4Yi1FSWJoYk9xZFJEb3RSY0VQTVdjWG9KSnhySQ?oc=5",
-   "source": "47NEWS",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T10:18:12+09:00"
-  },
-  {
-   "title": "中国、習近平氏のAPEC首脳会議出席発表",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQkgzLVZOYXY5UTJ4OWRxWGtqVW9zR2d1ekFpTjFKNGJDdWp0OFMyNnJnVElvOEl2LWYxZGV4SGpvTFhCejJhc09tdHRRYmg4TXNjakJ6R0hRdHNFcFFTYjRlTWVIR2htamd4bXgtQTFINXdFU2xEc09uanQyWUFySlhLWlpVdDhfYlHSAY8BQVVfeXFMTUJGNFFTNnhfck96NjJTeXhBcHg3SF8tMWJMYXhaOXhzMVNTb29LdTJPWExxcHpBZHVlWllKTEtsX2s3VDA2dF9mSnlDVVBubERTVzFQM2MwV3NEQTJ3WEUzeTNnZzZmdW1vRkVnSmg1RTdqRFE5X29Qd1pzUzJDUXBMb3YxSGNSMmF4YS02ZHc?oc=5",
-   "source": "ｄメニューニュース",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T10:18:00+09:00"
-  },
-  {
-   "title": "中国に向かう米国人のかばんから実弾19発、仁川空港で発見…「テロの危険なし」（中央日報日本語版）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WXzhVVEVSdUFQZEhXQUV6VWRCREgxZWh5bTZpMUhSaWEweGFvcVBMNHByOWRubGZOQkI0X19GNEhiaEZYNjBZZG90bERHZTNWaC1JZHo3ZFJLMExYUDgxNnpuVHoxUFNCUHpMck1WLU5QNWJDWllTY1BpbVZqa2s?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T10:17:42+09:00"
-  },
-  {
-   "title": "尖閣諸島沖には｢ブイ｣､南シナ海には｢滑走路付きの人工島｣…海が欲しい中国が繰り返す呆れた手法（プレジデントオンライン）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55RThYSzFpOFluTDNvSzBEMU9GVjJ4TlVPSF9VNjIzTFBIbWF5WVQ2aFZaeU9zcVZBVXRnem1leE9uMHJ0SUZ4eHRSZ0ZuWUtJR1c5Y0oteWpfZzNkUER6eEgwMDVBOHNQWFllcjl1cjE0V0FaZmN6VmZvbk1Ea28?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T10:15:39+09:00"
-  },
-  {
-   "title": "米シティ、中国企業の世界進出と人民元普及に乗る戦略＝幹部（ロイター）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4TlZlcVJpbHppSTg2Zmk2cXpQdmR4RkR6UlZYeDdlSnM0bThuTTFfX0Vxb21CWGp4bjFtQ3hJR1RQQ2FlTnRpc2tucU1rdFZodHJuRVVfMDNFa3pfYVoxMXJoT2lsVEtKcHlONGxTNWhGRHZJcDdWQU9MN3ZvcGM?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T10:04:21+09:00"
-  },
-  {
-   "title": "米シティ、中国企業の世界進出と人民元普及に乗る戦略＝幹部",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51QmxUQjNoSXNScksyRzRWU3haMkdzWXUwQ0ZBeHVnUTlRS2YtOE8wQVlBRnQ1RkptWFU1XzZSRzh4S01OcEFBN1lwcTROb2t3QVIzeEUzRUhtUUxqUXZOR3BneHB4akFBMlRueVozZkpoWjM0NHNWa2lGZkxLUQ?oc=5",
-   "source": "Reuters",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T10:04:00+09:00"
-  },
-  {
-   "title": "中国ドラマ「暗河伝」刺客たちがリラックス、ゴン・ジュンらの素顔が見える舞台裏（映画ナタリー）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5reUhuU1J2VHhNaW5JbFB2U1ozX2s0TjNSQXhQQlpXU3R2c295eDNudkItOFlISjBXaS1wbFd4ejMxSlJNTi1rZjFZWmRUMHJJY2xTcVpiSUxWal84SWJpS1JOcWpIM0pyV0o2OEdFbUdiRDJ0Z3R0WWNwaGlrZVE?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T10:00:28+09:00"
-  },
-  {
-   "title": "尖閣諸島沖には｢ブイ｣､南シナ海には｢滑走路付きの人工島｣…海が欲しい中国が繰り返す呆れた手法 (2ページ目)",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1EOW01RlFoczhWUnptRjF5VmJQWWJWZ0lVcjVtMmtTRjFNT05MSzBqWkUxYVhVS25JeS1WTkpxV3owNDNyN0ZQSW5aRVR5UWZ1cUg3R3dEX24?oc=5",
-   "source": "PRESIDENT Online（プレジデントオンライン）",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T10:00:00+09:00"
-  },
-  {
-   "title": "中国「独身の日」の売上高は4.8％と増加するも、伸び率は25年から減速",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkNDBJRlcyeE9PNjV2dDBudFJFSE1hSGx2WjVfRU9BcHhDY29OXzc0LU9WVzBMRnJnT0lCaVYyUTF0Tzc3MkxNemIzOERWY25WTXdHMTJ3STBlQQ?oc=5",
-   "source": "ニューズウィーク日本版",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T10:00:00+09:00"
-  },
-  {
-   "title": "「中国のスパイ」アリス氏捜査 シンガポール、虚偽申告関与容疑（共同通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wYXBpb0lUZHpDUWJVNF9fTWlIYVR3cU9idkt6MEVUSndSd296TW5tTzlIbDVweUtfamJSSmFzX0M5Y3BfalBvdEJZaTlBVmk3RVE5VWZjZDFVcDNhQ1I5NVFjVDMxRENWZkpKWG9EYnFKMUtlMkpxVGxDbzQwWVk?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T09:41:59+09:00"
-  },
-  {
-   "title": "中国の長安汽車、Avatr上場前夜に32億元で10%株売却へ",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1RUHFfNjRkcmZHakhHYUx0SHJoS3liUF9ETHdvWGpzTHNHc3BGZFF6TE9ycGxMNFhGOEhtc1BZdUF3UUtaWFhIUlVRcXdwNjI4bTNiV0wxR0tQTm9SWklsamV3MTRVcXJIalhJUElXY1NOdVBB?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T09:36:00+09:00"
-  },
-  {
-   "title": "米政府、中国AI企業によるエヌビディア半導体の遠隔利用規制を準備──中国勢は海外の利用枠確保を急ぐ",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2b1hUSUl5QXNGaV9GNzJMRk9OcDlRaHpNNGstMjhieXRqOWpBd3hIbXI4dFJvSGQzZlQ3WHNCZkdOUW53OEJQbnhkZVZYUTF0Z0NhZWxfUkRUZw?oc=5",
-   "source": "Forbes JAPAN",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T09:30:00+09:00"
-  },
-  {
-   "title": "中国国家安全部がAI対米工作強化 NVIDIA巡り輸出規制緩和狙う",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeWxtTjRIMlZlRnhoYjRIbjJETjhRNGZzc19CcmJJbnJxbExURVlsSFJmQUFwZld6bzdXNVdld1dhVThCVlhUSnR2NS1WZGc0OEw3NVhuOW5VeUJBWnNtRHZMTUhud3pKSkNzNDBoMWpOMmpzNHpwX0FqdXZlT2F1TGZYWEVNUUxV0gGcAUFVX3lxTE9Bdnctc0d6b0pHenhWbGhaUWZlMm5Gb05uYUFscnAtU3h2c29VYUZOLW14dWxDWThFVUhNQ3Fwb21uR2lGQ0ZVelZoQTN5c01ZZXhReW1LX1RjZGo1aWxSMHpNOHlSSVA2NURHb3pEYWt5XzN2X1lXV2tpcXp1STFYcDZmTi1aLTU1eWdDNVVvV3ZSWWtDanhMc3JjRQ?oc=5",
-   "source": "Chosunbiz",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T09:29:00+09:00"
-  },
-  {
-   "title": "スーパー銭湯窃盗グループの「指示役」か、中国籍の男逮捕…ＳＮＳで実行役に「現金あったか」と書き込む",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6clZ2YWpoRzlEdWVINkZsUTVwRkhKMzNvUlpwbEJOcTIxU1NjNVU4UEFLZHQ1SFlrLXFSaHJBaTlWTHlHWDFnWlBzQ2JNcHJCaGVualNlekpHU3dmRmhmWjd3cXJIUQ?oc=5",
-   "source": "読売新聞",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T09:24:00+09:00"
-  },
-  {
-   "title": "済州島の立ち入り禁止区域に入った中国人観光客ら…出るよう注意するとにらみつけた（中央日報日本語版）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJcEVfRDNQeVRlSmlCa2dST0Rka2VSV3REUlBCS3NjSk50eVhwQ0tNTm5sTE1PbXQwSEJKelNTTXhERTl6Tl9VeER5bTNlRTlxcFVkakhWSG5KRXFIUG5SeUhKSkZuMjZRWTBCNVlQNmFERlQzZnVDNnBWVUpGbTQ?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T09:22:20+09:00"
-  },
-  {
-   "title": "中国、経済低迷なのに10月の所得税収がほぼ倍に 富豪課税で3.8兆円 #エキスパートトピ（高口康太） - エキスパート",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWVI0MlBuZC1mblVzVzV2XzM2VmVUb21SajFNdUw4eVRvWlBpWlBHVkt1U1oxY1oxZjV2UXZJQjNaVE5Zd05xVTdJUTAyVVRwUVdacWRKS01Qa1pnd2xjdUE5ZUkwcW9FMUhadTVpMkJDVEY5bkgzQUdHZGdDMW9pcm04M05VSGls?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T09:14:37+09:00"
-  },
-  {
-   "title": "中国、徴税ネットワークを本土外に拡大-標的は超富裕層の信託（TBS CROSS DIG with Bloomberg）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nMVdhcy1ZNjJic3BQdElMd21nUlZEMllidUVPekVKVm5pMTM0dTZVOXBVemhXQ3g4cTZ0SWVfdzRIQ0oyNmFkOV9tQzJoUjFoUWZ0bE5xTldEelc1SXlmUi02UWthaEVwWUZLUnp1STdyLTJvWTlaVXFfTFRHX0k?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T09:02:14+09:00"
-  },
-  {
-   "title": "日本政府批判のアニメ動画がXで拡散 中国発の「認知戦」か 狙いは",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5jdWZLalVnMnVwQWxpSFoyd3c1eDB6VmU0UGtWX0E5b3NwSHpHeWhxaVpXY21QLUFtZFBFaWM4c0lmUE4wbWRoTGkzQkRtTjRvTENkWmRjWXcxUEhxM2F3SUdtQzFoX1U?oc=5",
-   "source": "朝日新聞",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T09:00:00+09:00"
-  },
-  {
-   "title": "ジェンスン・フアン氏、ついに不名誉な退陣…ＦＢＩが中国との関連疑惑を調査（ハンギョレ新聞）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IaV9IcDliUUVtb2J4T213QXlmMlFsNzBxcUxzYlpWNEZhMm9rQjlHSGhDX3M1U2pWbnRHX25fczBGVHRNOExsR1NtRHN6RW1uc2dMSk90dlVobFRqRDV3cjFWODJIRXNXcW43WmJNQ3ZPR0wzU3g5TDR5MjRXZXc?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T08:44:13+09:00"
-  },
-  {
-   "title": "岩礁を「島」と主張→支配強化、船舶航行を常態化 中国、南シナ海でフィリピンと対立激化",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yWFM2RFlWcVZYejFNNlU5SzAxNXpyVTB1Z2F5UzdlV2lrWmZya1JDTXJBclA0ek92LU13NTBudFh6MEtXNDh2VWdBTlR3d2I3UGd4aHFCZU9pWUNVVXAtemZaQXliUzlnb1NrLUM0cENETFhOZFE?oc=5",
-   "source": "産経ニュース",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T08:30:00+09:00"
-  },
-  {
-   "title": "米政権、ラトニック商務長官更迭を協議 対中半導体輸出巡り批判強まる",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fNUhwSWJ4MVZGU1Z2N19yLXNocUR6MnJaTzNqbU1rY0pPWHBkWmZndGM0a192ZGpHUlZoZXJQckQ5SEtLQjFVdHNhMU9zU2VXdDI3U0hyNVhkTG1CZ0NGcmtKS1pvaDE2WXlvVjdfczBNQjZnSlhMZlVLRWRWQ00?oc=5",
-   "source": "Reuters",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T08:28:09+09:00"
-  },
-  {
-   "title": "中国、徴税ネットワークを本土外に拡大－標的は超富裕層の信託",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05MEtCcElNVExyWHR2MTZaWVR6RXBJZ3VwNjBCTDJaYUJUNlRhRDVSQkprR2J2bEdpVGhCOEZYeFUwNTUwcmFONXplZnFCTHFiZk5LbV9KTThiS1NOMDNDdDJXVWtqNVU?oc=5",
-   "source": "TBS NEWS DIG",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T08:26:47+09:00"
-  },
-  {
-   "title": "中国人女性を再入国禁止に エヌビディアのスパイ疑惑で シンガポール（時事通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwMkZFZmc5Tml6UlJXckZyRmhpcnNRX2d2UEpWa1pIREoxNU9KRkhXeEE3VmEyS1BYa1NETjhhcnJVRWtPSGcxUko1YTFDdzVZa0Q2OVg3RUY4MnBaUzBlc2gybF9QbHhTT1dqSWFQck1kTnNoNFRkOWp6Y3RoWDA?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T08:16:41+09:00"
-  },
-  {
-   "title": "中国のオープンウェイトAIモデル、ハッキング能力で最先端のクローズドモデルに迫る",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLWp2X1ZCTjJuN24yVDd3THg2dWxra0dBaFpfTmVIeXpEMWRMNUl1aWkxaHowaWtJZXNqcjV2VlA1b1lrbi1GUkJ0MkxDRlRiVEhKNEktWGw3bGVoNXh3c0tEaDhDLTNxbk5rSGIzWVp1TUxUYnRwZXBSdWxkb00tVTZJNk43Z2JEYnc?oc=5",
-   "source": "WIRED.jp",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T08:00:00+09:00"
-  },
-  {
-   "title": "中国海軍、近海から遠海へ防御態勢シフト 防衛研究所が分析 南シナ海は「国内問題」",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nMGUwM3UwZzlnSEJ3cTltQ2x6N211d3Z0NnBXOW1wV0NyOXRHazZWWnlCeEJtdWdFU2t1Nm9QY0hmVlZheDdnLWl3d2s0U0hxTGMyWUh3QVowZHNEX0VOcHVneVNCMndGVTR2UTdYV24xQ1RQRVE?oc=5",
-   "source": "産経ニュース",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T07:45:00+09:00"
-  },
-  {
-   "title": "〈社説〉米とASEAN 不信拭えねば中国伸長",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43NjdqeXQycWtiZ2JHMGY0WC1FaGRIWERudjk1cFVnZXVfbFpnRXl1ejhtbGxQVmRERklIUXdpNEtuY0NEUmlxbXZRNVZiQmtJMWZF?oc=5",
-   "source": "東京新聞",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T07:37:27+09:00"
-  },
-  {
-   "title": "Jensen Huang’s departure may signal tighter US controls on AI chip exports to China",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3374270/jensen-huangs-departure-may-signal-tighter-us-controls-ai-chip-exports-china",
-   "source": "SCMP",
-   "lang": "en",
-   "category": "経済",
-   "published": "2026-11-13T07:35:06+09:00"
-  },
-  {
-   "title": "王将もモスも撤退…サイゼ・スシローだけが中国で勝てるワケ、明暗分けた「3つの差」（ビジネス＋IT）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tZXhyMzZvSVdfVURHbTZ6OFREMC04bEJFZFFyUzg3emV1RWtTLURBTEhmRVlscW1vZUE5UTQwOGtKMEh2cWpyNTdvWXo0V0lmVFVUQTBIVjltaWVCNERnUVZmd3JGY0Z3c1lJSGk0Qzk3MlF6MkVvd0tyM3V6N0k?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T07:20:06+09:00"
-  },
-  {
-   "title": "日産が販売急減の中国で輸出を強化、2車種2市場を5車種12市場に拡大（MONOist）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZTVrRnlsLXRudUk3UGVHMnZUbVZkTHpVQ1EzU0NDMHE4anI5VUxrRXpHMFQzblliQXhXLTFBc3JiWHQ5QVV4c1FQWmUweHNhU2xZYlZaT1E1ckRCaF93eEFSLU04cXVFUTRCLXVaVDc3SzMxRFB6OWIydDItMEU?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T07:15:15+09:00"
-  },
-  {
-   "title": "中国産人工甘味料から遺伝毒性が検出…食品・飲料メーカー23社に取材してわかった驚くべき使用実態（デイリー新潮）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BOGU3cUtmTW80NDdpU3NKQUppUWRQai1UbTZQRTN6c0xIeGFfdm9LTHpYVXV3TENnOEEyLXQxbVZCaGFUY0V0bHFjd18wbWREZk1xMllGTkd3MHh3aEJvRlBuZHc4THdlVzhwQ1V5Z1JLZXpaTXFkM25BWTh1YmM?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T07:05:10+09:00"
-  },
-  {
-   "title": "【日本企業「中国離れ」の現在地】電子部品メーカーや半導体関連企業で今も高い中国依存度 中長期的に見れば“チャイナリスク”の懸念も（マネーポストWEB）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SWVVrbUFOUG9oWUlmS1A5TnZlTkQ4Z1BqdW9uMTZodHE1aFg5Tm1adzNOejlaYXZSRWtqN2phZGd3ZVJKUTJwVXdUQ0hTVm5RY1l3SFJYYjdrLVVnRmQ5WFloRllmWldWREdZck5vSkJEX05TRm0tbHpGTUZHTDA?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T07:02:00+09:00"
-  },
-  {
-   "title": "男児4人ひき逃げした中国籍の男》「日本の法律を知らない」「お父さんとしてのチャンスをください」執行猶予中に３度の無免許運転を繰り返し実刑判決…裁判所は「常習性が認められる」（集英社オンライン",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5veVloV003cXFUUUluamVPTlpCQjhsT05tMlBhNXpLRlZVVVBfRVJBWnJicmJKQ1QzYW1FUjRFMm9Hc245WXRFeHFSSUJRNHc0ZHNkUmQxX1lfVDJXOGlTZXR0SXZibXNyczYyQ3VOYnFXSDdOSEJsRU5GU1psaXc?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T07:00:37+09:00"
-  },
-  {
-   "title": "As Japan looks to strengthen defences and security strategy, analysts warn of escalation",
-   "url": "https://www.scmp.com/news/china/military/article/3374244/japan-looks-strengthen-defences-and-security-strategy-analysts-warn-escalation",
-   "source": "SCMP",
-   "lang": "en",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T07:00:09+09:00"
-  },
-  {
-   "title": "中国、AIとの「親密さ」を規制へ--AIに相談する中国人の実態と不安",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HZnN4YmFFQThvQ3VBbnd6dS1zVDdxYmVyaFZZWlNVc3g2cGFMREpRWEl6YnBKQzRHVzdYYUFYUWxDbDBIbG5VellHS0RLWWpNTDRTU2RqaDBLLU9Ba1RFNWlSSHlFYmpJT0hyLTB1SlAxWGxYdkFnWUd3eFJYTmM?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T07:00:00+09:00"
-  },
-  {
-   "title": "エヌビディアのフアンCEO辞任 中国スパイ疑惑女性との不倫など発覚（ＡＦＰ＝時事）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WbFpmYWllanBGLWIyTmcyaDR0YnBFMzVZYlFTbzI4UjFoRVJWQVVXdngzR1RFMjMyRUxnMzFtNHR2VWRjbG5DNC1uU1BXd05keGU5S3BJZFFuR3ZRbnhnZHZjUmR2cVJNaUxreWRXTXFMUGQwaWE2SlhoY1VzdUU?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T06:52:46+09:00"
-  },
-  {
-   "title": "中国のレアアース輸出規制でイットリウム価格が174倍に急騰…日本の部品サプライチェーンが動揺",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OYXhTTWNuQW1TY25EeTBhTUVEa1FJTTJmcVJ1Mzk4QTJUc3l1SVU1TjhXeXNVQnZNUkhOY0x3d2hYck5VbmNSSmNQTmlaXzJua2Z4UzhkbXNaRTZEMktKTHoxcGEyQ2VxalpRa25md3JPYVJv?oc=5",
-   "source": "BigGo ファイナンス",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T06:35:00+09:00"
-  },
-  {
-   "title": "中国産「人口甘味料」に遺伝毒性発覚 食品・飲料メーカー「全調査」実名リスト",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Hb0ZrWC1ZaXlGeGJIT3pvZ0ViVDFMMjJjdWk5LVEwUTFrTUpWNjNGUG8yZ2QxeGxKdUc1X0dXaTRGZm91SHNQWlUtbm1DeE13?oc=5",
-   "source": "新潮QUE",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T06:24:46+09:00"
-  },
-  {
-   "title": "中国・香港発EU向け貨物便 10月前年比23%減、繁忙期の増勢見えず | 航空 | ニュース",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ad2N4R1BYMFlDQzY3dlI5MzQyclR0QTN5bXFkLXVpVnVQczdWN1dkVDVSc0ZDZWtMODN3Mk9wazZsWF9Sb2ZjYjlMTDFwU2lMZ3VzeThPaXFzTjNDU3h1RjBRQjY2ZnJv?oc=5",
-   "source": "Daily Cargo電子版",
-   "lang": "ja",
-   "category": "台湾・香港",
-   "published": "2026-11-13T06:13:42+09:00"
-  },
-  {
-   "title": "Nvidia’s hunt for Jensen Huang’s successor: insiders, rivals and a Trump pick",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3374268/nvidias-hunt-jensen-huangs-successor-insiders-rivals-and-trump-pick",
-   "source": "SCMP",
-   "lang": "en",
-   "category": "社会・その他",
-   "published": "2026-11-13T06:08:47+09:00"
-  },
-  {
-   "title": "「あれはひどい。あの人たちは馬鹿げている」中国杯優勝の日本人（21歳）に飛んだ“罵声”に世界王者らが怒り「表彰式が台無し」異常事態はなぜ起きた？（Number Web）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SejRIczlwSnpVTmFWNGVzYldhdmJwZU1OVHFRbEJtX2Q4UmNJenY0WER0ZHRYZG9ORzhuTFJHMzI4aEhqUk81R3VLWmRBUE51ZlRvUW1RWm5XZUYzbnVrWXpfUkdidC1Lb1d5NzNCc1RxUzhWa25JUXBRclJVUU0?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T06:05:29+09:00"
-  },
-  {
-   "title": "AIは仕事を奪う？ 中国政府も警戒モード、発展改革委などがリスク監視強化の方針…新たな法体系の構築も提言",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wMmIyZHU5U3lZdHRSWEZOa2dWem1lcmp0OXcxMUU3V2g5V0RHZlBlUndPRTYySUg2c2dHdHZfQmx6ZktmMi1wWmRzN1lBOTBNRTFuQlEyZFEwNm9Nb2EtZ0xXTkxVcGs4Z3RkYVpCNVRJRzFCTUhETW9Xa1BTYlU?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "政治・外交",
-   "published": "2026-11-13T06:00:41+09:00"
-  },
-  {
-   "title": "ドイツ軍、中国製ドローンを段階的に使用中止へ ウクライナ戦争が示す「量産と供給網」の重要性、日本の防衛体制に残る課題",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTW80dFFEbzlsV1JDalRZTmFMX3lQdXdGWWNVM0JXbUdYZ3I4YWQzRDhENmFhZkJSZ1JPYjRJemFGbG5Jc2NIX1RZbEF5M1hOclUxdm5oQU1MaVE3LTBOczh0cUJEOXBtbzhsTnN2Ym1MdlptMTJ5cWlwVldzQ0ZhMGxBUklsTG9KX2RXV3V3TWpiRGcxd2dDMjR3SEFvTkdjT0VKYkM2dEVVT1ZWVUZFV2Rn?oc=5",
-   "source": "合同会社ロケットボーイズ",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T06:00:41+09:00"
-  },
-  {
-   "title": "米輸出規制対象の中国・西北工業大学、中国の業者経由で「H200」を購入―仏メディア",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aWHJydG0xVWFFWWk4V0JGMndTa0Y1bkRDNnJJQW0xM2RRTThMcnh3aHQ4OTZ6al9NQzdna0Q3cmlWNFZQTjRzS2pITDB5NU1fTHNHcHdHQWNVdGJqOWN0QWExR0NsRVZlakE?oc=5",
-   "source": "Infoseek",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T06:00:01+09:00"
-  },
-  {
-   "title": "中国で日本車大苦戦、あきらめず挽回に全力－撤退も視野の危機と識者",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11WndQalZ1SU1PT2M0MWZNNlFsMDQ3Nk5sd1hDVWV5TlFVa1MtVzlSVXJ4Skh5NFdYN2g1TjNOaEw0czhPT3pncUZSN3NrWGJqSHliM2VGOWhHb3NzUUFWU24yYTV1cmhJS3pBRG9aSnJ4OHl0OXZr?oc=5",
-   "source": "Bloomberg.com",
-   "lang": "ja",
-   "category": "社会・その他",
-   "published": "2026-11-13T06:00:00+09:00"
-  },
-  {
-   "title": "【モヤモヤ経済クリアファイル】軽EV、地方で人気に？ 中国勢の動き起爆剤に",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4TEdtOXdXdUJGWHRJSmdZZzRRR0JFN19BTlZfT3J5amlNWDExUGdBRnNnQV9LRWJXZFRjRl8zalJaanBXdW9hemo2Yk1waTRCUVR3Zzd3?oc=5",
-   "source": "西日本新聞me",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T06:00:00+09:00"
-  },
-  {
-   "title": "US invests in Peru’s Callao as port battle with China’s Chancay megaport continues",
-   "url": "https://www.scmp.com/news/us/diplomacy/article/3374267/us-invests-perus-callao-port-battle-chinas-chancay-megaport-continues",
-   "source": "SCMP",
-   "lang": "en",
-   "category": "社会・その他",
-   "published": "2026-11-13T05:42:27+09:00"
-  },
-  {
-   "title": "アメリカが｢西半球｣の経済･安全保障戦略を再編…狙いは中国依存の低減､日本企業に新たな事業機会も",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mcl9hVnVtbTNST1JLWHpuaXZJNjlmQ1ZUdHNwX2c5bHVHMGJMZXhOLVdXMmFHNGZSV3d2azlKUkViX2JkZ0Vwdll2SlAzRlFtRWdxa2gwRjNqRVF4S3FZ?oc=5",
-   "source": "東洋経済オンライン",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T05:30:00+09:00"
-  },
-  {
-   "title": "White House discussing Howard Lutnick’s future as commerce secretary, sources say",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
-   "source": "SCMP",
-   "lang": "en",
-   "category": "社会・その他",
-   "published": "2026-11-13T05:19:33+09:00"
-  },
-  {
-   "title": "防衛研究所 中国にとって南シナ海はアメリカと対抗する基盤 | NHKニュース | 安全保障、中国・台湾、アメリカ",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeEFfTmN3U3cxQlFxTmZWMTdRa1dOTUZWT3VEQmVFLWtqeUtzYVlIMGtNQS14YllTMGhQRW9kZDU2Mzd2N0xhdGNQbEJvY3BUUnVLYVZzMmxXMENLTHNR?oc=5",
-   "source": "NHKニュース",
-   "lang": "ja",
-   "category": "台湾・香港",
-   "published": "2026-11-13T05:07:00+09:00"
-  },
-  {
-   "title": "NVIDIAにスパイ疑惑アリス氏 中国TVで勤務、在籍企業の資産44万倍",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JcGJEWDVNSDRVem9DNnBIcjZZWjZ5ckN2ZEtkek9HS0RDaWwxVUR2SmduY1EydWt2NG1KQ1ZFdlhVNm85bWxLQnhGTVRwNHNpQ0dRN0VXWjJpZEhRV05iVkJiUnd6S1d4ekNpYg?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T05:01:50+09:00"
-  },
-  {
-   "title": "南シナ海への領土的野心を崩さぬ中国、アメリカと軍事的対立 「国内問題」の認識 防衛研「中国安全保障レポート」",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QNUdfSXpGSHhUd0p6d05EanAyZnIxeDVFSU93aFNOVm9VTE9rcU11S0JXbEZsV1hjdkdkdjFjdHVONWRuTWhhWEdOSzBueFFhNGt0TFUwajlSNF9DWkpBbGxiLS1rU2x4V2RQMEhMQ3NkVmV4czFKSERfeE0tSGc?oc=5",
-   "source": "Yahoo!ニュース",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T05:00:42+09:00"
-  },
-  {
-   "title": "「中国『独身の日』に異変 爆買いに陰り」PwCの薗田直孝氏",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrQXN1X1RGRDVVaGlULWQ0eEU0a2tRbTN3WUVJNWh3S0FmRWtBUVNraGZySVU3X1N0OGFtLVdCWUJnc3pJT2NnN2ZvU1F4VmpoUnhFeWRVbnF6ZDZLSXNCeW5rVzhZSHZFVXI1bA?oc=5",
-   "source": "日本経済新聞",
-   "lang": "ja",
-   "category": "経済",
-   "published": "2026-11-13T05:00:00+09:00"
-  },
-  {
-   "title": "中国の南シナ海進出、「三位一体」で影響圏拡大 防衛研究所レポート",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jSVp0QnVzWFBuYVRTNEg0cWZ3VFhPRWpWLWZROXJKeDFYOGdCdlZhTGtKNEpxWkdvRU1lcnp6c3NYV3c3bW9QT3Rld2RWeVpCY1ZtV0F3bEZSUms0N3ZZM2Q5VDNpU1U?oc=5",
-   "source": "朝日新聞",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T05:00:00+09:00"
-  },
-  {
-   "title": "中国海軍・海警・「海上民兵」が連携、南シナ海で「他国の船舶に対する圧力を強めている」…防衛研究所が警鐘",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmd0l6eExkNU1vbi0yUEp0VHhjZVBFYUJneXhNNzd6Q0tJRHVNX256LWpZQUpWcEg2eVZYbUcydXJsOGdOZDhacVFfMENDTlpON1Y4M09MUmhSdndrdXJSbTNyYmx6QQ?oc=5",
-   "source": "読売新聞",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T05:00:00+09:00"
-  },
-  {
-   "title": "（時時刻刻）認知戦 外国勢力による世論誘導工作 中国…ネット駆使、台湾へ分断圧力",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZMGJ0MnV5cDUwdHVwd253QmRKdXNYTUN6QnBiMjVYRG1RbzlVRHlucFhVc200S2IwUVJLQWMyS0VINUFjLUE5djROa0EtVmg2Smlpd3NZcWQ5SGFG?oc=5",
-   "source": "朝日新聞",
-   "lang": "ja",
-   "category": "台湾・香港",
-   "published": "2026-11-13T05:00:00+09:00"
-  },
-  {
-   "title": "中国軍、海警、民兵が連携 南シナ海影響圏拡大 他国船舶に圧力 防衛研分析",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3d1ZSR2tobmxjd1Q2bXJtU0xRa1dWSE85WTRTc256MVc3cFFqV0MtVk5Fb1p2Zm9tbF9uQ2dsMHFULWlYbmg1RkpSWDBaVThvMFlsTWg1NU1lNVA2Y1FSTnZPRQ?oc=5",
-   "source": "読売新聞",
-   "lang": "ja",
-   "category": "軍事・安全保障",
-   "published": "2026-11-13T05:00:00+09:00"
   }
  ]
 }
