@@ -44,7 +44,7 @@ nav_order: 1
   <tr><th><a href="{{ '/prog/' | relative_url }}">プログラミング</a></th><td class="hp-sub">アルゴリズム、C / Java リファレンス</td></tr>
   <tr><th><a href="{{ '/statistics/' | relative_url }}">統計</a></th><td class="hp-sub">金融工学</td></tr>
   <tr><th><a href="{{ '/cn/' | relative_url }}">中国</a></th><td class="hp-sub"><a href="{{ '/cn/news.html' | relative_url }}">ニュース</a>、ネット事情、歴史</td></tr>
-  <tr><th><a href="{{ '/russia/' | relative_url }}">ロシア・ソ連</a></th><td class="hp-sub"><a href="{{ '/russia/soviet/' | relative_url }}">ソ連の歴史</a>、基礎知識、用語集</td></tr>
+  <tr><th><a href="{{ '/russia/' | relative_url }}">ロシア・ソ連</a></th><td class="hp-sub"><a href="{{ '/russia/soviet/' | relative_url }}">ソ連の歴史</a>、<a href="{{ '/russia/eastern-front/' | relative_url }}">独ソ戦</a>、用語集</td></tr>
   <tr><th><a href="{{ '/variety/' | relative_url }}">便利ウェブツール</a></th><td class="hp-sub">電気料金計算機</td></tr>
   <tr><th><a href="{{ '/terms/' | relative_url }}">調べた用語</a></th><td class="hp-sub">気になって調べた言葉</td></tr>
 </table>

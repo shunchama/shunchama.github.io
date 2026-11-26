@@ -2,7 +2,7 @@
 layout: default
 title: ロシア・ソ連用語集
 parent: ロシア・ソ連
-nav_order: 3
+nav_order: 5
 has_children: true
 ---
 
