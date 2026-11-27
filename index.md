@@ -10,8 +10,8 @@ nav_order: 1
   cat_keys / cat_labels にも同じキーを追加してください。
 {%- endcomment -%}
 {%- include home_style.html -%}
-{%- assign cat_keys = "investment,geo,prog,statistics,cn,taiwan,japan,russia,variety,terms" | split: "," -%}
-{%- assign cat_labels = "投資,地理,プログラミング,統計,中国,台湾,大日本帝国,ロシア,ツール,用語" | split: "," -%}
+{%- assign cat_keys = "investment,geo,prog,statistics,cn,taiwan,japan,russia,ukraine,variety,terms" | split: "," -%}
+{%- assign cat_labels = "投資,地理,プログラミング,統計,中国,台湾,大日本帝国,ロシア,ウクライナ,ツール,用語" | split: "," -%}
 {%- assign dated_pages = site.pages | where_exp: "item", "item.date" -%}
 {%- assign sorted_pages = dated_pages | sort: "date" | reverse -%}
 
@@ -47,6 +47,7 @@ nav_order: 1
   <tr><th><a href="{{ '/taiwan/' | relative_url }}">台湾</a></th><td class="hp-sub">台湾の歴史（日本統治時代・民主化など）</td></tr>
   <tr><th><a href="{{ '/japan/' | relative_url }}">大日本帝国</a></th><td class="hp-sub">明治維新から敗戦まで、評価をめぐる議論</td></tr>
   <tr><th><a href="{{ '/russia/' | relative_url }}">ロシア・ソ連</a></th><td class="hp-sub"><a href="{{ '/russia/soviet/' | relative_url }}">ソ連の歴史</a>、<a href="{{ '/russia/eastern-front/' | relative_url }}">独ソ戦</a>、用語集</td></tr>
+  <tr><th><a href="{{ '/ukraine/' | relative_url }}">ウクライナの腐敗問題</a></th><td class="hp-sub">腐敗の実態、改革、戦時下の問題、報道の論点</td></tr>
   <tr><th><a href="{{ '/variety/' | relative_url }}">便利ウェブツール</a></th><td class="hp-sub">電気料金計算機</td></tr>
   <tr><th><a href="{{ '/terms/' | relative_url }}">調べた用語</a></th><td class="hp-sub">気になって調べた言葉</td></tr>
 </table>
