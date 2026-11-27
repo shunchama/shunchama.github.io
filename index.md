@@ -39,7 +39,7 @@ nav_order: 1
 
 <h2 class="hp-bar">メニュー</h2>
 <table class="hp-table">
-  <tr><th><a href="{{ '/investment/' | relative_url }}">投資情報</a></th><td class="hp-sub"><a href="{{ '/investment/report/' | relative_url }}">市場の振り返り</a>、ダッシュボード、レンディング</td></tr>
+  <tr><th><a href="{{ '/investment/' | relative_url }}">投資情報</a></th><td class="hp-sub"><a href="{{ '/investment/report/' | relative_url }}">市場の振り返り</a>、ダッシュボード、レンディング、<a href="https://shunchama.github.io/market_viewer/index.html" target="_blank" rel="noopener">マーケットビューア</a></td></tr>
   <tr><th><a href="{{ '/geo/' | relative_url }}">地理</a></th><td class="hp-sub">国旗・地図クイズ、各国データ</td></tr>
   <tr><th><a href="{{ '/prog/' | relative_url }}">プログラミング</a></th><td class="hp-sub">アルゴリズム、C / Java リファレンス</td></tr>
   <tr><th><a href="{{ '/statistics/' | relative_url }}">統計</a></th><td class="hp-sub">金融工学</td></tr>
